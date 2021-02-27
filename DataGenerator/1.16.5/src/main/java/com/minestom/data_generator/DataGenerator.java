@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.EmptyBlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -31,6 +32,7 @@ public class DataGenerator {
         generateBlockEntities();
         generateItems();
         generateMapColors();
+        LOGGER.info("Output data in: ./DataGenerator/1.16.5/output/");
     }
 
 
@@ -53,11 +55,11 @@ public class DataGenerator {
                         possibleState.getMaterial().getColor().id,
                         possibleState.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString()
                 );
-
                 GeneratedBlockState generatedBlockState = new GeneratedBlockState(
                         Block.BLOCK_STATE_REGISTRY.getId(possibleState),
                         possibleState.getDestroySpeed(EmptyBlockGetter.INSTANCE, BlockPos.ZERO),
                         possibleState.getLightEmission(),
+                        possibleState.canOcclude(),
                         generatedBlockStateMaterial
                 );
 
@@ -70,6 +72,7 @@ public class DataGenerator {
                     b.getFriction(),
                     b.getSpeedFactor(),
                     b.getJumpFactor(),
+                    Registry.ITEM.getKey(Item.BY_BLOCK.getOrDefault(b, Items.AIR)).toString(),
                     blockStates
             );
             generatedBlocks.add(gb);

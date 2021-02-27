@@ -11,6 +11,7 @@ public final class GeneratedBlock {
     private final double friction;
     private final double speedFactor;
     private final double jumpFactor;
+    private final String itemEquivilant;
     private final List<GeneratedBlockState> blockStates;
 
     public GeneratedBlock(
@@ -19,6 +20,7 @@ public final class GeneratedBlock {
             double friction,
             double speedFactor,
             double jumpFactor,
+            @NotNull String itemEquivilant,
             List<GeneratedBlockState> blockStates
     ) {
         this.id = id;
@@ -26,6 +28,7 @@ public final class GeneratedBlock {
         this.friction = friction;
         this.speedFactor = speedFactor;
         this.jumpFactor = jumpFactor;
+        this.itemEquivilant = itemEquivilant;
         this.blockStates = blockStates;
     }
 
@@ -34,16 +37,19 @@ public final class GeneratedBlock {
         private final double destroySpeed;
         private final int lightEmission;
         private final GeneratedBlockStateMaterial material;
+        private final boolean occludes;
 
         public GeneratedBlockState(
                 int id,
                 double destroySpeed,
                 int lightEmission,
+                boolean occludes, 
                 GeneratedBlockStateMaterial material
         ) {
             this.id = id;
             this.destroySpeed = destroySpeed;
             this.lightEmission = lightEmission;
+            this.occludes = occludes;
             this.material = material;
 
         }
