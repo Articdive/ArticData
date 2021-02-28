@@ -12,7 +12,13 @@ tasks {
             setArgsString(version)
         })
         // TODO: Get closest implemented version
-        dependsOn(project(":DataGenerator:$version").tasks.getByName<JavaExec>("run") {
+        val project : Project = try {
+            project(":DataGenerator:$version")
+        } catch (e : UnknownProjectException ) {
+            // TODO: Get closest version and not latest version
+            project(":DataGenerator:1.16.5")
+        }
+        dependsOn(project.tasks.getByName<JavaExec>("run") {
 
         })
 

@@ -24,7 +24,7 @@ dependencies {
     // Gson
     implementation("com.google.code.gson:gson:2.8.6")
     // Deobfuscator
-    implementation("io.github.lxgaming:reconstruct-common:1.3.3")
+    implementation("io.github.lxgaming:reconstruct-common:1.3.5")
 
     // JUnit testing framework
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
