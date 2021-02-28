@@ -23,16 +23,23 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-public class DataGenerator {
+public final class DataGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(DataGenerator.class);
+    private static JsonGenerator jsonGenerator;
 
     public static void main(String[] args) {
+        if (args.length == 0) {
+            LOGGER.info("You must specify a version to generate data for.");
+            return;
+        }
+        String version = args[0];
+        jsonGenerator = new JsonGenerator(version);
         generateBlocks();
         generateEntities();
         generateBlockEntities();
         generateItems();
         generateMapColors();
-        LOGGER.info("Output data in: ./DataGenerator/1.16.5/output/");
+        LOGGER.info("Output data in: ./DataGenerator/output/");
     }
 
 
@@ -77,7 +84,7 @@ public class DataGenerator {
             );
             generatedBlocks.add(gb);
         }
-        JsonGenerator.outputBlocks(generatedBlocks);
+        jsonGenerator.outputBlocks(generatedBlocks);
     }
 
     private static void generateEntities() {
@@ -96,7 +103,7 @@ public class DataGenerator {
 
             generatedEntities.add(generatedEntity);
         }
-        JsonGenerator.outputEntities(generatedEntities);
+        jsonGenerator.outputEntities(generatedEntities);
     }
 
     private static void generateBlockEntities() {
@@ -109,7 +116,7 @@ public class DataGenerator {
             );
             generatedBlockEntities.add(generatedBlockEntity);
         }
-        JsonGenerator.outputBlockEntites(generatedBlockEntities);
+        jsonGenerator.outputBlockEntites(generatedBlockEntities);
     }
 
     private static void generateItems() {
@@ -143,7 +150,7 @@ public class DataGenerator {
             );
             generatedItems.add(generatedItem);
         }
-        JsonGenerator.outputItems(generatedItems);
+        jsonGenerator.outputItems(generatedItems);
     }
 
     private static void generateMapColors() {
@@ -181,6 +188,6 @@ public class DataGenerator {
             );
             generatedMapColors.add(generatedMapColor);
         }
-        JsonGenerator.outputMapColors(generatedMapColors);
+        jsonGenerator.outputMapColors(generatedMapColors);
     }
 }

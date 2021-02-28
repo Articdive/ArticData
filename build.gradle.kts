@@ -19,7 +19,7 @@ tasks {
             project(":DataGenerator:1.16.5")
         }
         dependsOn(project.tasks.getByName<JavaExec>("run") {
-
+            setArgsString(version)
         })
 
     }
