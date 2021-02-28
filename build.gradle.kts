@@ -11,7 +11,6 @@ tasks {
         dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
             setArgsString(version)
         })
-        // TODO: Get closest implemented version
         val project : Project = try {
             project(":DataGenerator:$version")
         } catch (e : UnknownProjectException ) {

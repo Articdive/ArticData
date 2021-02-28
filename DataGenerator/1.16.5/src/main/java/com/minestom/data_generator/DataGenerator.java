@@ -80,6 +80,7 @@ public final class DataGenerator {
                     b.getSpeedFactor(),
                     b.getJumpFactor(),
                     Registry.ITEM.getKey(Item.BY_BLOCK.getOrDefault(b, Items.AIR)).toString(),
+                    b.getDescriptionId(),
                     blockStates
             );
             generatedBlocks.add(gb);
@@ -146,6 +147,7 @@ public final class DataGenerator {
                     i.isComplex(),
                     i.isEdible(),
                     i.isFireResistant(),
+                    i.getDescriptionId(),
                     generatedItemFoodProperties
             );
             generatedItems.add(generatedItem);

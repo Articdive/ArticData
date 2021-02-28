@@ -10,6 +10,7 @@ public class GeneratedItem {
     private final boolean complex;
     private final boolean edible;
     private final boolean fireResistant;
+    private final String descriptionId;
     private final GeneratedItemFoodProperties foodProperties;
 
     public GeneratedItem(
@@ -21,6 +22,7 @@ public class GeneratedItem {
             boolean complex,
             boolean edible,
             boolean fireResistant,
+            String descriptionId,
             GeneratedItemFoodProperties foodProperties
     ) {
         this.id = id;
@@ -31,6 +33,7 @@ public class GeneratedItem {
         this.complex = complex;
         this.edible = edible;
         this.fireResistant = fireResistant;
+        this.descriptionId = descriptionId;
         this.foodProperties = foodProperties;
     }
 
