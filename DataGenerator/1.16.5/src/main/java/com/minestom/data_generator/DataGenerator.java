@@ -45,7 +45,8 @@ import static com.minestom.data_generator.GeneratedItem.GeneratedItemFoodPropert
 
 public final class DataGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(DataGenerator.class);
-    private static Map<SoundEvent, String> soundNames = new HashMap<>();
+    private static final Map<SoundEvent, String> soundNames = new HashMap<>();
+    private static final Map<ParticleType<?>, String> particleNames = new HashMap<>();
     private static JsonGenerator jsonGenerator;
 
     public static void main(String[] args) {
@@ -56,16 +57,17 @@ public final class DataGenerator {
         String version = args[0];
 
         jsonGenerator = new JsonGenerator(version);
+
         generateBlocks();
         generateEntities();
         generateBlockEntities();
         generatePotionEffects();
         generateAttributes();
         generateEnchantments();
-        generateParticles();
         generateMapColors();
         generateBiomes();
         // Extra mapping for "higher dependencies"
+        // Sounds
         for (Field declaredField : SoundEvents.class.getDeclaredFields()) {
             if (!SoundEvent.class.isAssignableFrom(declaredField.getType())) {
                 continue;
@@ -79,8 +81,24 @@ public final class DataGenerator {
                 return;
             }
         }
+        // Particles
+        for (Field declaredField : ParticleTypes.class.getDeclaredFields()) {
+            if (!ParticleType.class.isAssignableFrom(declaredField.getType())) {
+                continue;
+            }
+            try {
+                ParticleType<?> pt = (ParticleType<?>) declaredField.get(null);
+                particleNames.put(pt, declaredField.getName());
+            } catch (IllegalAccessException e) {
+                // Just stop I guess
+                LOGGER.error("Failed to access map particle naming system", e);
+                return;
+            }
+        }
+
         // Higher dependencies
         generateSounds();
+        generateParticles();
         generateItems();
         generateVillagerProfessions();
         LOGGER.info("Output data in: ./DataGenerator/output/");
@@ -193,7 +211,6 @@ public final class DataGenerator {
                         foodProperties.isFastFood(),
                         foodProperties.getNutrition(),
                         foodProperties.getSaturationModifier(),
-                        // TODO: Make these into dedicated classes that share classes in the POTION & MOBEFFECT Registry.
                         generatedEffects
                 );
             }
@@ -281,21 +298,6 @@ public final class DataGenerator {
     }
 
     private static void generateParticles() {
-        HashMap<ParticleType<?>, String> names = new HashMap<>();
-        // Map field name to particle type.
-        for (Field declaredField : ParticleTypes.class.getDeclaredFields()) {
-            if (!ParticleType.class.isAssignableFrom(declaredField.getType())) {
-                continue;
-            }
-            try {
-                ParticleType<?> pt = (ParticleType<?>) declaredField.get(null);
-                names.put(pt, declaredField.getName());
-            } catch (IllegalAccessException e) {
-                // Just stop I guess
-                LOGGER.error("Failed to access map particle naming system", e);
-                return;
-            }
-        }
         Set<ResourceLocation> particleRLs = Registry.PARTICLE_TYPE.keySet();
         List<GeneratedParticle> generatedParticles = new ArrayList<>();
         for (ResourceLocation particleRL : particleRLs) {
@@ -303,7 +305,7 @@ public final class DataGenerator {
             if (pt == null) {
                 continue;
             }
-            String name = names.get(pt);
+            String name = particleNames.get(pt);
             // Get the colour's name using reflection
             if (name == null) {
                 LOGGER.error("Failed to get name for a particle with id '" + particleRL.toString() + "', it will be skipped!");
