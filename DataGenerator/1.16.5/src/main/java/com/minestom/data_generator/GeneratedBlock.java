@@ -7,46 +7,46 @@ import java.util.List;
 @SuppressWarnings({"FieldCanBeLocal", "unused"})
 public final class GeneratedBlock {
     private final String id;
-    private final double blastResistance;
-    private final double friction;
-    private final double speedFactor;
-    private final double jumpFactor;
-    private final String itemEquivilant;
     private final String descriptionId;
+    private final float blastResistance;
+    private final float friction;
+    private final float speedFactor;
+    private final float jumpFactor;
+    private final String itemEquivilant;
     private final List<GeneratedBlockState> blockStates;
 
     public GeneratedBlock(
             @NotNull String id,
-            double blastResistance,
-            double friction,
-            double speedFactor,
-            double jumpFactor,
-            @NotNull String itemEquivilant,
             @NotNull String descriptionId,
+            float blastResistance,
+            float friction,
+            float speedFactor,
+            float jumpFactor,
+            @NotNull String itemEquivilant,
             List<GeneratedBlockState> blockStates
     ) {
         this.id = id;
+        this.descriptionId = descriptionId;
         this.blastResistance = blastResistance;
         this.friction = friction;
         this.speedFactor = speedFactor;
         this.jumpFactor = jumpFactor;
         this.itemEquivilant = itemEquivilant;
-        this.descriptionId = descriptionId;
         this.blockStates = blockStates;
     }
 
     public static final class GeneratedBlockState {
         private final int id;
-        private final double destroySpeed;
+        private final float destroySpeed;
         private final int lightEmission;
         private final GeneratedBlockStateMaterial material;
         private final boolean occludes;
 
         public GeneratedBlockState(
                 int id,
-                double destroySpeed,
+                float destroySpeed,
                 int lightEmission,
-                boolean occludes, 
+                boolean occludes,
                 GeneratedBlockStateMaterial material
         ) {
             this.id = id;

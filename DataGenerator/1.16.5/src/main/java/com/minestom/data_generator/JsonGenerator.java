@@ -27,57 +27,148 @@ public final class JsonGenerator {
     }
 
     public void outputBlocks(List<GeneratedBlock> generatedBlocks) {
+        String filename = version + "_blocks.json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, version + "_blocks.json"), false);
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
             GSON.toJson(generatedBlocks, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            LOGGER.error("Something went wrong while writing data to blocks.json.", e);
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
 
     public void outputEntities(List<GeneratedEntity> generatedEntities) {
+        String filename = version + "_entities.json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, version + "_entities.json"), false);
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
             GSON.toJson(generatedEntities, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            LOGGER.error("Something went wrong while writing data to entities.json.", e);
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
 
     public void outputBlockEntites(List<GeneratedBlockEntity> generatedBlockEntities) {
+        String filename = version + "_block_entities.json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, version + "_block_entities.json"), false);
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
             GSON.toJson(generatedBlockEntities, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            LOGGER.error("Something went wrong while writing data to block_entities.json.", e);
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
 
     public void outputItems(List<GeneratedItem> generatedItems) {
+        String filename = version + "_items.json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, version + "_items.json"), false);
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
             GSON.toJson(generatedItems, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            LOGGER.error("Something went wrong while writing data to items.json.", e);
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
 
-    public void outputMapColors(List<GeneratedMapColor> generatedMapColors) {
+
+    public void outputPotionEffects(List<GeneratedEffect> generatedEffects) {
+        String filename = version + "_effects.json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, version + "_map_colors.json"), false);
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedEffects, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputAttributes(List<GeneratedAttribute> generatedAttributes) {
+        String filename = version + "_attributes.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedAttributes, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+
+    public void outputMapColors(List<GeneratedMapColor> generatedMapColors) {
+        String filename = version + "_map_colors.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
             GSON.toJson(generatedMapColors, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            LOGGER.error("Something went wrong while writing data to map_colors.json.", e);
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputEnchantments(List<GeneratedEnchantment> generatedEnchantments) {
+        String filename = version + "_enchantments.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedEnchantments, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputParticles(List<GeneratedParticle> generatedParticles) {
+        String filename = version + "_particles.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedParticles, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputSounds(List<GeneratedSound> generatedSounds) {
+        String filename = version + "_sounds.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedSounds, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputVillagerProfessions(List<GeneratedVillagerProfession> generatedVillagerProfessions) {
+        String filename = version + "_villager_professions.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedVillagerProfessions, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
+
+    public void outputBiomes(List<GeneratedBiome> generatedBiomes) {
+        String filename = version + "_biomes.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            GSON.toJson(generatedBiomes, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
 }

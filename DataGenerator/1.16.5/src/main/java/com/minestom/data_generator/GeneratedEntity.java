@@ -5,21 +5,24 @@ import org.jetbrains.annotations.NotNull;
 @SuppressWarnings({"FieldCanBeLocal", "unused"})
 public final class GeneratedEntity {
     private final String id;
+    private final String descriptionId;
     private final String category;
     private final boolean fireImmune;
-    private final double height;
-    private final double width;
+    private final float height;
+    private final float width;
     private final boolean fixedDimensions;
 
     public GeneratedEntity(
             @NotNull String id,
+            @NotNull String descriptionId,
             @NotNull String category,
             boolean fireImmune,
-            double height,
-            double width,
+            float height,
+            float width,
             boolean fixedDimensions
     ) {
         this.id = id;
+        this.descriptionId = descriptionId;
         this.category = category;
         this.fireImmune = fireImmune;
         this.height = height;
