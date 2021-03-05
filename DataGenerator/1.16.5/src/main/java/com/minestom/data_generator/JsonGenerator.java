@@ -190,4 +190,16 @@ public final class JsonGenerator {
             LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
         }
     }
+
+    public void outputDimensionTypes(List<GeneratedDimensionType> generatedDimensionTypes) {
+        String filename = version + "_dimension_types.json";
+        try {
+            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            gson.toJson(generatedDimensionTypes, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            LOGGER.error("Something went wrong while writing data to " + filename + ".", e);
+        }
+    }
 }

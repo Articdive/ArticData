@@ -7,6 +7,7 @@ import com.minestom.data_generator.GeneratedItem.GeneratedItemFoodProperties;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.data.BuiltinRegistries;
@@ -29,6 +30,7 @@ import net.minecraft.world.level.biome.BiomeSpecialEffects.GrassColorModifier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.material.MaterialColor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -73,6 +75,7 @@ public final class DataGenerator {
         generateEnchantments();
         generateMapColors();
         generateBiomes();
+        generateDimensionTypes();
         // Extra mapping for "higher dependencies"
         // Sounds
         for (Field declaredField : SoundEvents.class.getDeclaredFields()) {
@@ -431,6 +434,35 @@ public final class DataGenerator {
             generatedVillagerProfessions.add(generatedBlockEntity);
         }
         jsonGenerator.outputVillagerProfessions(generatedVillagerProfessions);
+    }
+
+    private static void generateDimensionTypes() {
+        Set<ResourceLocation> dimensionTypeRLs = RegistryAccess.RegistryHolder.builtin().dimensionTypes().keySet();
+        List<GeneratedDimensionType> generatedDimensionTypes = new ArrayList<>();
+        for (ResourceLocation dimensionTypeRL : dimensionTypeRLs) {
+            DimensionType dimensionType = RegistryAccess.RegistryHolder.builtin().dimensionTypes().get(dimensionTypeRL);
+            // null check
+            if (dimensionType == null) {
+                continue;
+            }
+
+            GeneratedDimensionType generatedDimensionType = new GeneratedDimensionType(
+                    dimensionTypeRL.toString(),
+                    dimensionType.bedWorks(),
+                    dimensionType.coordinateScale(),
+                    dimensionType.hasCeiling(),
+                    dimensionType.hasFixedTime(),
+                    dimensionType.hasRaids(),
+                    dimensionType.hasSkyLight(),
+                    dimensionType.piglinSafe(),
+                    dimensionType.logicalHeight(),
+                    dimensionType.natural(),
+                    dimensionType.ultraWarm(),
+                    dimensionType.respawnAnchorWorks()
+            );
+            generatedDimensionTypes.add(generatedDimensionType);
+        }
+        jsonGenerator.outputDimensionTypes(generatedDimensionTypes);
     }
 
     private static void generateMapColors() {
