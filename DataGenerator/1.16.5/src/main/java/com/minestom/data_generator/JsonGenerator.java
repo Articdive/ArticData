@@ -1,5 +1,7 @@
 package com.minestom.data_generator;
 
+import com.google.gson.ExclusionStrategy;
+import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.jetbrains.annotations.NotNull;
@@ -14,15 +16,32 @@ import java.util.List;
 
 public final class JsonGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(JsonGenerator.class);
-    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+    private final Gson gson;
     private final String version;
     private final File OUTPUT_FOLDER = new File("../output/");
 
-    JsonGenerator(@NotNull String version) {
+    JsonGenerator(@NotNull String version, boolean includeExtraData) {
         this.version = version.replaceAll("\\.", "_");
         // Create output folder
         if (!OUTPUT_FOLDER.exists() && !OUTPUT_FOLDER.mkdirs()) {
             throw new ExceptionInInitializerError("Failed to create work folder.");
+        }
+        var gsonBuilder = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping();
+        if (includeExtraData) {
+            gson = gsonBuilder.create();
+        } else {
+            gson = gsonBuilder.setExclusionStrategies(new ExclusionStrategy() {
+                @Override
+                public boolean shouldSkipField(FieldAttributes fieldAttributes) {
+                    // annotation is null, if not applied to the field.
+                    return fieldAttributes.getAnnotation(ExtraData.class) != null;
+                }
+
+                @Override
+                public boolean shouldSkipClass(Class<?> aClass) {
+                    return false;
+                }
+            }).create();
         }
     }
 
@@ -30,7 +49,7 @@ public final class JsonGenerator {
         String filename = version + "_blocks.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedBlocks, writer);
+            gson.toJson(generatedBlocks, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -42,7 +61,7 @@ public final class JsonGenerator {
         String filename = version + "_entities.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedEntities, writer);
+            gson.toJson(generatedEntities, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -54,7 +73,7 @@ public final class JsonGenerator {
         String filename = version + "_block_entities.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedBlockEntities, writer);
+            gson.toJson(generatedBlockEntities, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -66,7 +85,7 @@ public final class JsonGenerator {
         String filename = version + "_items.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedItems, writer);
+            gson.toJson(generatedItems, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -79,7 +98,7 @@ public final class JsonGenerator {
         String filename = version + "_effects.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedEffects, writer);
+            gson.toJson(generatedEffects, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -91,7 +110,7 @@ public final class JsonGenerator {
         String filename = version + "_attributes.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedAttributes, writer);
+            gson.toJson(generatedAttributes, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -104,7 +123,7 @@ public final class JsonGenerator {
         String filename = version + "_map_colors.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedMapColors, writer);
+            gson.toJson(generatedMapColors, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -116,7 +135,7 @@ public final class JsonGenerator {
         String filename = version + "_enchantments.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedEnchantments, writer);
+            gson.toJson(generatedEnchantments, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -128,7 +147,7 @@ public final class JsonGenerator {
         String filename = version + "_particles.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedParticles, writer);
+            gson.toJson(generatedParticles, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -140,7 +159,7 @@ public final class JsonGenerator {
         String filename = version + "_sounds.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedSounds, writer);
+            gson.toJson(generatedSounds, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -152,7 +171,7 @@ public final class JsonGenerator {
         String filename = version + "_villager_professions.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedVillagerProfessions, writer);
+            gson.toJson(generatedVillagerProfessions, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {
@@ -164,7 +183,7 @@ public final class JsonGenerator {
         String filename = version + "_biomes.json";
         try {
             Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
-            GSON.toJson(generatedBiomes, writer);
+            gson.toJson(generatedBiomes, writer);
             writer.flush();
             writer.close();
         } catch (IOException e) {

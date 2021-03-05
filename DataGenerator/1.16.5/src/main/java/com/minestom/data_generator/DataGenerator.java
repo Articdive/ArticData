@@ -54,9 +54,16 @@ public final class DataGenerator {
             LOGGER.info("You must specify a version to generate data for.");
             return;
         }
+        // version for the output.
         String version = args[0];
 
-        jsonGenerator = new JsonGenerator(version);
+        // Should we generate extra Data
+        boolean extraData = false;
+        if (args.length >= 2 && args[1].equals("extra_data")) {
+            extraData = true;
+        }
+
+        jsonGenerator = new JsonGenerator(version, extraData);
 
         generateBlocks();
         generateEntities();

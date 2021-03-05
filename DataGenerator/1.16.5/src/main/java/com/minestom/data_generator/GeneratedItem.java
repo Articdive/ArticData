@@ -9,11 +9,14 @@ public final class GeneratedItem {
     private final boolean damageable;
     private final int maxStackSize;
     private final int maxDurability;
+    @ExtraData
     private final boolean complex;
     private final boolean edible;
     private final boolean fireResistant;
     private final String descriptionId;
+    @ExtraData
     private final String eatingSound;
+    @ExtraData
     private final String drinkingSound;
     private final GeneratedItemFoodProperties foodProperties;
 
