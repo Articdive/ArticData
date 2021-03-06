@@ -437,10 +437,15 @@ public final class DataGenerator {
     }
 
     private static void generateDimensionTypes() {
-        Set<ResourceLocation> dimensionTypeRLs = RegistryAccess.RegistryHolder.builtin().dimensionTypes().keySet();
+        Registry<DimensionType> dimensionTypeRegistry = RegistryAccess.RegistryHolder.builtin().ownedRegistry(Registry.DIMENSION_TYPE_REGISTRY).orElse(null);
+        if (dimensionTypeRegistry == null) {
+            LOGGER.error("Failed to hook into dimension type registry. Dimension types will be skipped!");
+            return;
+        }
+        Set<ResourceLocation> dimensionTypeRLs = dimensionTypeRegistry.keySet();
         List<GeneratedDimensionType> generatedDimensionTypes = new ArrayList<>();
         for (ResourceLocation dimensionTypeRL : dimensionTypeRLs) {
-            DimensionType dimensionType = RegistryAccess.RegistryHolder.builtin().dimensionTypes().get(dimensionTypeRL);
+            DimensionType dimensionType = dimensionTypeRegistry.get(dimensionTypeRL);
             // null check
             if (dimensionType == null) {
                 continue;
@@ -458,7 +463,9 @@ public final class DataGenerator {
                     dimensionType.logicalHeight(),
                     dimensionType.natural(),
                     dimensionType.ultraWarm(),
-                    dimensionType.respawnAnchorWorks()
+                    dimensionType.respawnAnchorWorks(),
+                    dimensionType.minY(),
+                    dimensionType.height()
             );
             generatedDimensionTypes.add(generatedDimensionType);
         }

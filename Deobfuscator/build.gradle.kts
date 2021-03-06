@@ -25,14 +25,25 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.6")
     // Deobfuscator
     implementation("io.github.lxgaming:reconstruct-common:1.3.5")
-
-    // JUnit testing framework
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
 }
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_11
+    sourceSets {
+        getByName("test") {
+            java {
+                setSrcDirs(emptyList<Any?>())
+            }
+            resources {
+                setSrcDirs(emptyList<Any?>())
+            }
+        }
+    }
+    tasks {
+        getByName<Test>("test") {
+            enabled = false
+        }
+    }
 }
 
 tasks {
