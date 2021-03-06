@@ -3,6 +3,7 @@ package com.minestom.data_generator;
 import com.minestom.data_generator.GeneratedBiome.GeneratedBiomeEffects;
 import com.minestom.data_generator.GeneratedBlock.GeneratedBlockState;
 import com.minestom.data_generator.GeneratedBlock.GeneratedBlockState.GeneratedBlockStateMaterial;
+import com.minestom.data_generator.GeneratedBlockEntity.GeneratedBlockEntityBlock;
 import com.minestom.data_generator.GeneratedItem.GeneratedItemFoodProperties;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;
@@ -180,13 +181,34 @@ public final class DataGenerator {
         jsonGenerator.output(generatedEntities, "entities");
     }
 
+    @SuppressWarnings("unchecked")
     private static void generateBlockEntities() {
         Set<ResourceLocation> blockEntityRLs = Registry.BLOCK_ENTITY_TYPE.keySet();
         List<GeneratedBlockEntity> generatedBlockEntities = new ArrayList<>();
         for (ResourceLocation blockEntityRL : blockEntityRLs) {
             BlockEntityType<?> be = Registry.BLOCK_ENTITY_TYPE.get(blockEntityRL);
+            // Use reflection to get valid blocks
+            List<GeneratedBlockEntityBlock> generatedBlockEntityBlocks = new ArrayList<>();
+            try {
+                Field fcField = BlockEntityType.class.getDeclaredField("validBlocks");
+
+                fcField.setAccessible(true);
+
+                Set<Block> validBlocks = (Set<Block>) fcField.get(be);
+                for (Block validBlock : validBlocks) {
+                    GeneratedBlockEntityBlock generatedBlockEntityBlock = new GeneratedBlockEntityBlock(
+                            Registry.BLOCK.getKey(validBlock).toString()
+                    );
+                    generatedBlockEntityBlocks.add(generatedBlockEntityBlock);
+                }
+            } catch (IllegalAccessException | NoSuchFieldException e) {
+                LOGGER.error("Failed to get block-entity blocks, skipping block-entity with ID '" + blockEntityRL.toString() + "'.", e);
+                continue;
+            }
+
             GeneratedBlockEntity generatedBlockEntity = new GeneratedBlockEntity(
-                    blockEntityRL.toString()
+                    blockEntityRL.toString(),
+                    generatedBlockEntityBlocks
             );
             generatedBlockEntities.add(generatedBlockEntity);
         }
