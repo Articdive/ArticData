@@ -1,0 +1,254 @@
+package net.minestom.server.instance.block.states;
+
+import java.lang.Deprecated;
+import net.minestom.server.instance.block.Block;
+import net.minestom.server.instance.block.BlockState;
+
+@Deprecated(
+    since = "forever",
+    forRemoval = false
+)
+public final class SmoothRedSandstoneStairs {
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_0 = new BlockState((short) 9753, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_1 = new BlockState((short) 9754, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_2 = new BlockState((short) 9755, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_3 = new BlockState((short) 9756, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_4 = new BlockState((short) 9757, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_5 = new BlockState((short) 9758, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_6 = new BlockState((short) 9759, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_7 = new BlockState((short) 9760, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_8 = new BlockState((short) 9761, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_9 = new BlockState((short) 9762, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_10 = new BlockState((short) 9763, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_11 = new BlockState((short) 9764, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_12 = new BlockState((short) 9765, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_13 = new BlockState((short) 9766, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_14 = new BlockState((short) 9767, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_15 = new BlockState((short) 9768, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_16 = new BlockState((short) 9769, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_17 = new BlockState((short) 9770, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_18 = new BlockState((short) 9771, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_19 = new BlockState((short) 9772, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_20 = new BlockState((short) 9773, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_21 = new BlockState((short) 9774, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_22 = new BlockState((short) 9775, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_23 = new BlockState((short) 9776, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_24 = new BlockState((short) 9777, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_25 = new BlockState((short) 9778, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_26 = new BlockState((short) 9779, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_27 = new BlockState((short) 9780, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_28 = new BlockState((short) 9781, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_29 = new BlockState((short) 9782, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_30 = new BlockState((short) 9783, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_31 = new BlockState((short) 9784, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_32 = new BlockState((short) 9785, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_33 = new BlockState((short) 9786, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_34 = new BlockState((short) 9787, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_35 = new BlockState((short) 9788, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_36 = new BlockState((short) 9789, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_37 = new BlockState((short) 9790, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_38 = new BlockState((short) 9791, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_39 = new BlockState((short) 9792, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_40 = new BlockState((short) 9793, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_41 = new BlockState((short) 9794, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_42 = new BlockState((short) 9795, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_43 = new BlockState((short) 9796, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_44 = new BlockState((short) 9797, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_45 = new BlockState((short) 9798, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_46 = new BlockState((short) 9799, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_47 = new BlockState((short) 9800, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_48 = new BlockState((short) 9801, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_49 = new BlockState((short) 9802, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_50 = new BlockState((short) 9803, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_51 = new BlockState((short) 9804, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_52 = new BlockState((short) 9805, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_53 = new BlockState((short) 9806, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_54 = new BlockState((short) 9807, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_55 = new BlockState((short) 9808, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_56 = new BlockState((short) 9809, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_57 = new BlockState((short) 9810, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_58 = new BlockState((short) 9811, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_59 = new BlockState((short) 9812, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_60 = new BlockState((short) 9813, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_61 = new BlockState((short) 9814, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_62 = new BlockState((short) 9815, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_63 = new BlockState((short) 9816, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_64 = new BlockState((short) 9817, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_65 = new BlockState((short) 9818, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_66 = new BlockState((short) 9819, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_67 = new BlockState((short) 9820, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_68 = new BlockState((short) 9821, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_69 = new BlockState((short) 9822, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_70 = new BlockState((short) 9823, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_71 = new BlockState((short) 9824, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_72 = new BlockState((short) 9825, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_73 = new BlockState((short) 9826, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_74 = new BlockState((short) 9827, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_75 = new BlockState((short) 9828, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_76 = new BlockState((short) 9829, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_77 = new BlockState((short) 9830, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_78 = new BlockState((short) 9831, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static final BlockState SMOOTH_RED_SANDSTONE_STAIRS_79 = new BlockState((short) 9832, Block.SMOOTH_RED_SANDSTONE_STAIRS);
+
+  public static void initStates() {
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_0);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_1);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_2);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_3);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_4);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_5);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_6);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_7);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_8);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_9);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_10);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_11);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_12);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_13);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_14);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_15);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_16);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_17);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_18);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_19);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_20);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_21);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_22);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_23);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_24);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_25);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_26);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_27);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_28);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_29);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_30);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_31);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_32);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_33);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_34);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_35);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_36);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_37);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_38);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_39);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_40);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_41);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_42);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_43);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_44);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_45);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_46);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_47);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_48);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_49);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_50);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_51);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_52);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_53);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_54);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_55);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_56);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_57);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_58);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_59);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_60);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_61);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_62);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_63);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_64);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_65);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_66);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_67);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_68);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_69);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_70);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_71);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_72);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_73);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_74);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_75);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_76);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_77);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_78);
+    Block.SMOOTH_RED_SANDSTONE_STAIRS.addBlockState(SMOOTH_RED_SANDSTONE_STAIRS_79);
+  }
+}

@@ -12,7 +12,6 @@ subprojects {
 
         // Jetbrains annotations
         compileOnly("org.jetbrains:annotations:20.1.0")
-
         // Logging
         implementation("org.apache.logging.log4j:log4j-core:2.14.0")
         // SLF4J is the base logger for most libraries, therefore we can hook it into log4j2.

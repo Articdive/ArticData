@@ -65,13 +65,7 @@ public final class DataGenerator {
         // version for the output.
         String version = args[0];
 
-        // Should we generate extra Data
-        boolean extraData = false;
-        if (args.length >= 2 && args[1].equals("extra_data")) {
-            extraData = true;
-        }
-
-        jsonGenerator = new JsonGenerator(version, extraData);
+        jsonGenerator = new JsonGenerator(version);
         // static init
         Registry.BLOCK.getDefaultKey();
 
@@ -242,7 +236,8 @@ public final class DataGenerator {
             block.addProperty("friction", b.getFriction());
             block.addProperty("speedFactor", b.getSpeedFactor());
             block.addProperty("jumpFactor", b.getJumpFactor());
-            block.addProperty("itemName", Registry.ITEM.getKey(Item.BY_BLOCK.getOrDefault(b, Items.AIR)).toString());
+            block.addProperty("defaultBlockState", Block.BLOCK_STATE_REGISTRY.getId(b.defaultBlockState()));
+            block.addProperty("itemId", Registry.ITEM.getKey(Item.BY_BLOCK.getOrDefault(b, Items.AIR)).toString());
 
             {
                 // Block states
