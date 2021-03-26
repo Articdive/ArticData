@@ -1,5 +1,9 @@
 package net.minestom.server.instance.block;
 
+import java.lang.String;
+import java.lang.SuppressWarnings;
+import java.util.ArrayList;
+import java.util.List;
 import net.minestom.server.instance.block.states.AcaciaButton;
 import net.minestom.server.instance.block.states.AcaciaDoor;
 import net.minestom.server.instance.block.states.AcaciaFence;
@@ -765,9 +769,6 @@ import net.minestom.server.instance.block.states.ZombieHead;
 import net.minestom.server.instance.block.states.ZombieWallHead;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @SuppressWarnings("deprecation")
 public class Block {
@@ -2548,8 +2549,6 @@ public class Block {
     PumpkinStem.initStates();
     MelonStem.initStates();
     Vine.initStates();
-  }
-  static {
     OakFenceGate.initStates();
     BrickStairs.initStates();
     StoneBrickStairs.initStates();
@@ -2800,8 +2799,6 @@ public class Block {
     Beetroots.initStates();
     GrassPath.initStates();
     EndGateway.initStates();
-  }
-  static {
     RepeatingCommandBlock.initStates();
     ChainCommandBlock.initStates();
     FrostedIce.initStates();
@@ -3052,8 +3049,6 @@ public class Block {
     PolishedBlackstone.initStates();
     PolishedBlackstoneBricks.initStates();
     CrackedPolishedBlackstoneBricks.initStates();
-  }
-  static {
     ChiseledPolishedBlackstone.initStates();
     PolishedBlackstoneBrickSlab.initStates();
     PolishedBlackstoneBrickStairs.initStates();
@@ -3088,8 +3083,8 @@ public class Block {
   @NotNull
   private final List<BlockState> blockStates = new ArrayList<>();
 
-  protected Block(String id, short defaultBlockState, double explosionResistance, double friction,
-      double speedFactor, double jumpFactor, String itemId) {
+  protected Block(@NotNull String id, short defaultBlockState, double explosionResistance,
+      double friction, double speedFactor, double jumpFactor, @Nullable String itemId) {
     this.id = id;
     this.defaultBlockState = defaultBlockState;
     this.explosionResistance = explosionResistance;
@@ -3099,7 +3094,7 @@ public class Block {
     this.itemId = itemId;
   }
 
-  public final void addBlockState(BlockState blockState) {
+  public final void addBlockState(@NotNull BlockState blockState) {
     this.blockStates.add(blockState);
   }
 }

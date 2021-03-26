@@ -10,6 +10,7 @@ dependencies {
     // Jetbrains annotations
     compileOnly("org.jetbrains:annotations:20.1.0")
 }
+
 configure<JavaPluginConvention> {
     sourceSets {
         val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
