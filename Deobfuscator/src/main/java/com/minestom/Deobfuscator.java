@@ -15,9 +15,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
@@ -182,26 +180,5 @@ public class Deobfuscator {
             throw new IOException("Failed to download Minecraft server jar.", e);
         }
         // TODO: Verify Checksum
-    }
-
-    private static void extractData(File deobfuJar) {
-        try {
-            URLClassLoader loader = new URLClassLoader(
-                    new URL[]{deobfuJar.toURI().toURL()},
-                    Deobfuscator.class.getClassLoader()
-            );
-            // Load registries
-            Class<?> registryClass = Class.forName("net.minecraft.core.Registry", true, loader);
-            Arrays.stream(registryClass.getDeclaredFields()).forEach(field -> {
-                System.out.println(field.toString());
-            });
-            // Load blocks
-            Class<?> blocksClass = Class.forName("net.minecraft.world.level.block.Blocks", true, loader);
-            Arrays.stream(blocksClass.getDeclaredFields()).forEach(field -> {
-                System.out.println(field.toString());
-            });
-        } catch (MalformedURLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 }
