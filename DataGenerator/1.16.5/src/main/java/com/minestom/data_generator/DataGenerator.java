@@ -9,6 +9,7 @@ import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.data.BuiltinRegistries;
+import net.minecraft.data.Main;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.Bootstrap;
 import net.minecraft.sounds.SoundEvent;
@@ -28,8 +29,10 @@ import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -50,6 +53,8 @@ import net.minecraft.world.level.material.MaterialColor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.util.HashMap;
@@ -75,6 +80,7 @@ public final class DataGenerator {
     private static final Map<VillagerType, String> villagerTypeNames = new HashMap<>();
     private static final Map<ResourceLocation, String> customStatisticNames = new HashMap<>();
     private static JsonGenerator jsonGenerator;
+    private static String version;
 
     public static void main(String[] args) {
         if (args.length == 0) {
@@ -82,7 +88,7 @@ public final class DataGenerator {
             return;
         }
         // version for the output.
-        String version = args[0];
+        version = args[0];
 
         jsonGenerator = new JsonGenerator(version);
 
@@ -295,10 +301,19 @@ public final class DataGenerator {
         generateCustomStatistics();
         generateMapColors();
 
+        // Data that the minecraft generator spits out.
+        try {
+            Main.main(new String[]{
+                    "--all",
+                    "--output=" + new File(JsonGenerator.OUTPUT_FOLDER, version.replaceAll("\\.", "_") + "_gen_data")
+            });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 
         LOGGER.info("Output data in: ./DataGenerator/output/");
     }
-
 
     public static void generateBlocks() {
         Set<ResourceLocation> blockRLs = Registry.BLOCK.keySet();
@@ -336,20 +351,15 @@ public final class DataGenerator {
                         state.add("properties", properties);
                     }
 
-                    {
-                        // Material
-                        JsonObject material = new JsonObject();
-                        material.addProperty("push_reaction", bs.getMaterial().getPushReaction().toString());
-                        material.addProperty("blocksMotion", bs.getMaterial().blocksMotion());
-                        material.addProperty("isFlammable", bs.getMaterial().isFlammable());
-                        material.addProperty("isLiquid", bs.getMaterial().isLiquid());
-                        material.addProperty("isReplaceable", bs.getMaterial().isReplaceable());
-                        material.addProperty("isSolid", bs.getMaterial().isSolid());
-                        material.addProperty("isSolidBlocking", bs.getMaterial().isSolidBlocking());
-                        material.addProperty("mapColorId", bs.getMaterial().getColor().id);
-                        material.addProperty("bounding_box", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
-                        state.add("material", material);
-                    }
+                    state.addProperty("pushReaction", bs.getMaterial().getPushReaction().toString());
+                    state.addProperty("blocksMotion", bs.getMaterial().blocksMotion());
+                    state.addProperty("isFlammable", bs.getMaterial().isFlammable());
+                    state.addProperty("isLiquid", bs.getMaterial().isLiquid());
+                    state.addProperty("isReplaceable", bs.getMaterial().isReplaceable());
+                    state.addProperty("isSolid", bs.getMaterial().isSolid());
+                    state.addProperty("isSolidBlocking", bs.getMaterial().isSolidBlocking());
+                    state.addProperty("mapColorId", bs.getMaterial().getColor().id);
+                    state.addProperty("boundingBox", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     blockStates.add(state);
                 }
                 block.add("states", blockStates);
@@ -472,9 +482,9 @@ public final class DataGenerator {
             // item.addProperty("complex", i.isComplex()); basically useless
             item.addProperty("edible", i.isEdible());
             item.addProperty("fireResistant", i.isFireResistant());
-            item.addProperty("eatingSound", soundNames.get(i.getEatingSound()));
-            item.addProperty("drinkingSound", soundNames.get(i.getDrinkingSound()));
-
+            item.addProperty("blockId", Registry.BLOCK.getKey(Block.byItem(i)).toString());
+            item.addProperty("eatingSound", Registry.SOUND_EVENT.getKey(i.getEatingSound()).toString());
+            item.addProperty("drinkingSound", Registry.SOUND_EVENT.getKey(i.getDrinkingSound()).toString());
             // Food Properties
             if (i.isEdible() && i.getFoodProperties() != null) {
                 FoodProperties fp = i.getFoodProperties();
@@ -505,6 +515,27 @@ public final class DataGenerator {
                 }
                 item.add("foodProperties", foodProperties);
             }
+            // Armor properties
+            if (i instanceof ArmorItem) {
+                ArmorItem ai = (ArmorItem) i;
+
+                JsonObject armorProperties = new JsonObject();
+                armorProperties.addProperty("defense", ai.getDefense());
+                armorProperties.addProperty("toughness", ai.getToughness());
+                armorProperties.addProperty("slot", ai.getSlot().getName());
+
+                item.add("armorProperties", armorProperties);
+            }
+            // SpawnEgg properties
+            if (i instanceof SpawnEggItem) {
+                SpawnEggItem sei = (SpawnEggItem) i;
+
+                JsonObject spawnEggProperties = new JsonObject();
+                spawnEggProperties.addProperty("entityType", Registry.ENTITY_TYPE.getKey(sei.getType(null)).toString());
+
+                item.add("spawnEggProperties", spawnEggProperties);
+            }
+
             items.add(item);
         }
         jsonGenerator.output(items, "items");
@@ -729,7 +760,9 @@ public final class DataGenerator {
             JsonObject villagerProfession = new JsonObject();
             villagerProfession.addProperty("id", villagerProfessionRL.toString());
             villagerProfession.addProperty("name", villagerProfessionNames.get(vp));
-            villagerProfession.addProperty("workSound", soundNames.get(vp.getWorkSound()));
+            if (vp.getWorkSound() != null) {
+                villagerProfession.addProperty("workSound", Registry.SOUND_EVENT.getKey(vp.getWorkSound()).toString());
+            }
 
             villagerProfessions.add(villagerProfession);
         }
