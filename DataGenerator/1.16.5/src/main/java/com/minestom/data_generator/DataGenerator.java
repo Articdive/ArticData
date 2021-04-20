@@ -454,7 +454,7 @@ public final class DataGenerator {
                         beBlocks.add(beBlock);
                     }
                 } catch (IllegalAccessException | NoSuchFieldException e) {
-                    LOGGER.error("Failed to get block-entity blocks, skipping block-entity with ID '" + blockEntityRL.toString() + "'.", e);
+                    LOGGER.error("Failed to get block-entity blocks, skipping block-entity with ID '" + blockEntityRL + "'.", e);
                     continue;
                 }
                 blockEntity.add("blocks", beBlocks);
@@ -482,8 +482,14 @@ public final class DataGenerator {
             item.addProperty("edible", i.isEdible());
             item.addProperty("fireResistant", i.isFireResistant());
             item.addProperty("blockId", Registry.BLOCK.getKey(Block.byItem(i)).toString());
-            item.addProperty("eatingSound", Registry.SOUND_EVENT.getKey(i.getEatingSound()).toString());
-            item.addProperty("drinkingSound", Registry.SOUND_EVENT.getKey(i.getDrinkingSound()).toString());
+            ResourceLocation eatingSound = Registry.SOUND_EVENT.getKey(i.getEatingSound());
+            if (eatingSound != null) {
+                item.addProperty("eatingSound", eatingSound.toString());
+            }
+            ResourceLocation drinkingSound = Registry.SOUND_EVENT.getKey(i.getDrinkingSound());
+            if (drinkingSound != null) {
+                item.addProperty("drinkingSound", drinkingSound.toString());
+            }
             // Food Properties
             if (i.isEdible() && i.getFoodProperties() != null) {
                 FoodProperties fp = i.getFoodProperties();
@@ -608,7 +614,7 @@ public final class DataGenerator {
                     minV.setAccessible(true);
                     range.addProperty("minValue", minV.getDouble(ra));
                 } catch (IllegalAccessException | NoSuchFieldException e) {
-                    LOGGER.error("Failed to get attribute ranges, skipping attrobite with ID '" + attributeRL.toString() + "'.", e);
+                    LOGGER.error("Failed to get attribute ranges, skipping attrobite with ID '" + attributeRL + "'.", e);
                 }
                 attribute.add("range", range);
             }
@@ -739,7 +745,7 @@ public final class DataGenerator {
                     biomeEffects.addProperty("grassColorOverride", grassColorOverride.orElse(null));
                     biomeEffects.addProperty("grassColorModifier", grassColorModifier.name());
                 } catch (IllegalAccessException | NoSuchFieldException e) {
-                    LOGGER.error("Failed to get biome effects, skipping biome with ID '" + biomeRL.toString() + "'.", e);
+                    LOGGER.error("Failed to get biome effects, skipping biome with ID '" + biomeRL + "'.", e);
                     continue;
                 }
                 biome.add("effects", biomeEffects);
@@ -759,8 +765,12 @@ public final class DataGenerator {
             JsonObject villagerProfession = new JsonObject();
             villagerProfession.addProperty("id", villagerProfessionRL.toString());
             villagerProfession.addProperty("name", villagerProfessionNames.get(vp));
-            if (vp.getWorkSound() != null) {
-                villagerProfession.addProperty("workSound", Registry.SOUND_EVENT.getKey(vp.getWorkSound()).toString());
+            SoundEvent workSound = vp.getWorkSound();
+            if (workSound != null) {
+                ResourceLocation workSoundRL = Registry.SOUND_EVENT.getKey(workSound);
+                if (workSoundRL != null) {
+                    villagerProfession.addProperty("workSound", workSoundRL.toString());
+                }
             }
 
             villagerProfessions.add(villagerProfession);

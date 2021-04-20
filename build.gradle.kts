@@ -35,6 +35,14 @@ tasks {
 }
 
 fun getClosestVersion(version: String): String {
+    // check if the specified version exists as a project
+    // e.g. if the project 21w15a exists then this WONT throw the UnknownProjectException and return "21w15a".
+    try {
+        val projectC : Project = project(":DataGenerator:$version")
+        return version
+    } catch (e : UnknownProjectException) {
+        // ignored
+    }
     // TODO: Get closest version and not use a hardfixed version
     return "1.16.5"
 }
