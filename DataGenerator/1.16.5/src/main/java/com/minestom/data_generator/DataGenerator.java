@@ -80,7 +80,6 @@ public final class DataGenerator {
     private static final Map<VillagerType, String> villagerTypeNames = new HashMap<>();
     private static final Map<ResourceLocation, String> customStatisticNames = new HashMap<>();
     private static JsonGenerator jsonGenerator;
-    private static String version;
 
     public static void main(String[] args) {
         if (args.length == 0) {
@@ -88,7 +87,7 @@ public final class DataGenerator {
             return;
         }
         // version for the output.
-        version = args[0];
+        String version = args[0];
 
         jsonGenerator = new JsonGenerator(version);
 
