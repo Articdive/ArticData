@@ -14,23 +14,24 @@ import java.io.IOException;
 import java.io.Writer;
 
 public final class JsonGenerator {
-    public static final File OUTPUT_FOLDER = new File("../output/");
     private static final Logger LOGGER = LoggerFactory.getLogger(JsonGenerator.class);
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
     private final String version;
+    private final File outputFolder;
 
-    JsonGenerator(@NotNull String version) {
+    JsonGenerator(@NotNull String version, @NotNull File outputFolder) {
         this.version = version.replaceAll("\\.", "_");
         // Create output folder
-        if (!OUTPUT_FOLDER.exists() && !OUTPUT_FOLDER.mkdirs()) {
+        if (!outputFolder.exists() && !outputFolder.mkdirs()) {
             throw new ExceptionInInitializerError("Failed to create work folder.");
         }
+        this.outputFolder = outputFolder;
     }
 
     public void output(JsonArray output, String fileName) {
         String filename = version + "_" + fileName + ".json";
         try {
-            Writer writer = new FileWriter(new File(OUTPUT_FOLDER, filename), false);
+            Writer writer = new FileWriter(new File(outputFolder, filename), false);
             GSON.toJson(output, writer);
             writer.flush();
             writer.close();

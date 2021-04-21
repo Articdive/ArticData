@@ -1,5 +1,4 @@
-import java.io.InputStreamReader
-import java.net.URL
+import java.util.*
 
 group = "com.minestom"
 version = "0.1.0"
@@ -11,11 +10,12 @@ subprojects {
 tasks {
     register("generateData") {
         val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
+        val outputLocation: String = (project.properties["output"] ?: "output") as String
         val closestVersion: String = getClosestVersion(version)
         // DataGeneration
         val projectDG: Project = project(":DataGenerator:$closestVersion")
         dependsOn(projectDG.tasks.getByName<JavaExec>("run") {
-            setArgsString(version)
+            args = arrayListOf(version, outputLocation)
             // Deobfuscation
             run {
                 if (version != closestVersion) {

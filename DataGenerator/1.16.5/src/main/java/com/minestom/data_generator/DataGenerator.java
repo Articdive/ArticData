@@ -89,7 +89,12 @@ public final class DataGenerator {
         // version for the output.
         String version = args[0];
 
-        jsonGenerator = new JsonGenerator(version);
+        // Folder for the output.
+        File outputFolder = new File("../output/");
+        if (args.length >= 2) {
+            outputFolder = new File(args[1]);
+        }
+        jsonGenerator = new JsonGenerator(version, outputFolder);
 
         // Bootstrap minecraft
         Bootstrap.bootStrap();
@@ -304,7 +309,7 @@ public final class DataGenerator {
         try {
             Main.main(new String[]{
                     "--all",
-                    "--output=" + new File(JsonGenerator.OUTPUT_FOLDER, version.replaceAll("\\.", "_") + "_gen_data")
+                    "--output=" + new File(outputFolder, version.replaceAll("\\.", "_") + "_gen_data")
             });
         } catch (IOException e) {
             e.printStackTrace();
