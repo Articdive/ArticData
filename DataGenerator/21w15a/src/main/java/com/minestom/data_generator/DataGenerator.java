@@ -318,7 +318,7 @@ public final class DataGenerator {
         }
 
 
-        LOGGER.info("Output data in: ./DataGenerator/output/");
+        LOGGER.info("Output data in: " + outputFolder.getAbsolutePath());
     }
 
     public static void generateBlocks() {
