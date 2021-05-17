@@ -3,10 +3,10 @@ plugins {
     application
 }
 
-group = "com.minestom"
+group = "net.minestom"
 
 application {
-    mainClass.set("com.minestom.Deobfuscator")
+    mainClass.set("net.minestom.Deobfuscator")
 }
 
 repositories {

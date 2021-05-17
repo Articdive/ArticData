@@ -1,7 +1,8 @@
-package com.minestom.data_generator;
+package net.minestom.data_generator;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.google.gson.stream.JsonReader;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
@@ -50,17 +51,26 @@ import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.MaterialColor;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
+import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+
+import static net.minestom.data_generator.JsonGenerator.GSON;
 
 public final class DataGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(DataGenerator.class);
@@ -304,22 +314,31 @@ public final class DataGenerator {
         generateDimensionTypes();
         generateCustomStatistics();
         generateMapColors();
-
-        // Data that the minecraft generator spits out.
+        // Create a temp file, run Mojang's data generator and "recompile" that data.
+        File tempDirFile;
         try {
+            tempDirFile = Files.createTempDirectory(version.replaceAll("\\.", "_") + "_gen_data").toFile();
             Main.main(new String[]{
                     "--all",
-                    "--output=" + new File(outputFolder, version.replaceAll("\\.", "_") + "_gen_data")
+                    "--output=" + tempDirFile
             });
+            // Delete tempFile when finished
+            tempDirFile.deleteOnExit();
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error("Something went wrong while running Mojang's data generator.", e);
+            return;
         }
+
+        // Points to data/minecraft
+        File dataFolder = new File(tempDirFile, "data" + File.separator + "minecraft");
+        generateTags(new File(dataFolder, "tags"));
+        generateLootTables(new File(dataFolder, "loot_tables"));
 
 
         LOGGER.info("Output data in: " + outputFolder.getAbsolutePath());
     }
 
-    public static void generateBlocks() {
+    private static void generateBlocks() {
         Set<ResourceLocation> blockRLs = Registry.BLOCK.keySet();
         JsonArray blocks = new JsonArray();
         for (ResourceLocation blockRL : blockRLs) {
@@ -874,5 +893,243 @@ public final class DataGenerator {
             mapColors.add(mapColor);
         }
         jsonGenerator.output(mapColors, "map_colors");
+    }
+
+    private static void generateTags(@NotNull File tagFolder) {
+        // Block tags
+        {
+            File blockTagsFolder = new File(tagFolder, "blocks");
+            File[] children = blockTagsFolder.listFiles();
+            if (children != null) {
+                JsonArray blockTags = new JsonArray();
+                for (File file : children) {
+                    JsonObject blockTag;
+                    try {
+                        blockTag = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read block tag located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json
+                    blockTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
+                    blockTags.add(blockTag);
+                }
+                jsonGenerator.output(blockTags, "block_tags", "tags");
+            } else {
+                LOGGER.error("Failed to find block tags in data folder.");
+            }
+        }
+        // Fluid tags
+        {
+            File fluidTagsFolder = new File(tagFolder, "fluids");
+            File[] children = fluidTagsFolder.listFiles();
+            if (children != null) {
+                JsonArray fluidTags = new JsonArray();
+                for (File file : children) {
+                    JsonObject fluidTag;
+                    try {
+                        fluidTag = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read fluid tag located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json
+                    fluidTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
+                    fluidTags.add(fluidTag);
+                }
+                jsonGenerator.output(fluidTags, "fluid_tags", "tags");
+            } else {
+                LOGGER.error("Failed to find fluid tags in data folder.");
+            }
+        }
+        // EntityType tags
+        {
+            File entityTypeTagsFolder = new File(tagFolder, "entity_types");
+            File[] children = entityTypeTagsFolder.listFiles();
+            if (children != null) {
+                JsonArray entityTypeTags = new JsonArray();
+                for (File file : children) {
+                    JsonObject entityTypeTag;
+                    try {
+                        entityTypeTag = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read entity type tag located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json
+                    entityTypeTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
+                    entityTypeTags.add(entityTypeTag);
+                }
+                jsonGenerator.output(entityTypeTags, "entity_type_tags", "tags");
+            } else {
+                LOGGER.error("Failed to find entity type tags in data folder.");
+            }
+        }
+        // Item tags
+        {
+            File itemTagsFolder = new File(tagFolder, "items");
+            File[] children = itemTagsFolder.listFiles();
+            if (children != null) {
+                JsonArray fluidTags = new JsonArray();
+                for (File file : children) {
+                    JsonObject itemTag;
+                    try {
+                        itemTag = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read item tag located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json
+                    itemTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
+                    fluidTags.add(itemTag);
+                }
+                jsonGenerator.output(fluidTags, "item_tags", "tags");
+            } else {
+                LOGGER.error("Failed to find item tags in data folder.");
+            }
+        }
+    }
+
+    private static void generateLootTables(@NotNull File lootTablesFolder) {
+        // Block loot tables
+        {
+            File blockTables = new File(lootTablesFolder, "blocks");
+            File[] listedFiles = blockTables.listFiles();
+            if (listedFiles != null) {
+                List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
+                JsonArray blockLootTables = new JsonArray();
+                for (int i = 0; i < children.size(); i++) {
+                    File file = children.get(i);
+                    // Add subdirectories files to the for-loop.
+                    if (file.isDirectory()) {
+                        File[] subChildren = file.listFiles();
+                        if (subChildren != null) {
+                            children.addAll(Arrays.asList(subChildren));
+                        }
+                        continue;
+                    }
+                    JsonObject blockLootTable;
+                    try {
+                        blockLootTable = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read block loot table located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json by removing last 5 chars of the name.
+                    blockLootTable.addProperty("blockId", "minecraft:" + fileName.substring(0, fileName.length() - 5));
+                    blockLootTables.add(blockLootTable);
+                }
+                jsonGenerator.output(blockLootTables, "block_loot_tables", "loot_tables");
+            } else {
+                LOGGER.error("Failed to find block loot tables in data folder.");
+            }
+        }
+        // Chest loot tables
+        {
+            File chestTables = new File(lootTablesFolder, "chests");
+            File[] listedFiles = chestTables.listFiles();
+            if (listedFiles != null) {
+                List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
+                JsonArray chestLootTables = new JsonArray();
+                for (int i = 0; i < children.size(); i++) {
+                    File file = children.get(i);
+                    // Add subdirectories files to the for-loop.
+                    if (file.isDirectory()) {
+                        File[] subChildren = file.listFiles();
+                        if (subChildren != null) {
+                            children.addAll(Arrays.asList(subChildren));
+                        }
+                        continue;
+                    }
+                    JsonObject chestLootTable;
+                    try {
+                        chestLootTable = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read chest loot table located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json by removing last 5 chars of the name.
+                    chestLootTable.addProperty("chestType", fileName.substring(0, fileName.length() - 5));
+                    chestLootTables.add(chestLootTable);
+                }
+                jsonGenerator.output(chestLootTables, "chest_loot_tables", "loot_tables");
+            } else {
+                LOGGER.error("Failed to find chest loot tables in data folder.");
+            }
+        }
+        // Entity loot tables
+        {
+            File entityTables = new File(lootTablesFolder, "entities");
+            File[] listedFiles = entityTables.listFiles();
+            if (listedFiles != null) {
+                List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
+                JsonArray entityLootTables = new JsonArray();
+                for (int i = 0; i < children.size(); i++) {
+                    File file = children.get(i);
+                    // Add subdirectories files to the for-loop.
+                    if (file.isDirectory()) {
+                        File[] subChildren = file.listFiles();
+                        if (subChildren != null) {
+                            children.addAll(Arrays.asList(subChildren));
+                        }
+                        continue;
+                    }
+                    JsonObject entityLootTable;
+                    try {
+                        entityLootTable = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read entity loot table located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json by removing last 5 chars of the name.
+                    entityLootTable.addProperty("entityId", "minecraft:" + fileName.substring(0, fileName.length() - 5));
+                    entityLootTables.add(entityLootTable);
+                }
+                jsonGenerator.output(entityLootTables, "entity_loot_tables", "loot_tables");
+            } else {
+                LOGGER.error("Failed to find entity loot tables in data folder.");
+            }
+        }
+        // Gameplay loot tables
+        {
+            File gameplayTables = new File(lootTablesFolder, "gameplay");
+            File[] listedFiles = gameplayTables.listFiles();
+            if (listedFiles != null) {
+                List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
+                JsonArray gameplayLootTables = new JsonArray();
+                for (int i = 0; i < children.size(); i++) {
+                    File file = children.get(i);
+                    // Add subdirectories files to the for-loop.
+                    if (file.isDirectory()) {
+                        File[] subChildren = file.listFiles();
+                        if (subChildren != null) {
+                            children.addAll(Arrays.asList(subChildren));
+                        }
+                        continue;
+                    }
+                    JsonObject gameplayLootTable;
+                    try {
+                        gameplayLootTable = GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
+                    } catch (FileNotFoundException e) {
+                        LOGGER.error("Failed to read gameplay loot table located at '" + file + "'.", e);
+                        continue;
+                    }
+                    String fileName = file.getName();
+                    // Remove .json by removing last 5 chars of the name.
+                    gameplayLootTable.addProperty("gameplayType", fileName.substring(0, fileName.length() - 5));
+                    gameplayLootTables.add(gameplayLootTable);
+                }
+                jsonGenerator.output(gameplayLootTables, "gameplay_loot_tables", "loot_tables");
+            } else {
+                LOGGER.error("Failed to find gameplay loot tables in data folder.");
+            }
+        }
     }
 }

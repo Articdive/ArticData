@@ -1,6 +1,7 @@
 import java.util.*
+import kotlin.math.log
 
-group = "com.minestom"
+group = "net.minestom"
 version = "0.1.0"
 
 subprojects {
@@ -12,6 +13,25 @@ tasks {
         val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
         val outputLocation: String = (project.properties["output"] ?: "output") as String
         val closestVersion: String = getClosestVersion(version)
+
+        logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
+        logger.warn("We also require a running Minecraft server to extract data.")
+        logger.warn("Please read the Minecraft EULA located at https://account.mojang.com/documents/minecraft_eula.")
+        logger.warn("In order to agree to the EULA you must create a file called eula.txt with the text 'eula=true'.")
+        val eulaTxt = File("${project.rootProject.projectDir}/eula.txt")
+        logger.warn("The file must be located at '${eulaTxt.absolutePath}'.")
+        if (eulaTxt.exists() && eulaTxt.readText(Charsets.UTF_8).equals("eula=true", true)) {
+            logger.warn("")
+            logger.warn("The EULA has been accepted and signed.")
+            logger.warn("")
+        } else {
+            throw GradleException("Data generation has been halted as the EULA has not been signed.")
+        }
+        logger.warn("It is unclear if the data from the data generator also adhere to the Minecraft EULA.")
+        logger.warn("Please consult your own legal team!")
+        logger.warn("All data is given independently without warranty, guarantee or liability of any kind.")
+        logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
+
         // DataGeneration
         val projectDG: Project = project(":DataGenerator:$closestVersion")
         dependsOn(projectDG.tasks.getByName<JavaExec>("run") {

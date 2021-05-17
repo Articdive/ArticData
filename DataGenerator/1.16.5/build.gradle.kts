@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClass.set("com.minestom.data_generator.DataGenerator")
+    mainClass.set("net.minestom.data_generator.DataGenerator")
 }
 
 dependencies {

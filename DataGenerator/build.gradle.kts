@@ -1,4 +1,4 @@
-group = "com.minestom.data_generator"
+group = "net.minestom.data_generator"
 
 subprojects {
     apply(plugin = "java")
