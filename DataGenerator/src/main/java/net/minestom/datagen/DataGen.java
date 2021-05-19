@@ -45,14 +45,19 @@ public class DataGen {
         }
         Version version = Version.parseVersion(args[0]);
         if (version == null) {
-            LOGGER.error("The version specified is not supported.");
+            LOGGER.error("The version specified is not explicitly defined.");
             LOGGER.error("The generator will fallback to 1.16.5 and attempt to use its generators.");
             version = Version.MC_1_16_5;
         }
-        String versionPrefix = version.getDataPrefix();
+        String versionPrefix = args[0].replace('.', '_') + "_";
 
         switch (version) {
             default:
+            case MC_1_16:
+            case MC_1_16_1:
+            case MC_1_16_2:
+            case MC_1_16_3:
+            case MC_1_16_4:
             case MC_1_16_5: {
                 // Prepare all DataGenerators
                 DataGenerator_1_16_5.prepare();
@@ -100,18 +105,35 @@ public class DataGen {
     }
 
     enum Version {
+        MC_1_16,
+        MC_1_16_1,
+        MC_1_16_2,
+        MC_1_16_3,
+        MC_1_16_4,
         MC_1_16_5;
 
         public static Version parseVersion(String versionInput) {
-            if (versionInput.equals("1.16.5") || versionInput.equals("1_16_5")) {
-                return MC_1_16_5;
+            switch (versionInput) {
+                case "1.16": {
+                    return MC_1_16;
+                }
+                case "1.16.1": {
+                    return MC_1_16_1;
+                }
+                case "1.16.2": {
+                    return MC_1_16_2;
+                }
+                case "1.16.3": {
+                    return MC_1_16_3;
+                }
+                case "1.16.4": {
+                    return MC_1_16_4;
+                }
+                case "1.16.5": {
+                    return MC_1_16_5;
+                }
             }
             return null;
-        }
-
-        public String getDataPrefix() {
-            // 1_16_5_
-            return name().replaceFirst("MC_", "") + "_";
         }
     }
 }

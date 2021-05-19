@@ -1,6 +1,3 @@
-import java.util.*
-import kotlin.math.log
-
 group = "net.minestom"
 version = "0.1.0"
 
@@ -12,7 +9,6 @@ tasks {
     register("generateData") {
         val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
         val outputLocation: String = (project.properties["output"] ?: "../Minestom-Data/${version}/") as String
-        val closestVersion: String = getClosestVersion(version)
 
         logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
         logger.warn("We also require a running Minecraft server to extract data.")
@@ -33,38 +29,41 @@ tasks {
         logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
         logger.warn("")
 
-        // DataGeneration
-        val projectDG: Project = project(":DataGenerator")
-        dependsOn(projectDG.tasks.getByName<JavaExec>("run") {
-            args = arrayListOf(closestVersion, outputLocation)
-            // Deobfuscation
-            run {
-                if (version != closestVersion) {
-                    // Need to run deobfuscator on closestVersion as it is used to compile.
-                    // This just prevents us from running the Deobfuscator on the same version twice
-                    dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
-                        setArgsString(closestVersion)
-                    })
-                }
-                // Need to run deobfuscator on version as it is used on runtime.
-                dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
-                    setArgsString(version)
-                })
-            }
+        // Deobfuscation
+        for (ver in getVersionsRequiredForCompile(version)) {
+            project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
+                setArgsString(ver)
+            }.exec()
+        }
+        dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
+            setArgsString(version)
+        }).finalizedBy(project(":DataGenerator").tasks.getByName<JavaExec>("run") {
+            args = arrayListOf(version, outputLocation)
         })
     }
 }
 
-fun getClosestVersion(version: String): String {
-    // check if the specified version exists as a project
-    // e.g. if the project 21w15a exists then this WONT throw the UnknownProjectException and return "21w15a".
-    try {
-        val projectC : Project = project(":DataGenerator:$version")
-        return version
-    } catch (e : UnknownProjectException) {
-        // ignored
+// Returns a List of versions required to get data for the specified version.
+fun getVersionsRequiredForCompile(version: String): Array<String> {
+    if (version == "1.16") {
+        return arrayOf("1.16.5")
     }
-    // TODO: Get closest version and not use a hardfixed version
-    return "1.16.5"
+    if (version == "1.16.1") {
+        return arrayOf("1.16.5")
+    }
+    if (version == "1.16.2") {
+        return arrayOf("1.16.5")
+    }
+    if (version == "1.16.3") {
+        return arrayOf("1.16.5")
+    }
+    if (version == "1.16.4") {
+        return arrayOf("1.16.5")
+    }
+    if (version == "1.16.5") {
+        return arrayOf("1.16.5");
+    }
+    // TODO: Make sure this corresponds to DataGen and the versions required.
+    return arrayOf("1.16.5");
 }
 
