@@ -46,6 +46,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.material.Fluid;
@@ -75,6 +79,7 @@ import static net.minestom.data_generator.JsonGenerator.GSON;
 public final class DataGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(DataGenerator.class);
     private static final Map<Block, String> blockNames = new HashMap<>();
+    private static final Map<Property<?>, String> blockPropertyNames = new HashMap<>();
     private static final Map<EntityType<?>, String> entityNames = new HashMap<>();
     private static final Map<EntityType<?>, Class<?>> entityClasses = new HashMap<>();
     private static final Map<BlockEntityType<?>, String> blockEntityNames = new HashMap<>();
@@ -120,7 +125,19 @@ public final class DataGenerator {
                     Block b = (Block) declaredField.get(null);
                     blockNames.put(b, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map block naming system", e);
+                    LOGGER.error("Failed to map block naming system.", e);
+                    return;
+                }
+            }
+            for (Field declaredField : BlockStateProperties.class.getDeclaredFields()) {
+                if (!Property.class.isAssignableFrom(declaredField.getType())) {
+                    continue;
+                }
+                try {
+                    Property<?> b = (Property<?>) declaredField.get(null);
+                    blockPropertyNames.put(b, declaredField.getName());
+                } catch (IllegalAccessException e) {
+                    LOGGER.error("Failed to map block state property naming system.", e);
                     return;
                 }
             }
@@ -133,7 +150,7 @@ public final class DataGenerator {
                     Fluid f = (Fluid) declaredField.get(null);
                     fluidNames.put(f, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map fluid naming system", e);
+                    LOGGER.error("Failed to map fluid naming system.", e);
                     return;
                 }
             }
@@ -148,7 +165,7 @@ public final class DataGenerator {
                     entityNames.put(et, declaredField.getName());
                     entityClasses.put(et, (Class<?>) ((ParameterizedType) declaredField.getGenericType()).getActualTypeArguments()[0]);
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map entity naming system", e);
+                    LOGGER.error("Failed to map entity naming system.", e);
                     return;
                 }
             }
@@ -161,7 +178,7 @@ public final class DataGenerator {
                     BlockEntityType<?> bet = (BlockEntityType<?>) declaredField.get(null);
                     blockEntityNames.put(bet, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map block-entity naming system", e);
+                    LOGGER.error("Failed to map block entity naming system.", e);
                     return;
                 }
             }
@@ -174,7 +191,7 @@ public final class DataGenerator {
                     Item i = (Item) declaredField.get(null);
                     itemNames.put(i, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map item naming system", e);
+                    LOGGER.error("Failed to map item naming system.", e);
                     return;
                 }
             }
@@ -187,7 +204,7 @@ public final class DataGenerator {
                     MobEffect me = (MobEffect) declaredField.get(null);
                     effectNames.put(me, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map effect naming system", e);
+                    LOGGER.error("Failed to map effect naming system.", e);
                     return;
                 }
             }
@@ -200,7 +217,7 @@ public final class DataGenerator {
                     Potion p = (Potion) declaredField.get(null);
                     potionNames.put(p, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map potion naming system", e);
+                    LOGGER.error("Failed to map potion naming system.", e);
                     return;
                 }
             }
@@ -213,7 +230,7 @@ public final class DataGenerator {
                     Attribute a = (Attribute) declaredField.get(null);
                     attributeNames.put(a, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map effect naming system", e);
+                    LOGGER.error("Failed to map attribute naming system.", e);
                     return;
                 }
             }
@@ -226,7 +243,7 @@ public final class DataGenerator {
                     Enchantment e = (Enchantment) declaredField.get(null);
                     enchantmentNames.put(e, declaredField.getName());
                 } catch (IllegalAccessException e) {
-                    LOGGER.error("Failed to map effect naming system", e);
+                    LOGGER.error("Failed to map enchantment naming system", e);
                     return;
                 }
             }
@@ -298,6 +315,7 @@ public final class DataGenerator {
         }
 
         generateBlocks();
+        generateBlockProperties();
         generateFluids();
         generateEntities();
         generateBlockEntities();
@@ -346,6 +364,7 @@ public final class DataGenerator {
 
             JsonObject block = new JsonObject();
             block.addProperty("id", blockRL.toString());
+            block.addProperty("numericalID", Registry.BLOCK.getId(b));
             block.addProperty("name", blockNames.get(b));
             // block.addProperty("langId", b.getDescriptionId());
             block.addProperty("explosionResistance", b.getExplosionResistance());
@@ -354,7 +373,15 @@ public final class DataGenerator {
             block.addProperty("jumpFactor", b.getJumpFactor());
             block.addProperty("defaultBlockState", Block.BLOCK_STATE_REGISTRY.getId(b.defaultBlockState()));
             block.addProperty("itemId", Registry.ITEM.getKey(Item.BY_BLOCK.getOrDefault(b, Items.AIR)).toString());
-
+            block.addProperty("blockEntity", b.isEntityBlock());
+            // Block proprties
+            {
+                JsonArray properties = new JsonArray();
+                for (Property<?> p : b.getStateDefinition().getProperties()) {
+                    properties.add(blockPropertyNames.get(p));
+                }
+                block.add("properties", properties);
+            }
             {
                 // Block states
                 JsonArray blockStates = new JsonArray();
@@ -377,6 +404,7 @@ public final class DataGenerator {
                     state.addProperty("pushReaction", bs.getMaterial().getPushReaction().toString());
                     state.addProperty("blocksMotion", bs.getMaterial().blocksMotion());
                     state.addProperty("isFlammable", bs.getMaterial().isFlammable());
+                    state.addProperty("isAir", bs.isAir());
                     state.addProperty("isLiquid", bs.getMaterial().isLiquid());
                     state.addProperty("isReplaceable", bs.getMaterial().isReplaceable());
                     state.addProperty("isSolid", bs.getMaterial().isSolid());
@@ -391,6 +419,45 @@ public final class DataGenerator {
             blocks.add(block);
         }
         jsonGenerator.output(blocks, "blocks");
+    }
+
+    private static void generateBlockProperties() {
+        JsonArray blockProperties = new JsonArray();
+        // Block Properties
+        for (Field declaredField : BlockStateProperties.class.getDeclaredFields()) {
+            if (!Property.class.isAssignableFrom(declaredField.getType())) {
+                continue;
+            }
+            JsonObject property = new JsonObject();
+            try {
+                Property<?> p = (Property<?>) declaredField.get(null);
+                String fieldName = declaredField.getName();
+                String propertyKey = p.getName();
+                property.addProperty("name", fieldName);
+                property.addProperty("key", propertyKey);
+                // Properties
+                JsonArray values = new JsonArray();
+                if (p instanceof BooleanProperty) {
+                    for (boolean possibleValue : ((BooleanProperty) p).getPossibleValues()) {
+                        values.add(possibleValue);
+                    }
+                } else if (p instanceof IntegerProperty) {
+                    for (int possibleValue : ((IntegerProperty) p).getPossibleValues()) {
+                        values.add(possibleValue);
+                    }
+                } else if (p instanceof EnumProperty) {
+                    for (Enum<? extends Enum<?>> possibleValue : ((EnumProperty<? extends Enum<?>>) p).getPossibleValues()) {
+                        values.add(possibleValue.name());
+                    }
+                }
+                property.add("values", values);
+                blockProperties.add(property);
+            } catch (IllegalAccessException e) {
+                LOGGER.error("Failed to get property from the property mapping system.", e);
+                return;
+            }
+        }
+        jsonGenerator.output(blockProperties, "block_properties");
     }
 
     private static void generateFluids() {
