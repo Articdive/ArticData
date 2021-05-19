@@ -31,11 +31,12 @@ tasks {
         logger.warn("Please consult your own legal team!")
         logger.warn("All data is given independently without warranty, guarantee or liability of any kind.")
         logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
+        logger.warn("")
 
         // DataGeneration
-        val projectDG: Project = project(":DataGenerator:$closestVersion")
+        val projectDG: Project = project(":DataGenerator")
         dependsOn(projectDG.tasks.getByName<JavaExec>("run") {
-            args = arrayListOf(version, outputLocation)
+            args = arrayListOf(closestVersion, outputLocation)
             // Deobfuscation
             run {
                 if (version != closestVersion) {

@@ -29,21 +29,6 @@ dependencies {
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_11
-    sourceSets {
-        getByName("test") {
-            java {
-                setSrcDirs(emptyList<Any?>())
-            }
-            resources {
-                setSrcDirs(emptyList<Any?>())
-            }
-        }
-    }
-    tasks {
-        getByName<Test>("test") {
-            enabled = false
-        }
-    }
 }
 
 tasks {
