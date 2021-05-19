@@ -46,7 +46,7 @@ public class DataGen {
         Version version = Version.parseVersion(args[0]);
         if (version == null) {
             LOGGER.error("The version specified is not supported.");
-            LOGGER.error("The generator will fallback to 1.16.5 and attempt to use it's generators.");
+            LOGGER.error("The generator will fallback to 1.16.5 and attempt to use its generators.");
             version = Version.MC_1_16_5;
         }
         String versionPrefix = version.getDataPrefix();
@@ -89,7 +89,8 @@ public class DataGen {
         }
 
         // Folder for the output.
-        File outputFolder = new File("../output/");
+        // Remove a character at the end since the prefix includes an _ at the end
+        File outputFolder = new File("../Minestom-data/" + versionPrefix.substring(0, versionPrefix.length() - 1) + "/");
         if (args.length >= 2) {
             outputFolder = new File(args[1]);
         }

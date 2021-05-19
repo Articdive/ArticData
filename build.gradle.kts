@@ -11,7 +11,7 @@ subprojects {
 tasks {
     register("generateData") {
         val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
-        val outputLocation: String = (project.properties["output"] ?: "output") as String
+        val outputLocation: String = (project.properties["output"] ?: "../Minestom-Data/${version}/") as String
         val closestVersion: String = getClosestVersion(version)
 
         logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
