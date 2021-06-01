@@ -99,7 +99,16 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("isSolid", bs.getMaterial().isSolid());
                     state.addProperty("isSolidBlocking", bs.getMaterial().isSolidBlocking());
                     state.addProperty("mapColorId", bs.getMaterial().getColor().id);
-                    state.addProperty("boundingBox", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+
+                    state.addProperty("shape", bs.getShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+
+                    state.addProperty("collisionShape", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+
+                    state.addProperty("interactionShape", bs.getInteractionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+
+                    state.addProperty("occlusionShape", bs.getOcclusionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+
+                    state.addProperty("visualShape", bs.getOcclusionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     blockStates.add(state);
                 }
                 block.add("states", blockStates);

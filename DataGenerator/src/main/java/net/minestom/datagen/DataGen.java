@@ -8,6 +8,7 @@ import net.minestom.generators.BlockPropertyGenerator_1_16_5;
 import net.minestom.generators.CustomStatisticGenerator_1_16_5;
 import net.minestom.generators.DimensionTypeGenerator_1_16_5;
 import net.minestom.generators.EnchantmentGenerator_1_16_5;
+import net.minestom.generators.EntityGenerator_1_16_5;
 import net.minestom.generators.FluidGenerator_1_16_5;
 import net.minestom.generators.MapColorGenerator_1_16_5;
 import net.minestom.generators.MaterialGenerator_1_16_5;
@@ -70,6 +71,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, new CustomStatisticGenerator_1_16_5());
                 DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, new DimensionTypeGenerator_1_16_5());
                 DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, new EnchantmentGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.ENTITIES, new EntityGenerator_1_16_5());
                 DataGenHolder.addGenerator(DataGenType.FLUIDS, new FluidGenerator_1_16_5());
                 DataGenHolder.addGenerator(DataGenType.MATERIALS, new MaterialGenerator_1_16_5());
                 DataGenHolder.addGenerator(DataGenType.MAP_COLORS, new MapColorGenerator_1_16_5());
