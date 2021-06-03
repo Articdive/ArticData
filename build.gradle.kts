@@ -45,6 +45,11 @@ tasks {
 
 // Returns a List of versions required to get data for the specified version.
 fun getVersionsRequiredForCompile(version: String): Array<String> {
+    // 1.17
+    if (version == "1.17-pre4") {
+        return arrayOf("1.17-pre4", "1.16.5")
+    }
+    // 1.16.5
     if (version == "1.16") {
         return arrayOf("1.16.5")
     }

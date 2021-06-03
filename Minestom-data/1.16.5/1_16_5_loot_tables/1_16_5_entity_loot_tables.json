@@ -2785,7 +2785,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:black"
+    "entityId": "minecraft:sheep/black"
   },
   {
     "type": "minecraft:entity",
@@ -2809,7 +2809,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:blue"
+    "entityId": "minecraft:sheep/blue"
   },
   {
     "type": "minecraft:entity",
@@ -2833,7 +2833,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:brown"
+    "entityId": "minecraft:sheep/brown"
   },
   {
     "type": "minecraft:entity",
@@ -2857,7 +2857,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:cyan"
+    "entityId": "minecraft:sheep/cyan"
   },
   {
     "type": "minecraft:entity",
@@ -2881,7 +2881,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:gray"
+    "entityId": "minecraft:sheep/gray"
   },
   {
     "type": "minecraft:entity",
@@ -2905,7 +2905,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:green"
+    "entityId": "minecraft:sheep/green"
   },
   {
     "type": "minecraft:entity",
@@ -2929,7 +2929,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:light_blue"
+    "entityId": "minecraft:sheep/light_blue"
   },
   {
     "type": "minecraft:entity",
@@ -2953,7 +2953,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:light_gray"
+    "entityId": "minecraft:sheep/light_gray"
   },
   {
     "type": "minecraft:entity",
@@ -2977,7 +2977,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:lime"
+    "entityId": "minecraft:sheep/lime"
   },
   {
     "type": "minecraft:entity",
@@ -3001,7 +3001,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:magenta"
+    "entityId": "minecraft:sheep/magenta"
   },
   {
     "type": "minecraft:entity",
@@ -3025,7 +3025,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:orange"
+    "entityId": "minecraft:sheep/orange"
   },
   {
     "type": "minecraft:entity",
@@ -3049,7 +3049,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:pink"
+    "entityId": "minecraft:sheep/pink"
   },
   {
     "type": "minecraft:entity",
@@ -3073,7 +3073,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:purple"
+    "entityId": "minecraft:sheep/purple"
   },
   {
     "type": "minecraft:entity",
@@ -3097,7 +3097,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:red"
+    "entityId": "minecraft:sheep/red"
   },
   {
     "type": "minecraft:entity",
@@ -3121,7 +3121,7 @@
         ]
       }
     ],
-    "entityId": "minecraft:white"
+    "entityId": "minecraft:sheep/white"
   },
   {
     "type": "minecraft:entity",
@@ -3145,6 +3145,6 @@
         ]
       }
     ],
-    "entityId": "minecraft:yellow"
+    "entityId": "minecraft:sheep/yellow"
   }
 ]

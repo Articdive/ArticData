@@ -3482,10 +3482,10 @@
                     }
                   },
                   {
-                    "type": "minecraft:saturation",
+                    "type": "minecraft:poison",
                     "duration": {
-                      "min": 7.0,
-                      "max": 10.0
+                      "min": 10.0,
+                      "max": 20.0
                     }
                   },
                   {
@@ -3510,10 +3510,10 @@
                     }
                   },
                   {
-                    "type": "minecraft:poison",
+                    "type": "minecraft:saturation",
                     "duration": {
-                      "min": 10.0,
-                      "max": 20.0
+                      "min": 7.0,
+                      "max": 10.0
                     }
                   }
                 ]
@@ -5152,7 +5152,7 @@
         ]
       }
     ],
-    "chestType": "village_armorer"
+    "chestType": "village/village_armorer"
   },
   {
     "type": "minecraft:chest",
@@ -5246,7 +5246,7 @@
         ]
       }
     ],
-    "chestType": "village_butcher"
+    "chestType": "village/village_butcher"
   },
   {
     "type": "minecraft:chest",
@@ -5326,7 +5326,7 @@
         ]
       }
     ],
-    "chestType": "village_cartographer"
+    "chestType": "village/village_cartographer"
   },
   {
     "type": "minecraft:chest",
@@ -5427,7 +5427,7 @@
         ]
       }
     ],
-    "chestType": "village_desert_house"
+    "chestType": "village/village_desert_house"
   },
   {
     "type": "minecraft:chest",
@@ -5533,7 +5533,7 @@
         ]
       }
     ],
-    "chestType": "village_fisher"
+    "chestType": "village/village_fisher"
   },
   {
     "type": "minecraft:chest",
@@ -5627,7 +5627,7 @@
         ]
       }
     ],
-    "chestType": "village_fletcher"
+    "chestType": "village/village_fletcher"
   },
   {
     "type": "minecraft:chest",
@@ -5697,7 +5697,7 @@
         ]
       }
     ],
-    "chestType": "village_mason"
+    "chestType": "village/village_mason"
   },
   {
     "type": "minecraft:chest",
@@ -5818,7 +5818,7 @@
         ]
       }
     ],
-    "chestType": "village_plains_house"
+    "chestType": "village/village_plains_house"
   },
   {
     "type": "minecraft:chest",
@@ -5939,7 +5939,7 @@
         ]
       }
     ],
-    "chestType": "village_savanna_house"
+    "chestType": "village/village_savanna_house"
   },
   {
     "type": "minecraft:chest",
@@ -6052,7 +6052,7 @@
         ]
       }
     ],
-    "chestType": "village_shepherd"
+    "chestType": "village/village_shepherd"
   },
   {
     "type": "minecraft:chest",
@@ -6173,7 +6173,7 @@
         ]
       }
     ],
-    "chestType": "village_snowy_house"
+    "chestType": "village/village_snowy_house"
   },
   {
     "type": "minecraft:chest",
@@ -6325,7 +6325,7 @@
         ]
       }
     ],
-    "chestType": "village_taiga_house"
+    "chestType": "village/village_taiga_house"
   },
   {
     "type": "minecraft:chest",
@@ -6407,7 +6407,7 @@
         ]
       }
     ],
-    "chestType": "village_tannery"
+    "chestType": "village/village_tannery"
   },
   {
     "type": "minecraft:chest",
@@ -6509,7 +6509,7 @@
         ]
       }
     ],
-    "chestType": "village_temple"
+    "chestType": "village/village_temple"
   },
   {
     "type": "minecraft:chest",
@@ -6621,7 +6621,7 @@
         ]
       }
     ],
-    "chestType": "village_toolsmith"
+    "chestType": "village/village_toolsmith"
   },
   {
     "type": "minecraft:chest",
@@ -6788,6 +6788,6 @@
         ]
       }
     ],
-    "chestType": "village_weaponsmith"
+    "chestType": "village/village_weaponsmith"
   }
 ]

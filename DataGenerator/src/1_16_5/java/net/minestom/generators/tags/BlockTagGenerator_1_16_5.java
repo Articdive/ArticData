@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public final class BlockTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
     private static final Logger LOGGER = LoggerFactory.getLogger(BlockTagGenerator_1_16_5.class);
@@ -25,10 +28,20 @@ public final class BlockTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
         File tagFolder = new File(dataFolder, "tags");
         File blockTagsFolder = new File(tagFolder, "blocks");
 
-        File[] children = blockTagsFolder.listFiles();
-        if (children != null) {
+        File[] listedFiles = blockTagsFolder.listFiles();
+        if (listedFiles != null) {
+            List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
             JsonArray blockTags = new JsonArray();
-            for (File file : children) {
+            for (int i = 0; i < children.size(); i++) {
+                File file = children.get(i);
+                // Add subdirectories files to the for-loop.
+                if (file.isDirectory()) {
+                    File[] subChildren = file.listFiles();
+                    if (subChildren != null) {
+                        children.addAll(Arrays.asList(subChildren));
+                    }
+                    continue;
+                }
                 JsonObject blockTag;
                 try {
                     blockTag = JsonOutputter.GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
@@ -36,8 +49,10 @@ public final class BlockTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
                     LOGGER.error("Failed to read block tag located at '" + file + "'.", e);
                     continue;
                 }
-                String fileName = file.getName();
-                // Remove .json
+                String fileName = file.getAbsolutePath().substring(blockTagsFolder.getAbsolutePath().length() + 1);
+                // Make sure we use the correct slashes.
+                fileName = fileName.replace("\\", "/");
+                // Remove .json (substring of 5)
                 blockTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
                 blockTags.add(blockTag);
             }

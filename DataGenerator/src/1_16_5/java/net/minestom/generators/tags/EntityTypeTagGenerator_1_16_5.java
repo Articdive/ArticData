@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public final class EntityTypeTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
     private static final Logger LOGGER = LoggerFactory.getLogger(EntityTypeTagGenerator_1_16_5.class);
@@ -25,10 +28,20 @@ public final class EntityTypeTagGenerator_1_16_5 extends DataGenerator_1_16_5<Vo
         File tagFolder = new File(dataFolder, "tags");
         File entityTypeTagsFolder = new File(tagFolder, "entity_types");
 
-        File[] children = entityTypeTagsFolder.listFiles();
-        if (children != null) {
+        File[] listedFiles = entityTypeTagsFolder.listFiles();
+        if (listedFiles != null) {
+            List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
             JsonArray entityTypeTags = new JsonArray();
-            for (File file : children) {
+            for (int i = 0; i < children.size(); i++) {
+                File file = children.get(i);
+                // Add subdirectories files to the for-loop.
+                if (file.isDirectory()) {
+                    File[] subChildren = file.listFiles();
+                    if (subChildren != null) {
+                        children.addAll(Arrays.asList(subChildren));
+                    }
+                    continue;
+                }
                 JsonObject entityTypeTag;
                 try {
                     entityTypeTag = JsonOutputter.GSON.fromJson(new JsonReader(new FileReader(file)), JsonObject.class);
@@ -36,8 +49,10 @@ public final class EntityTypeTagGenerator_1_16_5 extends DataGenerator_1_16_5<Vo
                     LOGGER.error("Failed to read entity type tag located at '" + file + "'.", e);
                     continue;
                 }
-                String fileName = file.getName();
-                // Remove .json
+                String fileName = file.getAbsolutePath().substring(entityTypeTagsFolder.getAbsolutePath().length() + 1);
+                // Make sure we use the correct slashes.
+                fileName = fileName.replace("\\", "/");
+                // Remove .json (substring of 5)
                 entityTypeTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
                 entityTypeTags.add(entityTypeTag);
             }

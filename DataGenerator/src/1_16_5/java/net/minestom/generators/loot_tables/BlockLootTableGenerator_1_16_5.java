@@ -49,7 +49,9 @@ public final class BlockLootTableGenerator_1_16_5 extends DataGenerator_1_16_5<V
                     LOGGER.error("Failed to read block loot table located at '" + file + "'.", e);
                     continue;
                 }
-                String fileName = file.getName();
+                String fileName = file.getAbsolutePath().substring(blockTables.getAbsolutePath().length() + 1);
+                // Make sure we use the correct slashes.
+                fileName = fileName.replace("\\", "/");
                 // Remove .json by removing last 5 chars of the name.
                 blockLootTable.addProperty("blockId", "minecraft:" + fileName.substring(0, fileName.length() - 5));
                 blockLootTables.add(blockLootTable);

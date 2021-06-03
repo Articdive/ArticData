@@ -359,7 +359,7 @@
         ]
       }
     ],
-    "gameplayType": "fish"
+    "gameplayType": "fishing/fish"
   },
   {
     "type": "minecraft:fishing",
@@ -513,7 +513,7 @@
         ]
       }
     ],
-    "gameplayType": "junk"
+    "gameplayType": "fishing/junk"
   },
   {
     "type": "minecraft:fishing",
@@ -583,7 +583,7 @@
         ]
       }
     ],
-    "gameplayType": "treasure"
+    "gameplayType": "fishing/treasure"
   },
   {
     "type": "minecraft:gift",
@@ -610,7 +610,7 @@
         ]
       }
     ],
-    "gameplayType": "armorer_gift"
+    "gameplayType": "hero_of_the_village/armorer_gift"
   },
   {
     "type": "minecraft:gift",
@@ -641,7 +641,7 @@
         ]
       }
     ],
-    "gameplayType": "butcher_gift"
+    "gameplayType": "hero_of_the_village/butcher_gift"
   },
   {
     "type": "minecraft:gift",
@@ -660,7 +660,7 @@
         ]
       }
     ],
-    "gameplayType": "cartographer_gift"
+    "gameplayType": "hero_of_the_village/cartographer_gift"
   },
   {
     "type": "minecraft:gift",
@@ -679,7 +679,7 @@
         ]
       }
     ],
-    "gameplayType": "cleric_gift"
+    "gameplayType": "hero_of_the_village/cleric_gift"
   },
   {
     "type": "minecraft:gift",
@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "gameplayType": "farmer_gift"
+    "gameplayType": "hero_of_the_village/farmer_gift"
   },
   {
     "type": "minecraft:gift",
@@ -721,7 +721,7 @@
         ]
       }
     ],
-    "gameplayType": "fisherman_gift"
+    "gameplayType": "hero_of_the_village/fisherman_gift"
   },
   {
     "type": "minecraft:gift",
@@ -971,7 +971,7 @@
         ]
       }
     ],
-    "gameplayType": "fletcher_gift"
+    "gameplayType": "hero_of_the_village/fletcher_gift"
   },
   {
     "type": "minecraft:gift",
@@ -986,7 +986,7 @@
         ]
       }
     ],
-    "gameplayType": "leatherworker_gift"
+    "gameplayType": "hero_of_the_village/leatherworker_gift"
   },
   {
     "type": "minecraft:gift",
@@ -1001,7 +1001,7 @@
         ]
       }
     ],
-    "gameplayType": "librarian_gift"
+    "gameplayType": "hero_of_the_village/librarian_gift"
   },
   {
     "type": "minecraft:gift",
@@ -1016,7 +1016,7 @@
         ]
       }
     ],
-    "gameplayType": "mason_gift"
+    "gameplayType": "hero_of_the_village/mason_gift"
   },
   {
     "type": "minecraft:gift",
@@ -1091,7 +1091,7 @@
         ]
       }
     ],
-    "gameplayType": "shepherd_gift"
+    "gameplayType": "hero_of_the_village/shepherd_gift"
   },
   {
     "type": "minecraft:gift",
@@ -1118,7 +1118,7 @@
         ]
       }
     ],
-    "gameplayType": "toolsmith_gift"
+    "gameplayType": "hero_of_the_village/toolsmith_gift"
   },
   {
     "type": "minecraft:gift",
@@ -1141,6 +1141,6 @@
         ]
       }
     ],
-    "gameplayType": "weaponsmith_gift"
+    "gameplayType": "hero_of_the_village/weaponsmith_gift"
   }
 ]
