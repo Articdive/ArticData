@@ -33,10 +33,15 @@ public class Deobfuscator {
 
     public static void main(String[] args) {
         if (args.length == 0) {
-            LOGGER.info("You must specify a version to deobfuscated.");
+            LOGGER.info("You must specify a version (or multiple) to deobfuscated.");
             return;
         }
-        String version = args[0];
+        for (String version : args) {
+            deobfuscationVersion(version);
+        }
+    }
+
+    public static void deobfuscationVersion(String version) {
         // Create downloads Folder
         if (!WORK_FOLDER.exists() && !WORK_FOLDER.mkdirs()) {
             LOGGER.error("Failed to create work folder.");
@@ -102,7 +107,7 @@ public class Deobfuscator {
             reconstruct.load();
             LOGGER.error("Successfully generated the deobfuscated JAR.");
         } else {
-            LOGGER.info("JAR already exists!");
+            LOGGER.info("JAR already exists for version '" + version + "'.");
         }
     }
 

@@ -2,6 +2,7 @@ package net.minestom.datagen;
 
 import com.google.gson.JsonArray;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,8 +13,15 @@ public final class DataGenHolder {
 
     }
 
-    public static void addGenerator(DataGenType type, DataGenerator<?> dataGenerator) {
-        generators.put(type, dataGenerator);
+    public static void addGenerator(DataGenType type, String dataGeneratorRef) {
+        String dataGeneratorReference = "net.minestom.generators." + dataGeneratorRef;
+        try {
+            Class<?> dataGeneratorClazz = Class.forName(dataGeneratorReference);
+            DataGenerator<?> dg = (DataGenerator<?>) dataGeneratorClazz.getConstructor().newInstance();
+            generators.put(type, dg);
+        } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | InstantiationException | IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void runGenerators(JsonOutputter jsonOutputter) {

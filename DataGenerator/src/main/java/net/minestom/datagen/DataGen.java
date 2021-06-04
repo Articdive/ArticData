@@ -1,38 +1,11 @@
 package net.minestom.datagen;
 
-import net.minestom.generators.AttributeGenerator_1_16_5;
-import net.minestom.generators.BiomeGenerator_1_16_5;
-import net.minestom.generators.BlockEntityGenerator_1_16_5;
-import net.minestom.generators.BlockGenerator_1_17;
-import net.minestom.generators.BlockPropertyGenerator_1_16_5;
-import net.minestom.generators.CustomStatisticGenerator_1_16_5;
-import net.minestom.generators.DimensionTypeGenerator_1_16_5;
-import net.minestom.generators.DimensionTypeGenerator_1_17;
-import net.minestom.generators.EnchantmentGenerator_1_16_5;
-import net.minestom.generators.EntityGenerator_1_16_5;
-import net.minestom.generators.FluidGenerator_1_16_5;
-import net.minestom.generators.MapColorGenerator_1_16_5;
-import net.minestom.generators.MaterialGenerator_1_16_5;
-import net.minestom.generators.MobEffectGenerator_1_16_5;
-import net.minestom.generators.ParticleGenerator_1_16_5;
-import net.minestom.generators.PotionGenerator_1_16_5;
-import net.minestom.generators.SoundGenerator_1_16_5;
-import net.minestom.generators.VillagerProfessionGenerator_1_16_5;
-import net.minestom.generators.VillagerTypeGenerator_1_16_5;
-import net.minestom.generators.common.DataGenerator_1_16_5;
-import net.minestom.generators.common.DataGenerator_1_17;
-import net.minestom.generators.loot_tables.BlockLootTableGenerator_1_16_5;
-import net.minestom.generators.loot_tables.ChestLootTableGenerator_1_16_5;
-import net.minestom.generators.loot_tables.EntityLootTableGenerator_1_16_5;
-import net.minestom.generators.loot_tables.GameplayLootTableGenerator_1_16_5;
-import net.minestom.generators.tags.BlockTagGenerator_1_16_5;
-import net.minestom.generators.tags.EntityTypeTagGenerator_1_16_5;
-import net.minestom.generators.tags.FluidTagGenerator_1_16_5;
-import net.minestom.generators.tags.ItemTagGenerator_1_16_5;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class DataGen {
     private static final Logger LOGGER = LoggerFactory.getLogger(DataGenHolder.class);
@@ -56,70 +29,82 @@ public class DataGen {
 
         switch (version) {
             case MC_1_17 -> {
-                DataGenerator_1_17.prepare();
-                DataGenerator_1_16_5.prepare();
+                // Run 1.17
+                try {
+                    Class<?> dgCommon1_17 = Class.forName("net.minestom.generators.common.DataGenerator_1_17");
+                    Method prepareMethod1_17 = dgCommon1_17.getDeclaredMethod("prepare");
+                    prepareMethod1_17.invoke(null);
+                } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+                    e.printStackTrace();
+                }
 
-                DataGenHolder.addGenerator(DataGenType.ATTRIBUTES, new AttributeGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BIOMES, new BiomeGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCK_ENTITIES, new BlockEntityGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCK_PROPERTIES, new BlockPropertyGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCKS, new BlockGenerator_1_17());
-                DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, new CustomStatisticGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, new DimensionTypeGenerator_1_17());
-                DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, new EnchantmentGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITIES, new EntityGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.FLUIDS, new FluidGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MATERIALS, new MaterialGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MAP_COLORS, new MapColorGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.PARTICLES, new ParticleGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, new MobEffectGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.POTIONS, new PotionGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.SOUNDS, new SoundGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, new VillagerProfessionGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, new VillagerTypeGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.ATTRIBUTES, "AttributeGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BIOMES, "BiomeGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCK_ENTITIES, "BlockEntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCK_PROPERTIES, "BlockPropertyGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCKS, "BlockGenerator_1_17");
+                DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, "CustomStatisticGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, "DimensionTypeGenerator_1_17");
+                DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, "EnchantmentGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITIES, "EntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.FLUIDS, "FluidGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MATERIALS, "MaterialGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MAP_COLORS, "MapColorGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.PARTICLES, "ParticleGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, "MobEffectGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.POTIONS, "PotionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.SOUNDS, "SoundGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, "VillagerProfessionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, "VillagerTypeGenerator_1_16_5");
 
-                DataGenHolder.addGenerator(DataGenType.BLOCK_TAGS, new BlockTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITY_TYPE_TAGS, new EntityTypeTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.FLUID_TAGS, new FluidTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ITEM_TAGS, new ItemTagGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.BLOCK_TAGS, "tags.BlockTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_TYPE_TAGS, "tags.EntityTypeTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.FLUID_TAGS, "tags.FluidTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ITEM_TAGS, "tags.ItemTagGenerator_1_16_5");
 
-                DataGenHolder.addGenerator(DataGenType.BLOCK_LOOT_TABLES, new BlockLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.CHEST_LOOT_TABLES, new ChestLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITY_LOOT_TABLES, new EntityLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.GAMEPLAY_LOOT_TABLES, new GameplayLootTableGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.BLOCK_LOOT_TABLES, "loot_tables.BlockLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.CHEST_LOOT_TABLES, "loot_tables.ChestLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_LOOT_TABLES, "loot_tables.EntityLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.GAMEPLAY_LOOT_TABLES, "loot_tables.GameplayLootTableGenerator_1_16_5");
             }
             case MC_1_16, MC_1_16_1, MC_1_16_2, MC_1_16_3, MC_1_16_4, MC_1_16_5 -> {
-                // Prepare all DataGenerators
-                DataGenerator_1_16_5.prepare();
+                // Run 1.16_5
+                try {
+                    Class<?> dgCommon1_16_5 = Class.forName("net.minestom.generators.common.DataGenerator_1_16_5");
+                    Method prepareMethod1_16_5 = dgCommon1_16_5.getDeclaredMethod("prepare");
+                    prepareMethod1_16_5.invoke(null);
+                } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+                    e.printStackTrace();
+                }
 
-                DataGenHolder.addGenerator(DataGenType.ATTRIBUTES, new AttributeGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BIOMES, new BiomeGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCK_ENTITIES, new BlockEntityGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCK_PROPERTIES, new BlockPropertyGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.BLOCKS, new BlockGenerator_1_17());
-                DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, new CustomStatisticGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, new DimensionTypeGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, new EnchantmentGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITIES, new EntityGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.FLUIDS, new FluidGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MATERIALS, new MaterialGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MAP_COLORS, new MapColorGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.PARTICLES, new ParticleGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, new MobEffectGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.POTIONS, new PotionGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.SOUNDS, new SoundGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, new VillagerProfessionGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, new VillagerTypeGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.ATTRIBUTES, "AttributeGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BIOMES, "BiomeGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCK_ENTITIES, "BlockEntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCK_PROPERTIES, "BlockPropertyGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.BLOCKS, "BlockGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, "CustomStatisticGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, "DimensionTypeGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, "EnchantmentGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITIES, "EntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.FLUIDS, "FluidGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MATERIALS, "MaterialGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MAP_COLORS, "MapColorGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.PARTICLES, "ParticleGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, "MobEffectGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.POTIONS, "PotionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.SOUNDS, "SoundGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, "VillagerProfessionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, "VillagerTypeGenerator_1_16_5");
 
-                DataGenHolder.addGenerator(DataGenType.BLOCK_TAGS, new BlockTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITY_TYPE_TAGS, new EntityTypeTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.FLUID_TAGS, new FluidTagGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ITEM_TAGS, new ItemTagGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.BLOCK_TAGS, "tags.BlockTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_TYPE_TAGS, "tags.EntityTypeTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.FLUID_TAGS, "tags.FluidTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ITEM_TAGS, "tags.ItemTagGenerator_1_16_5");
 
-                DataGenHolder.addGenerator(DataGenType.BLOCK_LOOT_TABLES, new BlockLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.CHEST_LOOT_TABLES, new ChestLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.ENTITY_LOOT_TABLES, new EntityLootTableGenerator_1_16_5());
-                DataGenHolder.addGenerator(DataGenType.GAMEPLAY_LOOT_TABLES, new GameplayLootTableGenerator_1_16_5());
+                DataGenHolder.addGenerator(DataGenType.BLOCK_LOOT_TABLES, "loot_tables.BlockLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.CHEST_LOOT_TABLES, "loot_tables.ChestLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_LOOT_TABLES, "loot_tables.EntityLootTableGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.GAMEPLAY_LOOT_TABLES, "loot_tables.GameplayLootTableGenerator_1_16_5");
             }
         }
 

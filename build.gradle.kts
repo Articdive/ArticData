@@ -1,15 +1,19 @@
 group = "net.minestom"
 version = "0.1.0"
 
-subprojects {
-    version = project.rootProject.version
+allprojects {
+    version = "0.1.0"
 }
+
+val mcVersion: String = project.properties["mcVersion"] as String
+val compileVersions = getVersionsRequiredForCompile(mcVersion)
+val genVersion by extra {
+    compileVersions[0]
+}
+val outputLocation: String = (project.properties["output"] ?: "../Minestom-Data/${mcVersion}/") as String
 
 tasks {
     register("generateData") {
-        val version: String = (project.properties["mcversion"] ?: "1.16.5") as String
-        val outputLocation: String = (project.properties["output"] ?: "../Minestom-Data/${version}/") as String
-
         logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
         logger.warn("We also require a running Minecraft server to extract data.")
         logger.warn("Please read the Minecraft EULA located at https://account.mojang.com/documents/minecraft_eula.")
@@ -29,46 +33,61 @@ tasks {
         logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
         logger.warn("")
 
-        // Deobfuscation
-        for (ver in getVersionsRequiredForCompile(version)) {
-            project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
-                setArgsString(ver)
-            }.exec()
-        }
-        dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
-            setArgsString(version)
-        }).finalizedBy(project(":DataGenerator").tasks.getByName<JavaExec>("run") {
-            args = arrayListOf(version, outputLocation)
+        // Here is an example:
+        // We want to run the data generator for the version 1.16.3
+        // This will mean we want to run the code from the 1.16.5 generators with the 1.16.3 JAR on runtime
+        // First of all we will deobf the 1.16.3 JAR and then, to COMPILE the 1.16.5 generators, deobf the 1.16.5 JAR
+        // Then the 1.16.5 generators are included in the runtime of DataGenerator and using reflection they are accessed.
+        // Why use reflection???
+        // --> We want to allow the DataGenerator module to hit any version without having to necessarily compile every version
+        // E.g. If we referenced the 1.17 generator in DataGenerator we NEED it for compile
+        // However if we use reflection we can just "ignore its unavailability in the classpath"
+        // This also allows the 1.17 generator to reference the 1.16.5 generator without much hassle.
+        // As long as the 1.16.5 JAR is also decompiled for compiling the 1.16.5 generators.
+
+        // TL;DR: We decompile one (or more) version for compile, and only ever one for runtime.
+
+        // Run the DataGenerator
+        dependsOn(project(":DataGenerator").tasks.getByName<JavaExec>("run") {
+            args = arrayListOf(mcVersion, outputLocation)
+            // Compile deobfuscation plus runtime deobufscation
+            dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
+                args = compileVersions.plus(mcVersion)
+            })
+
         })
+
     }
 }
 
+
 // Returns a List of versions required to get data for the specified version.
-fun getVersionsRequiredForCompile(version: String): Array<String> {
+fun getVersionsRequiredForCompile(version: String): ArrayList<String> {
+    // IMPORTANT: THE FIRST RETURNED VERSION IS THE GENERATOR VERSION
     // 1.17
     if (version == "1.17-pre4") {
-        return arrayOf("1.17-pre4", "1.16.5")
+        return arrayListOf("1.17-pre4", "1.16.5")
     }
     // 1.16.5
     if (version == "1.16") {
-        return arrayOf("1.16.5")
+        return arrayListOf("1.16.5")
     }
     if (version == "1.16.1") {
-        return arrayOf("1.16.5")
+        return arrayListOf("1.16.5")
     }
     if (version == "1.16.2") {
-        return arrayOf("1.16.5")
+        return arrayListOf("1.16.5")
     }
     if (version == "1.16.3") {
-        return arrayOf("1.16.5")
+        return arrayListOf("1.16.5")
     }
     if (version == "1.16.4") {
-        return arrayOf("1.16.5")
+        return arrayListOf("1.16.5")
     }
     if (version == "1.16.5") {
-        return arrayOf("1.16.5");
+        return arrayListOf("1.16.5")
     }
     // TODO: Make sure this corresponds to DataGen and the versions required.
-    return arrayOf("1.16.5");
+    return arrayListOf("1.16.5")
 }
 

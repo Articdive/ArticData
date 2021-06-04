@@ -13,5 +13,6 @@ public abstract class DataGenerator_1_17<T> extends DataGenerator<T> {
 
     public static void prepare() {
         SharedConstants.tryDetectVersion();
+        DataGenerator_1_16_5.prepare();
     }
 }
