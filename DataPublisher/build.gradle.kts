@@ -12,8 +12,7 @@ tasks {
         val mcV = verFolder.name
         // packageVersion_full_1.16.5
         register<Jar>("packageVersions_full_$mcV") {
-            archiveBaseName.set("minestom-data")
-            archiveClassifier.set("full")
+            archiveBaseName.set("minestom-data-full")
             archiveVersion.set(mcV)
 
 
@@ -22,8 +21,7 @@ tasks {
         }
         // packageVersion_customizable_1.16.5
         register<Jar>("packageVersions_customizable_$mcV") {
-            archiveBaseName.set("minestom-data")
-            archiveClassifier.set("customizable")
+            archiveBaseName.set("minestom-data-customizable")
             archiveVersion.set(mcV)
             // Exclude meta inf
             manifest = null
