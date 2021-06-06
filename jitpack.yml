@@ -1,6 +1,0 @@
-jdk:
-  - openjdk16
-install:
-  - 'echo "Running data publisher"'
-  - './gradlew clean'
-  - './gradlew :DataPublisher:publishToMavenLocal'
