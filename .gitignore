@@ -11,3 +11,4 @@
 **/logs/
 **/output/
 /eula.txt
+/gradle.properties

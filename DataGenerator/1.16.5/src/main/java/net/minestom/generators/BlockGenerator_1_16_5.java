@@ -67,7 +67,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             {
                 JsonArray properties = new JsonArray();
                 for (Property<?> p : b.getStateDefinition().getProperties()) {
-                    properties.add(bsPropertyNames.get(p));
+                    properties.add(bsPropertyNames.get(p).toLowerCase());
                 }
                 block.add("properties", properties);
             }
