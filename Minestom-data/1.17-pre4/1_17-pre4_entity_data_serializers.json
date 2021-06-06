@@ -1,0 +1,78 @@
+[
+  {
+    "name": "BYTE",
+    "id": 0
+  },
+  {
+    "name": "INT",
+    "id": 1
+  },
+  {
+    "name": "FLOAT",
+    "id": 2
+  },
+  {
+    "name": "STRING",
+    "id": 3
+  },
+  {
+    "name": "COMPONENT",
+    "id": 4
+  },
+  {
+    "name": "OPTIONAL_COMPONENT",
+    "id": 5
+  },
+  {
+    "name": "ITEM_STACK",
+    "id": 6
+  },
+  {
+    "name": "BLOCK_STATE",
+    "id": 13
+  },
+  {
+    "name": "BOOLEAN",
+    "id": 7
+  },
+  {
+    "name": "PARTICLE",
+    "id": 15
+  },
+  {
+    "name": "ROTATIONS",
+    "id": 8
+  },
+  {
+    "name": "BLOCK_POS",
+    "id": 9
+  },
+  {
+    "name": "OPTIONAL_BLOCK_POS",
+    "id": 10
+  },
+  {
+    "name": "DIRECTION",
+    "id": 11
+  },
+  {
+    "name": "OPTIONAL_UUID",
+    "id": 12
+  },
+  {
+    "name": "COMPOUND_TAG",
+    "id": 14
+  },
+  {
+    "name": "VILLAGER_DATA",
+    "id": 16
+  },
+  {
+    "name": "OPTIONAL_UNSIGNED_INT",
+    "id": 17
+  },
+  {
+    "name": "POSE",
+    "id": 18
+  }
+]

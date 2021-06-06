@@ -47,6 +47,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, "DimensionTypeGenerator_1_17");
                 DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, "EnchantmentGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.ENTITIES, "EntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_DATA_SERIALIZERS, "EntityDataSerializerGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.FLUIDS, "FluidGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MATERIALS, "MaterialGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MAP_COLORS, "MapColorGenerator_1_16_5");
@@ -86,6 +87,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, "DimensionTypeGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, "EnchantmentGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.ENTITIES, "EntityGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.ENTITY_DATA_SERIALIZERS, "EntityDataSerializerGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.FLUIDS, "FluidGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MATERIALS, "MaterialGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MAP_COLORS, "MapColorGenerator_1_16_5");
@@ -151,7 +153,9 @@ public class DataGen {
                 case "1.17-pre1":
                 case "1.17-pre2":
                 case "1.17-pre3":
-                case "1.17-pre4": {
+                case "1.17-pre4":
+                case "1.17-pre5":
+                case "1.17-rc1": {
                     return MC_1_17;
                 }
             }

@@ -3,12 +3,16 @@ package net.minestom.generators;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.decoration.Painting;
 import net.minecraft.world.entity.player.Player;
+import net.minestom.datagen.DataGenHolder;
+import net.minestom.datagen.DataGenType;
 import net.minestom.generators.common.DataGenerator_1_16_5;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,7 +46,10 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public JsonArray generate() {
+        Map<EntityDataSerializer<?>, String> edsNames = (Map<EntityDataSerializer<?>, String>) DataGenHolder.getNameMap(DataGenType.ENTITY_DATA_SERIALIZERS);
+
         Set<ResourceLocation> entityRLs = Registry.ENTITY_TYPE.keySet();
         JsonArray entities = new JsonArray();
 
@@ -67,6 +74,31 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             }
 
             JsonObject entity = new JsonObject();
+
+            // Use some reflection to find some metadata properties we need
+            JsonArray metadata = new JsonArray();
+            for (Field declaredField : entityClass.getDeclaredFields()) {
+                JsonObject entityMetadata = new JsonObject();
+                if (!EntityDataAccessor.class.isAssignableFrom(declaredField.getType())) {
+                    continue;
+                }
+                try {
+                    declaredField.setAccessible(true);
+                    EntityDataAccessor<?> eda = (EntityDataAccessor<?>) declaredField.get(null);
+                    eda.getSerializer();
+
+                    entityMetadata.addProperty("name", declaredField.getName().substring(5).toLowerCase());
+                    entityMetadata.addProperty("id", eda.getId());
+                    entityMetadata.addProperty("serializer", edsNames.get(eda.getSerializer()));
+
+                    metadata.add(entityMetadata);
+                } catch (IllegalAccessException e) {
+                    LOGGER.error("Failed to access entity metadata for '" + entityRL.toString() + "'.", e);
+                }
+
+            }
+            entity.add("metadata", metadata);
+
             entity.addProperty("id", entityRL.toString());
             entity.addProperty("name", names.get(et));
             // entity.addProperty("langId", et.getDescriptionId());
@@ -75,6 +107,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             entity.addProperty("fireImmune", et.fireImmune());
             entity.addProperty("height", et.getHeight());
             entity.addProperty("width", et.getWidth());
+            entity.addProperty("clientTrackingRange", et.clientTrackingRange());
             // entity.addProperty("fixed", et.getDimensions().fixed); also basically useless
 
             entities.add(entity);

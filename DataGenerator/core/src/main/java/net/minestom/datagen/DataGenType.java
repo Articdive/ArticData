@@ -10,6 +10,7 @@ public enum DataGenType {
     DIMENSION_TYPES("dimension_types"),
     ENCHANTMENTS("enchantments"),
     ENTITIES("entities"),
+    ENTITY_DATA_SERIALIZERS("entity_data_serializers"),
     FLUIDS("fluids"),
     MATERIALS("items"),
     MAP_COLORS("map_colors"),
