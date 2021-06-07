@@ -87,7 +87,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
                     EntityDataAccessor<?> eda = (EntityDataAccessor<?>) declaredField.get(null);
                     eda.getSerializer();
 
-                    entityMetadata.addProperty("name", declaredField.getName().substring(5).toLowerCase());
+                    entityMetadata.addProperty("name", declaredField.getName().toLowerCase());
                     entityMetadata.addProperty("id", eda.getId());
                     entityMetadata.addProperty("serializer", edsNames.get(eda.getSerializer()));
 

@@ -5,6 +5,7 @@ import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minestom.generators.common.DataGenerator_1_17;
 import org.slf4j.Logger;
@@ -49,6 +50,8 @@ public final class DimensionTypeGenerator_1_17 extends DataGenerator_1_17<Dimens
             dimensionType.addProperty("natural", dt.natural());
             dimensionType.addProperty("ultraWarm", dt.ultraWarm());
             dimensionType.addProperty("respawnAnchorWorks", dt.respawnAnchorWorks());
+            dimensionType.addProperty("minY", dt.minY());
+            dimensionType.addProperty("height", dt.height());
             dimensionTypes.add(dimensionType);
         }
         return dimensionTypes;

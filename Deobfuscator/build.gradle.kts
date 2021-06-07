@@ -24,7 +24,7 @@ dependencies {
     // Gson
     implementation("com.google.code.gson:gson:2.8.6")
     // Deobfuscator
-    implementation("io.github.lxgaming:reconstruct-common:1.3.9")
+    implementation("io.github.lxgaming:reconstruct-common:1.3.10")
 }
 
 configure<JavaPluginConvention> {

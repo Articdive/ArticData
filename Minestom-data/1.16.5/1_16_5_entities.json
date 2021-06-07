@@ -2,22 +2,22 @@
   {
     "metadata": [
       {
-        "name": "radius",
+        "name": "data_radius",
         "id": 7,
         "serializer": "FLOAT"
       },
       {
-        "name": "color",
+        "name": "data_color",
         "id": 8,
         "serializer": "INT"
       },
       {
-        "name": "waiting",
+        "name": "data_waiting",
         "id": 9,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "particle",
+        "name": "data_particle",
         "id": 10,
         "serializer": "PARTICLE"
       }
@@ -33,37 +33,37 @@
   {
     "metadata": [
       {
-        "name": "client_flags",
+        "name": "data_client_flags",
         "id": 14,
         "serializer": "BYTE"
       },
       {
-        "name": "head_pose",
+        "name": "data_head_pose",
         "id": 15,
         "serializer": "ROTATIONS"
       },
       {
-        "name": "body_pose",
+        "name": "data_body_pose",
         "id": 16,
         "serializer": "ROTATIONS"
       },
       {
-        "name": "left_arm_pose",
+        "name": "data_left_arm_pose",
         "id": 17,
         "serializer": "ROTATIONS"
       },
       {
-        "name": "right_arm_pose",
+        "name": "data_right_arm_pose",
         "id": 18,
         "serializer": "ROTATIONS"
       },
       {
-        "name": "left_leg_pose",
+        "name": "data_left_leg_pose",
         "id": 19,
         "serializer": "ROTATIONS"
       },
       {
-        "name": "right_leg_pose",
+        "name": "data_right_leg_pose",
         "id": 20,
         "serializer": "ROTATIONS"
       }
@@ -79,7 +79,7 @@
   {
     "metadata": [
       {
-        "name": "fect_color",
+        "name": "id_effect_color",
         "id": 9,
         "serializer": "INT"
       }
@@ -95,7 +95,7 @@
   {
     "metadata": [
       {
-        "name": "id_flags",
+        "name": "data_id_flags",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -111,12 +111,12 @@
   {
     "metadata": [
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 16,
         "serializer": "BYTE"
       },
       {
-        "name": "remaining_anger_time",
+        "name": "data_remaining_anger_time",
         "id": 17,
         "serializer": "INT"
       }
@@ -132,7 +132,7 @@
   {
     "metadata": [
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -148,37 +148,37 @@
   {
     "metadata": [
       {
-        "name": "id_hurt",
+        "name": "data_id_hurt",
         "id": 7,
         "serializer": "INT"
       },
       {
-        "name": "id_hurtdir",
+        "name": "data_id_hurtdir",
         "id": 8,
         "serializer": "INT"
       },
       {
-        "name": "id_damage",
+        "name": "data_id_damage",
         "id": 9,
         "serializer": "FLOAT"
       },
       {
-        "name": "id_type",
+        "name": "data_id_type",
         "id": 10,
         "serializer": "INT"
       },
       {
-        "name": "id_paddle_left",
+        "name": "data_id_paddle_left",
         "id": 11,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "id_paddle_right",
+        "name": "data_id_paddle_right",
         "id": 12,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "id_bubble_time",
+        "name": "data_id_bubble_time",
         "id": 13,
         "serializer": "INT"
       }
@@ -194,22 +194,22 @@
   {
     "metadata": [
       {
-        "name": "type_id",
+        "name": "data_type_id",
         "id": 18,
         "serializer": "INT"
       },
       {
-        "name": "ing",
+        "name": "is_lying",
         "id": 19,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "_state_one",
+        "name": "relax_state_one",
         "id": 20,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "collar_color",
+        "name": "data_collar_color",
         "id": 21,
         "serializer": "INT"
       }
@@ -265,17 +265,17 @@
   {
     "metadata": [
       {
-        "name": "swell_dir",
+        "name": "data_swell_dir",
         "id": 15,
         "serializer": "INT"
       },
       {
-        "name": "is_powered",
+        "name": "data_is_powered",
         "id": 16,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "is_ignited",
+        "name": "data_is_ignited",
         "id": 17,
         "serializer": "BOOLEAN"
       }
@@ -291,17 +291,17 @@
   {
     "metadata": [
       {
-        "name": "ure_pos",
+        "name": "treasure_pos",
         "id": 15,
         "serializer": "BLOCK_POS"
       },
       {
-        "name": "ish",
+        "name": "got_fish",
         "id": 16,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "ness_level",
+        "name": "moistness_level",
         "id": 17,
         "serializer": "INT"
       }
@@ -357,12 +357,12 @@
   {
     "metadata": [
       {
-        "name": "beam_target",
+        "name": "data_beam_target",
         "id": 7,
         "serializer": "OPTIONAL_BLOCK_POS"
       },
       {
-        "name": "show_bottom",
+        "name": "data_show_bottom",
         "id": 8,
         "serializer": "BOOLEAN"
       }
@@ -378,7 +378,7 @@
   {
     "metadata": [
       {
-        "name": "phase",
+        "name": "data_phase",
         "id": 15,
         "serializer": "INT"
       }
@@ -394,17 +394,17 @@
   {
     "metadata": [
       {
-        "name": "carry_state",
+        "name": "data_carry_state",
         "id": 15,
         "serializer": "BLOCK_STATE"
       },
       {
-        "name": "creepy",
+        "name": "data_creepy",
         "id": 16,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "stared_at",
+        "name": "data_stared_at",
         "id": 17,
         "serializer": "BOOLEAN"
       }
@@ -460,7 +460,7 @@
   {
     "metadata": [
       {
-        "name": "item_stack",
+        "name": "data_item_stack",
         "id": 7,
         "serializer": "ITEM_STACK"
       }
@@ -476,7 +476,7 @@
   {
     "metadata": [
       {
-        "name": "start_pos",
+        "name": "data_start_pos",
         "id": 7,
         "serializer": "BLOCK_POS"
       }
@@ -492,17 +492,17 @@
   {
     "metadata": [
       {
-        "name": "id_fireworks_item",
+        "name": "data_id_fireworks_item",
         "id": 7,
         "serializer": "ITEM_STACK"
       },
       {
-        "name": "attached_to_target",
+        "name": "data_attached_to_target",
         "id": 8,
         "serializer": "OPTIONAL_UNSIGNED_INT"
       },
       {
-        "name": "shot_at_angle",
+        "name": "data_shot_at_angle",
         "id": 9,
         "serializer": "BOOLEAN"
       }
@@ -518,22 +518,22 @@
   {
     "metadata": [
       {
-        "name": "type_id",
+        "name": "data_type_id",
         "id": 16,
         "serializer": "INT"
       },
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 17,
         "serializer": "BYTE"
       },
       {
-        "name": "trusted_id_0",
+        "name": "data_trusted_id_0",
         "id": 18,
         "serializer": "OPTIONAL_UUID"
       },
       {
-        "name": "trusted_id_1",
+        "name": "data_trusted_id_1",
         "id": 19,
         "serializer": "OPTIONAL_UUID"
       }
@@ -549,7 +549,7 @@
   {
     "metadata": [
       {
-        "name": "is_charging",
+        "name": "data_is_charging",
         "id": 15,
         "serializer": "BOOLEAN"
       }
@@ -575,12 +575,12 @@
   {
     "metadata": [
       {
-        "name": "id_moving",
+        "name": "data_id_moving",
         "id": 15,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "id_attack_target",
+        "name": "data_id_attack_target",
         "id": 16,
         "serializer": "INT"
       }
@@ -596,7 +596,7 @@
   {
     "metadata": [
       {
-        "name": "immune_to_zombification",
+        "name": "data_immune_to_zombification",
         "id": 16,
         "serializer": "BOOLEAN"
       }
@@ -612,7 +612,7 @@
   {
     "metadata": [
       {
-        "name": "id_type_variant",
+        "name": "data_id_type_variant",
         "id": 18,
         "serializer": "INT"
       }
@@ -648,7 +648,7 @@
   {
     "metadata": [
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -664,7 +664,7 @@
   {
     "metadata": [
       {
-        "name": "item",
+        "name": "data_item",
         "id": 7,
         "serializer": "ITEM_STACK"
       }
@@ -680,12 +680,12 @@
   {
     "metadata": [
       {
-        "name": "item",
+        "name": "data_item",
         "id": 7,
         "serializer": "ITEM_STACK"
       },
       {
-        "name": "rotation",
+        "name": "data_rotation",
         "id": 8,
         "serializer": "INT"
       }
@@ -731,17 +731,17 @@
   {
     "metadata": [
       {
-        "name": "strength_id",
+        "name": "data_strength_id",
         "id": 19,
         "serializer": "INT"
       },
       {
-        "name": "swag_id",
+        "name": "data_swag_id",
         "id": 20,
         "serializer": "INT"
       },
       {
-        "name": "variant_id",
+        "name": "data_variant_id",
         "id": 21,
         "serializer": "INT"
       }
@@ -797,12 +797,12 @@
   {
     "metadata": [
       {
-        "name": "id_command_name",
+        "name": "data_id_command_name",
         "id": 13,
         "serializer": "STRING"
       },
       {
-        "name": "id_last_output",
+        "name": "data_id_last_output",
         "id": 14,
         "serializer": "COMPONENT"
       }
@@ -818,7 +818,7 @@
   {
     "metadata": [
       {
-        "name": "id_fuel",
+        "name": "data_id_fuel",
         "id": 13,
         "serializer": "BOOLEAN"
       }
@@ -874,7 +874,7 @@
   {
     "metadata": [
       {
-        "name": "type",
+        "name": "data_type",
         "id": 16,
         "serializer": "STRING"
       }
@@ -890,7 +890,7 @@
   {
     "metadata": [
       {
-        "name": "trusting",
+        "name": "data_trusting",
         "id": 16,
         "serializer": "BOOLEAN"
       }
@@ -916,32 +916,32 @@
   {
     "metadata": [
       {
-        "name": "py_counter",
+        "name": "unhappy_counter",
         "id": 16,
         "serializer": "INT"
       },
       {
-        "name": "e_counter",
+        "name": "sneeze_counter",
         "id": 17,
         "serializer": "INT"
       },
       {
-        "name": "ounter",
+        "name": "eat_counter",
         "id": 18,
         "serializer": "INT"
       },
       {
-        "name": "gene_id",
+        "name": "main_gene_id",
         "id": 19,
         "serializer": "BYTE"
       },
       {
-        "name": "n_gene_id",
+        "name": "hidden_gene_id",
         "id": 20,
         "serializer": "BYTE"
       },
       {
-        "name": "id_flags",
+        "name": "data_id_flags",
         "id": 21,
         "serializer": "BYTE"
       }
@@ -957,7 +957,7 @@
   {
     "metadata": [
       {
-        "name": "variant_id",
+        "name": "data_variant_id",
         "id": 18,
         "serializer": "INT"
       }
@@ -973,7 +973,7 @@
   {
     "metadata": [
       {
-        "name": "ze",
+        "name": "id_size",
         "id": 15,
         "serializer": "INT"
       }
@@ -989,12 +989,12 @@
   {
     "metadata": [
       {
-        "name": "saddle_id",
+        "name": "data_saddle_id",
         "id": 16,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "boost_time",
+        "name": "data_boost_time",
         "id": 17,
         "serializer": "INT"
       }
@@ -1010,17 +1010,17 @@
   {
     "metadata": [
       {
-        "name": "baby_id",
+        "name": "data_baby_id",
         "id": 16,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "is_charging_crossbow",
+        "name": "data_is_charging_crossbow",
         "id": 17,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "is_dancing",
+        "name": "data_is_dancing",
         "id": 18,
         "serializer": "BOOLEAN"
       }
@@ -1046,7 +1046,7 @@
   {
     "metadata": [
       {
-        "name": "arging_crossbow",
+        "name": "is_charging_crossbow",
         "id": 16,
         "serializer": "BOOLEAN"
       }
@@ -1062,7 +1062,7 @@
   {
     "metadata": [
       {
-        "name": "standing_id",
+        "name": "data_standing_id",
         "id": 16,
         "serializer": "BOOLEAN"
       }
@@ -1078,7 +1078,7 @@
   {
     "metadata": [
       {
-        "name": "fuse_id",
+        "name": "data_fuse_id",
         "id": 7,
         "serializer": "INT"
       }
@@ -1094,7 +1094,7 @@
   {
     "metadata": [
       {
-        "name": "state",
+        "name": "puff_state",
         "id": 16,
         "serializer": "INT"
       }
@@ -1110,7 +1110,7 @@
   {
     "metadata": [
       {
-        "name": "type_id",
+        "name": "data_type_id",
         "id": 16,
         "serializer": "INT"
       }
@@ -1146,7 +1146,7 @@
   {
     "metadata": [
       {
-        "name": "wool_id",
+        "name": "data_wool_id",
         "id": 16,
         "serializer": "BYTE"
       }
@@ -1162,22 +1162,22 @@
   {
     "metadata": [
       {
-        "name": "attach_face_id",
+        "name": "data_attach_face_id",
         "id": 15,
         "serializer": "DIRECTION"
       },
       {
-        "name": "attach_pos_id",
+        "name": "data_attach_pos_id",
         "id": 16,
         "serializer": "OPTIONAL_BLOCK_POS"
       },
       {
-        "name": "peek_id",
+        "name": "data_peek_id",
         "id": 17,
         "serializer": "BYTE"
       },
       {
-        "name": "color_id",
+        "name": "data_color_id",
         "id": 18,
         "serializer": "BYTE"
       }
@@ -1233,7 +1233,7 @@
   {
     "metadata": [
       {
-        "name": "ze",
+        "name": "id_size",
         "id": 15,
         "serializer": "INT"
       }
@@ -1259,7 +1259,7 @@
   {
     "metadata": [
       {
-        "name": "pumpkin_id",
+        "name": "data_pumpkin_id",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -1295,7 +1295,7 @@
   {
     "metadata": [
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -1331,17 +1331,17 @@
   {
     "metadata": [
       {
-        "name": "boost_time",
+        "name": "data_boost_time",
         "id": 16,
         "serializer": "INT"
       },
       {
-        "name": "suffocating",
+        "name": "data_suffocating",
         "id": 17,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "saddle_id",
+        "name": "data_saddle_id",
         "id": 18,
         "serializer": "BOOLEAN"
       }
@@ -1397,12 +1397,12 @@
   {
     "metadata": [
       {
-        "name": "yalty",
+        "name": "id_loyalty",
         "id": 9,
         "serializer": "BYTE"
       },
       {
-        "name": "il",
+        "name": "id_foil",
         "id": 10,
         "serializer": "BOOLEAN"
       }
@@ -1428,7 +1428,7 @@
   {
     "metadata": [
       {
-        "name": "id_type_variant",
+        "name": "data_id_type_variant",
         "id": 16,
         "serializer": "INT"
       }
@@ -1444,32 +1444,32 @@
   {
     "metadata": [
       {
-        "name": "pos",
+        "name": "home_pos",
         "id": 16,
         "serializer": "BLOCK_POS"
       },
       {
-        "name": "gg",
+        "name": "has_egg",
         "id": 17,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "g_egg",
+        "name": "laying_egg",
         "id": 18,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "l_pos",
+        "name": "travel_pos",
         "id": 19,
         "serializer": "BLOCK_POS"
       },
       {
-        "name": "_home",
+        "name": "going_home",
         "id": 20,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "lling",
+        "name": "travelling",
         "id": 21,
         "serializer": "BOOLEAN"
       }
@@ -1485,7 +1485,7 @@
   {
     "metadata": [
       {
-        "name": "flags_id",
+        "name": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
       }
@@ -1501,7 +1501,7 @@
   {
     "metadata": [
       {
-        "name": "villager_data",
+        "name": "data_villager_data",
         "id": 17,
         "serializer": "VILLAGER_DATA"
       }
@@ -1537,7 +1537,7 @@
   {
     "metadata": [
       {
-        "name": "using_item",
+        "name": "data_using_item",
         "id": 16,
         "serializer": "BOOLEAN"
       }
@@ -1553,22 +1553,22 @@
   {
     "metadata": [
       {
-        "name": "target_a",
+        "name": "data_target_a",
         "id": 15,
         "serializer": "INT"
       },
       {
-        "name": "target_b",
+        "name": "data_target_b",
         "id": 16,
         "serializer": "INT"
       },
       {
-        "name": "target_c",
+        "name": "data_target_c",
         "id": 17,
         "serializer": "INT"
       },
       {
-        "name": "id_inv",
+        "name": "data_id_inv",
         "id": 18,
         "serializer": "INT"
       }
@@ -1594,7 +1594,7 @@
   {
     "metadata": [
       {
-        "name": "dangerous",
+        "name": "data_dangerous",
         "id": 7,
         "serializer": "BOOLEAN"
       }
@@ -1610,17 +1610,17 @@
   {
     "metadata": [
       {
-        "name": "interested_id",
+        "name": "data_interested_id",
         "id": 18,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "collar_color",
+        "name": "data_collar_color",
         "id": 19,
         "serializer": "INT"
       },
       {
-        "name": "remaining_anger_time",
+        "name": "data_remaining_anger_time",
         "id": 20,
         "serializer": "INT"
       }
@@ -1636,7 +1636,7 @@
   {
     "metadata": [
       {
-        "name": "baby_id",
+        "name": "data_baby_id",
         "id": 15,
         "serializer": "BOOLEAN"
       }
@@ -1652,17 +1652,17 @@
   {
     "metadata": [
       {
-        "name": "baby_id",
+        "name": "data_baby_id",
         "id": 15,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "special_type_id",
+        "name": "data_special_type_id",
         "id": 16,
         "serializer": "INT"
       },
       {
-        "name": "drowned_conversion_id",
+        "name": "data_drowned_conversion_id",
         "id": 17,
         "serializer": "BOOLEAN"
       }
@@ -1688,12 +1688,12 @@
   {
     "metadata": [
       {
-        "name": "converting_id",
+        "name": "data_converting_id",
         "id": 18,
         "serializer": "BOOLEAN"
       },
       {
-        "name": "villager_data",
+        "name": "data_villager_data",
         "id": 19,
         "serializer": "VILLAGER_DATA"
       }
@@ -1719,32 +1719,32 @@
   {
     "metadata": [
       {
-        "name": "player_absorption_id",
+        "name": "data_player_absorption_id",
         "id": 14,
         "serializer": "FLOAT"
       },
       {
-        "name": "score_id",
+        "name": "data_score_id",
         "id": 15,
         "serializer": "INT"
       },
       {
-        "name": "player_mode_customisation",
+        "name": "data_player_mode_customisation",
         "id": 16,
         "serializer": "BYTE"
       },
       {
-        "name": "player_main_hand",
+        "name": "data_player_main_hand",
         "id": 17,
         "serializer": "BYTE"
       },
       {
-        "name": "shoulder_left",
+        "name": "data_shoulder_left",
         "id": 18,
         "serializer": "COMPOUND_TAG"
       },
       {
-        "name": "shoulder_right",
+        "name": "data_shoulder_right",
         "id": 19,
         "serializer": "COMPOUND_TAG"
       }
@@ -1760,12 +1760,12 @@
   {
     "metadata": [
       {
-        "name": "hooked_entity",
+        "name": "data_hooked_entity",
         "id": 7,
         "serializer": "INT"
       },
       {
-        "name": "biting",
+        "name": "data_biting",
         "id": 8,
         "serializer": "BOOLEAN"
       }

@@ -11,7 +11,9 @@
     "logicalHeight": 256,
     "natural": true,
     "ultraWarm": false,
-    "respawnAnchorWorks": false
+    "respawnAnchorWorks": false,
+    "minY": 0,
+    "height": 256
   },
   {
     "id": "minecraft:overworld_caves",
@@ -25,7 +27,9 @@
     "logicalHeight": 256,
     "natural": true,
     "ultraWarm": false,
-    "respawnAnchorWorks": false
+    "respawnAnchorWorks": false,
+    "minY": 0,
+    "height": 256
   },
   {
     "id": "minecraft:the_nether",
@@ -39,7 +43,9 @@
     "logicalHeight": 128,
     "natural": false,
     "ultraWarm": true,
-    "respawnAnchorWorks": true
+    "respawnAnchorWorks": true,
+    "minY": 0,
+    "height": 256
   },
   {
     "id": "minecraft:the_end",
@@ -53,6 +59,8 @@
     "logicalHeight": 256,
     "natural": false,
     "ultraWarm": false,
-    "respawnAnchorWorks": false
+    "respawnAnchorWorks": false,
+    "minY": 0,
+    "height": 256
   }
 ]
