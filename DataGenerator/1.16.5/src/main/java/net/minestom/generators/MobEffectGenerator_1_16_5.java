@@ -46,6 +46,7 @@ public final class MobEffectGenerator_1_16_5 extends DataGenerator_1_16_5<MobEff
                 continue;
             }
             effect.addProperty("id", effectRL.toString());
+            effect.addProperty("numericalID", Registry.MOB_EFFECT.getId(me));
             effect.addProperty("name", names.get(me));
             // effect.addProperty("langId", me.getDescriptionId());
             effect.addProperty("color", me.getColor());

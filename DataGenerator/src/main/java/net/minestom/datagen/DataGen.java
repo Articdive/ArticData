@@ -155,7 +155,8 @@ public class DataGen {
                 case "1.17-pre3":
                 case "1.17-pre4":
                 case "1.17-pre5":
-                case "1.17-rc1": {
+                case "1.17-rc1":
+                case "1.17-rc2": {
                     return MC_1_17;
                 }
             }
