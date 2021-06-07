@@ -1,6 +1,6 @@
-# MinestomDataGenerator
+# DataGenerator
 
-[![license](https://img.shields.io/github/license/Minestom/MinestomDataGenerator.svg)](../LICENSE)
+[![license](https://img.shields.io/github/license/Minestom/DataGenerator.svg)](../LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 [![Discord Shield](https://discordapp.com/api/guilds/706185253441634317/widget.png?style=shield)](https://discord.gg/UnQtnUS)
 
@@ -37,7 +37,7 @@ Java.
 
 ### Maven and Gradle
 
-To add Minesotm-data (not the generator) to your project using [Maven](http://maven.apache.org/)
+To add Minestom-data (not the generator) to your project using [Maven](http://maven.apache.org/)
 or [Gradle](https://gradle.org/):
 
 Repository (Maven):

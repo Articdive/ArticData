@@ -1,4 +1,4 @@
-rootProject.name = "MinestomDataGenerator"
+rootProject.name = "DataGenerator"
 include("Deobfuscator")
 // DataGenerator
 include("DataGenerator")
