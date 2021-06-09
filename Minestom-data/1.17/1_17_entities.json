@@ -1,0 +1,1860 @@
+[
+  {
+    "metadata": [
+      {
+        "name": "data_radius",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "name": "data_color",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_waiting",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_particle",
+        "id": 11,
+        "serializer": "PARTICLE"
+      }
+    ],
+    "id": "minecraft:area_effect_cloud",
+    "name": "AREA_EFFECT_CLOUD",
+    "packetType": "BASE",
+    "fireImmune": true,
+    "height": 0.5,
+    "width": 6.0,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_client_flags",
+        "id": 15,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_head_pose",
+        "id": 16,
+        "serializer": "ROTATIONS"
+      },
+      {
+        "name": "data_body_pose",
+        "id": 17,
+        "serializer": "ROTATIONS"
+      },
+      {
+        "name": "data_left_arm_pose",
+        "id": 18,
+        "serializer": "ROTATIONS"
+      },
+      {
+        "name": "data_right_arm_pose",
+        "id": 19,
+        "serializer": "ROTATIONS"
+      },
+      {
+        "name": "data_left_leg_pose",
+        "id": 20,
+        "serializer": "ROTATIONS"
+      },
+      {
+        "name": "data_right_leg_pose",
+        "id": 21,
+        "serializer": "ROTATIONS"
+      }
+    ],
+    "id": "minecraft:armor_stand",
+    "name": "ARMOR_STAND",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.975,
+    "width": 0.5,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "id_effect_color",
+        "id": 10,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:arrow",
+    "name": "ARROW",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_variant",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_playing_dead",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "from_bucket",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:axolotl",
+    "name": "AXOLOTL",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.42,
+    "width": 0.75,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:bat",
+    "name": "BAT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.9,
+    "width": 0.5,
+    "clientTrackingRange": 5
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_flags_id",
+        "id": 17,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_remaining_anger_time",
+        "id": 18,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:bee",
+    "name": "BEE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.6,
+    "width": 0.7,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:blaze",
+    "name": "BLAZE",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 1.8,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_hurt",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_id_hurtdir",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_id_damage",
+        "id": 10,
+        "serializer": "FLOAT"
+      },
+      {
+        "name": "data_id_type",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_id_paddle_left",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_id_paddle_right",
+        "id": 13,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_id_bubble_time",
+        "id": 14,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:boat",
+    "name": "BOAT",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5625,
+    "width": 1.375,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_type_id",
+        "id": 19,
+        "serializer": "INT"
+      },
+      {
+        "name": "is_lying",
+        "id": 20,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "relax_state_one",
+        "id": 21,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_collar_color",
+        "id": 22,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:cat",
+    "name": "CAT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:cave_spider",
+    "name": "CAVE_SPIDER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.7,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:chicken",
+    "name": "CHICKEN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.4,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:cod",
+    "name": "COD",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.3,
+    "width": 0.5,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:cow",
+    "name": "COW",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.4,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_swell_dir",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_is_powered",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_is_ignited",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:creeper",
+    "name": "CREEPER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.7,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "treasure_pos",
+        "id": 16,
+        "serializer": "BLOCK_POS"
+      },
+      {
+        "name": "got_fish",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "moistness_level",
+        "id": 18,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:dolphin",
+    "name": "DOLPHIN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.6,
+    "width": 0.9,
+    "clientTrackingRange": 5
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:donkey",
+    "name": "DONKEY",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.5,
+    "width": 1.3964844,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:dragon_fireball",
+    "name": "DRAGON_FIREBALL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 1.0,
+    "width": 1.0,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:drowned",
+    "name": "DROWNED",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:elder_guardian",
+    "name": "ELDER_GUARDIAN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.9975,
+    "width": 1.9975,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_beam_target",
+        "id": 8,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "name": "data_show_bottom",
+        "id": 9,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:end_crystal",
+    "name": "END_CRYSTAL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 2.0,
+    "width": 2.0,
+    "clientTrackingRange": 16
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_phase",
+        "id": 16,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:ender_dragon",
+    "name": "ENDER_DRAGON",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 8.0,
+    "width": 16.0,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_carry_state",
+        "id": 16,
+        "serializer": "BLOCK_STATE"
+      },
+      {
+        "name": "data_creepy",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_stared_at",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:enderman",
+    "name": "ENDERMAN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 2.9,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:endermite",
+    "name": "ENDERMITE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.3,
+    "width": 0.4,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:evoker",
+    "name": "EVOKER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:evoker_fangs",
+    "name": "EVOKER_FANGS",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.8,
+    "width": 0.5,
+    "clientTrackingRange": 6
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:experience_orb",
+    "name": "EXPERIENCE_ORB",
+    "packetType": "EXPERIENCE_ORB",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 6
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_item_stack",
+        "id": 8,
+        "serializer": "ITEM_STACK"
+      }
+    ],
+    "id": "minecraft:eye_of_ender",
+    "name": "EYE_OF_ENDER",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_start_pos",
+        "id": 8,
+        "serializer": "BLOCK_POS"
+      }
+    ],
+    "id": "minecraft:falling_block",
+    "name": "FALLING_BLOCK",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.98,
+    "width": 0.98,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_fireworks_item",
+        "id": 8,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "name": "data_attached_to_target",
+        "id": 9,
+        "serializer": "OPTIONAL_UNSIGNED_INT"
+      },
+      {
+        "name": "data_shot_at_angle",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:firework_rocket",
+    "name": "FIREWORK_ROCKET",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_type_id",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_flags_id",
+        "id": 18,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_trusted_id_0",
+        "id": 19,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "name": "data_trusted_id_1",
+        "id": 20,
+        "serializer": "OPTIONAL_UUID"
+      }
+    ],
+    "id": "minecraft:fox",
+    "name": "FOX",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_is_charging",
+        "id": 16,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:ghast",
+    "name": "GHAST",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 4.0,
+    "width": 4.0,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:giant",
+    "name": "GIANT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 12.0,
+    "width": 3.6,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:glow_item_frame",
+    "name": "GLOW_ITEM_FRAME",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_dark_ticks_remaining",
+        "id": 16,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:glow_squid",
+    "name": "GLOW_SQUID",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.8,
+    "width": 0.8,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_is_screaming_goat",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:goat",
+    "name": "GOAT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.3,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_moving",
+        "id": 16,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_id_attack_target",
+        "id": 17,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:guardian",
+    "name": "GUARDIAN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.85,
+    "width": 0.85,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_immune_to_zombification",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:hoglin",
+    "name": "HOGLIN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.4,
+    "width": 1.3964844,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_type_variant",
+        "id": 19,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:horse",
+    "name": "HORSE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.6,
+    "width": 1.3964844,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:husk",
+    "name": "HUSK",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:illusioner",
+    "name": "ILLUSIONER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:iron_golem",
+    "name": "IRON_GOLEM",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 2.7,
+    "width": 1.4,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_item",
+        "id": 8,
+        "serializer": "ITEM_STACK"
+      }
+    ],
+    "id": "minecraft:item",
+    "name": "ITEM",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 6
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_item",
+        "id": 8,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "name": "data_rotation",
+        "id": 9,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:item_frame",
+    "name": "ITEM_FRAME",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:fireball",
+    "name": "FIREBALL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 1.0,
+    "width": 1.0,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:leash_knot",
+    "name": "LEASH_KNOT",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.375,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:lightning_bolt",
+    "name": "LIGHTNING_BOLT",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.0,
+    "width": 0.0,
+    "clientTrackingRange": 16
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_strength_id",
+        "id": 20,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_swag_id",
+        "id": 21,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_variant_id",
+        "id": 22,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:llama",
+    "name": "LLAMA",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.87,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:llama_spit",
+    "name": "LLAMA_SPIT",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:magma_cube",
+    "name": "MAGMA_CUBE",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 2.04,
+    "width": 2.04,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:marker",
+    "name": "MARKER",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.0,
+    "width": 0.0,
+    "clientTrackingRange": 0
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:minecart",
+    "name": "MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:chest_minecart",
+    "name": "CHEST_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_command_name",
+        "id": 14,
+        "serializer": "STRING"
+      },
+      {
+        "name": "data_id_last_output",
+        "id": 15,
+        "serializer": "COMPONENT"
+      }
+    ],
+    "id": "minecraft:command_block_minecart",
+    "name": "COMMAND_BLOCK_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_fuel",
+        "id": 14,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:furnace_minecart",
+    "name": "FURNACE_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:hopper_minecart",
+    "name": "HOPPER_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:spawner_minecart",
+    "name": "SPAWNER_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:tnt_minecart",
+    "name": "TNT_MINECART",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:mule",
+    "name": "MULE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.6,
+    "width": 1.3964844,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_type",
+        "id": 17,
+        "serializer": "STRING"
+      }
+    ],
+    "id": "minecraft:mooshroom",
+    "name": "MOOSHROOM",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.4,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_trusting",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:ocelot",
+    "name": "OCELOT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.6,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:painting",
+    "name": "PAINTING",
+    "packetType": "PAINTING",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "unhappy_counter",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "sneeze_counter",
+        "id": 18,
+        "serializer": "INT"
+      },
+      {
+        "name": "eat_counter",
+        "id": 19,
+        "serializer": "INT"
+      },
+      {
+        "name": "main_gene_id",
+        "id": 20,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "hidden_gene_id",
+        "id": 21,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_id_flags",
+        "id": 22,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:panda",
+    "name": "PANDA",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.25,
+    "width": 1.3,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_variant_id",
+        "id": 19,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:parrot",
+    "name": "PARROT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.9,
+    "width": 0.5,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "id_size",
+        "id": 16,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:phantom",
+    "name": "PHANTOM",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.9,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_saddle_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_boost_time",
+        "id": 18,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:pig",
+    "name": "PIG",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.9,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_baby_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_is_charging_crossbow",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_is_dancing",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:piglin",
+    "name": "PIGLIN",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:piglin_brute",
+    "name": "PIGLIN_BRUTE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "is_charging_crossbow",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:pillager",
+    "name": "PILLAGER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_standing_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:polar_bear",
+    "name": "POLAR_BEAR",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.4,
+    "width": 1.4,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_fuse_id",
+        "id": 8,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:tnt",
+    "name": "TNT",
+    "packetType": "BASE",
+    "fireImmune": true,
+    "height": 0.98,
+    "width": 0.98,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "puff_state",
+        "id": 17,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:pufferfish",
+    "name": "PUFFERFISH",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.7,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_type_id",
+        "id": 17,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:rabbit",
+    "name": "RABBIT",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.4,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:ravager",
+    "name": "RAVAGER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 2.2,
+    "width": 1.95,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:salmon",
+    "name": "SALMON",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.4,
+    "width": 0.7,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_wool_id",
+        "id": 17,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:sheep",
+    "name": "SHEEP",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.3,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_attach_face_id",
+        "id": 16,
+        "serializer": "DIRECTION"
+      },
+      {
+        "name": "data_peek_id",
+        "id": 17,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_color_id",
+        "id": 18,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:shulker",
+    "name": "SHULKER",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 1.0,
+    "width": 1.0,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:shulker_bullet",
+    "name": "SHULKER_BULLET",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.3125,
+    "width": 0.3125,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:silverfish",
+    "name": "SILVERFISH",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.3,
+    "width": 0.4,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_stray_conversion_id",
+        "id": 16,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:skeleton",
+    "name": "SKELETON",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.99,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:skeleton_horse",
+    "name": "SKELETON_HORSE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.6,
+    "width": 1.3964844,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "id_size",
+        "id": 16,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:slime",
+    "name": "SLIME",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 2.04,
+    "width": 2.04,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:small_fireball",
+    "name": "SMALL_FIREBALL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.3125,
+    "width": 0.3125,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_pumpkin_id",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:snow_golem",
+    "name": "SNOW_GOLEM",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.9,
+    "width": 0.7,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:snowball",
+    "name": "SNOWBALL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:spectral_arrow",
+    "name": "SPECTRAL_ARROW",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:spider",
+    "name": "SPIDER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.9,
+    "width": 1.4,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:squid",
+    "name": "SQUID",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.8,
+    "width": 0.8,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:stray",
+    "name": "STRAY",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.99,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_boost_time",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_suffocating",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_saddle_id",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:strider",
+    "name": "STRIDER",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 1.7,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:egg",
+    "name": "EGG",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:ender_pearl",
+    "name": "ENDER_PEARL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:experience_bottle",
+    "name": "EXPERIENCE_BOTTLE",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:potion",
+    "name": "POTION",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "id_loyalty",
+        "id": 10,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "id_foil",
+        "id": 11,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:trident",
+    "name": "TRIDENT",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5,
+    "width": 0.5,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:trader_llama",
+    "name": "TRADER_LLAMA",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.87,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_id_type_variant",
+        "id": 17,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:tropical_fish",
+    "name": "TROPICAL_FISH",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.4,
+    "width": 0.5,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "home_pos",
+        "id": 17,
+        "serializer": "BLOCK_POS"
+      },
+      {
+        "name": "has_egg",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "laying_egg",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "travel_pos",
+        "id": 20,
+        "serializer": "BLOCK_POS"
+      },
+      {
+        "name": "going_home",
+        "id": 21,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "travelling",
+        "id": 22,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:turtle",
+    "name": "TURTLE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.4,
+    "width": 1.2,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      }
+    ],
+    "id": "minecraft:vex",
+    "name": "VEX",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 0.8,
+    "width": 0.4,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_villager_data",
+        "id": 18,
+        "serializer": "VILLAGER_DATA"
+      }
+    ],
+    "id": "minecraft:villager",
+    "name": "VILLAGER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:vindicator",
+    "name": "VINDICATOR",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:wandering_trader",
+    "name": "WANDERING_TRADER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_using_item",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:witch",
+    "name": "WITCH",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_target_a",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_target_b",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_target_c",
+        "id": 18,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_id_inv",
+        "id": 19,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:wither",
+    "name": "WITHER",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 3.5,
+    "width": 0.9,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:wither_skeleton",
+    "name": "WITHER_SKELETON",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 2.4,
+    "width": 0.7,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_dangerous",
+        "id": 8,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:wither_skull",
+    "name": "WITHER_SKULL",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.3125,
+    "width": 0.3125,
+    "clientTrackingRange": 4
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_interested_id",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_collar_color",
+        "id": 20,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_remaining_anger_time",
+        "id": 21,
+        "serializer": "INT"
+      }
+    ],
+    "id": "minecraft:wolf",
+    "name": "WOLF",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 0.85,
+    "width": 0.6,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_baby_id",
+        "id": 16,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:zoglin",
+    "name": "ZOGLIN",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 1.4,
+    "width": 1.3964844,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_baby_id",
+        "id": 16,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_special_type_id",
+        "id": 17,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_drowned_conversion_id",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:zombie",
+    "name": "ZOMBIE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:zombie_horse",
+    "name": "ZOMBIE_HORSE",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.6,
+    "width": 1.3964844,
+    "clientTrackingRange": 10
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_converting_id",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "name": "data_villager_data",
+        "id": 20,
+        "serializer": "VILLAGER_DATA"
+      }
+    ],
+    "id": "minecraft:zombie_villager",
+    "name": "ZOMBIE_VILLAGER",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [],
+    "id": "minecraft:zombified_piglin",
+    "name": "ZOMBIFIED_PIGLIN",
+    "packetType": "LIVING",
+    "fireImmune": true,
+    "height": 1.95,
+    "width": 0.6,
+    "clientTrackingRange": 8
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_player_absorption_id",
+        "id": 15,
+        "serializer": "FLOAT"
+      },
+      {
+        "name": "data_score_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_player_mode_customisation",
+        "id": 17,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_player_main_hand",
+        "id": 18,
+        "serializer": "BYTE"
+      },
+      {
+        "name": "data_shoulder_left",
+        "id": 19,
+        "serializer": "COMPOUND_TAG"
+      },
+      {
+        "name": "data_shoulder_right",
+        "id": 20,
+        "serializer": "COMPOUND_TAG"
+      }
+    ],
+    "id": "minecraft:player",
+    "name": "PLAYER",
+    "packetType": "PLAYER",
+    "fireImmune": false,
+    "height": 1.8,
+    "width": 0.6,
+    "clientTrackingRange": 32
+  },
+  {
+    "metadata": [
+      {
+        "name": "data_hooked_entity",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "name": "data_biting",
+        "id": 9,
+        "serializer": "BOOLEAN"
+      }
+    ],
+    "id": "minecraft:fishing_bobber",
+    "name": "FISHING_BOBBER",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4
+  }
+]
