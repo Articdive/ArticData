@@ -49,6 +49,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.ENTITIES, "EntityGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.ENTITY_DATA_SERIALIZERS, "EntityDataSerializerGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.FLUIDS, "FluidGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.GAME_EVENTS, "GameEventGenerator_1_17");
                 DataGenHolder.addGenerator(DataGenType.MATERIALS, "MaterialGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MAP_COLORS, "MapColorGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.PARTICLES, "ParticleGenerator_1_16_5");
@@ -62,6 +63,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.ENTITY_TYPE_TAGS, "tags.EntityTypeTagGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.FLUID_TAGS, "tags.FluidTagGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.ITEM_TAGS, "tags.ItemTagGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.GAMEEVENT_TAGS, "tags.GameEventTagGenerator_1_17");
 
                 DataGenHolder.addGenerator(DataGenType.BLOCK_LOOT_TABLES, "loot_tables.BlockLootTableGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.CHEST_LOOT_TABLES, "loot_tables.ChestLootTableGenerator_1_16_5");

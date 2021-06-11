@@ -1,0 +1,227 @@
+[
+  {
+    "id": "minecraft:block_attach",
+    "name": "BLOCK_ATTACH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_change",
+    "name": "BLOCK_CHANGE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_close",
+    "name": "BLOCK_CLOSE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_destroy",
+    "name": "BLOCK_DESTROY",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_detach",
+    "name": "BLOCK_DETACH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_open",
+    "name": "BLOCK_OPEN",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_place",
+    "name": "BLOCK_PLACE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_press",
+    "name": "BLOCK_PRESS",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_switch",
+    "name": "BLOCK_SWITCH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_unpress",
+    "name": "BLOCK_UNPRESS",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:block_unswitch",
+    "name": "BLOCK_UNSWITCH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:container_close",
+    "name": "CONTAINER_CLOSE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:container_open",
+    "name": "CONTAINER_OPEN",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:dispense_fail",
+    "name": "DISPENSE_FAIL",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:drinking_finish",
+    "name": "DRINKING_FINISH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:eat",
+    "name": "EAT",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:elytra_free_fall",
+    "name": "ELYTRA_FREE_FALL",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:entity_damaged",
+    "name": "ENTITY_DAMAGED",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:entity_killed",
+    "name": "ENTITY_KILLED",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:entity_place",
+    "name": "ENTITY_PLACE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:equip",
+    "name": "EQUIP",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:explode",
+    "name": "EXPLODE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:fishing_rod_cast",
+    "name": "FISHING_ROD_CAST",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:fishing_rod_reel_in",
+    "name": "FISHING_ROD_REEL_IN",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:flap",
+    "name": "FLAP",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:fluid_pickup",
+    "name": "FLUID_PICKUP",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:fluid_place",
+    "name": "FLUID_PLACE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:hit_ground",
+    "name": "HIT_GROUND",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:mob_interact",
+    "name": "MOB_INTERACT",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:lightning_strike",
+    "name": "LIGHTNING_STRIKE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:minecart_moving",
+    "name": "MINECART_MOVING",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:piston_contract",
+    "name": "PISTON_CONTRACT",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:piston_extend",
+    "name": "PISTON_EXTEND",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:prime_fuse",
+    "name": "PRIME_FUSE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:projectile_land",
+    "name": "PROJECTILE_LAND",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:projectile_shoot",
+    "name": "PROJECTILE_SHOOT",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:ravager_roar",
+    "name": "RAVAGER_ROAR",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:ring_bell",
+    "name": "RING_BELL",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:shear",
+    "name": "SHEAR",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:shulker_close",
+    "name": "SHULKER_CLOSE",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:shulker_open",
+    "name": "SHULKER_OPEN",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:splash",
+    "name": "SPLASH",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:step",
+    "name": "STEP",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:swim",
+    "name": "SWIM",
+    "notificationRadius": 16
+  },
+  {
+    "id": "minecraft:wolf_shaking",
+    "name": "WOLF_SHAKING",
+    "notificationRadius": 16
+  }
+]

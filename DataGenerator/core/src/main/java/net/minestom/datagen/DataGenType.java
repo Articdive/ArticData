@@ -12,6 +12,7 @@ public enum DataGenType {
     ENTITIES("entities"),
     ENTITY_DATA_SERIALIZERS("entity_data_serializers"),
     FLUIDS("fluids"),
+    GAME_EVENTS("game_events"), // Added in 1.17
     MATERIALS("items"),
     MAP_COLORS("map_colors"),
     PARTICLES("particles"),
@@ -24,6 +25,7 @@ public enum DataGenType {
     BLOCK_TAGS("tags/block_tags"),
     ENTITY_TYPE_TAGS("tags/entity_type_tags"),
     FLUID_TAGS("tags/fluid_tags"),
+    GAMEEVENT_TAGS("tags/gameplay_tags"), // Added in 1.17
     ITEM_TAGS("tags/item_tags"),
 
     BLOCK_LOOT_TABLES("loot_tables/block_loot_tables"),

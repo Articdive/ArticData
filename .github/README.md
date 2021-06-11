@@ -21,6 +21,7 @@ Java.
     - [Enchantments](#enchantments)
     - [Entities](#entities)
     - [Fluids](#fluids)
+    - [Game Events](#game-events)
     - [Items](#items)
     - [Map Colors](#map-colors)
     - [Particles](#particles)
@@ -197,6 +198,14 @@ They include JSON files full of useful data to do with Minecraft.
 | ID                        | :heavy_check_mark: | 1.16+        |
 | Name                      | :heavy_check_mark: | 1.16+        |
 | Bucket Item               | :heavy_check_mark: | 1.16+        |
+
+### Game Events
+
+| Data Type                 | Supported?         | Versions     |
+| :-----------------------: | ------------------ | :----------: |
+| ID                        | :heavy_check_mark: | 1.17+        |
+| Name                      | :heavy_check_mark: | 1.17+        |
+| Notification Radius       | :heavy_check_mark: | 1.17+        |
 
 ### Items
 
