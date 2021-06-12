@@ -1,174 +1,131 @@
-[
-  {
-    "id": "minecraft:empty",
-    "name": "EMPTY"
+{
+  "minecraft:empty": {
+    "mojangName": "EMPTY"
   },
-  {
-    "id": "minecraft:water",
-    "name": "WATER"
+  "minecraft:water": {
+    "mojangName": "WATER"
   },
-  {
-    "id": "minecraft:mundane",
-    "name": "MUNDANE"
+  "minecraft:mundane": {
+    "mojangName": "MUNDANE"
   },
-  {
-    "id": "minecraft:thick",
-    "name": "THICK"
+  "minecraft:thick": {
+    "mojangName": "THICK"
   },
-  {
-    "id": "minecraft:awkward",
-    "name": "AWKWARD"
+  "minecraft:awkward": {
+    "mojangName": "AWKWARD"
   },
-  {
-    "id": "minecraft:night_vision",
-    "name": "NIGHT_VISION"
+  "minecraft:night_vision": {
+    "mojangName": "NIGHT_VISION"
   },
-  {
-    "id": "minecraft:long_night_vision",
-    "name": "LONG_NIGHT_VISION"
+  "minecraft:long_night_vision": {
+    "mojangName": "LONG_NIGHT_VISION"
   },
-  {
-    "id": "minecraft:invisibility",
-    "name": "INVISIBILITY"
+  "minecraft:invisibility": {
+    "mojangName": "INVISIBILITY"
   },
-  {
-    "id": "minecraft:long_invisibility",
-    "name": "LONG_INVISIBILITY"
+  "minecraft:long_invisibility": {
+    "mojangName": "LONG_INVISIBILITY"
   },
-  {
-    "id": "minecraft:leaping",
-    "name": "LEAPING"
+  "minecraft:leaping": {
+    "mojangName": "LEAPING"
   },
-  {
-    "id": "minecraft:long_leaping",
-    "name": "LONG_LEAPING"
+  "minecraft:long_leaping": {
+    "mojangName": "LONG_LEAPING"
   },
-  {
-    "id": "minecraft:strong_leaping",
-    "name": "STRONG_LEAPING"
+  "minecraft:strong_leaping": {
+    "mojangName": "STRONG_LEAPING"
   },
-  {
-    "id": "minecraft:fire_resistance",
-    "name": "FIRE_RESISTANCE"
+  "minecraft:fire_resistance": {
+    "mojangName": "FIRE_RESISTANCE"
   },
-  {
-    "id": "minecraft:long_fire_resistance",
-    "name": "LONG_FIRE_RESISTANCE"
+  "minecraft:long_fire_resistance": {
+    "mojangName": "LONG_FIRE_RESISTANCE"
   },
-  {
-    "id": "minecraft:swiftness",
-    "name": "SWIFTNESS"
+  "minecraft:swiftness": {
+    "mojangName": "SWIFTNESS"
   },
-  {
-    "id": "minecraft:long_swiftness",
-    "name": "LONG_SWIFTNESS"
+  "minecraft:long_swiftness": {
+    "mojangName": "LONG_SWIFTNESS"
   },
-  {
-    "id": "minecraft:strong_swiftness",
-    "name": "STRONG_SWIFTNESS"
+  "minecraft:strong_swiftness": {
+    "mojangName": "STRONG_SWIFTNESS"
   },
-  {
-    "id": "minecraft:slowness",
-    "name": "SLOWNESS"
+  "minecraft:slowness": {
+    "mojangName": "SLOWNESS"
   },
-  {
-    "id": "minecraft:long_slowness",
-    "name": "LONG_SLOWNESS"
+  "minecraft:long_slowness": {
+    "mojangName": "LONG_SLOWNESS"
   },
-  {
-    "id": "minecraft:strong_slowness",
-    "name": "STRONG_SLOWNESS"
+  "minecraft:strong_slowness": {
+    "mojangName": "STRONG_SLOWNESS"
   },
-  {
-    "id": "minecraft:turtle_master",
-    "name": "TURTLE_MASTER"
+  "minecraft:turtle_master": {
+    "mojangName": "TURTLE_MASTER"
   },
-  {
-    "id": "minecraft:long_turtle_master",
-    "name": "LONG_TURTLE_MASTER"
+  "minecraft:long_turtle_master": {
+    "mojangName": "LONG_TURTLE_MASTER"
   },
-  {
-    "id": "minecraft:strong_turtle_master",
-    "name": "STRONG_TURTLE_MASTER"
+  "minecraft:strong_turtle_master": {
+    "mojangName": "STRONG_TURTLE_MASTER"
   },
-  {
-    "id": "minecraft:water_breathing",
-    "name": "WATER_BREATHING"
+  "minecraft:water_breathing": {
+    "mojangName": "WATER_BREATHING"
   },
-  {
-    "id": "minecraft:long_water_breathing",
-    "name": "LONG_WATER_BREATHING"
+  "minecraft:long_water_breathing": {
+    "mojangName": "LONG_WATER_BREATHING"
   },
-  {
-    "id": "minecraft:healing",
-    "name": "HEALING"
+  "minecraft:healing": {
+    "mojangName": "HEALING"
   },
-  {
-    "id": "minecraft:strong_healing",
-    "name": "STRONG_HEALING"
+  "minecraft:strong_healing": {
+    "mojangName": "STRONG_HEALING"
   },
-  {
-    "id": "minecraft:harming",
-    "name": "HARMING"
+  "minecraft:harming": {
+    "mojangName": "HARMING"
   },
-  {
-    "id": "minecraft:strong_harming",
-    "name": "STRONG_HARMING"
+  "minecraft:strong_harming": {
+    "mojangName": "STRONG_HARMING"
   },
-  {
-    "id": "minecraft:poison",
-    "name": "POISON"
+  "minecraft:poison": {
+    "mojangName": "POISON"
   },
-  {
-    "id": "minecraft:long_poison",
-    "name": "LONG_POISON"
+  "minecraft:long_poison": {
+    "mojangName": "LONG_POISON"
   },
-  {
-    "id": "minecraft:strong_poison",
-    "name": "STRONG_POISON"
+  "minecraft:strong_poison": {
+    "mojangName": "STRONG_POISON"
   },
-  {
-    "id": "minecraft:regeneration",
-    "name": "REGENERATION"
+  "minecraft:regeneration": {
+    "mojangName": "REGENERATION"
   },
-  {
-    "id": "minecraft:long_regeneration",
-    "name": "LONG_REGENERATION"
+  "minecraft:long_regeneration": {
+    "mojangName": "LONG_REGENERATION"
   },
-  {
-    "id": "minecraft:strong_regeneration",
-    "name": "STRONG_REGENERATION"
+  "minecraft:strong_regeneration": {
+    "mojangName": "STRONG_REGENERATION"
   },
-  {
-    "id": "minecraft:strength",
-    "name": "STRENGTH"
+  "minecraft:strength": {
+    "mojangName": "STRENGTH"
   },
-  {
-    "id": "minecraft:long_strength",
-    "name": "LONG_STRENGTH"
+  "minecraft:long_strength": {
+    "mojangName": "LONG_STRENGTH"
   },
-  {
-    "id": "minecraft:strong_strength",
-    "name": "STRONG_STRENGTH"
+  "minecraft:strong_strength": {
+    "mojangName": "STRONG_STRENGTH"
   },
-  {
-    "id": "minecraft:weakness",
-    "name": "WEAKNESS"
+  "minecraft:weakness": {
+    "mojangName": "WEAKNESS"
   },
-  {
-    "id": "minecraft:long_weakness",
-    "name": "LONG_WEAKNESS"
+  "minecraft:long_weakness": {
+    "mojangName": "LONG_WEAKNESS"
   },
-  {
-    "id": "minecraft:luck",
-    "name": "LUCK"
+  "minecraft:luck": {
+    "mojangName": "LUCK"
   },
-  {
-    "id": "minecraft:slow_falling",
-    "name": "SLOW_FALLING"
+  "minecraft:slow_falling": {
+    "mojangName": "SLOW_FALLING"
   },
-  {
-    "id": "minecraft:long_slow_falling",
-    "name": "LONG_SLOW_FALLING"
+  "minecraft:long_slow_falling": {
+    "mojangName": "LONG_SLOW_FALLING"
   }
-]
+}

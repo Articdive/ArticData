@@ -1,6 +1,5 @@
 package net.minestom.generators.loot_tables;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import net.minestom.datagen.JsonOutputter;
@@ -24,13 +23,13 @@ public final class GameplayLootTableGenerator_1_16_5 extends DataGenerator_1_16_
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         File lootTablesFolder = new File(dataFolder, "loot_tables");
         File gameplayTables = new File(lootTablesFolder, "gameplay");
         File[] listedFiles = gameplayTables.listFiles();
         if (listedFiles != null) {
             List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
-            JsonArray gameplayLootTables = new JsonArray();
+            JsonObject gameplayLootTables = new JsonObject();
             for (int i = 0; i < children.size(); i++) {
                 File file = children.get(i);
                 // Add subdirectories files to the for-loop.
@@ -52,13 +51,13 @@ public final class GameplayLootTableGenerator_1_16_5 extends DataGenerator_1_16_
                 // Make sure we use the correct slashes.
                 fileName = fileName.replace("\\", "/");
                 // Remove .json by removing last 5 chars of the name.
-                gameplayLootTable.addProperty("gameplayType", fileName.substring(0, fileName.length() - 5));
-                gameplayLootTables.add(gameplayLootTable);
+                String tableName = fileName.substring(0, fileName.length() - 5);
+                gameplayLootTables.add("minecraft:" + tableName, gameplayLootTable);
             }
             return gameplayLootTables;
         } else {
             LOGGER.error("Failed to find gameplay loot tables in data folder.");
-            return new JsonArray();
+            return new JsonObject();
         }
     }
 }

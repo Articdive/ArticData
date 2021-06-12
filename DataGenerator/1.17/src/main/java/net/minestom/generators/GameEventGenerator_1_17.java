@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -32,18 +31,17 @@ public final class GameEventGenerator_1_17 extends DataGenerator_1_17<GameEvent>
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> gameEventRLs = Registry.GAME_EVENT.keySet();
-        JsonArray gameEvents = new JsonArray();
+        JsonObject gameEvents = new JsonObject();
 
         for (ResourceLocation gameEventRL : gameEventRLs) {
             GameEvent ge = Registry.GAME_EVENT.get(gameEventRL);
             JsonObject gameEvent = new JsonObject();
 
-            gameEvent.addProperty("id", gameEventRL.toString());
-            gameEvent.addProperty("name", names.get(ge));
+            gameEvent.addProperty("mojangName", names.get(ge));
             gameEvent.addProperty("notificationRadius", ge.getNotificationRadius());
-            gameEvents.add(gameEvent);
+            gameEvents.add(gameEventRL.toString(), gameEvent);
         }
         return gameEvents;
     }

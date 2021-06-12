@@ -1,20 +1,18 @@
-[
-  {
+{
+  "minecraft:arrows": {
     "replace": false,
     "values": [
       "minecraft:arrow",
       "minecraft:spectral_arrow"
-    ],
-    "tagName": "arrows"
+    ]
   },
-  {
+  "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
       "minecraft:bee"
-    ],
-    "tagName": "beehive_inhabitors"
+    ]
   },
-  {
+  "minecraft:impact_projectiles": {
     "replace": false,
     "values": [
       "#minecraft:arrows",
@@ -25,10 +23,9 @@
       "minecraft:trident",
       "minecraft:dragon_fireball",
       "minecraft:wither_skull"
-    ],
-    "tagName": "impact_projectiles"
+    ]
   },
-  {
+  "minecraft:raiders": {
     "replace": false,
     "values": [
       "minecraft:evoker",
@@ -37,16 +34,14 @@
       "minecraft:vindicator",
       "minecraft:illusioner",
       "minecraft:witch"
-    ],
-    "tagName": "raiders"
+    ]
   },
-  {
+  "minecraft:skeletons": {
     "replace": false,
     "values": [
       "minecraft:skeleton",
       "minecraft:stray",
       "minecraft:wither_skeleton"
-    ],
-    "tagName": "skeletons"
+    ]
   }
-]
+}

@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -33,9 +32,9 @@ public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Ench
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> enchantmentRLs = Registry.ENCHANTMENT.keySet();
-        JsonArray enchantments = new JsonArray();
+        JsonObject enchantments = new JsonObject();
 
         for (ResourceLocation enchantmentRL : enchantmentRLs) {
             Enchantment e = Registry.ENCHANTMENT.get(enchantmentRL);
@@ -44,8 +43,7 @@ public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Ench
             }
             JsonObject enchantment = new JsonObject();
 
-            enchantment.addProperty("id", enchantmentRL.toString());
-            enchantment.addProperty("name", names.get(e));
+            enchantment.addProperty("mojangName", names.get(e));
             // enchantment.addProperty("langId", e.getDescriptionId());
             enchantment.addProperty("maxLevel", e.getMaxLevel());
             enchantment.addProperty("minLevel", e.getMinLevel());
@@ -55,7 +53,8 @@ public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Ench
             enchantment.addProperty("tradeable", e.isTradeable());
             enchantment.addProperty("treasureOnly", e.isTreasureOnly());
             enchantment.addProperty("category", e.category.name());
-            enchantments.add(enchantment);
+
+            enchantments.add(enchantmentRL.toString(), enchantment);
         }
         return enchantments;
     }

@@ -1,21 +1,17 @@
-[
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:armor_stand"
+{
+  "minecraft:armor_stand": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:axolotl"
+  "minecraft:axolotl": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:bat"
+  "minecraft:bat": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:bee"
+  "minecraft:bee": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:blaze": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -52,10 +48,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:blaze"
+    ]
   },
-  {
+  "minecraft:cat": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -79,10 +74,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:cat"
+    ]
   },
-  {
+  "minecraft:cave_spider": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -148,10 +142,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:cave_spider"
+    ]
   },
-  {
+  "minecraft:chicken": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -217,10 +210,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:chicken"
+    ]
   },
-  {
+  "minecraft:cod": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -265,10 +257,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:cod"
+    ]
   },
-  {
+  "minecraft:cow": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -343,10 +334,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:cow"
+    ]
   },
-  {
+  "minecraft:creeper": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -398,10 +388,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:creeper"
+    ]
   },
-  {
+  "minecraft:dolphin": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -447,10 +436,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:dolphin"
+    ]
   },
-  {
+  "minecraft:donkey": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -482,10 +470,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:donkey"
+    ]
   },
-  {
+  "minecraft:drowned": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -537,10 +524,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:drowned"
+    ]
   },
-  {
+  "minecraft:elder_guardian": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -676,10 +662,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:elder_guardian"
+    ]
   },
-  {
+  "minecraft:enderman": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -711,18 +696,15 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:enderman"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:endermite"
+  "minecraft:endermite": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:ender_dragon"
+  "minecraft:ender_dragon": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:evoker": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -769,14 +751,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:evoker"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:fox"
+  "minecraft:fox": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:ghast": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -837,14 +817,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:ghast"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:giant"
+  "minecraft:giant": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:glow_squid": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -876,14 +854,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:glow_squid"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:goat"
+  "minecraft:goat": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:guardian": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1004,10 +980,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:guardian"
+    ]
   },
-  {
+  "minecraft:hoglin": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1082,10 +1057,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:hoglin"
+    ]
   },
-  {
+  "minecraft:horse": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1117,10 +1091,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:horse"
+    ]
   },
-  {
+  "minecraft:husk": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1196,14 +1169,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:husk"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:illusioner"
+  "minecraft:illusioner": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:iron_golem": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1248,10 +1219,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:iron_golem"
+    ]
   },
-  {
+  "minecraft:llama": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1283,10 +1253,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:llama"
+    ]
   },
-  {
+  "minecraft:magma_cube": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1318,10 +1287,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:magma_cube"
+    ]
   },
-  {
+  "minecraft:mooshroom": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1396,10 +1364,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:mooshroom"
+    ]
   },
-  {
+  "minecraft:mule": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1431,14 +1398,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:mule"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:ocelot"
+  "minecraft:ocelot": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:panda": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1458,10 +1423,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:panda"
+    ]
   },
-  {
+  "minecraft:parrot": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1493,10 +1457,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:parrot"
+    ]
   },
-  {
+  "minecraft:phantom": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1533,10 +1496,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:phantom"
+    ]
   },
-  {
+  "minecraft:pig": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1582,26 +1544,21 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:pig"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:piglin"
+  "minecraft:piglin": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:piglin_brute"
+  "minecraft:piglin_brute": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:pillager"
+  "minecraft:pillager": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:player"
+  "minecraft:player": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:polar_bear": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1685,10 +1642,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:polar_bear"
+    ]
   },
-  {
+  "minecraft:pufferfish": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1724,10 +1680,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:pufferfish"
+    ]
   },
-  {
+  "minecraft:rabbit": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1822,10 +1777,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:rabbit"
+    ]
   },
-  {
+  "minecraft:ravager": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1845,10 +1799,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:ravager"
+    ]
   },
-  {
+  "minecraft:salmon": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1893,10 +1846,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:salmon"
+    ]
   },
-  {
+  "minecraft:sheep": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1942,10 +1894,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep"
+    ]
   },
-  {
+  "minecraft:shulker": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -1965,14 +1916,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:shulker"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:silverfish"
+  "minecraft:silverfish": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:skeleton": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2033,10 +1982,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:skeleton"
+    ]
   },
-  {
+  "minecraft:skeleton_horse": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2068,10 +2016,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:skeleton_horse"
+    ]
   },
-  {
+  "minecraft:slime": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2103,10 +2050,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:slime"
+    ]
   },
-  {
+  "minecraft:snow_golem": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2130,10 +2076,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:snow_golem"
+    ]
   },
-  {
+  "minecraft:spider": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2199,10 +2144,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:spider"
+    ]
   },
-  {
+  "minecraft:squid": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2234,10 +2178,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:squid"
+    ]
   },
-  {
+  "minecraft:stray": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2337,10 +2280,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:stray"
+    ]
   },
-  {
+  "minecraft:strider": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2372,10 +2314,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:strider"
+    ]
   },
-  {
+  "minecraft:trader_llama": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2407,10 +2348,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:trader_llama"
+    ]
   },
-  {
+  "minecraft:tropical_fish": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2446,10 +2386,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:tropical_fish"
+    ]
   },
-  {
+  "minecraft:turtle": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2500,18 +2439,15 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:turtle"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:vex"
+  "minecraft:vex": {
+    "type": "minecraft:entity"
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:villager"
+  "minecraft:villager": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:vindicator": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2548,14 +2484,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:vindicator"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:wandering_trader"
+  "minecraft:wandering_trader": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:witch": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2730,14 +2664,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:witch"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:wither"
+  "minecraft:wither": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:wither_skeleton": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2818,14 +2750,12 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:wither_skeleton"
+    ]
   },
-  {
-    "type": "minecraft:entity",
-    "entityId": "minecraft:wolf"
+  "minecraft:wolf": {
+    "type": "minecraft:entity"
   },
-  {
+  "minecraft:zoglin": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2857,10 +2787,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:zoglin"
+    ]
   },
-  {
+  "minecraft:zombie": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2936,10 +2865,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:zombie"
+    ]
   },
-  {
+  "minecraft:zombie_horse": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -2971,10 +2899,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:zombie_horse"
+    ]
   },
-  {
+  "minecraft:zombie_villager": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3050,10 +2977,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:zombie_villager"
+    ]
   },
-  {
+  "minecraft:zombified_piglin": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3134,10 +3060,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:zombified_piglin"
+    ]
   },
-  {
+  "minecraft:sheep/black": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3160,10 +3085,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/black"
+    ]
   },
-  {
+  "minecraft:sheep/blue": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3186,10 +3110,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/blue"
+    ]
   },
-  {
+  "minecraft:sheep/brown": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3212,10 +3135,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/brown"
+    ]
   },
-  {
+  "minecraft:sheep/cyan": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3238,10 +3160,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/cyan"
+    ]
   },
-  {
+  "minecraft:sheep/gray": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3264,10 +3185,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/gray"
+    ]
   },
-  {
+  "minecraft:sheep/green": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3290,10 +3210,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/green"
+    ]
   },
-  {
+  "minecraft:sheep/light_blue": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3316,10 +3235,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/light_blue"
+    ]
   },
-  {
+  "minecraft:sheep/light_gray": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3342,10 +3260,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/light_gray"
+    ]
   },
-  {
+  "minecraft:sheep/lime": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3368,10 +3285,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/lime"
+    ]
   },
-  {
+  "minecraft:sheep/magenta": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3394,10 +3310,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/magenta"
+    ]
   },
-  {
+  "minecraft:sheep/orange": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3420,10 +3335,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/orange"
+    ]
   },
-  {
+  "minecraft:sheep/pink": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3446,10 +3360,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/pink"
+    ]
   },
-  {
+  "minecraft:sheep/purple": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3472,10 +3385,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/purple"
+    ]
   },
-  {
+  "minecraft:sheep/red": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3498,10 +3410,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/red"
+    ]
   },
-  {
+  "minecraft:sheep/white": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3524,10 +3435,9 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/white"
+    ]
   },
-  {
+  "minecraft:sheep/yellow": {
     "type": "minecraft:entity",
     "pools": [
       {
@@ -3550,7 +3460,6 @@
           }
         ]
       }
-    ],
-    "entityId": "minecraft:sheep/yellow"
+    ]
   }
-]
+}

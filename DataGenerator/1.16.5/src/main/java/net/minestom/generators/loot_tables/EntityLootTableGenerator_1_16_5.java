@@ -1,6 +1,5 @@
 package net.minestom.generators.loot_tables;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import net.minestom.datagen.JsonOutputter;
@@ -24,13 +23,13 @@ public final class EntityLootTableGenerator_1_16_5 extends DataGenerator_1_16_5<
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         File lootTablesFolder = new File(dataFolder, "loot_tables");
         File entityTables = new File(lootTablesFolder, "entities");
         File[] listedFiles = entityTables.listFiles();
         if (listedFiles != null) {
             List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
-            JsonArray entityLootTables = new JsonArray();
+            JsonObject entityLootTables = new JsonObject();
             for (int i = 0; i < children.size(); i++) {
                 File file = children.get(i);
                 // Add subdirectories files to the for-loop.
@@ -52,13 +51,13 @@ public final class EntityLootTableGenerator_1_16_5 extends DataGenerator_1_16_5<
                 // Make sure we use the correct slashes.
                 fileName = fileName.replace("\\", "/");
                 // Remove .json by removing last 5 chars of the name.
-                entityLootTable.addProperty("entityId", "minecraft:" + fileName.substring(0, fileName.length() - 5));
-                entityLootTables.add(entityLootTable);
+                String tableName = fileName.substring(0, fileName.length() - 5);
+                entityLootTables.add("minecraft:" + tableName, entityLootTable);
             }
             return entityLootTables;
         } else {
             LOGGER.error("Failed to find entity loot tables in data folder.");
-            return new JsonArray();
+            return new JsonObject();
         }
     }
 }

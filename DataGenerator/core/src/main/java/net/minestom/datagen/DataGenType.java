@@ -19,6 +19,7 @@ public enum DataGenType {
     MOB_EFFECTS("potion_effects"),
     POTIONS("potions"),
     SOUNDS("sounds"),
+    SOUND_SOURCES("sound_sources"),
     VILLAGER_PROFESSIONS("villager_professions"),
     VILLAGER_TYPES("villager_types"),
 

@@ -1,7 +1,6 @@
-[
-  {
-    "id": "minecraft:generic.max_health",
-    "name": "MAX_HEALTH",
+{
+  "minecraft:generic.max_health": {
+    "mojangName": "MAX_HEALTH",
     "defaultValue": 20.0,
     "clientSync": true,
     "range": {
@@ -9,9 +8,8 @@
       "minValue": 1.0
     }
   },
-  {
-    "id": "minecraft:generic.follow_range",
-    "name": "FOLLOW_RANGE",
+  "minecraft:generic.follow_range": {
+    "mojangName": "FOLLOW_RANGE",
     "defaultValue": 32.0,
     "clientSync": false,
     "range": {
@@ -19,9 +17,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.knockback_resistance",
-    "name": "KNOCKBACK_RESISTANCE",
+  "minecraft:generic.knockback_resistance": {
+    "mojangName": "KNOCKBACK_RESISTANCE",
     "defaultValue": 0.0,
     "clientSync": false,
     "range": {
@@ -29,9 +26,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.movement_speed",
-    "name": "MOVEMENT_SPEED",
+  "minecraft:generic.movement_speed": {
+    "mojangName": "MOVEMENT_SPEED",
     "defaultValue": 0.699999988079071,
     "clientSync": true,
     "range": {
@@ -39,9 +35,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.flying_speed",
-    "name": "FLYING_SPEED",
+  "minecraft:generic.flying_speed": {
+    "mojangName": "FLYING_SPEED",
     "defaultValue": 0.4000000059604645,
     "clientSync": true,
     "range": {
@@ -49,9 +44,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.attack_damage",
-    "name": "ATTACK_DAMAGE",
+  "minecraft:generic.attack_damage": {
+    "mojangName": "ATTACK_DAMAGE",
     "defaultValue": 2.0,
     "clientSync": false,
     "range": {
@@ -59,9 +53,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.attack_knockback",
-    "name": "ATTACK_KNOCKBACK",
+  "minecraft:generic.attack_knockback": {
+    "mojangName": "ATTACK_KNOCKBACK",
     "defaultValue": 0.0,
     "clientSync": false,
     "range": {
@@ -69,9 +62,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.attack_speed",
-    "name": "ATTACK_SPEED",
+  "minecraft:generic.attack_speed": {
+    "mojangName": "ATTACK_SPEED",
     "defaultValue": 4.0,
     "clientSync": true,
     "range": {
@@ -79,9 +71,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.armor",
-    "name": "ARMOR",
+  "minecraft:generic.armor": {
+    "mojangName": "ARMOR",
     "defaultValue": 0.0,
     "clientSync": true,
     "range": {
@@ -89,9 +80,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.armor_toughness",
-    "name": "ARMOR_TOUGHNESS",
+  "minecraft:generic.armor_toughness": {
+    "mojangName": "ARMOR_TOUGHNESS",
     "defaultValue": 0.0,
     "clientSync": true,
     "range": {
@@ -99,9 +89,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:generic.luck",
-    "name": "LUCK",
+  "minecraft:generic.luck": {
+    "mojangName": "LUCK",
     "defaultValue": 0.0,
     "clientSync": true,
     "range": {
@@ -109,9 +98,8 @@
       "minValue": -1024.0
     }
   },
-  {
-    "id": "minecraft:zombie.spawn_reinforcements",
-    "name": "SPAWN_REINFORCEMENTS_CHANCE",
+  "minecraft:zombie.spawn_reinforcements": {
+    "mojangName": "SPAWN_REINFORCEMENTS_CHANCE",
     "defaultValue": 0.0,
     "clientSync": false,
     "range": {
@@ -119,9 +107,8 @@
       "minValue": 0.0
     }
   },
-  {
-    "id": "minecraft:horse.jump_strength",
-    "name": "JUMP_STRENGTH",
+  "minecraft:horse.jump_strength": {
+    "mojangName": "JUMP_STRENGTH",
     "defaultValue": 0.7,
     "clientSync": true,
     "range": {
@@ -129,4 +116,4 @@
       "minValue": 0.0
     }
   }
-]
+}

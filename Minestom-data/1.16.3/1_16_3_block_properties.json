@@ -1,254 +1,222 @@
-[
-  {
-    "name": "ATTACHED",
+{
+  "ATTACHED": {
     "key": "attached",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "BOTTOM",
+  "BOTTOM": {
     "key": "bottom",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "CONDITIONAL",
+  "CONDITIONAL": {
     "key": "conditional",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "DISARMED",
+  "DISARMED": {
     "key": "disarmed",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "DRAG",
+  "DRAG": {
     "key": "drag",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "ENABLED",
+  "ENABLED": {
     "key": "enabled",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "EXTENDED",
+  "EXTENDED": {
     "key": "extended",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "EYE",
+  "EYE": {
     "key": "eye",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "FALLING",
+  "FALLING": {
     "key": "falling",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HANGING",
+  "HANGING": {
     "key": "hanging",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HAS_BOTTLE_0",
+  "HAS_BOTTLE_0": {
     "key": "has_bottle_0",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HAS_BOTTLE_1",
+  "HAS_BOTTLE_1": {
     "key": "has_bottle_1",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HAS_BOTTLE_2",
+  "HAS_BOTTLE_2": {
     "key": "has_bottle_2",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HAS_RECORD",
+  "HAS_RECORD": {
     "key": "has_record",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HAS_BOOK",
+  "HAS_BOOK": {
     "key": "has_book",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "INVERTED",
+  "INVERTED": {
     "key": "inverted",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "IN_WALL",
+  "IN_WALL": {
     "key": "in_wall",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "LIT",
+  "LIT": {
     "key": "lit",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "LOCKED",
+  "LOCKED": {
     "key": "locked",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "OCCUPIED",
+  "OCCUPIED": {
     "key": "occupied",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "OPEN",
+  "OPEN": {
     "key": "open",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "PERSISTENT",
+  "PERSISTENT": {
     "key": "persistent",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "POWERED",
+  "POWERED": {
     "key": "powered",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "SHORT",
+  "SHORT": {
     "key": "short",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "SIGNAL_FIRE",
+  "SIGNAL_FIRE": {
     "key": "signal_fire",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "SNOWY",
+  "SNOWY": {
     "key": "snowy",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "TRIGGERED",
+  "TRIGGERED": {
     "key": "triggered",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "UNSTABLE",
+  "UNSTABLE": {
     "key": "unstable",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "WATERLOGGED",
+  "WATERLOGGED": {
     "key": "waterlogged",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "VINE_END",
+  "VINE_END": {
     "key": "vine_end",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "HORIZONTAL_AXIS",
+  "HORIZONTAL_AXIS": {
     "key": "axis",
     "values": [
       "X",
       "Z"
     ]
   },
-  {
-    "name": "AXIS",
+  "AXIS": {
     "key": "axis",
     "values": [
       "X",
@@ -256,56 +224,49 @@
       "Z"
     ]
   },
-  {
-    "name": "UP",
+  "UP": {
     "key": "up",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "DOWN",
+  "DOWN": {
     "key": "down",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "NORTH",
+  "NORTH": {
     "key": "north",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "EAST",
+  "EAST": {
     "key": "east",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "SOUTH",
+  "SOUTH": {
     "key": "south",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "WEST",
+  "WEST": {
     "key": "west",
     "values": [
       true,
       false
     ]
   },
-  {
-    "name": "FACING",
+  "FACING": {
     "key": "facing",
     "values": [
       "NORTH",
@@ -316,8 +277,7 @@
       "DOWN"
     ]
   },
-  {
-    "name": "FACING_HOPPER",
+  "FACING_HOPPER": {
     "key": "facing",
     "values": [
       "DOWN",
@@ -327,8 +287,7 @@
       "EAST"
     ]
   },
-  {
-    "name": "HORIZONTAL_FACING",
+  "HORIZONTAL_FACING": {
     "key": "facing",
     "values": [
       "NORTH",
@@ -337,8 +296,7 @@
       "EAST"
     ]
   },
-  {
-    "name": "ORIENTATION",
+  "ORIENTATION": {
     "key": "orientation",
     "values": [
       "DOWN_EAST",
@@ -355,8 +313,7 @@
       "SOUTH_UP"
     ]
   },
-  {
-    "name": "ATTACH_FACE",
+  "ATTACH_FACE": {
     "key": "face",
     "values": [
       "FLOOR",
@@ -364,8 +321,7 @@
       "CEILING"
     ]
   },
-  {
-    "name": "BELL_ATTACHMENT",
+  "BELL_ATTACHMENT": {
     "key": "attachment",
     "values": [
       "FLOOR",
@@ -374,8 +330,7 @@
       "DOUBLE_WALL"
     ]
   },
-  {
-    "name": "EAST_WALL",
+  "EAST_WALL": {
     "key": "east",
     "values": [
       "NONE",
@@ -383,8 +338,7 @@
       "TALL"
     ]
   },
-  {
-    "name": "NORTH_WALL",
+  "NORTH_WALL": {
     "key": "north",
     "values": [
       "NONE",
@@ -392,8 +346,7 @@
       "TALL"
     ]
   },
-  {
-    "name": "SOUTH_WALL",
+  "SOUTH_WALL": {
     "key": "south",
     "values": [
       "NONE",
@@ -401,8 +354,7 @@
       "TALL"
     ]
   },
-  {
-    "name": "WEST_WALL",
+  "WEST_WALL": {
     "key": "west",
     "values": [
       "NONE",
@@ -410,8 +362,7 @@
       "TALL"
     ]
   },
-  {
-    "name": "EAST_REDSTONE",
+  "EAST_REDSTONE": {
     "key": "east",
     "values": [
       "UP",
@@ -419,8 +370,7 @@
       "NONE"
     ]
   },
-  {
-    "name": "NORTH_REDSTONE",
+  "NORTH_REDSTONE": {
     "key": "north",
     "values": [
       "UP",
@@ -428,8 +378,7 @@
       "NONE"
     ]
   },
-  {
-    "name": "SOUTH_REDSTONE",
+  "SOUTH_REDSTONE": {
     "key": "south",
     "values": [
       "UP",
@@ -437,8 +386,7 @@
       "NONE"
     ]
   },
-  {
-    "name": "WEST_REDSTONE",
+  "WEST_REDSTONE": {
     "key": "west",
     "values": [
       "UP",
@@ -446,24 +394,21 @@
       "NONE"
     ]
   },
-  {
-    "name": "DOUBLE_BLOCK_HALF",
+  "DOUBLE_BLOCK_HALF": {
     "key": "half",
     "values": [
       "UPPER",
       "LOWER"
     ]
   },
-  {
-    "name": "HALF",
+  "HALF": {
     "key": "half",
     "values": [
       "TOP",
       "BOTTOM"
     ]
   },
-  {
-    "name": "RAIL_SHAPE",
+  "RAIL_SHAPE": {
     "key": "shape",
     "values": [
       "NORTH_SOUTH",
@@ -478,8 +423,7 @@
       "NORTH_EAST"
     ]
   },
-  {
-    "name": "RAIL_SHAPE_STRAIGHT",
+  "RAIL_SHAPE_STRAIGHT": {
     "key": "shape",
     "values": [
       "NORTH_SOUTH",
@@ -490,16 +434,14 @@
       "ASCENDING_SOUTH"
     ]
   },
-  {
-    "name": "AGE_1",
+  "AGE_1": {
     "key": "age",
     "values": [
       0,
       1
     ]
   },
-  {
-    "name": "AGE_2",
+  "AGE_2": {
     "key": "age",
     "values": [
       0,
@@ -507,8 +449,7 @@
       2
     ]
   },
-  {
-    "name": "AGE_3",
+  "AGE_3": {
     "key": "age",
     "values": [
       0,
@@ -517,8 +458,7 @@
       3
     ]
   },
-  {
-    "name": "AGE_5",
+  "AGE_5": {
     "key": "age",
     "values": [
       0,
@@ -529,8 +469,7 @@
       5
     ]
   },
-  {
-    "name": "AGE_7",
+  "AGE_7": {
     "key": "age",
     "values": [
       0,
@@ -543,8 +482,7 @@
       7
     ]
   },
-  {
-    "name": "AGE_15",
+  "AGE_15": {
     "key": "age",
     "values": [
       0,
@@ -565,8 +503,7 @@
       15
     ]
   },
-  {
-    "name": "AGE_25",
+  "AGE_25": {
     "key": "age",
     "values": [
       0,
@@ -597,8 +534,7 @@
       25
     ]
   },
-  {
-    "name": "BITES",
+  "BITES": {
     "key": "bites",
     "values": [
       0,
@@ -610,8 +546,7 @@
       6
     ]
   },
-  {
-    "name": "DELAY",
+  "DELAY": {
     "key": "delay",
     "values": [
       1,
@@ -620,8 +555,7 @@
       4
     ]
   },
-  {
-    "name": "DISTANCE",
+  "DISTANCE": {
     "key": "distance",
     "values": [
       1,
@@ -633,8 +567,7 @@
       7
     ]
   },
-  {
-    "name": "EGGS",
+  "EGGS": {
     "key": "eggs",
     "values": [
       1,
@@ -643,8 +576,7 @@
       4
     ]
   },
-  {
-    "name": "HATCH",
+  "HATCH": {
     "key": "hatch",
     "values": [
       0,
@@ -652,8 +584,7 @@
       2
     ]
   },
-  {
-    "name": "LAYERS",
+  "LAYERS": {
     "key": "layers",
     "values": [
       1,
@@ -666,8 +597,7 @@
       8
     ]
   },
-  {
-    "name": "LEVEL_CAULDRON",
+  "LEVEL_CAULDRON": {
     "key": "level",
     "values": [
       0,
@@ -676,8 +606,7 @@
       3
     ]
   },
-  {
-    "name": "LEVEL_COMPOSTER",
+  "LEVEL_COMPOSTER": {
     "key": "level",
     "values": [
       0,
@@ -691,8 +620,7 @@
       8
     ]
   },
-  {
-    "name": "LEVEL_FLOWING",
+  "LEVEL_FLOWING": {
     "key": "level",
     "values": [
       1,
@@ -705,8 +633,7 @@
       8
     ]
   },
-  {
-    "name": "LEVEL_HONEY",
+  "LEVEL_HONEY": {
     "key": "honey_level",
     "values": [
       0,
@@ -717,8 +644,7 @@
       5
     ]
   },
-  {
-    "name": "LEVEL",
+  "LEVEL": {
     "key": "level",
     "values": [
       0,
@@ -739,8 +665,7 @@
       15
     ]
   },
-  {
-    "name": "MOISTURE",
+  "MOISTURE": {
     "key": "moisture",
     "values": [
       0,
@@ -753,8 +678,7 @@
       7
     ]
   },
-  {
-    "name": "NOTE",
+  "NOTE": {
     "key": "note",
     "values": [
       0,
@@ -784,8 +708,7 @@
       24
     ]
   },
-  {
-    "name": "PICKLES",
+  "PICKLES": {
     "key": "pickles",
     "values": [
       1,
@@ -794,8 +717,7 @@
       4
     ]
   },
-  {
-    "name": "POWER",
+  "POWER": {
     "key": "power",
     "values": [
       0,
@@ -816,16 +738,14 @@
       15
     ]
   },
-  {
-    "name": "STAGE",
+  "STAGE": {
     "key": "stage",
     "values": [
       0,
       1
     ]
   },
-  {
-    "name": "STABILITY_DISTANCE",
+  "STABILITY_DISTANCE": {
     "key": "distance",
     "values": [
       0,
@@ -838,8 +758,7 @@
       7
     ]
   },
-  {
-    "name": "RESPAWN_ANCHOR_CHARGES",
+  "RESPAWN_ANCHOR_CHARGES": {
     "key": "charges",
     "values": [
       0,
@@ -849,8 +768,7 @@
       4
     ]
   },
-  {
-    "name": "ROTATION_16",
+  "ROTATION_16": {
     "key": "rotation",
     "values": [
       0,
@@ -871,16 +789,14 @@
       15
     ]
   },
-  {
-    "name": "BED_PART",
+  "BED_PART": {
     "key": "part",
     "values": [
       "HEAD",
       "FOOT"
     ]
   },
-  {
-    "name": "CHEST_TYPE",
+  "CHEST_TYPE": {
     "key": "type",
     "values": [
       "SINGLE",
@@ -888,24 +804,21 @@
       "RIGHT"
     ]
   },
-  {
-    "name": "MODE_COMPARATOR",
+  "MODE_COMPARATOR": {
     "key": "mode",
     "values": [
       "COMPARE",
       "SUBTRACT"
     ]
   },
-  {
-    "name": "DOOR_HINGE",
+  "DOOR_HINGE": {
     "key": "hinge",
     "values": [
       "LEFT",
       "RIGHT"
     ]
   },
-  {
-    "name": "NOTEBLOCK_INSTRUMENT",
+  "NOTEBLOCK_INSTRUMENT": {
     "key": "instrument",
     "values": [
       "HARP",
@@ -926,16 +839,14 @@
       "PLING"
     ]
   },
-  {
-    "name": "PISTON_TYPE",
+  "PISTON_TYPE": {
     "key": "type",
     "values": [
       "DEFAULT",
       "STICKY"
     ]
   },
-  {
-    "name": "SLAB_TYPE",
+  "SLAB_TYPE": {
     "key": "type",
     "values": [
       "TOP",
@@ -943,8 +854,7 @@
       "DOUBLE"
     ]
   },
-  {
-    "name": "STAIRS_SHAPE",
+  "STAIRS_SHAPE": {
     "key": "shape",
     "values": [
       "STRAIGHT",
@@ -954,8 +864,7 @@
       "OUTER_RIGHT"
     ]
   },
-  {
-    "name": "STRUCTUREBLOCK_MODE",
+  "STRUCTUREBLOCK_MODE": {
     "key": "mode",
     "values": [
       "SAVE",
@@ -964,8 +873,7 @@
       "DATA"
     ]
   },
-  {
-    "name": "BAMBOO_LEAVES",
+  "BAMBOO_LEAVES": {
     "key": "leaves",
     "values": [
       "NONE",
@@ -973,4 +881,4 @@
       "LARGE"
     ]
   }
-]
+}

@@ -1,6 +1,6 @@
 package net.minestom.datagen;
 
-import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ public abstract class DataGenerator<T> {
 
     public abstract void generateNames();
 
-    public abstract JsonArray generate();
+    public abstract JsonObject generate();
 
     public String getName(T object) {
         return names.get(object);

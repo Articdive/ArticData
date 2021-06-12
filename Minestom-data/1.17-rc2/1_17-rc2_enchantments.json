@@ -1,7 +1,6 @@
-[
-  {
-    "id": "minecraft:protection",
-    "name": "ALL_DAMAGE_PROTECTION",
+{
+  "minecraft:protection": {
+    "mojangName": "ALL_DAMAGE_PROTECTION",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "COMMON",
@@ -11,9 +10,8 @@
     "treasureOnly": false,
     "category": "ARMOR"
   },
-  {
-    "id": "minecraft:fire_protection",
-    "name": "FIRE_PROTECTION",
+  "minecraft:fire_protection": {
+    "mojangName": "FIRE_PROTECTION",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -23,9 +21,8 @@
     "treasureOnly": false,
     "category": "ARMOR"
   },
-  {
-    "id": "minecraft:feather_falling",
-    "name": "FALL_PROTECTION",
+  "minecraft:feather_falling": {
+    "mojangName": "FALL_PROTECTION",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -35,9 +32,8 @@
     "treasureOnly": false,
     "category": "ARMOR_FEET"
   },
-  {
-    "id": "minecraft:blast_protection",
-    "name": "BLAST_PROTECTION",
+  "minecraft:blast_protection": {
+    "mojangName": "BLAST_PROTECTION",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "RARE",
@@ -47,9 +43,8 @@
     "treasureOnly": false,
     "category": "ARMOR"
   },
-  {
-    "id": "minecraft:projectile_protection",
-    "name": "PROJECTILE_PROTECTION",
+  "minecraft:projectile_protection": {
+    "mojangName": "PROJECTILE_PROTECTION",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -59,9 +54,8 @@
     "treasureOnly": false,
     "category": "ARMOR"
   },
-  {
-    "id": "minecraft:respiration",
-    "name": "RESPIRATION",
+  "minecraft:respiration": {
+    "mojangName": "RESPIRATION",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -71,9 +65,8 @@
     "treasureOnly": false,
     "category": "ARMOR_HEAD"
   },
-  {
-    "id": "minecraft:aqua_affinity",
-    "name": "AQUA_AFFINITY",
+  "minecraft:aqua_affinity": {
+    "mojangName": "AQUA_AFFINITY",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "RARE",
@@ -83,9 +76,8 @@
     "treasureOnly": false,
     "category": "ARMOR_HEAD"
   },
-  {
-    "id": "minecraft:thorns",
-    "name": "THORNS",
+  "minecraft:thorns": {
+    "mojangName": "THORNS",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -95,9 +87,8 @@
     "treasureOnly": false,
     "category": "ARMOR_CHEST"
   },
-  {
-    "id": "minecraft:depth_strider",
-    "name": "DEPTH_STRIDER",
+  "minecraft:depth_strider": {
+    "mojangName": "DEPTH_STRIDER",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -107,9 +98,8 @@
     "treasureOnly": false,
     "category": "ARMOR_FEET"
   },
-  {
-    "id": "minecraft:frost_walker",
-    "name": "FROST_WALKER",
+  "minecraft:frost_walker": {
+    "mojangName": "FROST_WALKER",
     "maxLevel": 2,
     "minLevel": 1,
     "rarity": "RARE",
@@ -119,9 +109,8 @@
     "treasureOnly": true,
     "category": "ARMOR_FEET"
   },
-  {
-    "id": "minecraft:binding_curse",
-    "name": "BINDING_CURSE",
+  "minecraft:binding_curse": {
+    "mojangName": "BINDING_CURSE",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -131,9 +120,8 @@
     "treasureOnly": true,
     "category": "WEARABLE"
   },
-  {
-    "id": "minecraft:soul_speed",
-    "name": "SOUL_SPEED",
+  "minecraft:soul_speed": {
+    "mojangName": "SOUL_SPEED",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -143,9 +131,8 @@
     "treasureOnly": true,
     "category": "ARMOR_FEET"
   },
-  {
-    "id": "minecraft:sharpness",
-    "name": "SHARPNESS",
+  "minecraft:sharpness": {
+    "mojangName": "SHARPNESS",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "COMMON",
@@ -155,9 +142,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:smite",
-    "name": "SMITE",
+  "minecraft:smite": {
+    "mojangName": "SMITE",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -167,9 +153,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:bane_of_arthropods",
-    "name": "BANE_OF_ARTHROPODS",
+  "minecraft:bane_of_arthropods": {
+    "mojangName": "BANE_OF_ARTHROPODS",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -179,9 +164,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:knockback",
-    "name": "KNOCKBACK",
+  "minecraft:knockback": {
+    "mojangName": "KNOCKBACK",
     "maxLevel": 2,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -191,9 +175,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:fire_aspect",
-    "name": "FIRE_ASPECT",
+  "minecraft:fire_aspect": {
+    "mojangName": "FIRE_ASPECT",
     "maxLevel": 2,
     "minLevel": 1,
     "rarity": "RARE",
@@ -203,9 +186,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:looting",
-    "name": "MOB_LOOTING",
+  "minecraft:looting": {
+    "mojangName": "MOB_LOOTING",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -215,9 +197,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:sweeping",
-    "name": "SWEEPING_EDGE",
+  "minecraft:sweeping": {
+    "mojangName": "SWEEPING_EDGE",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -227,9 +208,8 @@
     "treasureOnly": false,
     "category": "WEAPON"
   },
-  {
-    "id": "minecraft:efficiency",
-    "name": "BLOCK_EFFICIENCY",
+  "minecraft:efficiency": {
+    "mojangName": "BLOCK_EFFICIENCY",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "COMMON",
@@ -239,9 +219,8 @@
     "treasureOnly": false,
     "category": "DIGGER"
   },
-  {
-    "id": "minecraft:silk_touch",
-    "name": "SILK_TOUCH",
+  "minecraft:silk_touch": {
+    "mojangName": "SILK_TOUCH",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -251,9 +230,8 @@
     "treasureOnly": false,
     "category": "DIGGER"
   },
-  {
-    "id": "minecraft:unbreaking",
-    "name": "UNBREAKING",
+  "minecraft:unbreaking": {
+    "mojangName": "UNBREAKING",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -263,9 +241,8 @@
     "treasureOnly": false,
     "category": "BREAKABLE"
   },
-  {
-    "id": "minecraft:fortune",
-    "name": "BLOCK_FORTUNE",
+  "minecraft:fortune": {
+    "mojangName": "BLOCK_FORTUNE",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -275,9 +252,8 @@
     "treasureOnly": false,
     "category": "DIGGER"
   },
-  {
-    "id": "minecraft:power",
-    "name": "POWER_ARROWS",
+  "minecraft:power": {
+    "mojangName": "POWER_ARROWS",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "COMMON",
@@ -287,9 +263,8 @@
     "treasureOnly": false,
     "category": "BOW"
   },
-  {
-    "id": "minecraft:punch",
-    "name": "PUNCH_ARROWS",
+  "minecraft:punch": {
+    "mojangName": "PUNCH_ARROWS",
     "maxLevel": 2,
     "minLevel": 1,
     "rarity": "RARE",
@@ -299,9 +274,8 @@
     "treasureOnly": false,
     "category": "BOW"
   },
-  {
-    "id": "minecraft:flame",
-    "name": "FLAMING_ARROWS",
+  "minecraft:flame": {
+    "mojangName": "FLAMING_ARROWS",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "RARE",
@@ -311,9 +285,8 @@
     "treasureOnly": false,
     "category": "BOW"
   },
-  {
-    "id": "minecraft:infinity",
-    "name": "INFINITY_ARROWS",
+  "minecraft:infinity": {
+    "mojangName": "INFINITY_ARROWS",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -323,9 +296,8 @@
     "treasureOnly": false,
     "category": "BOW"
   },
-  {
-    "id": "minecraft:luck_of_the_sea",
-    "name": "FISHING_LUCK",
+  "minecraft:luck_of_the_sea": {
+    "mojangName": "FISHING_LUCK",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -335,9 +307,8 @@
     "treasureOnly": false,
     "category": "FISHING_ROD"
   },
-  {
-    "id": "minecraft:lure",
-    "name": "FISHING_SPEED",
+  "minecraft:lure": {
+    "mojangName": "FISHING_SPEED",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -347,9 +318,8 @@
     "treasureOnly": false,
     "category": "FISHING_ROD"
   },
-  {
-    "id": "minecraft:loyalty",
-    "name": "LOYALTY",
+  "minecraft:loyalty": {
+    "mojangName": "LOYALTY",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -359,9 +329,8 @@
     "treasureOnly": false,
     "category": "TRIDENT"
   },
-  {
-    "id": "minecraft:impaling",
-    "name": "IMPALING",
+  "minecraft:impaling": {
+    "mojangName": "IMPALING",
     "maxLevel": 5,
     "minLevel": 1,
     "rarity": "RARE",
@@ -371,9 +340,8 @@
     "treasureOnly": false,
     "category": "TRIDENT"
   },
-  {
-    "id": "minecraft:riptide",
-    "name": "RIPTIDE",
+  "minecraft:riptide": {
+    "mojangName": "RIPTIDE",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
@@ -383,9 +351,8 @@
     "treasureOnly": false,
     "category": "TRIDENT"
   },
-  {
-    "id": "minecraft:channeling",
-    "name": "CHANNELING",
+  "minecraft:channeling": {
+    "mojangName": "CHANNELING",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -395,9 +362,8 @@
     "treasureOnly": false,
     "category": "TRIDENT"
   },
-  {
-    "id": "minecraft:multishot",
-    "name": "MULTISHOT",
+  "minecraft:multishot": {
+    "mojangName": "MULTISHOT",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "RARE",
@@ -407,9 +373,8 @@
     "treasureOnly": false,
     "category": "CROSSBOW"
   },
-  {
-    "id": "minecraft:quick_charge",
-    "name": "QUICK_CHARGE",
+  "minecraft:quick_charge": {
+    "mojangName": "QUICK_CHARGE",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -419,9 +384,8 @@
     "treasureOnly": false,
     "category": "CROSSBOW"
   },
-  {
-    "id": "minecraft:piercing",
-    "name": "PIERCING",
+  "minecraft:piercing": {
+    "mojangName": "PIERCING",
     "maxLevel": 4,
     "minLevel": 1,
     "rarity": "COMMON",
@@ -431,9 +395,8 @@
     "treasureOnly": false,
     "category": "CROSSBOW"
   },
-  {
-    "id": "minecraft:mending",
-    "name": "MENDING",
+  "minecraft:mending": {
+    "mojangName": "MENDING",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "RARE",
@@ -443,9 +406,8 @@
     "treasureOnly": true,
     "category": "BREAKABLE"
   },
-  {
-    "id": "minecraft:vanishing_curse",
-    "name": "VANISHING_CURSE",
+  "minecraft:vanishing_curse": {
+    "mojangName": "VANISHING_CURSE",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -455,4 +417,4 @@
     "treasureOnly": true,
     "category": "VANISHABLE"
   }
-]
+}

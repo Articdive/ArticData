@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -32,18 +31,17 @@ public final class VillagerTypeGenerator_1_16_5 extends DataGenerator_1_16_5<Vil
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> villagerTypeRLs = Registry.VILLAGER_TYPE.keySet();
-        JsonArray villagerTypes = new JsonArray();
+        JsonObject villagerTypes = new JsonObject();
 
         for (ResourceLocation villagerTypeRL : villagerTypeRLs) {
             VillagerType vt = Registry.VILLAGER_TYPE.get(villagerTypeRL);
 
             JsonObject villagerType = new JsonObject();
-            villagerType.addProperty("id", villagerTypeRL.toString());
-            villagerType.addProperty("name", names.get(vt));
+            villagerType.addProperty("mojangName", names.get(vt));
 
-            villagerTypes.add(villagerType);
+            villagerTypes.add(villagerTypeRL.toString(), villagerType);
         }
         return villagerTypes;
     }

@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -34,9 +33,9 @@ public final class AttributeGenerator_1_16_5 extends DataGenerator_1_16_5<Attrib
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> attributeRLs = Registry.ATTRIBUTE.keySet();
-        JsonArray attributes = new JsonArray();
+        JsonObject attributes = new JsonObject();
 
         for (ResourceLocation attributeRL : attributeRLs) {
             Attribute a = Registry.ATTRIBUTE.get(attributeRL);
@@ -45,8 +44,7 @@ public final class AttributeGenerator_1_16_5 extends DataGenerator_1_16_5<Attrib
             if (a == null) {
                 continue;
             }
-            attribute.addProperty("id", attributeRL.toString());
-            attribute.addProperty("name", names.get(a));
+            attribute.addProperty("mojangName", names.get(a));
             attribute.addProperty("defaultValue", a.getDefaultValue());
             attribute.addProperty("clientSync", a.isClientSyncable());
             if (a instanceof RangedAttribute) {
@@ -66,7 +64,7 @@ public final class AttributeGenerator_1_16_5 extends DataGenerator_1_16_5<Attrib
                 attribute.add("range", range);
             }
 
-            attributes.add(attribute);
+            attributes.add(attributeRL.toString(), attribute);
         }
         return attributes;
     }

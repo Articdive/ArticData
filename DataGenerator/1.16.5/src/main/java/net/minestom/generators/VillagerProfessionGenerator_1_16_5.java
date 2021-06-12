@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -33,16 +32,16 @@ public final class VillagerProfessionGenerator_1_16_5 extends DataGenerator_1_16
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> villagerProfessionRLs = Registry.VILLAGER_PROFESSION.keySet();
-        JsonArray villagerProfessions = new JsonArray();
+        JsonObject villagerProfessions = new JsonObject();
 
         for (ResourceLocation villagerProfessionRL : villagerProfessionRLs) {
             VillagerProfession vp = Registry.VILLAGER_PROFESSION.get(villagerProfessionRL);
 
             JsonObject villagerProfession = new JsonObject();
-            villagerProfession.addProperty("id", villagerProfessionRL.toString());
-            villagerProfession.addProperty("name", names.get(vp));
+
+            villagerProfession.addProperty("mojangName", names.get(vp));
             SoundEvent workSound = vp.getWorkSound();
             if (workSound != null) {
                 ResourceLocation workSoundRL = Registry.SOUND_EVENT.getKey(workSound);
@@ -51,7 +50,7 @@ public final class VillagerProfessionGenerator_1_16_5 extends DataGenerator_1_16
                 }
             }
 
-            villagerProfessions.add(villagerProfession);
+            villagerProfessions.add(villagerProfessionRL.toString(), villagerProfession);
         }
         return villagerProfessions;
     }

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "minecraft:cat_morning_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -43,10 +43,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "cat_morning_gift"
+    ]
   },
-  {
+  "minecraft:fishing": {
     "type": "minecraft:fishing",
     "pools": [
       {
@@ -84,10 +83,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "fishing"
+    ]
   },
-  {
+  "minecraft:piglin_bartering": {
     "type": "minecraft:barter",
     "pools": [
       {
@@ -341,10 +339,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "piglin_bartering"
+    ]
   },
-  {
+  "minecraft:fishing/fish": {
     "type": "minecraft:fishing",
     "pools": [
       {
@@ -373,10 +370,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "fishing/fish"
+    ]
   },
-  {
+  "minecraft:fishing/junk": {
     "type": "minecraft:fishing",
     "pools": [
       {
@@ -533,10 +529,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "fishing/junk"
+    ]
   },
-  {
+  "minecraft:fishing/treasure": {
     "type": "minecraft:fishing",
     "pools": [
       {
@@ -608,10 +603,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "fishing/treasure"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/armorer_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -636,10 +630,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/armorer_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/butcher_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -668,10 +661,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/butcher_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/cartographer_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -688,10 +680,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/cartographer_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/cleric_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -708,10 +699,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/cleric_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/farmer_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -732,10 +722,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/farmer_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/fisherman_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -752,10 +741,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/fisherman_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/fletcher_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1016,10 +1004,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/fletcher_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/leatherworker_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1032,10 +1019,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/leatherworker_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/librarian_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1048,10 +1034,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/librarian_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/mason_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1064,10 +1049,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/mason_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/shepherd_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1140,10 +1124,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/shepherd_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/toolsmith_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1168,10 +1151,9 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/toolsmith_gift"
+    ]
   },
-  {
+  "minecraft:hero_of_the_village/weaponsmith_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -1192,7 +1174,6 @@
           }
         ]
       }
-    ],
-    "gameplayType": "hero_of_the_village/weaponsmith_gift"
+    ]
   }
-]
+}

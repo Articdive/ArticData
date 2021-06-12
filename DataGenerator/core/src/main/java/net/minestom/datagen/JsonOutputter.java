@@ -2,7 +2,7 @@ package net.minestom.datagen;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,7 +26,7 @@ public final class JsonOutputter {
         this.outputDirectory = outputDirectory;
     }
 
-    public void output(JsonArray output, String fileName) {
+    public void output(JsonObject output, String fileName) {
         if (fileName.contains("/")) {
             String[] split = fileName.split("/");
             output(output, split[1], split[0]);
@@ -35,7 +35,7 @@ public final class JsonOutputter {
         }
     }
 
-    private void output(JsonArray output, String fileName, String subFolder) {
+    private void output(JsonObject output, String fileName, String subFolder) {
         File outputSubDirectory = new File(this.outputDirectory, versionPrefix + subFolder);
         if (!outputSubDirectory.exists() && !outputSubDirectory.mkdirs()) {
             throw new ExceptionInInitializerError("Failed to create work sub-directory.");
@@ -43,7 +43,7 @@ public final class JsonOutputter {
         output(output, fileName, outputSubDirectory);
     }
 
-    private void output(JsonArray output, String fileName, File outputDirectory) {
+    private void output(JsonObject output, String fileName, File outputDirectory) {
         String filename = versionPrefix + fileName + ".json";
         try {
             Writer writer = new FileWriter(new File(outputDirectory, filename), false);

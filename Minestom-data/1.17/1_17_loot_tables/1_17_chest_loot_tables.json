@@ -1,5 +1,5 @@
-[
-  {
+{
+  "minecraft:abandoned_mineshaft": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -313,10 +313,9 @@
           }
         ]
       }
-    ],
-    "chestType": "abandoned_mineshaft"
+    ]
   },
-  {
+  "minecraft:bastion_bridge": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -616,10 +615,9 @@
           }
         ]
       }
-    ],
-    "chestType": "bastion_bridge"
+    ]
   },
-  {
+  "minecraft:bastion_hoglin_stable": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -982,10 +980,9 @@
           }
         ]
       }
-    ],
-    "chestType": "bastion_hoglin_stable"
+    ]
   },
-  {
+  "minecraft:bastion_other": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -1503,10 +1500,9 @@
           }
         ]
       }
-    ],
-    "chestType": "bastion_other"
+    ]
   },
-  {
+  "minecraft:bastion_treasure": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -1856,10 +1852,9 @@
           }
         ]
       }
-    ],
-    "chestType": "bastion_treasure"
+    ]
   },
-  {
+  "minecraft:buried_treasure": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2042,10 +2037,9 @@
           }
         ]
       }
-    ],
-    "chestType": "buried_treasure"
+    ]
   },
-  {
+  "minecraft:desert_pyramid": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2300,10 +2294,9 @@
           }
         ]
       }
-    ],
-    "chestType": "desert_pyramid"
+    ]
   },
-  {
+  "minecraft:end_city_treasure": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2637,10 +2630,9 @@
           }
         ]
       }
-    ],
-    "chestType": "end_city_treasure"
+    ]
   },
-  {
+  "minecraft:igloo_chest": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2741,10 +2733,9 @@
           }
         ]
       }
-    ],
-    "chestType": "igloo_chest"
+    ]
   },
-  {
+  "minecraft:jungle_temple": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2897,10 +2888,9 @@
           }
         ]
       }
-    ],
-    "chestType": "jungle_temple"
+    ]
   },
-  {
+  "minecraft:jungle_temple_dispenser": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -2929,10 +2919,9 @@
           }
         ]
       }
-    ],
-    "chestType": "jungle_temple_dispenser"
+    ]
   },
-  {
+  "minecraft:nether_bridge": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -3060,10 +3049,9 @@
           }
         ]
       }
-    ],
-    "chestType": "nether_bridge"
+    ]
   },
-  {
+  "minecraft:pillager_outpost": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -3251,10 +3239,9 @@
           }
         ]
       }
-    ],
-    "chestType": "pillager_outpost"
+    ]
   },
-  {
+  "minecraft:ruined_portal": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -3522,10 +3509,9 @@
           }
         ]
       }
-    ],
-    "chestType": "ruined_portal"
+    ]
   },
-  {
+  "minecraft:shipwreck_map": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -3612,10 +3598,9 @@
           }
         ]
       }
-    ],
-    "chestType": "shipwreck_map"
+    ]
   },
-  {
+  "minecraft:shipwreck_supply": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -3919,10 +3904,9 @@
           }
         ]
       }
-    ],
-    "chestType": "shipwreck_supply"
+    ]
   },
-  {
+  "minecraft:shipwreck_treasure": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4051,10 +4035,9 @@
           }
         ]
       }
-    ],
-    "chestType": "shipwreck_treasure"
+    ]
   },
-  {
+  "minecraft:simple_dungeon": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4340,10 +4323,9 @@
           }
         ]
       }
-    ],
-    "chestType": "simple_dungeon"
+    ]
   },
-  {
+  "minecraft:spawn_bonus_chest": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4564,10 +4546,9 @@
           }
         ]
       }
-    ],
-    "chestType": "spawn_bonus_chest"
+    ]
   },
-  {
+  "minecraft:stronghold_corridor": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4742,10 +4723,9 @@
           }
         ]
       }
-    ],
-    "chestType": "stronghold_corridor"
+    ]
   },
-  {
+  "minecraft:stronghold_crossing": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4869,10 +4849,9 @@
           }
         ]
       }
-    ],
-    "chestType": "stronghold_crossing"
+    ]
   },
-  {
+  "minecraft:stronghold_library": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -4937,10 +4916,9 @@
           }
         ]
       }
-    ],
-    "chestType": "stronghold_library"
+    ]
   },
-  {
+  "minecraft:underwater_ruin_big": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5056,10 +5034,9 @@
           }
         ]
       }
-    ],
-    "chestType": "underwater_ruin_big"
+    ]
   },
-  {
+  "minecraft:underwater_ruin_small": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5155,10 +5132,9 @@
           }
         ]
       }
-    ],
-    "chestType": "underwater_ruin_small"
+    ]
   },
-  {
+  "minecraft:woodland_mansion": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5444,10 +5420,9 @@
           }
         ]
       }
-    ],
-    "chestType": "woodland_mansion"
+    ]
   },
-  {
+  "minecraft:village/village_armorer": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5500,10 +5475,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_armorer"
+    ]
   },
-  {
+  "minecraft:village/village_butcher": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5600,10 +5574,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_butcher"
+    ]
   },
-  {
+  "minecraft:village/village_cartographer": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5685,10 +5658,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_cartographer"
+    ]
   },
-  {
+  "minecraft:village/village_desert_house": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5792,10 +5764,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_desert_house"
+    ]
   },
-  {
+  "minecraft:village/village_fisher": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -5905,10 +5876,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_fisher"
+    ]
   },
-  {
+  "minecraft:village/village_fletcher": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6005,10 +5975,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_fletcher"
+    ]
   },
-  {
+  "minecraft:village/village_mason": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6078,10 +6047,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_mason"
+    ]
   },
-  {
+  "minecraft:village/village_plains_house": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6206,10 +6174,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_plains_house"
+    ]
   },
-  {
+  "minecraft:village/village_savanna_house": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6334,10 +6301,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_savanna_house"
+    ]
   },
-  {
+  "minecraft:village/village_shepherd": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6454,10 +6420,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_shepherd"
+    ]
   },
-  {
+  "minecraft:village/village_snowy_house": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6582,10 +6547,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_snowy_house"
+    ]
   },
-  {
+  "minecraft:village/village_taiga_house": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6743,10 +6707,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_taiga_house"
+    ]
   },
-  {
+  "minecraft:village/village_tannery": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6829,10 +6792,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_tannery"
+    ]
   },
-  {
+  "minecraft:village/village_temple": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -6938,10 +6900,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_temple"
+    ]
   },
-  {
+  "minecraft:village/village_toolsmith": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -7057,10 +7018,9 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_toolsmith"
+    ]
   },
-  {
+  "minecraft:village/village_weaponsmith": {
     "type": "minecraft:chest",
     "pools": [
       {
@@ -7232,7 +7192,6 @@
           }
         ]
       }
-    ],
-    "chestType": "village/village_weaponsmith"
+    ]
   }
-]
+}

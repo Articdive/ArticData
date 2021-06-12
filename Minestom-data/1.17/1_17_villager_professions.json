@@ -1,75 +1,60 @@
-[
-  {
-    "id": "minecraft:none",
-    "name": "NONE"
+{
+  "minecraft:none": {
+    "mojangName": "NONE"
   },
-  {
-    "id": "minecraft:armorer",
-    "name": "ARMORER",
+  "minecraft:armorer": {
+    "mojangName": "ARMORER",
     "workSound": "minecraft:entity.villager.work_armorer"
   },
-  {
-    "id": "minecraft:butcher",
-    "name": "BUTCHER",
+  "minecraft:butcher": {
+    "mojangName": "BUTCHER",
     "workSound": "minecraft:entity.villager.work_butcher"
   },
-  {
-    "id": "minecraft:cartographer",
-    "name": "CARTOGRAPHER",
+  "minecraft:cartographer": {
+    "mojangName": "CARTOGRAPHER",
     "workSound": "minecraft:entity.villager.work_cartographer"
   },
-  {
-    "id": "minecraft:cleric",
-    "name": "CLERIC",
+  "minecraft:cleric": {
+    "mojangName": "CLERIC",
     "workSound": "minecraft:entity.villager.work_cleric"
   },
-  {
-    "id": "minecraft:farmer",
-    "name": "FARMER",
+  "minecraft:farmer": {
+    "mojangName": "FARMER",
     "workSound": "minecraft:entity.villager.work_farmer"
   },
-  {
-    "id": "minecraft:fisherman",
-    "name": "FISHERMAN",
+  "minecraft:fisherman": {
+    "mojangName": "FISHERMAN",
     "workSound": "minecraft:entity.villager.work_fisherman"
   },
-  {
-    "id": "minecraft:fletcher",
-    "name": "FLETCHER",
+  "minecraft:fletcher": {
+    "mojangName": "FLETCHER",
     "workSound": "minecraft:entity.villager.work_fletcher"
   },
-  {
-    "id": "minecraft:leatherworker",
-    "name": "LEATHERWORKER",
+  "minecraft:leatherworker": {
+    "mojangName": "LEATHERWORKER",
     "workSound": "minecraft:entity.villager.work_leatherworker"
   },
-  {
-    "id": "minecraft:librarian",
-    "name": "LIBRARIAN",
+  "minecraft:librarian": {
+    "mojangName": "LIBRARIAN",
     "workSound": "minecraft:entity.villager.work_librarian"
   },
-  {
-    "id": "minecraft:mason",
-    "name": "MASON",
+  "minecraft:mason": {
+    "mojangName": "MASON",
     "workSound": "minecraft:entity.villager.work_mason"
   },
-  {
-    "id": "minecraft:nitwit",
-    "name": "NITWIT"
+  "minecraft:nitwit": {
+    "mojangName": "NITWIT"
   },
-  {
-    "id": "minecraft:shepherd",
-    "name": "SHEPHERD",
+  "minecraft:shepherd": {
+    "mojangName": "SHEPHERD",
     "workSound": "minecraft:entity.villager.work_shepherd"
   },
-  {
-    "id": "minecraft:toolsmith",
-    "name": "TOOLSMITH",
+  "minecraft:toolsmith": {
+    "mojangName": "TOOLSMITH",
     "workSound": "minecraft:entity.villager.work_toolsmith"
   },
-  {
-    "id": "minecraft:weaponsmith",
-    "name": "WEAPONSMITH",
+  "minecraft:weaponsmith": {
+    "mojangName": "WEAPONSMITH",
     "workSound": "minecraft:entity.villager.work_weaponsmith"
   }
-]
+}

@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.network.syncher.EntityDataSerializer;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -30,8 +29,8 @@ public final class EntityDataSerializerGenerator_1_16_5 extends DataGenerator_1_
     }
 
     @Override
-    public JsonArray generate() {
-        JsonArray entityDataSerializers = new JsonArray();
+    public JsonObject generate() {
+        JsonObject entityDataSerializers = new JsonObject();
         for (Field declaredField : EntityDataSerializers.class.getDeclaredFields()) {
             if (!EntityDataSerializer.class.isAssignableFrom(declaredField.getType())) {
                 continue;
@@ -41,10 +40,9 @@ public final class EntityDataSerializerGenerator_1_16_5 extends DataGenerator_1_
                 EntityDataSerializer<?> eds = (EntityDataSerializer<?>) declaredField.get(null);
 
                 String fieldName = declaredField.getName();
-                entityDataSerializer.addProperty("name", fieldName);
                 entityDataSerializer.addProperty("id", EntityDataSerializers.getSerializedId(eds));
 
-                entityDataSerializers.add(entityDataSerializer);
+                entityDataSerializers.add(fieldName, entityDataSerializer);
             } catch (IllegalAccessException e) {
                 LOGGER.error("Failed to get entity data serializer from the entity data serializer mapping system.", e);
             }

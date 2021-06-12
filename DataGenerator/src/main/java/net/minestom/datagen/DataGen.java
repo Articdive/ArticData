@@ -42,7 +42,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.BIOMES, "BiomeGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.BLOCK_ENTITIES, "BlockEntityGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.BLOCK_PROPERTIES, "BlockPropertyGenerator_1_16_5");
-                DataGenHolder.addGenerator(DataGenType.BLOCKS, "BlockGenerator_1_17");
+                DataGenHolder.addGenerator(DataGenType.BLOCKS, "BlockGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.CUSTOM_STATISTICS, "CustomStatisticGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.DIMENSION_TYPES, "DimensionTypeGenerator_1_17");
                 DataGenHolder.addGenerator(DataGenType.ENCHANTMENTS, "EnchantmentGenerator_1_16_5");
@@ -55,6 +55,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.PARTICLES, "ParticleGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, "MobEffectGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.POTIONS, "PotionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.SOUND_SOURCES, "SoundSourceGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.SOUNDS, "SoundGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, "VillagerProfessionGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, "VillagerTypeGenerator_1_16_5");
@@ -96,6 +97,7 @@ public class DataGen {
                 DataGenHolder.addGenerator(DataGenType.PARTICLES, "ParticleGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.MOB_EFFECTS, "MobEffectGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.POTIONS, "PotionGenerator_1_16_5");
+                DataGenHolder.addGenerator(DataGenType.SOUND_SOURCES, "SoundSourceGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.SOUNDS, "SoundGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.VILLAGER_PROFESSIONS, "VillagerProfessionGenerator_1_16_5");
                 DataGenHolder.addGenerator(DataGenType.VILLAGER_TYPES, "VillagerTypeGenerator_1_16_5");

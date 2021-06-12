@@ -1,78 +1,59 @@
-[
-  {
-    "name": "BYTE",
+{
+  "BYTE": {
     "id": 0
   },
-  {
-    "name": "INT",
+  "INT": {
     "id": 1
   },
-  {
-    "name": "FLOAT",
+  "FLOAT": {
     "id": 2
   },
-  {
-    "name": "STRING",
+  "STRING": {
     "id": 3
   },
-  {
-    "name": "COMPONENT",
+  "COMPONENT": {
     "id": 4
   },
-  {
-    "name": "OPTIONAL_COMPONENT",
+  "OPTIONAL_COMPONENT": {
     "id": 5
   },
-  {
-    "name": "ITEM_STACK",
+  "ITEM_STACK": {
     "id": 6
   },
-  {
-    "name": "BLOCK_STATE",
+  "BLOCK_STATE": {
     "id": 13
   },
-  {
-    "name": "BOOLEAN",
+  "BOOLEAN": {
     "id": 7
   },
-  {
-    "name": "PARTICLE",
+  "PARTICLE": {
     "id": 15
   },
-  {
-    "name": "ROTATIONS",
+  "ROTATIONS": {
     "id": 8
   },
-  {
-    "name": "BLOCK_POS",
+  "BLOCK_POS": {
     "id": 9
   },
-  {
-    "name": "OPTIONAL_BLOCK_POS",
+  "OPTIONAL_BLOCK_POS": {
     "id": 10
   },
-  {
-    "name": "DIRECTION",
+  "DIRECTION": {
     "id": 11
   },
-  {
-    "name": "OPTIONAL_UUID",
+  "OPTIONAL_UUID": {
     "id": 12
   },
-  {
-    "name": "COMPOUND_TAG",
+  "COMPOUND_TAG": {
     "id": 14
   },
-  {
-    "name": "VILLAGER_DATA",
+  "VILLAGER_DATA": {
     "id": 16
   },
-  {
-    "name": "OPTIONAL_UNSIGNED_INT",
+  "OPTIONAL_UNSIGNED_INT": {
     "id": 17
   },
-  {
-    "name": "POSE",
+  "POSE": {
     "id": 18
   }
-]
+}

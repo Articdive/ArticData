@@ -1,6 +1,5 @@
 package net.minestom.generators.tags;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import net.minestom.datagen.JsonOutputter;
@@ -24,14 +23,14 @@ public final class EntityTypeTagGenerator_1_16_5 extends DataGenerator_1_16_5<Vo
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         File tagFolder = new File(dataFolder, "tags");
         File entityTypeTagsFolder = new File(tagFolder, "entity_types");
 
         File[] listedFiles = entityTypeTagsFolder.listFiles();
         if (listedFiles != null) {
             List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
-            JsonArray entityTypeTags = new JsonArray();
+            JsonObject entityTypeTags = new JsonObject();
             for (int i = 0; i < children.size(); i++) {
                 File file = children.get(i);
                 // Add subdirectories files to the for-loop.
@@ -53,13 +52,14 @@ public final class EntityTypeTagGenerator_1_16_5 extends DataGenerator_1_16_5<Vo
                 // Make sure we use the correct slashes.
                 fileName = fileName.replace("\\", "/");
                 // Remove .json (substring of 5)
-                entityTypeTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
-                entityTypeTags.add(entityTypeTag);
+                String tagName = fileName.substring(0, fileName.length() - 5);
+
+                entityTypeTags.add("minecraft:" + tagName, entityTypeTag);
             }
             return entityTypeTags;
         } else {
             LOGGER.error("Failed to find entity type tags in data folder.");
-            return new JsonArray();
+            return new JsonObject();
         }
     }
 }

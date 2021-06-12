@@ -1,11 +1,9 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minestom.generators.common.DataGenerator_1_17;
 import org.slf4j.Logger;
@@ -22,14 +20,14 @@ public final class DimensionTypeGenerator_1_17 extends DataGenerator_1_17<Dimens
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Registry<DimensionType> dimensionTypeRegistry = RegistryAccess.RegistryHolder.builtin().ownedRegistry(Registry.DIMENSION_TYPE_REGISTRY).orElse(null);
         if (dimensionTypeRegistry == null) {
             LOGGER.error("Failed to hook into dimension type registry. Dimension types will be skipped!");
-            return new JsonArray();
+            return new JsonObject();
         }
         Set<ResourceLocation> dimensionTypeRLs = dimensionTypeRegistry.keySet();
-        JsonArray dimensionTypes = new JsonArray();
+        JsonObject dimensionTypes = new JsonObject();
 
         for (ResourceLocation dimensionTypeRL : dimensionTypeRLs) {
             DimensionType dt = dimensionTypeRegistry.get(dimensionTypeRL);
@@ -38,7 +36,6 @@ public final class DimensionTypeGenerator_1_17 extends DataGenerator_1_17<Dimens
             }
             JsonObject dimensionType = new JsonObject();
 
-            dimensionType.addProperty("id", dimensionTypeRL.toString());
             dimensionType.addProperty("bedWorks", dt.bedWorks());
             dimensionType.addProperty("coordinateScale", dt.coordinateScale());
             dimensionType.addProperty("ceiling", dt.hasCeiling());
@@ -52,7 +49,8 @@ public final class DimensionTypeGenerator_1_17 extends DataGenerator_1_17<Dimens
             dimensionType.addProperty("respawnAnchorWorks", dt.respawnAnchorWorks());
             dimensionType.addProperty("minY", dt.minY());
             dimensionType.addProperty("height", dt.height());
-            dimensionTypes.add(dimensionType);
+
+            dimensionTypes.add(dimensionTypeRL.toString(), dimensionType);
         }
         return dimensionTypes;
     }

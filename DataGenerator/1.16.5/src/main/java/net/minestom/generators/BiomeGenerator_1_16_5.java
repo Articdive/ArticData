@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -24,9 +23,9 @@ public final class BiomeGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
 
     @SuppressWarnings("unchecked")
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> biomeRLs = BuiltinRegistries.BIOME.keySet();
-        JsonArray biomes = new JsonArray();
+        JsonObject biomes = new JsonObject();
 
         for (ResourceLocation biomeRL : biomeRLs) {
             Biome b = BuiltinRegistries.BIOME.get(biomeRL);
@@ -35,7 +34,6 @@ public final class BiomeGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
             }
             JsonObject biome = new JsonObject();
 
-            biome.addProperty("id", biomeRL.toString());
             biome.addProperty("humid", b.isHumid());
             biome.addProperty("scale", b.getScale());
             biome.addProperty("depth", b.getDepth());
@@ -46,7 +44,6 @@ public final class BiomeGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
 
             {
                 // Use reflection to access SpecialBiomeEffects (why the hell is this private anyway?)
-                JsonObject biomeEffects = new JsonObject();
                 try {
                     BiomeSpecialEffects bse = b.getSpecialEffects();
                     Field fcField = BiomeSpecialEffects.class.getDeclaredField("fogColor");
@@ -73,20 +70,19 @@ public final class BiomeGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
                     Optional<Integer> grassColorOverride = (Optional<Integer>) gcoField.get(bse);
                     BiomeSpecialEffects.GrassColorModifier grassColorModifier = (BiomeSpecialEffects.GrassColorModifier) gcmField.get(bse);
 
-                    biomeEffects.addProperty("fogColor", fogColor);
-                    biomeEffects.addProperty("waterColor", waterColor);
-                    biomeEffects.addProperty("waterFogColor", waterFogColor);
-                    biomeEffects.addProperty("skyColor", skyColor);
-                    biomeEffects.addProperty("foliageColorOverride", foliageColorOverride.orElse(null));
-                    biomeEffects.addProperty("grassColorOverride", grassColorOverride.orElse(null));
-                    biomeEffects.addProperty("grassColorModifier", grassColorModifier.name());
+                    biome.addProperty("fogColor", fogColor);
+                    biome.addProperty("waterColor", waterColor);
+                    biome.addProperty("waterFogColor", waterFogColor);
+                    biome.addProperty("skyColor", skyColor);
+                    biome.addProperty("foliageColorOverride", foliageColorOverride.orElse(null));
+                    biome.addProperty("grassColorOverride", grassColorOverride.orElse(null));
+                    biome.addProperty("grassColorModifier", grassColorModifier.name());
                 } catch (IllegalAccessException | NoSuchFieldException e) {
                     LOGGER.error("Failed to get biome effects, skipping biome with ID '" + biomeRL + "'.", e);
                     continue;
                 }
-                biome.add("effects", biomeEffects);
             }
-            biomes.add(biome);
+            biomes.add(biomeRL.toString(), biome);
         }
         return biomes;
     }

@@ -33,8 +33,8 @@ public final class BlockPropertyGenerator_1_16_5 extends DataGenerator_1_16_5<Pr
     }
 
     @Override
-    public JsonArray generate() {
-        JsonArray blockProperties = new JsonArray();
+    public JsonObject generate() {
+        JsonObject blockProperties = new JsonObject();
         for (Field declaredField : BlockStateProperties.class.getDeclaredFields()) {
             if (!Property.class.isAssignableFrom(declaredField.getType())) {
                 continue;
@@ -44,7 +44,6 @@ public final class BlockPropertyGenerator_1_16_5 extends DataGenerator_1_16_5<Pr
                 Property<?> p = (Property<?>) declaredField.get(null);
                 String fieldName = declaredField.getName();
                 String propertyKey = p.getName();
-                property.addProperty("name", fieldName);
                 property.addProperty("key", propertyKey);
                 // Properties
                 JsonArray values = new JsonArray();
@@ -62,7 +61,8 @@ public final class BlockPropertyGenerator_1_16_5 extends DataGenerator_1_16_5<Pr
                     }
                 }
                 property.add("values", values);
-                blockProperties.add(property);
+
+                blockProperties.add(fieldName, property);
             } catch (IllegalAccessException e) {
                 LOGGER.error("Failed to get property from the property mapping system.", e);
             }

@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -32,18 +31,17 @@ public final class CustomStatisticGenerator_1_16_5 extends DataGenerator_1_16_5<
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> customStatisticsRLs = Registry.CUSTOM_STAT.keySet();
-        JsonArray customStatistics = new JsonArray();
+        JsonObject customStatistics = new JsonObject();
 
         for (ResourceLocation customStatisticRL : customStatisticsRLs) {
             ResourceLocation rl = Registry.CUSTOM_STAT.get(customStatisticRL);
 
             JsonObject customStatistic = new JsonObject();
-            customStatistic.addProperty("id", customStatisticRL.toString());
-            customStatistic.addProperty("name", names.get(rl));
+            customStatistic.addProperty("mojangName", names.get(rl));
 
-            customStatistics.add(customStatistic);
+            customStatistics.add(customStatisticRL.toString(), customStatistic);
         }
         return customStatistics;
     }

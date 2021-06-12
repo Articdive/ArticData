@@ -1,6 +1,5 @@
 package net.minestom.generators.loot_tables;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import net.minestom.datagen.JsonOutputter;
@@ -24,14 +23,14 @@ public final class ChestLootTableGenerator_1_16_5 extends DataGenerator_1_16_5<V
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         File lootTablesFolder = new File(dataFolder, "loot_tables");
         File chestTables = new File(lootTablesFolder, "chests");
 
         File[] listedFiles = chestTables.listFiles();
         if (listedFiles != null) {
             List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
-            JsonArray chestLootTables = new JsonArray();
+            JsonObject chestLootTables = new JsonObject();
             for (int i = 0; i < children.size(); i++) {
                 File file = children.get(i);
                 // Add subdirectories files to the for-loop.
@@ -53,13 +52,13 @@ public final class ChestLootTableGenerator_1_16_5 extends DataGenerator_1_16_5<V
                 // Make sure we use the correct slashes.
                 fileName = fileName.replace("\\", "/");
                 // Remove .json by removing last 5 chars of the name.
-                chestLootTable.addProperty("chestType", fileName.substring(0, fileName.length() - 5));
-                chestLootTables.add(chestLootTable);
+                String tableName = fileName.substring(0, fileName.length() - 5);
+                chestLootTables.add("minecraft:" + tableName, chestLootTable);
             }
             return chestLootTables;
         } else {
             LOGGER.error("Failed to find chest loot tables in data folder.");
-            return new JsonArray();
+            return new JsonObject();
         }
     }
 }

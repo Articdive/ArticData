@@ -1,22 +1,20 @@
-[
-  {
+{
+  "minecraft:arrows": {
     "replace": false,
     "values": [
       "minecraft:arrow",
       "minecraft:spectral_arrow"
-    ],
-    "tagName": "arrows"
+    ]
   },
-  {
+  "minecraft:axolotl_always_hostiles": {
     "replace": false,
     "values": [
       "minecraft:drowned",
       "minecraft:guardian",
       "minecraft:elder_guardian"
-    ],
-    "tagName": "axolotl_always_hostiles"
+    ]
   },
-  {
+  "minecraft:axolotl_hunt_targets": {
     "replace": false,
     "values": [
       "minecraft:tropical_fish",
@@ -25,36 +23,32 @@
       "minecraft:cod",
       "minecraft:squid",
       "minecraft:glow_squid"
-    ],
-    "tagName": "axolotl_hunt_targets"
+    ]
   },
-  {
+  "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
       "minecraft:bee"
-    ],
-    "tagName": "beehive_inhabitors"
+    ]
   },
-  {
+  "minecraft:freeze_hurts_extra_types": {
     "replace": false,
     "values": [
       "minecraft:strider",
       "minecraft:blaze",
       "minecraft:magma_cube"
-    ],
-    "tagName": "freeze_hurts_extra_types"
+    ]
   },
-  {
+  "minecraft:freeze_immune_entity_types": {
     "replace": false,
     "values": [
       "minecraft:stray",
       "minecraft:polar_bear",
       "minecraft:snow_golem",
       "minecraft:wither"
-    ],
-    "tagName": "freeze_immune_entity_types"
+    ]
   },
-  {
+  "minecraft:impact_projectiles": {
     "replace": false,
     "values": [
       "#minecraft:arrows",
@@ -65,20 +59,18 @@
       "minecraft:trident",
       "minecraft:dragon_fireball",
       "minecraft:wither_skull"
-    ],
-    "tagName": "impact_projectiles"
+    ]
   },
-  {
+  "minecraft:powder_snow_walkable_mobs": {
     "replace": false,
     "values": [
       "minecraft:rabbit",
       "minecraft:endermite",
       "minecraft:silverfish",
       "minecraft:fox"
-    ],
-    "tagName": "powder_snow_walkable_mobs"
+    ]
   },
-  {
+  "minecraft:raiders": {
     "replace": false,
     "values": [
       "minecraft:evoker",
@@ -87,16 +79,14 @@
       "minecraft:vindicator",
       "minecraft:illusioner",
       "minecraft:witch"
-    ],
-    "tagName": "raiders"
+    ]
   },
-  {
+  "minecraft:skeletons": {
     "replace": false,
     "values": [
       "minecraft:skeleton",
       "minecraft:stray",
       "minecraft:wither_skeleton"
-    ],
-    "tagName": "skeletons"
+    ]
   }
-]
+}

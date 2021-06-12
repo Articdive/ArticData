@@ -47,11 +47,11 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
 
     @Override
     @SuppressWarnings("unchecked")
-    public JsonArray generate() {
+    public JsonObject generate() {
         Map<EntityDataSerializer<?>, String> edsNames = (Map<EntityDataSerializer<?>, String>) DataGenHolder.getNameMap(DataGenType.ENTITY_DATA_SERIALIZERS);
 
         Set<ResourceLocation> entityRLs = Registry.ENTITY_TYPE.keySet();
-        JsonArray entities = new JsonArray();
+        JsonObject entities = new JsonObject();
 
         for (ResourceLocation entityRL : entityRLs) {
             EntityType<?> et = Registry.ENTITY_TYPE.get(entityRL);
@@ -87,7 +87,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
                     EntityDataAccessor<?> eda = (EntityDataAccessor<?>) declaredField.get(null);
                     eda.getSerializer();
 
-                    entityMetadata.addProperty("name", declaredField.getName().toLowerCase());
+                    entityMetadata.addProperty("mojangName", declaredField.getName().toLowerCase());
                     entityMetadata.addProperty("id", eda.getId());
                     entityMetadata.addProperty("serializer", edsNames.get(eda.getSerializer()));
 
@@ -99,8 +99,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             }
             entity.add("metadata", metadata);
 
-            entity.addProperty("id", entityRL.toString());
-            entity.addProperty("name", names.get(et));
+            entity.addProperty("mojangName", names.get(et));
             // entity.addProperty("langId", et.getDescriptionId());
             // entity.addProperty("category", et.getCategory().toString()); basically useless
             entity.addProperty("packetType", packetType);
@@ -110,7 +109,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             entity.addProperty("clientTrackingRange", et.clientTrackingRange());
             // entity.addProperty("fixed", et.getDimensions().fixed); also basically useless
 
-            entities.add(entity);
+            entities.add(entityRL.toString(), entity);
         }
         return entities;
     }

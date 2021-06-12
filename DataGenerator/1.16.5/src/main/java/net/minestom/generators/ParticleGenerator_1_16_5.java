@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.core.particles.ParticleType;
@@ -33,9 +32,9 @@ public final class ParticleGenerator_1_16_5 extends DataGenerator_1_16_5<Particl
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> particleRLs = Registry.PARTICLE_TYPE.keySet();
-        JsonArray particles = new JsonArray();
+        JsonObject particles = new JsonObject();
 
         for (ResourceLocation particleRL : particleRLs) {
             ParticleType<?> pt = Registry.PARTICLE_TYPE.get(particleRL);
@@ -44,9 +43,8 @@ public final class ParticleGenerator_1_16_5 extends DataGenerator_1_16_5<Particl
             }
             JsonObject particle = new JsonObject();
 
-            particle.addProperty("id", particleRL.toString());
-            particle.addProperty("name", names.get(pt));
-            particles.add(particle);
+            particle.addProperty("mojangName", names.get(pt));
+            particles.add(particleRL.toString(), particle);
         }
         return particles;
     }

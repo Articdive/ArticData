@@ -1,226 +1,194 @@
-[
-  {
-    "id": "minecraft:speed",
-    "numericalID": 1,
-    "name": "MOVEMENT_SPEED",
+{
+  "minecraft:speed": {
+    "id": 1,
+    "mojangName": "MOVEMENT_SPEED",
     "color": 8171462,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:slowness",
-    "numericalID": 2,
-    "name": "MOVEMENT_SLOWDOWN",
+  "minecraft:slowness": {
+    "id": 2,
+    "mojangName": "MOVEMENT_SLOWDOWN",
     "color": 5926017,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:haste",
-    "numericalID": 3,
-    "name": "DIG_SPEED",
+  "minecraft:haste": {
+    "id": 3,
+    "mojangName": "DIG_SPEED",
     "color": 14270531,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:mining_fatigue",
-    "numericalID": 4,
-    "name": "DIG_SLOWDOWN",
+  "minecraft:mining_fatigue": {
+    "id": 4,
+    "mojangName": "DIG_SLOWDOWN",
     "color": 4866583,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:strength",
-    "numericalID": 5,
-    "name": "DAMAGE_BOOST",
+  "minecraft:strength": {
+    "id": 5,
+    "mojangName": "DAMAGE_BOOST",
     "color": 9643043,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:instant_health",
-    "numericalID": 6,
-    "name": "HEAL",
+  "minecraft:instant_health": {
+    "id": 6,
+    "mojangName": "HEAL",
     "color": 16262179,
     "instantaneous": true
   },
-  {
-    "id": "minecraft:instant_damage",
-    "numericalID": 7,
-    "name": "HARM",
+  "minecraft:instant_damage": {
+    "id": 7,
+    "mojangName": "HARM",
     "color": 4393481,
     "instantaneous": true
   },
-  {
-    "id": "minecraft:jump_boost",
-    "numericalID": 8,
-    "name": "JUMP",
+  "minecraft:jump_boost": {
+    "id": 8,
+    "mojangName": "JUMP",
     "color": 2293580,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:nausea",
-    "numericalID": 9,
-    "name": "CONFUSION",
+  "minecraft:nausea": {
+    "id": 9,
+    "mojangName": "CONFUSION",
     "color": 5578058,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:regeneration",
-    "numericalID": 10,
-    "name": "REGENERATION",
+  "minecraft:regeneration": {
+    "id": 10,
+    "mojangName": "REGENERATION",
     "color": 13458603,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:resistance",
-    "numericalID": 11,
-    "name": "DAMAGE_RESISTANCE",
+  "minecraft:resistance": {
+    "id": 11,
+    "mojangName": "DAMAGE_RESISTANCE",
     "color": 10044730,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:fire_resistance",
-    "numericalID": 12,
-    "name": "FIRE_RESISTANCE",
+  "minecraft:fire_resistance": {
+    "id": 12,
+    "mojangName": "FIRE_RESISTANCE",
     "color": 14981690,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:water_breathing",
-    "numericalID": 13,
-    "name": "WATER_BREATHING",
+  "minecraft:water_breathing": {
+    "id": 13,
+    "mojangName": "WATER_BREATHING",
     "color": 3035801,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:invisibility",
-    "numericalID": 14,
-    "name": "INVISIBILITY",
+  "minecraft:invisibility": {
+    "id": 14,
+    "mojangName": "INVISIBILITY",
     "color": 8356754,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:blindness",
-    "numericalID": 15,
-    "name": "BLINDNESS",
+  "minecraft:blindness": {
+    "id": 15,
+    "mojangName": "BLINDNESS",
     "color": 2039587,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:night_vision",
-    "numericalID": 16,
-    "name": "NIGHT_VISION",
+  "minecraft:night_vision": {
+    "id": 16,
+    "mojangName": "NIGHT_VISION",
     "color": 2039713,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:hunger",
-    "numericalID": 17,
-    "name": "HUNGER",
+  "minecraft:hunger": {
+    "id": 17,
+    "mojangName": "HUNGER",
     "color": 5797459,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:weakness",
-    "numericalID": 18,
-    "name": "WEAKNESS",
+  "minecraft:weakness": {
+    "id": 18,
+    "mojangName": "WEAKNESS",
     "color": 4738376,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:poison",
-    "numericalID": 19,
-    "name": "POISON",
+  "minecraft:poison": {
+    "id": 19,
+    "mojangName": "POISON",
     "color": 5149489,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:wither",
-    "numericalID": 20,
-    "name": "WITHER",
+  "minecraft:wither": {
+    "id": 20,
+    "mojangName": "WITHER",
     "color": 3484199,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:health_boost",
-    "numericalID": 21,
-    "name": "HEALTH_BOOST",
+  "minecraft:health_boost": {
+    "id": 21,
+    "mojangName": "HEALTH_BOOST",
     "color": 16284963,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:absorption",
-    "numericalID": 22,
-    "name": "ABSORPTION",
+  "minecraft:absorption": {
+    "id": 22,
+    "mojangName": "ABSORPTION",
     "color": 2445989,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:saturation",
-    "numericalID": 23,
-    "name": "SATURATION",
+  "minecraft:saturation": {
+    "id": 23,
+    "mojangName": "SATURATION",
     "color": 16262179,
     "instantaneous": true
   },
-  {
-    "id": "minecraft:glowing",
-    "numericalID": 24,
-    "name": "GLOWING",
+  "minecraft:glowing": {
+    "id": 24,
+    "mojangName": "GLOWING",
     "color": 9740385,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:levitation",
-    "numericalID": 25,
-    "name": "LEVITATION",
+  "minecraft:levitation": {
+    "id": 25,
+    "mojangName": "LEVITATION",
     "color": 13565951,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:luck",
-    "numericalID": 26,
-    "name": "LUCK",
+  "minecraft:luck": {
+    "id": 26,
+    "mojangName": "LUCK",
     "color": 3381504,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:unluck",
-    "numericalID": 27,
-    "name": "UNLUCK",
+  "minecraft:unluck": {
+    "id": 27,
+    "mojangName": "UNLUCK",
     "color": 12624973,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:slow_falling",
-    "numericalID": 28,
-    "name": "SLOW_FALLING",
+  "minecraft:slow_falling": {
+    "id": 28,
+    "mojangName": "SLOW_FALLING",
     "color": 16773073,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:conduit_power",
-    "numericalID": 29,
-    "name": "CONDUIT_POWER",
+  "minecraft:conduit_power": {
+    "id": 29,
+    "mojangName": "CONDUIT_POWER",
     "color": 1950417,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:dolphins_grace",
-    "numericalID": 30,
-    "name": "DOLPHINS_GRACE",
+  "minecraft:dolphins_grace": {
+    "id": 30,
+    "mojangName": "DOLPHINS_GRACE",
     "color": 8954814,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:bad_omen",
-    "numericalID": 31,
-    "name": "BAD_OMEN",
+  "minecraft:bad_omen": {
+    "id": 31,
+    "mojangName": "BAD_OMEN",
     "color": 745784,
     "instantaneous": false
   },
-  {
-    "id": "minecraft:hero_of_the_village",
-    "numericalID": 32,
-    "name": "HERO_OF_THE_VILLAGE",
+  "minecraft:hero_of_the_village": {
+    "id": 32,
+    "mojangName": "HERO_OF_THE_VILLAGE",
     "color": 4521796,
     "instantaneous": false
   }
-]
+}

@@ -1,6 +1,5 @@
-[
-  {
-    "id": "minecraft:overworld",
+{
+  "minecraft:overworld": {
     "bedWorks": true,
     "coordinateScale": 1.0,
     "ceiling": false,
@@ -13,8 +12,7 @@
     "ultraWarm": false,
     "respawnAnchorWorks": false
   },
-  {
-    "id": "minecraft:overworld_caves",
+  "minecraft:overworld_caves": {
     "bedWorks": true,
     "coordinateScale": 1.0,
     "ceiling": true,
@@ -27,8 +25,7 @@
     "ultraWarm": false,
     "respawnAnchorWorks": false
   },
-  {
-    "id": "minecraft:the_nether",
+  "minecraft:the_nether": {
     "bedWorks": false,
     "coordinateScale": 8.0,
     "ceiling": true,
@@ -41,8 +38,7 @@
     "ultraWarm": true,
     "respawnAnchorWorks": true
   },
-  {
-    "id": "minecraft:the_end",
+  "minecraft:the_end": {
     "bedWorks": false,
     "coordinateScale": 1.0,
     "ceiling": false,
@@ -55,4 +51,4 @@
     "ultraWarm": false,
     "respawnAnchorWorks": false
   }
-]
+}

@@ -1,6 +1,6 @@
 package net.minestom.datagen;
 
-import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
@@ -34,7 +34,7 @@ public final class DataGenHolder {
             DataGenType type = entry.getKey();
             DataGenerator<?> generator = entry.getValue();
 
-            JsonArray data = generator.generate();
+            JsonObject data = generator.generate();
             jsonOutputter.output(data, type.getFileName());
         }
     }

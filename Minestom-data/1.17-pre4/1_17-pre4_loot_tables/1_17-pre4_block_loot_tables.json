@@ -1,5 +1,5 @@
-[
-  {
+{
+  "minecraft:acacia_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17,10 +17,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_button"
+    ]
   },
-  {
+  "minecraft:acacia_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -47,10 +46,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_door"
+    ]
   },
-  {
+  "minecraft:acacia_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -68,10 +66,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_fence"
+    ]
   },
-  {
+  "minecraft:acacia_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -89,10 +86,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_fence_gate"
+    ]
   },
-  {
+  "minecraft:acacia_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -225,10 +221,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_leaves"
+    ]
   },
-  {
+  "minecraft:acacia_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -246,10 +241,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_log"
+    ]
   },
-  {
+  "minecraft:acacia_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -267,10 +261,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_planks"
+    ]
   },
-  {
+  "minecraft:acacia_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -288,10 +281,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_pressure_plate"
+    ]
   },
-  {
+  "minecraft:acacia_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -309,10 +301,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_sapling"
+    ]
   },
-  {
+  "minecraft:acacia_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -330,10 +321,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_sign"
+    ]
   },
-  {
+  "minecraft:acacia_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -365,10 +355,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_slab"
+    ]
   },
-  {
+  "minecraft:acacia_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -386,10 +375,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_stairs"
+    ]
   },
-  {
+  "minecraft:acacia_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -407,10 +395,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_trapdoor"
+    ]
   },
-  {
+  "minecraft:acacia_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -428,10 +415,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:acacia_wood"
+    ]
   },
-  {
+  "minecraft:activator_rail": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -449,10 +435,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:activator_rail"
+    ]
   },
-  {
+  "minecraft:allium": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -470,10 +455,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:allium"
+    ]
   },
-  {
+  "minecraft:amethyst_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -491,10 +475,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:amethyst_block"
+    ]
   },
-  {
+  "minecraft:amethyst_cluster": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -570,10 +553,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:amethyst_cluster"
+    ]
   },
-  {
+  "minecraft:ancient_debris": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -591,10 +573,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:ancient_debris"
+    ]
   },
-  {
+  "minecraft:andesite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -612,10 +593,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:andesite"
+    ]
   },
-  {
+  "minecraft:andesite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -647,10 +627,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:andesite_slab"
+    ]
   },
-  {
+  "minecraft:andesite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -668,10 +647,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:andesite_stairs"
+    ]
   },
-  {
+  "minecraft:andesite_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -689,10 +667,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:andesite_wall"
+    ]
   },
-  {
+  "minecraft:anvil": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -710,10 +687,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:anvil"
+    ]
   },
-  {
+  "minecraft:attached_melon_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -742,10 +718,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:attached_melon_stem"
+    ]
   },
-  {
+  "minecraft:attached_pumpkin_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -774,10 +749,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:attached_pumpkin_stem"
+    ]
   },
-  {
+  "minecraft:azalea": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -795,10 +769,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:azalea"
+    ]
   },
-  {
+  "minecraft:azalea_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -931,10 +904,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:azalea_leaves"
+    ]
   },
-  {
+  "minecraft:azure_bluet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -952,10 +924,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:azure_bluet"
+    ]
   },
-  {
+  "minecraft:bamboo": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -973,10 +944,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bamboo"
+    ]
   },
-  {
+  "minecraft:bamboo_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -994,10 +964,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bamboo_sapling"
+    ]
   },
-  {
+  "minecraft:barrel": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1021,10 +990,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:barrel"
+    ]
   },
-  {
+  "minecraft:basalt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1042,10 +1010,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:basalt"
+    ]
   },
-  {
+  "minecraft:beacon": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1064,10 +1031,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:beacon"
+    ]
   },
-  {
+  "minecraft:beehive": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1124,10 +1090,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:beehive"
+    ]
   },
-  {
+  "minecraft:beetroots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1193,10 +1158,9 @@
       {
         "function": "minecraft:explosion_decay"
       }
-    ],
-    "blockId": "minecraft:beetroots"
+    ]
   },
-  {
+  "minecraft:bee_nest": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1244,10 +1208,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bee_nest"
+    ]
   },
-  {
+  "minecraft:bell": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1265,10 +1228,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bell"
+    ]
   },
-  {
+  "minecraft:big_dripleaf": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1286,10 +1248,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:big_dripleaf"
+    ]
   },
-  {
+  "minecraft:big_dripleaf_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1307,10 +1268,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:big_dripleaf_stem"
+    ]
   },
-  {
+  "minecraft:birch_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1328,10 +1288,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_button"
+    ]
   },
-  {
+  "minecraft:birch_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1358,10 +1317,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_door"
+    ]
   },
-  {
+  "minecraft:birch_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1379,10 +1337,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_fence"
+    ]
   },
-  {
+  "minecraft:birch_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1400,10 +1357,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_fence_gate"
+    ]
   },
-  {
+  "minecraft:birch_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1536,10 +1492,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_leaves"
+    ]
   },
-  {
+  "minecraft:birch_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1557,10 +1512,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_log"
+    ]
   },
-  {
+  "minecraft:birch_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1578,10 +1532,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_planks"
+    ]
   },
-  {
+  "minecraft:birch_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1599,10 +1552,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_pressure_plate"
+    ]
   },
-  {
+  "minecraft:birch_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1620,10 +1572,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_sapling"
+    ]
   },
-  {
+  "minecraft:birch_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1641,10 +1592,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_sign"
+    ]
   },
-  {
+  "minecraft:birch_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1676,10 +1626,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_slab"
+    ]
   },
-  {
+  "minecraft:birch_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1697,10 +1646,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_stairs"
+    ]
   },
-  {
+  "minecraft:birch_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1718,10 +1666,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_trapdoor"
+    ]
   },
-  {
+  "minecraft:birch_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1739,10 +1686,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:birch_wood"
+    ]
   },
-  {
+  "minecraft:blackstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1760,10 +1706,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blackstone"
+    ]
   },
-  {
+  "minecraft:blackstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1795,10 +1740,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blackstone_slab"
+    ]
   },
-  {
+  "minecraft:blackstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1816,10 +1760,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blackstone_stairs"
+    ]
   },
-  {
+  "minecraft:blackstone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1837,10 +1780,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blackstone_wall"
+    ]
   },
-  {
+  "minecraft:black_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1875,10 +1817,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_banner"
+    ]
   },
-  {
+  "minecraft:black_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1905,10 +1846,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_bed"
+    ]
   },
-  {
+  "minecraft:black_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1968,10 +1908,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_candle"
+    ]
   },
-  {
+  "minecraft:black_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -1984,10 +1923,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_candle_cake"
+    ]
   },
-  {
+  "minecraft:black_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2005,10 +1943,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_carpet"
+    ]
   },
-  {
+  "minecraft:black_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2026,10 +1963,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_concrete"
+    ]
   },
-  {
+  "minecraft:black_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2047,10 +1983,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_concrete_powder"
+    ]
   },
-  {
+  "minecraft:black_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2068,10 +2003,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:black_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2120,10 +2054,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_shulker_box"
+    ]
   },
-  {
+  "minecraft:black_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2151,10 +2084,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_stained_glass"
+    ]
   },
-  {
+  "minecraft:black_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2182,10 +2114,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:black_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2203,10 +2134,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_terracotta"
+    ]
   },
-  {
+  "minecraft:black_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2224,10 +2154,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:black_wool"
+    ]
   },
-  {
+  "minecraft:blast_furnace": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2251,10 +2180,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blast_furnace"
+    ]
   },
-  {
+  "minecraft:blue_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2289,10 +2217,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_banner"
+    ]
   },
-  {
+  "minecraft:blue_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2319,10 +2246,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_bed"
+    ]
   },
-  {
+  "minecraft:blue_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2382,10 +2308,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_candle"
+    ]
   },
-  {
+  "minecraft:blue_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2398,10 +2323,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_candle_cake"
+    ]
   },
-  {
+  "minecraft:blue_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2419,10 +2343,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_carpet"
+    ]
   },
-  {
+  "minecraft:blue_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2440,10 +2363,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_concrete"
+    ]
   },
-  {
+  "minecraft:blue_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2461,10 +2383,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_concrete_powder"
+    ]
   },
-  {
+  "minecraft:blue_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2482,10 +2403,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:blue_ice": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2513,10 +2433,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_ice"
+    ]
   },
-  {
+  "minecraft:blue_orchid": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2534,10 +2453,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_orchid"
+    ]
   },
-  {
+  "minecraft:blue_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2586,10 +2504,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_shulker_box"
+    ]
   },
-  {
+  "minecraft:blue_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2617,10 +2534,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_stained_glass"
+    ]
   },
-  {
+  "minecraft:blue_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2648,10 +2564,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:blue_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2669,10 +2584,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_terracotta"
+    ]
   },
-  {
+  "minecraft:blue_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2690,10 +2604,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:blue_wool"
+    ]
   },
-  {
+  "minecraft:bone_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2711,10 +2624,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bone_block"
+    ]
   },
-  {
+  "minecraft:bookshelf": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2761,10 +2673,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bookshelf"
+    ]
   },
-  {
+  "minecraft:brain_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2792,10 +2703,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brain_coral"
+    ]
   },
-  {
+  "minecraft:brain_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2837,10 +2747,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brain_coral_block"
+    ]
   },
-  {
+  "minecraft:brain_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2868,10 +2777,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brain_coral_fan"
+    ]
   },
-  {
+  "minecraft:brewing_stand": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2895,10 +2803,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brewing_stand"
+    ]
   },
-  {
+  "minecraft:bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2916,10 +2823,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bricks"
+    ]
   },
-  {
+  "minecraft:brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2951,10 +2857,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brick_slab"
+    ]
   },
-  {
+  "minecraft:brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2972,10 +2877,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brick_stairs"
+    ]
   },
-  {
+  "minecraft:brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -2993,10 +2897,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brick_wall"
+    ]
   },
-  {
+  "minecraft:brown_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3031,10 +2934,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_banner"
+    ]
   },
-  {
+  "minecraft:brown_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3061,10 +2963,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_bed"
+    ]
   },
-  {
+  "minecraft:brown_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3124,10 +3025,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_candle"
+    ]
   },
-  {
+  "minecraft:brown_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3140,10 +3040,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_candle_cake"
+    ]
   },
-  {
+  "minecraft:brown_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3161,10 +3060,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_carpet"
+    ]
   },
-  {
+  "minecraft:brown_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3182,10 +3080,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_concrete"
+    ]
   },
-  {
+  "minecraft:brown_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3203,10 +3100,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_concrete_powder"
+    ]
   },
-  {
+  "minecraft:brown_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3224,10 +3120,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:brown_mushroom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3245,10 +3140,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_mushroom"
+    ]
   },
-  {
+  "minecraft:brown_mushroom_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3305,10 +3199,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_mushroom_block"
+    ]
   },
-  {
+  "minecraft:brown_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3357,10 +3250,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_shulker_box"
+    ]
   },
-  {
+  "minecraft:brown_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3388,10 +3280,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_stained_glass"
+    ]
   },
-  {
+  "minecraft:brown_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3419,10 +3310,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:brown_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3440,10 +3330,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_terracotta"
+    ]
   },
-  {
+  "minecraft:brown_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3461,10 +3350,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:brown_wool"
+    ]
   },
-  {
+  "minecraft:bubble_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3492,10 +3380,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bubble_coral"
+    ]
   },
-  {
+  "minecraft:bubble_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3537,10 +3424,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bubble_coral_block"
+    ]
   },
-  {
+  "minecraft:bubble_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3568,14 +3454,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:bubble_coral_fan"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:budding_amethyst"
+  "minecraft:budding_amethyst": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:cactus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3593,14 +3477,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cactus"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:cake"
+  "minecraft:cake": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:calcite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3618,10 +3500,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:calcite"
+    ]
   },
-  {
+  "minecraft:campfire": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3670,10 +3551,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:campfire"
+    ]
   },
-  {
+  "minecraft:candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3733,10 +3613,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:candle"
+    ]
   },
-  {
+  "minecraft:candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3749,10 +3628,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:candle_cake"
+    ]
   },
-  {
+  "minecraft:carrots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3800,10 +3678,9 @@
       {
         "function": "minecraft:explosion_decay"
       }
-    ],
-    "blockId": "minecraft:carrots"
+    ]
   },
-  {
+  "minecraft:cartography_table": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3827,10 +3704,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cartography_table"
+    ]
   },
-  {
+  "minecraft:carved_pumpkin": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3848,10 +3724,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:carved_pumpkin"
+    ]
   },
-  {
+  "minecraft:cauldron": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3869,10 +3744,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cauldron"
+    ]
   },
-  {
+  "minecraft:cave_vines": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3894,10 +3768,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cave_vines"
+    ]
   },
-  {
+  "minecraft:cave_vines_plant": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3919,10 +3792,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cave_vines_plant"
+    ]
   },
-  {
+  "minecraft:chain": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3940,10 +3812,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chain"
+    ]
   },
-  {
+  "minecraft:chest": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3967,10 +3838,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chest"
+    ]
   },
-  {
+  "minecraft:chipped_anvil": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -3988,10 +3858,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chipped_anvil"
+    ]
   },
-  {
+  "minecraft:chiseled_deepslate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4009,10 +3878,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_deepslate"
+    ]
   },
-  {
+  "minecraft:chiseled_nether_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4030,10 +3898,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_nether_bricks"
+    ]
   },
-  {
+  "minecraft:chiseled_polished_blackstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4051,10 +3918,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_polished_blackstone"
+    ]
   },
-  {
+  "minecraft:chiseled_quartz_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4072,10 +3938,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_quartz_block"
+    ]
   },
-  {
+  "minecraft:chiseled_red_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4093,10 +3958,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_red_sandstone"
+    ]
   },
-  {
+  "minecraft:chiseled_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4114,10 +3978,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_sandstone"
+    ]
   },
-  {
+  "minecraft:chiseled_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4135,10 +3998,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chiseled_stone_bricks"
+    ]
   },
-  {
+  "minecraft:chorus_flower": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4161,10 +4023,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chorus_flower"
+    ]
   },
-  {
+  "minecraft:chorus_plant": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4191,10 +4052,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:chorus_plant"
+    ]
   },
-  {
+  "minecraft:clay": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4241,10 +4101,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:clay"
+    ]
   },
-  {
+  "minecraft:coal_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4262,10 +4121,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:coal_block"
+    ]
   },
-  {
+  "minecraft:coal_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4312,10 +4170,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:coal_ore"
+    ]
   },
-  {
+  "minecraft:coarse_dirt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4333,10 +4190,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:coarse_dirt"
+    ]
   },
-  {
+  "minecraft:cobbled_deepslate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4354,10 +4210,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobbled_deepslate"
+    ]
   },
-  {
+  "minecraft:cobbled_deepslate_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4389,10 +4244,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobbled_deepslate_slab"
+    ]
   },
-  {
+  "minecraft:cobbled_deepslate_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4410,10 +4264,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobbled_deepslate_stairs"
+    ]
   },
-  {
+  "minecraft:cobbled_deepslate_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4431,10 +4284,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobbled_deepslate_wall"
+    ]
   },
-  {
+  "minecraft:cobblestone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4452,10 +4304,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobblestone"
+    ]
   },
-  {
+  "minecraft:cobblestone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4487,10 +4338,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobblestone_slab"
+    ]
   },
-  {
+  "minecraft:cobblestone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4508,10 +4358,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobblestone_stairs"
+    ]
   },
-  {
+  "minecraft:cobblestone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4529,10 +4378,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobblestone_wall"
+    ]
   },
-  {
+  "minecraft:cobweb": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4587,10 +4435,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cobweb"
+    ]
   },
-  {
+  "minecraft:cocoa": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4622,10 +4469,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cocoa"
+    ]
   },
-  {
+  "minecraft:comparator": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4643,10 +4489,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:comparator"
+    ]
   },
-  {
+  "minecraft:composter": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4683,10 +4528,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:composter"
+    ]
   },
-  {
+  "minecraft:conduit": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4699,10 +4543,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:conduit"
+    ]
   },
-  {
+  "minecraft:copper_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4720,10 +4563,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:copper_block"
+    ]
   },
-  {
+  "minecraft:copper_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4779,10 +4621,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:copper_ore"
+    ]
   },
-  {
+  "minecraft:cornflower": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4800,10 +4641,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cornflower"
+    ]
   },
-  {
+  "minecraft:cracked_deepslate_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4821,10 +4661,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cracked_deepslate_bricks"
+    ]
   },
-  {
+  "minecraft:cracked_deepslate_tiles": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4842,10 +4681,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cracked_deepslate_tiles"
+    ]
   },
-  {
+  "minecraft:cracked_nether_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4863,10 +4701,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cracked_nether_bricks"
+    ]
   },
-  {
+  "minecraft:cracked_polished_blackstone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4884,10 +4721,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cracked_polished_blackstone_bricks"
+    ]
   },
-  {
+  "minecraft:cracked_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4905,10 +4741,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cracked_stone_bricks"
+    ]
   },
-  {
+  "minecraft:crafting_table": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4926,10 +4761,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crafting_table"
+    ]
   },
-  {
+  "minecraft:creeper_head": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4942,10 +4776,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:creeper_head"
+    ]
   },
-  {
+  "minecraft:crimson_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4963,10 +4796,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_button"
+    ]
   },
-  {
+  "minecraft:crimson_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -4993,10 +4825,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_door"
+    ]
   },
-  {
+  "minecraft:crimson_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5014,10 +4845,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_fence"
+    ]
   },
-  {
+  "minecraft:crimson_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5035,10 +4865,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_fence_gate"
+    ]
   },
-  {
+  "minecraft:crimson_fungus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5056,10 +4885,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_fungus"
+    ]
   },
-  {
+  "minecraft:crimson_hyphae": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5077,10 +4905,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_hyphae"
+    ]
   },
-  {
+  "minecraft:crimson_nylium": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5122,10 +4949,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_nylium"
+    ]
   },
-  {
+  "minecraft:crimson_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5143,10 +4969,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_planks"
+    ]
   },
-  {
+  "minecraft:crimson_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5164,10 +4989,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_pressure_plate"
+    ]
   },
-  {
+  "minecraft:crimson_roots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5185,10 +5009,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_roots"
+    ]
   },
-  {
+  "minecraft:crimson_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5206,10 +5029,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_sign"
+    ]
   },
-  {
+  "minecraft:crimson_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5241,10 +5063,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_slab"
+    ]
   },
-  {
+  "minecraft:crimson_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5262,10 +5083,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_stairs"
+    ]
   },
-  {
+  "minecraft:crimson_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5283,10 +5103,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_stem"
+    ]
   },
-  {
+  "minecraft:crimson_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5304,10 +5123,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crimson_trapdoor"
+    ]
   },
-  {
+  "minecraft:crying_obsidian": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5325,10 +5143,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:crying_obsidian"
+    ]
   },
-  {
+  "minecraft:cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5346,10 +5163,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_copper"
+    ]
   },
-  {
+  "minecraft:cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5381,10 +5197,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5402,10 +5217,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:cut_red_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5423,10 +5237,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_red_sandstone"
+    ]
   },
-  {
+  "minecraft:cut_red_sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5458,10 +5271,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_red_sandstone_slab"
+    ]
   },
-  {
+  "minecraft:cut_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5479,10 +5291,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_sandstone"
+    ]
   },
-  {
+  "minecraft:cut_sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5514,10 +5325,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cut_sandstone_slab"
+    ]
   },
-  {
+  "minecraft:cyan_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5552,10 +5362,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_banner"
+    ]
   },
-  {
+  "minecraft:cyan_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5582,10 +5391,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_bed"
+    ]
   },
-  {
+  "minecraft:cyan_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5645,10 +5453,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_candle"
+    ]
   },
-  {
+  "minecraft:cyan_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5661,10 +5468,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_candle_cake"
+    ]
   },
-  {
+  "minecraft:cyan_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5682,10 +5488,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_carpet"
+    ]
   },
-  {
+  "minecraft:cyan_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5703,10 +5508,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_concrete"
+    ]
   },
-  {
+  "minecraft:cyan_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5724,10 +5528,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_concrete_powder"
+    ]
   },
-  {
+  "minecraft:cyan_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5745,10 +5548,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:cyan_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5797,10 +5599,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_shulker_box"
+    ]
   },
-  {
+  "minecraft:cyan_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5828,10 +5629,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_stained_glass"
+    ]
   },
-  {
+  "minecraft:cyan_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5859,10 +5659,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:cyan_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5880,10 +5679,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_terracotta"
+    ]
   },
-  {
+  "minecraft:cyan_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5901,10 +5699,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:cyan_wool"
+    ]
   },
-  {
+  "minecraft:damaged_anvil": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5922,10 +5719,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:damaged_anvil"
+    ]
   },
-  {
+  "minecraft:dandelion": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5943,10 +5739,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dandelion"
+    ]
   },
-  {
+  "minecraft:dark_oak_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5964,10 +5759,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_button"
+    ]
   },
-  {
+  "minecraft:dark_oak_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -5994,10 +5788,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_door"
+    ]
   },
-  {
+  "minecraft:dark_oak_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6015,10 +5808,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_fence"
+    ]
   },
-  {
+  "minecraft:dark_oak_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6036,10 +5828,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_fence_gate"
+    ]
   },
-  {
+  "minecraft:dark_oak_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6229,10 +6020,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_leaves"
+    ]
   },
-  {
+  "minecraft:dark_oak_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6250,10 +6040,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_log"
+    ]
   },
-  {
+  "minecraft:dark_oak_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6271,10 +6060,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_planks"
+    ]
   },
-  {
+  "minecraft:dark_oak_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6292,10 +6080,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_pressure_plate"
+    ]
   },
-  {
+  "minecraft:dark_oak_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6313,10 +6100,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_sapling"
+    ]
   },
-  {
+  "minecraft:dark_oak_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6334,10 +6120,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_sign"
+    ]
   },
-  {
+  "minecraft:dark_oak_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6369,10 +6154,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_slab"
+    ]
   },
-  {
+  "minecraft:dark_oak_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6390,10 +6174,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_stairs"
+    ]
   },
-  {
+  "minecraft:dark_oak_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6411,10 +6194,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_trapdoor"
+    ]
   },
-  {
+  "minecraft:dark_oak_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6432,10 +6214,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_oak_wood"
+    ]
   },
-  {
+  "minecraft:dark_prismarine": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6453,10 +6234,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_prismarine"
+    ]
   },
-  {
+  "minecraft:dark_prismarine_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6488,10 +6268,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_prismarine_slab"
+    ]
   },
-  {
+  "minecraft:dark_prismarine_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6509,10 +6288,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dark_prismarine_stairs"
+    ]
   },
-  {
+  "minecraft:daylight_detector": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6530,10 +6308,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:daylight_detector"
+    ]
   },
-  {
+  "minecraft:dead_brain_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6561,10 +6338,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_brain_coral"
+    ]
   },
-  {
+  "minecraft:dead_brain_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6582,10 +6358,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_brain_coral_block"
+    ]
   },
-  {
+  "minecraft:dead_brain_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6613,10 +6388,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_brain_coral_fan"
+    ]
   },
-  {
+  "minecraft:dead_bubble_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6644,10 +6418,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_bubble_coral"
+    ]
   },
-  {
+  "minecraft:dead_bubble_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6665,10 +6438,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_bubble_coral_block"
+    ]
   },
-  {
+  "minecraft:dead_bubble_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6696,10 +6468,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_bubble_coral_fan"
+    ]
   },
-  {
+  "minecraft:dead_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6745,10 +6516,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_bush"
+    ]
   },
-  {
+  "minecraft:dead_fire_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6776,10 +6546,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_fire_coral"
+    ]
   },
-  {
+  "minecraft:dead_fire_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6797,10 +6566,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_fire_coral_block"
+    ]
   },
-  {
+  "minecraft:dead_fire_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6828,10 +6596,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_fire_coral_fan"
+    ]
   },
-  {
+  "minecraft:dead_horn_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6859,10 +6626,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_horn_coral"
+    ]
   },
-  {
+  "minecraft:dead_horn_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6880,10 +6646,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_horn_coral_block"
+    ]
   },
-  {
+  "minecraft:dead_horn_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6911,10 +6676,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_horn_coral_fan"
+    ]
   },
-  {
+  "minecraft:dead_tube_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6942,10 +6706,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_tube_coral"
+    ]
   },
-  {
+  "minecraft:dead_tube_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6963,10 +6726,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_tube_coral_block"
+    ]
   },
-  {
+  "minecraft:dead_tube_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -6994,10 +6756,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dead_tube_coral_fan"
+    ]
   },
-  {
+  "minecraft:deepslate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7039,10 +6800,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate"
+    ]
   },
-  {
+  "minecraft:deepslate_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7060,10 +6820,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_bricks"
+    ]
   },
-  {
+  "minecraft:deepslate_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7095,10 +6854,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_brick_slab"
+    ]
   },
-  {
+  "minecraft:deepslate_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7116,10 +6874,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_brick_stairs"
+    ]
   },
-  {
+  "minecraft:deepslate_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7137,10 +6894,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_brick_wall"
+    ]
   },
-  {
+  "minecraft:deepslate_coal_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7187,10 +6943,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_coal_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_copper_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7246,10 +7001,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_copper_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_diamond_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7296,10 +7050,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_diamond_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_emerald_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7346,10 +7099,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_emerald_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_gold_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7396,10 +7148,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_gold_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_iron_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7446,10 +7197,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_iron_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_lapis_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7505,10 +7255,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_lapis_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_redstone_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7567,10 +7316,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_redstone_ore"
+    ]
   },
-  {
+  "minecraft:deepslate_tiles": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7588,10 +7336,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_tiles"
+    ]
   },
-  {
+  "minecraft:deepslate_tile_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7623,10 +7370,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_tile_slab"
+    ]
   },
-  {
+  "minecraft:deepslate_tile_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7644,10 +7390,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_tile_stairs"
+    ]
   },
-  {
+  "minecraft:deepslate_tile_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7665,10 +7410,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:deepslate_tile_wall"
+    ]
   },
-  {
+  "minecraft:detector_rail": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7686,10 +7430,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:detector_rail"
+    ]
   },
-  {
+  "minecraft:diamond_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7707,10 +7450,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diamond_block"
+    ]
   },
-  {
+  "minecraft:diamond_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7757,10 +7499,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diamond_ore"
+    ]
   },
-  {
+  "minecraft:diorite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7778,10 +7519,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diorite"
+    ]
   },
-  {
+  "minecraft:diorite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7813,10 +7553,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diorite_slab"
+    ]
   },
-  {
+  "minecraft:diorite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7834,10 +7573,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diorite_stairs"
+    ]
   },
-  {
+  "minecraft:diorite_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7855,10 +7593,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:diorite_wall"
+    ]
   },
-  {
+  "minecraft:dirt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7876,10 +7613,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dirt"
+    ]
   },
-  {
+  "minecraft:dirt_path": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7897,10 +7633,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dirt_path"
+    ]
   },
-  {
+  "minecraft:dispenser": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7924,10 +7659,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dispenser"
+    ]
   },
-  {
+  "minecraft:dragon_egg": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7940,10 +7674,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dragon_egg"
+    ]
   },
-  {
+  "minecraft:dragon_head": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7956,10 +7689,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dragon_head"
+    ]
   },
-  {
+  "minecraft:dried_kelp_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7977,10 +7709,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dried_kelp_block"
+    ]
   },
-  {
+  "minecraft:dripstone_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -7998,10 +7729,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dripstone_block"
+    ]
   },
-  {
+  "minecraft:dropper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8025,10 +7755,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:dropper"
+    ]
   },
-  {
+  "minecraft:emerald_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8046,10 +7775,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:emerald_block"
+    ]
   },
-  {
+  "minecraft:emerald_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8096,10 +7824,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:emerald_ore"
+    ]
   },
-  {
+  "minecraft:enchanting_table": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8123,10 +7850,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:enchanting_table"
+    ]
   },
-  {
+  "minecraft:ender_chest": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8173,10 +7899,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:ender_chest"
+    ]
   },
-  {
+  "minecraft:end_rod": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8194,10 +7919,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_rod"
+    ]
   },
-  {
+  "minecraft:end_stone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8215,10 +7939,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_stone"
+    ]
   },
-  {
+  "minecraft:end_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8236,10 +7959,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_stone_bricks"
+    ]
   },
-  {
+  "minecraft:end_stone_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8271,10 +7993,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_stone_brick_slab"
+    ]
   },
-  {
+  "minecraft:end_stone_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8292,10 +8013,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_stone_brick_stairs"
+    ]
   },
-  {
+  "minecraft:end_stone_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8313,10 +8033,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:end_stone_brick_wall"
+    ]
   },
-  {
+  "minecraft:exposed_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8334,10 +8053,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:exposed_copper"
+    ]
   },
-  {
+  "minecraft:exposed_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8355,10 +8073,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:exposed_cut_copper"
+    ]
   },
-  {
+  "minecraft:exposed_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8390,10 +8107,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:exposed_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:exposed_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8411,10 +8127,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:exposed_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:farmland": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8432,10 +8147,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:farmland"
+    ]
   },
-  {
+  "minecraft:fern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8486,14 +8200,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:fern"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:fire"
+  "minecraft:fire": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:fire_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8521,10 +8233,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:fire_coral"
+    ]
   },
-  {
+  "minecraft:fire_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8566,10 +8277,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:fire_coral_block"
+    ]
   },
-  {
+  "minecraft:fire_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8597,10 +8307,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:fire_coral_fan"
+    ]
   },
-  {
+  "minecraft:fletching_table": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8624,10 +8333,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:fletching_table"
+    ]
   },
-  {
+  "minecraft:flowering_azalea": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8645,10 +8353,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:flowering_azalea"
+    ]
   },
-  {
+  "minecraft:flowering_azalea_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8781,10 +8488,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:flowering_azalea_leaves"
+    ]
   },
-  {
+  "minecraft:flower_pot": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8802,14 +8508,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:flower_pot"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:frosted_ice"
+  "minecraft:frosted_ice": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:furnace": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8833,10 +8537,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:furnace"
+    ]
   },
-  {
+  "minecraft:gilded_blackstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8910,10 +8613,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gilded_blackstone"
+    ]
   },
-  {
+  "minecraft:glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8941,10 +8643,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:glass"
+    ]
   },
-  {
+  "minecraft:glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -8972,10 +8673,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:glass_pane"
+    ]
   },
-  {
+  "minecraft:glowstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9041,10 +8741,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:glowstone"
+    ]
   },
-  {
+  "minecraft:glow_lichen": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9161,10 +8860,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:glow_lichen"
+    ]
   },
-  {
+  "minecraft:gold_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9182,10 +8880,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gold_block"
+    ]
   },
-  {
+  "minecraft:gold_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9232,10 +8929,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gold_ore"
+    ]
   },
-  {
+  "minecraft:granite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9253,10 +8949,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:granite"
+    ]
   },
-  {
+  "minecraft:granite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9288,10 +8983,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:granite_slab"
+    ]
   },
-  {
+  "minecraft:granite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9309,10 +9003,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:granite_stairs"
+    ]
   },
-  {
+  "minecraft:granite_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9330,10 +9023,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:granite_wall"
+    ]
   },
-  {
+  "minecraft:grass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9384,10 +9076,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:grass"
+    ]
   },
-  {
+  "minecraft:grass_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9429,10 +9120,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:grass_block"
+    ]
   },
-  {
+  "minecraft:gravel": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9495,10 +9185,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gravel"
+    ]
   },
-  {
+  "minecraft:gray_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9533,10 +9222,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_banner"
+    ]
   },
-  {
+  "minecraft:gray_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9563,10 +9251,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_bed"
+    ]
   },
-  {
+  "minecraft:gray_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9626,10 +9313,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_candle"
+    ]
   },
-  {
+  "minecraft:gray_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9642,10 +9328,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_candle_cake"
+    ]
   },
-  {
+  "minecraft:gray_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9663,10 +9348,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_carpet"
+    ]
   },
-  {
+  "minecraft:gray_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9684,10 +9368,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_concrete"
+    ]
   },
-  {
+  "minecraft:gray_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9705,10 +9388,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_concrete_powder"
+    ]
   },
-  {
+  "minecraft:gray_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9726,10 +9408,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:gray_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9778,10 +9459,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_shulker_box"
+    ]
   },
-  {
+  "minecraft:gray_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9809,10 +9489,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_stained_glass"
+    ]
   },
-  {
+  "minecraft:gray_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9840,10 +9519,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:gray_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9861,10 +9539,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_terracotta"
+    ]
   },
-  {
+  "minecraft:gray_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9882,10 +9559,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:gray_wool"
+    ]
   },
-  {
+  "minecraft:green_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9920,10 +9596,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_banner"
+    ]
   },
-  {
+  "minecraft:green_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -9950,10 +9625,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_bed"
+    ]
   },
-  {
+  "minecraft:green_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10013,10 +9687,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_candle"
+    ]
   },
-  {
+  "minecraft:green_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10029,10 +9702,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_candle_cake"
+    ]
   },
-  {
+  "minecraft:green_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10050,10 +9722,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_carpet"
+    ]
   },
-  {
+  "minecraft:green_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10071,10 +9742,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_concrete"
+    ]
   },
-  {
+  "minecraft:green_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10092,10 +9762,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_concrete_powder"
+    ]
   },
-  {
+  "minecraft:green_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10113,10 +9782,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:green_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10165,10 +9833,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_shulker_box"
+    ]
   },
-  {
+  "minecraft:green_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10196,10 +9863,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_stained_glass"
+    ]
   },
-  {
+  "minecraft:green_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10227,10 +9893,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:green_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10248,10 +9913,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_terracotta"
+    ]
   },
-  {
+  "minecraft:green_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10269,10 +9933,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:green_wool"
+    ]
   },
-  {
+  "minecraft:grindstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10296,10 +9959,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:grindstone"
+    ]
   },
-  {
+  "minecraft:hanging_roots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10322,10 +9984,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:hanging_roots"
+    ]
   },
-  {
+  "minecraft:hay_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10343,10 +10004,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:hay_block"
+    ]
   },
-  {
+  "minecraft:heavy_weighted_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10364,10 +10024,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:heavy_weighted_pressure_plate"
+    ]
   },
-  {
+  "minecraft:honeycomb_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10385,10 +10044,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:honeycomb_block"
+    ]
   },
-  {
+  "minecraft:honey_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10406,10 +10064,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:honey_block"
+    ]
   },
-  {
+  "minecraft:hopper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10433,10 +10090,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:hopper"
+    ]
   },
-  {
+  "minecraft:horn_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10464,10 +10120,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:horn_coral"
+    ]
   },
-  {
+  "minecraft:horn_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10509,10 +10164,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:horn_coral_block"
+    ]
   },
-  {
+  "minecraft:horn_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10540,10 +10194,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:horn_coral_fan"
+    ]
   },
-  {
+  "minecraft:ice": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10571,10 +10224,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:ice"
+    ]
   },
-  {
+  "minecraft:infested_chiseled_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10602,10 +10254,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_chiseled_stone_bricks"
+    ]
   },
-  {
+  "minecraft:infested_cobblestone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10633,10 +10284,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_cobblestone"
+    ]
   },
-  {
+  "minecraft:infested_cracked_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10664,10 +10314,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_cracked_stone_bricks"
+    ]
   },
-  {
+  "minecraft:infested_deepslate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10695,10 +10344,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_deepslate"
+    ]
   },
-  {
+  "minecraft:infested_mossy_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10726,10 +10374,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_mossy_stone_bricks"
+    ]
   },
-  {
+  "minecraft:infested_stone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10757,10 +10404,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_stone"
+    ]
   },
-  {
+  "minecraft:infested_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10788,10 +10434,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:infested_stone_bricks"
+    ]
   },
-  {
+  "minecraft:iron_bars": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10809,10 +10454,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:iron_bars"
+    ]
   },
-  {
+  "minecraft:iron_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10830,10 +10474,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:iron_block"
+    ]
   },
-  {
+  "minecraft:iron_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10860,10 +10503,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:iron_door"
+    ]
   },
-  {
+  "minecraft:iron_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10910,10 +10552,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:iron_ore"
+    ]
   },
-  {
+  "minecraft:iron_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10931,10 +10572,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:iron_trapdoor"
+    ]
   },
-  {
+  "minecraft:jack_o_lantern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10952,10 +10592,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jack_o_lantern"
+    ]
   },
-  {
+  "minecraft:jukebox": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10973,10 +10612,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jukebox"
+    ]
   },
-  {
+  "minecraft:jungle_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -10994,10 +10632,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_button"
+    ]
   },
-  {
+  "minecraft:jungle_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11024,10 +10661,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_door"
+    ]
   },
-  {
+  "minecraft:jungle_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11045,10 +10681,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_fence"
+    ]
   },
-  {
+  "minecraft:jungle_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11066,10 +10701,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_fence_gate"
+    ]
   },
-  {
+  "minecraft:jungle_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11203,10 +10837,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_leaves"
+    ]
   },
-  {
+  "minecraft:jungle_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11224,10 +10857,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_log"
+    ]
   },
-  {
+  "minecraft:jungle_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11245,10 +10877,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_planks"
+    ]
   },
-  {
+  "minecraft:jungle_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11266,10 +10897,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_pressure_plate"
+    ]
   },
-  {
+  "minecraft:jungle_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11287,10 +10917,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_sapling"
+    ]
   },
-  {
+  "minecraft:jungle_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11308,10 +10937,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_sign"
+    ]
   },
-  {
+  "minecraft:jungle_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11343,10 +10971,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_slab"
+    ]
   },
-  {
+  "minecraft:jungle_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11364,10 +10991,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_stairs"
+    ]
   },
-  {
+  "minecraft:jungle_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11385,10 +11011,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_trapdoor"
+    ]
   },
-  {
+  "minecraft:jungle_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11406,10 +11031,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:jungle_wood"
+    ]
   },
-  {
+  "minecraft:kelp": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11427,10 +11051,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:kelp"
+    ]
   },
-  {
+  "minecraft:kelp_plant": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11448,10 +11071,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:kelp_plant"
+    ]
   },
-  {
+  "minecraft:ladder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11469,10 +11091,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:ladder"
+    ]
   },
-  {
+  "minecraft:lantern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11490,10 +11111,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lantern"
+    ]
   },
-  {
+  "minecraft:lapis_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11511,10 +11131,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lapis_block"
+    ]
   },
-  {
+  "minecraft:lapis_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11570,10 +11189,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lapis_ore"
+    ]
   },
-  {
+  "minecraft:large_amethyst_bud": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11601,10 +11219,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:large_amethyst_bud"
+    ]
   },
-  {
+  "minecraft:large_fern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11743,10 +11360,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:large_fern"
+    ]
   },
-  {
+  "minecraft:lava_cauldron": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11764,10 +11380,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lava_cauldron"
+    ]
   },
-  {
+  "minecraft:lectern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11791,10 +11406,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lectern"
+    ]
   },
-  {
+  "minecraft:lever": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11812,10 +11426,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lever"
+    ]
   },
-  {
+  "minecraft:lightning_rod": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11833,10 +11446,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lightning_rod"
+    ]
   },
-  {
+  "minecraft:light_blue_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11871,10 +11483,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_banner"
+    ]
   },
-  {
+  "minecraft:light_blue_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11901,10 +11512,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_bed"
+    ]
   },
-  {
+  "minecraft:light_blue_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11964,10 +11574,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_candle"
+    ]
   },
-  {
+  "minecraft:light_blue_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -11980,10 +11589,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_candle_cake"
+    ]
   },
-  {
+  "minecraft:light_blue_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12001,10 +11609,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_carpet"
+    ]
   },
-  {
+  "minecraft:light_blue_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12022,10 +11629,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_concrete"
+    ]
   },
-  {
+  "minecraft:light_blue_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12043,10 +11649,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_concrete_powder"
+    ]
   },
-  {
+  "minecraft:light_blue_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12064,10 +11669,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:light_blue_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12116,10 +11720,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_shulker_box"
+    ]
   },
-  {
+  "minecraft:light_blue_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12147,10 +11750,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_stained_glass"
+    ]
   },
-  {
+  "minecraft:light_blue_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12178,10 +11780,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:light_blue_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12199,10 +11800,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_terracotta"
+    ]
   },
-  {
+  "minecraft:light_blue_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12220,10 +11820,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_blue_wool"
+    ]
   },
-  {
+  "minecraft:light_gray_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12258,10 +11857,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_banner"
+    ]
   },
-  {
+  "minecraft:light_gray_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12288,10 +11886,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_bed"
+    ]
   },
-  {
+  "minecraft:light_gray_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12351,10 +11948,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_candle"
+    ]
   },
-  {
+  "minecraft:light_gray_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12367,10 +11963,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_candle_cake"
+    ]
   },
-  {
+  "minecraft:light_gray_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12388,10 +11983,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_carpet"
+    ]
   },
-  {
+  "minecraft:light_gray_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12409,10 +12003,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_concrete"
+    ]
   },
-  {
+  "minecraft:light_gray_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12430,10 +12023,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_concrete_powder"
+    ]
   },
-  {
+  "minecraft:light_gray_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12451,10 +12043,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:light_gray_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12503,10 +12094,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_shulker_box"
+    ]
   },
-  {
+  "minecraft:light_gray_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12534,10 +12124,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_stained_glass"
+    ]
   },
-  {
+  "minecraft:light_gray_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12565,10 +12154,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:light_gray_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12586,10 +12174,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_terracotta"
+    ]
   },
-  {
+  "minecraft:light_gray_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12607,10 +12194,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_gray_wool"
+    ]
   },
-  {
+  "minecraft:light_weighted_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12628,10 +12214,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:light_weighted_pressure_plate"
+    ]
   },
-  {
+  "minecraft:lilac": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12658,10 +12243,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lilac"
+    ]
   },
-  {
+  "minecraft:lily_of_the_valley": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12679,10 +12263,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lily_of_the_valley"
+    ]
   },
-  {
+  "minecraft:lily_pad": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12700,10 +12283,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lily_pad"
+    ]
   },
-  {
+  "minecraft:lime_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12738,10 +12320,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_banner"
+    ]
   },
-  {
+  "minecraft:lime_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12768,10 +12349,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_bed"
+    ]
   },
-  {
+  "minecraft:lime_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12831,10 +12411,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_candle"
+    ]
   },
-  {
+  "minecraft:lime_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12847,10 +12426,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_candle_cake"
+    ]
   },
-  {
+  "minecraft:lime_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12868,10 +12446,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_carpet"
+    ]
   },
-  {
+  "minecraft:lime_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12889,10 +12466,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_concrete"
+    ]
   },
-  {
+  "minecraft:lime_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12910,10 +12486,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_concrete_powder"
+    ]
   },
-  {
+  "minecraft:lime_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12931,10 +12506,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:lime_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -12983,10 +12557,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_shulker_box"
+    ]
   },
-  {
+  "minecraft:lime_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13014,10 +12587,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_stained_glass"
+    ]
   },
-  {
+  "minecraft:lime_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13045,10 +12617,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:lime_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13066,10 +12637,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_terracotta"
+    ]
   },
-  {
+  "minecraft:lime_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13087,10 +12657,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lime_wool"
+    ]
   },
-  {
+  "minecraft:lodestone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13108,10 +12677,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:lodestone"
+    ]
   },
-  {
+  "minecraft:loom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13129,10 +12697,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:loom"
+    ]
   },
-  {
+  "minecraft:magenta_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13167,10 +12734,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_banner"
+    ]
   },
-  {
+  "minecraft:magenta_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13197,10 +12763,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_bed"
+    ]
   },
-  {
+  "minecraft:magenta_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13260,10 +12825,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_candle"
+    ]
   },
-  {
+  "minecraft:magenta_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13276,10 +12840,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_candle_cake"
+    ]
   },
-  {
+  "minecraft:magenta_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13297,10 +12860,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_carpet"
+    ]
   },
-  {
+  "minecraft:magenta_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13318,10 +12880,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_concrete"
+    ]
   },
-  {
+  "minecraft:magenta_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13339,10 +12900,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_concrete_powder"
+    ]
   },
-  {
+  "minecraft:magenta_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13360,10 +12920,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:magenta_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13412,10 +12971,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_shulker_box"
+    ]
   },
-  {
+  "minecraft:magenta_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13443,10 +13001,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_stained_glass"
+    ]
   },
-  {
+  "minecraft:magenta_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13474,10 +13031,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:magenta_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13495,10 +13051,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_terracotta"
+    ]
   },
-  {
+  "minecraft:magenta_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13516,10 +13071,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magenta_wool"
+    ]
   },
-  {
+  "minecraft:magma_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13537,10 +13091,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:magma_block"
+    ]
   },
-  {
+  "minecraft:medium_amethyst_bud": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13568,10 +13121,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:medium_amethyst_bud"
+    ]
   },
-  {
+  "minecraft:melon": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13636,10 +13188,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:melon"
+    ]
   },
-  {
+  "minecraft:melon_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13803,10 +13354,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:melon_stem"
+    ]
   },
-  {
+  "minecraft:mossy_cobblestone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13824,10 +13374,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_cobblestone"
+    ]
   },
-  {
+  "minecraft:mossy_cobblestone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13859,10 +13408,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_cobblestone_slab"
+    ]
   },
-  {
+  "minecraft:mossy_cobblestone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13880,10 +13428,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_cobblestone_stairs"
+    ]
   },
-  {
+  "minecraft:mossy_cobblestone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13901,10 +13448,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_cobblestone_wall"
+    ]
   },
-  {
+  "minecraft:mossy_stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13922,10 +13468,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_stone_bricks"
+    ]
   },
-  {
+  "minecraft:mossy_stone_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13957,10 +13502,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_stone_brick_slab"
+    ]
   },
-  {
+  "minecraft:mossy_stone_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13978,10 +13522,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_stone_brick_stairs"
+    ]
   },
-  {
+  "minecraft:mossy_stone_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -13999,10 +13542,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mossy_stone_brick_wall"
+    ]
   },
-  {
+  "minecraft:moss_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14020,10 +13562,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:moss_block"
+    ]
   },
-  {
+  "minecraft:moss_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14041,10 +13582,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:moss_carpet"
+    ]
   },
-  {
+  "minecraft:mushroom_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14072,10 +13612,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mushroom_stem"
+    ]
   },
-  {
+  "minecraft:mycelium": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14117,10 +13656,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:mycelium"
+    ]
   },
-  {
+  "minecraft:netherite_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14138,10 +13676,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:netherite_block"
+    ]
   },
-  {
+  "minecraft:netherrack": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14159,10 +13696,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:netherrack"
+    ]
   },
-  {
+  "minecraft:nether_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14180,10 +13716,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_bricks"
+    ]
   },
-  {
+  "minecraft:nether_brick_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14201,10 +13736,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_brick_fence"
+    ]
   },
-  {
+  "minecraft:nether_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14236,10 +13770,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_brick_slab"
+    ]
   },
-  {
+  "minecraft:nether_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14257,10 +13790,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_brick_stairs"
+    ]
   },
-  {
+  "minecraft:nether_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14278,10 +13810,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_brick_wall"
+    ]
   },
-  {
+  "minecraft:nether_gold_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14337,14 +13868,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_gold_ore"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:nether_portal"
+  "minecraft:nether_portal": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:nether_quartz_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14391,10 +13920,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_quartz_ore"
+    ]
   },
-  {
+  "minecraft:nether_sprouts": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14417,10 +13945,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_sprouts"
+    ]
   },
-  {
+  "minecraft:nether_wart": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14475,10 +14002,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_wart"
+    ]
   },
-  {
+  "minecraft:nether_wart_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14496,10 +14022,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:nether_wart_block"
+    ]
   },
-  {
+  "minecraft:note_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14517,10 +14042,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:note_block"
+    ]
   },
-  {
+  "minecraft:oak_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14538,10 +14062,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_button"
+    ]
   },
-  {
+  "minecraft:oak_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14568,10 +14091,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_door"
+    ]
   },
-  {
+  "minecraft:oak_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14589,10 +14111,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_fence"
+    ]
   },
-  {
+  "minecraft:oak_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14610,10 +14131,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_fence_gate"
+    ]
   },
-  {
+  "minecraft:oak_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14803,10 +14323,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_leaves"
+    ]
   },
-  {
+  "minecraft:oak_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14824,10 +14343,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_log"
+    ]
   },
-  {
+  "minecraft:oak_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14845,10 +14363,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_planks"
+    ]
   },
-  {
+  "minecraft:oak_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14866,10 +14383,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_pressure_plate"
+    ]
   },
-  {
+  "minecraft:oak_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14887,10 +14403,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_sapling"
+    ]
   },
-  {
+  "minecraft:oak_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14908,10 +14423,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_sign"
+    ]
   },
-  {
+  "minecraft:oak_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14943,10 +14457,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_slab"
+    ]
   },
-  {
+  "minecraft:oak_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14964,10 +14477,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_stairs"
+    ]
   },
-  {
+  "minecraft:oak_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -14985,10 +14497,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_trapdoor"
+    ]
   },
-  {
+  "minecraft:oak_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15006,10 +14517,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oak_wood"
+    ]
   },
-  {
+  "minecraft:observer": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15027,10 +14537,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:observer"
+    ]
   },
-  {
+  "minecraft:obsidian": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15048,10 +14557,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:obsidian"
+    ]
   },
-  {
+  "minecraft:orange_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15086,10 +14594,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_banner"
+    ]
   },
-  {
+  "minecraft:orange_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15116,10 +14623,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_bed"
+    ]
   },
-  {
+  "minecraft:orange_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15179,10 +14685,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_candle"
+    ]
   },
-  {
+  "minecraft:orange_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15195,10 +14700,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_candle_cake"
+    ]
   },
-  {
+  "minecraft:orange_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15216,10 +14720,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_carpet"
+    ]
   },
-  {
+  "minecraft:orange_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15237,10 +14740,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_concrete"
+    ]
   },
-  {
+  "minecraft:orange_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15258,10 +14760,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_concrete_powder"
+    ]
   },
-  {
+  "minecraft:orange_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15279,10 +14780,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:orange_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15331,10 +14831,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_shulker_box"
+    ]
   },
-  {
+  "minecraft:orange_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15362,10 +14861,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_stained_glass"
+    ]
   },
-  {
+  "minecraft:orange_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15393,10 +14891,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:orange_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15414,10 +14911,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_terracotta"
+    ]
   },
-  {
+  "minecraft:orange_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15435,10 +14931,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_tulip"
+    ]
   },
-  {
+  "minecraft:orange_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15456,10 +14951,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:orange_wool"
+    ]
   },
-  {
+  "minecraft:oxeye_daisy": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15477,10 +14971,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oxeye_daisy"
+    ]
   },
-  {
+  "minecraft:oxidized_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15498,10 +14991,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oxidized_copper"
+    ]
   },
-  {
+  "minecraft:oxidized_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15519,10 +15011,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oxidized_cut_copper"
+    ]
   },
-  {
+  "minecraft:oxidized_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15554,10 +15045,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oxidized_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:oxidized_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15575,10 +15065,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:oxidized_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:packed_ice": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15606,10 +15095,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:packed_ice"
+    ]
   },
-  {
+  "minecraft:peony": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15636,10 +15124,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:peony"
+    ]
   },
-  {
+  "minecraft:petrified_oak_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15671,10 +15158,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:petrified_oak_slab"
+    ]
   },
-  {
+  "minecraft:pink_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15709,10 +15195,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_banner"
+    ]
   },
-  {
+  "minecraft:pink_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15739,10 +15224,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_bed"
+    ]
   },
-  {
+  "minecraft:pink_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15802,10 +15286,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_candle"
+    ]
   },
-  {
+  "minecraft:pink_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15818,10 +15301,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_candle_cake"
+    ]
   },
-  {
+  "minecraft:pink_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15839,10 +15321,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_carpet"
+    ]
   },
-  {
+  "minecraft:pink_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15860,10 +15341,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_concrete"
+    ]
   },
-  {
+  "minecraft:pink_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15881,10 +15361,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_concrete_powder"
+    ]
   },
-  {
+  "minecraft:pink_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15902,10 +15381,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:pink_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15954,10 +15432,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_shulker_box"
+    ]
   },
-  {
+  "minecraft:pink_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -15985,10 +15462,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_stained_glass"
+    ]
   },
-  {
+  "minecraft:pink_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16016,10 +15492,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:pink_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16037,10 +15512,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_terracotta"
+    ]
   },
-  {
+  "minecraft:pink_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16058,10 +15532,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_tulip"
+    ]
   },
-  {
+  "minecraft:pink_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16079,10 +15552,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pink_wool"
+    ]
   },
-  {
+  "minecraft:piston": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16100,10 +15572,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:piston"
+    ]
   },
-  {
+  "minecraft:player_head": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16129,10 +15600,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:player_head"
+    ]
   },
-  {
+  "minecraft:podzol": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16174,10 +15644,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:podzol"
+    ]
   },
-  {
+  "minecraft:pointed_dripstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16195,10 +15664,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pointed_dripstone"
+    ]
   },
-  {
+  "minecraft:polished_andesite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16216,10 +15684,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_andesite"
+    ]
   },
-  {
+  "minecraft:polished_andesite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16251,10 +15718,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_andesite_slab"
+    ]
   },
-  {
+  "minecraft:polished_andesite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16272,10 +15738,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_andesite_stairs"
+    ]
   },
-  {
+  "minecraft:polished_basalt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16293,10 +15758,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_basalt"
+    ]
   },
-  {
+  "minecraft:polished_blackstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16314,10 +15778,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16335,10 +15798,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_bricks"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16370,10 +15832,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_brick_slab"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16391,10 +15852,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_brick_stairs"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16412,10 +15872,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_brick_wall"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16433,10 +15892,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_button"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16454,10 +15912,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_pressure_plate"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16489,10 +15946,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_slab"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16510,10 +15966,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_stairs"
+    ]
   },
-  {
+  "minecraft:polished_blackstone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16531,10 +15986,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_blackstone_wall"
+    ]
   },
-  {
+  "minecraft:polished_deepslate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16552,10 +16006,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_deepslate"
+    ]
   },
-  {
+  "minecraft:polished_deepslate_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16587,10 +16040,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_deepslate_slab"
+    ]
   },
-  {
+  "minecraft:polished_deepslate_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16608,10 +16060,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_deepslate_stairs"
+    ]
   },
-  {
+  "minecraft:polished_deepslate_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16629,10 +16080,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_deepslate_wall"
+    ]
   },
-  {
+  "minecraft:polished_diorite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16650,10 +16100,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_diorite"
+    ]
   },
-  {
+  "minecraft:polished_diorite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16685,10 +16134,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_diorite_slab"
+    ]
   },
-  {
+  "minecraft:polished_diorite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16706,10 +16154,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_diorite_stairs"
+    ]
   },
-  {
+  "minecraft:polished_granite": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16727,10 +16174,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_granite"
+    ]
   },
-  {
+  "minecraft:polished_granite_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16762,10 +16208,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_granite_slab"
+    ]
   },
-  {
+  "minecraft:polished_granite_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16783,10 +16228,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:polished_granite_stairs"
+    ]
   },
-  {
+  "minecraft:poppy": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16804,10 +16248,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:poppy"
+    ]
   },
-  {
+  "minecraft:potatoes": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16880,10 +16323,9 @@
       {
         "function": "minecraft:explosion_decay"
       }
-    ],
-    "blockId": "minecraft:potatoes"
+    ]
   },
-  {
+  "minecraft:potted_acacia_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16916,10 +16358,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_acacia_sapling"
+    ]
   },
-  {
+  "minecraft:potted_allium": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16952,10 +16393,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_allium"
+    ]
   },
-  {
+  "minecraft:potted_azalea_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -16988,10 +16428,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_azalea_bush"
+    ]
   },
-  {
+  "minecraft:potted_azure_bluet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17024,10 +16463,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_azure_bluet"
+    ]
   },
-  {
+  "minecraft:potted_bamboo": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17060,10 +16498,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_bamboo"
+    ]
   },
-  {
+  "minecraft:potted_birch_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17096,10 +16533,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_birch_sapling"
+    ]
   },
-  {
+  "minecraft:potted_blue_orchid": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17132,10 +16568,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_blue_orchid"
+    ]
   },
-  {
+  "minecraft:potted_brown_mushroom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17168,10 +16603,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_brown_mushroom"
+    ]
   },
-  {
+  "minecraft:potted_cactus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17204,10 +16638,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_cactus"
+    ]
   },
-  {
+  "minecraft:potted_cornflower": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17240,10 +16673,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_cornflower"
+    ]
   },
-  {
+  "minecraft:potted_crimson_fungus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17276,10 +16708,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_crimson_fungus"
+    ]
   },
-  {
+  "minecraft:potted_crimson_roots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17312,10 +16743,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_crimson_roots"
+    ]
   },
-  {
+  "minecraft:potted_dandelion": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17348,10 +16778,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_dandelion"
+    ]
   },
-  {
+  "minecraft:potted_dark_oak_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17384,10 +16813,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_dark_oak_sapling"
+    ]
   },
-  {
+  "minecraft:potted_dead_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17420,10 +16848,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_dead_bush"
+    ]
   },
-  {
+  "minecraft:potted_fern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17456,10 +16883,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_fern"
+    ]
   },
-  {
+  "minecraft:potted_flowering_azalea_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17492,10 +16918,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_flowering_azalea_bush"
+    ]
   },
-  {
+  "minecraft:potted_jungle_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17528,10 +16953,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_jungle_sapling"
+    ]
   },
-  {
+  "minecraft:potted_lily_of_the_valley": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17564,10 +16988,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_lily_of_the_valley"
+    ]
   },
-  {
+  "minecraft:potted_oak_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17600,10 +17023,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_oak_sapling"
+    ]
   },
-  {
+  "minecraft:potted_orange_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17636,10 +17058,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_orange_tulip"
+    ]
   },
-  {
+  "minecraft:potted_oxeye_daisy": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17672,10 +17093,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_oxeye_daisy"
+    ]
   },
-  {
+  "minecraft:potted_pink_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17708,10 +17128,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_pink_tulip"
+    ]
   },
-  {
+  "minecraft:potted_poppy": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17744,10 +17163,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_poppy"
+    ]
   },
-  {
+  "minecraft:potted_red_mushroom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17780,10 +17198,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_red_mushroom"
+    ]
   },
-  {
+  "minecraft:potted_red_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17816,10 +17233,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_red_tulip"
+    ]
   },
-  {
+  "minecraft:potted_spruce_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17852,10 +17268,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_spruce_sapling"
+    ]
   },
-  {
+  "minecraft:potted_warped_fungus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17888,10 +17303,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_warped_fungus"
+    ]
   },
-  {
+  "minecraft:potted_warped_roots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17924,10 +17338,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_warped_roots"
+    ]
   },
-  {
+  "minecraft:potted_white_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17960,10 +17373,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_white_tulip"
+    ]
   },
-  {
+  "minecraft:potted_wither_rose": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -17996,14 +17408,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:potted_wither_rose"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:powder_snow"
+  "minecraft:powder_snow": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:powder_snow_cauldron": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18021,10 +17431,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:powder_snow_cauldron"
+    ]
   },
-  {
+  "minecraft:powered_rail": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18042,10 +17451,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:powered_rail"
+    ]
   },
-  {
+  "minecraft:prismarine": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18063,10 +17471,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine"
+    ]
   },
-  {
+  "minecraft:prismarine_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18084,10 +17491,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_bricks"
+    ]
   },
-  {
+  "minecraft:prismarine_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18119,10 +17525,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_brick_slab"
+    ]
   },
-  {
+  "minecraft:prismarine_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18140,10 +17545,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_brick_stairs"
+    ]
   },
-  {
+  "minecraft:prismarine_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18175,10 +17579,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_slab"
+    ]
   },
-  {
+  "minecraft:prismarine_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18196,10 +17599,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_stairs"
+    ]
   },
-  {
+  "minecraft:prismarine_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18217,10 +17619,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:prismarine_wall"
+    ]
   },
-  {
+  "minecraft:pumpkin": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18238,10 +17639,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pumpkin"
+    ]
   },
-  {
+  "minecraft:pumpkin_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18405,10 +17805,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:pumpkin_stem"
+    ]
   },
-  {
+  "minecraft:purple_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18443,10 +17842,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_banner"
+    ]
   },
-  {
+  "minecraft:purple_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18473,10 +17871,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_bed"
+    ]
   },
-  {
+  "minecraft:purple_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18536,10 +17933,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_candle"
+    ]
   },
-  {
+  "minecraft:purple_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18552,10 +17948,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_candle_cake"
+    ]
   },
-  {
+  "minecraft:purple_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18573,10 +17968,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_carpet"
+    ]
   },
-  {
+  "minecraft:purple_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18594,10 +17988,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_concrete"
+    ]
   },
-  {
+  "minecraft:purple_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18615,10 +18008,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_concrete_powder"
+    ]
   },
-  {
+  "minecraft:purple_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18636,10 +18028,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:purple_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18688,10 +18079,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_shulker_box"
+    ]
   },
-  {
+  "minecraft:purple_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18719,10 +18109,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_stained_glass"
+    ]
   },
-  {
+  "minecraft:purple_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18750,10 +18139,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:purple_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18771,10 +18159,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_terracotta"
+    ]
   },
-  {
+  "minecraft:purple_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18792,10 +18179,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purple_wool"
+    ]
   },
-  {
+  "minecraft:purpur_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18813,10 +18199,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purpur_block"
+    ]
   },
-  {
+  "minecraft:purpur_pillar": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18834,10 +18219,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purpur_pillar"
+    ]
   },
-  {
+  "minecraft:purpur_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18869,10 +18253,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purpur_slab"
+    ]
   },
-  {
+  "minecraft:purpur_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18890,10 +18273,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:purpur_stairs"
+    ]
   },
-  {
+  "minecraft:quartz_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18911,10 +18293,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:quartz_block"
+    ]
   },
-  {
+  "minecraft:quartz_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18932,10 +18313,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:quartz_bricks"
+    ]
   },
-  {
+  "minecraft:quartz_pillar": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18953,10 +18333,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:quartz_pillar"
+    ]
   },
-  {
+  "minecraft:quartz_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -18988,10 +18367,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:quartz_slab"
+    ]
   },
-  {
+  "minecraft:quartz_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19009,10 +18387,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:quartz_stairs"
+    ]
   },
-  {
+  "minecraft:rail": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19030,10 +18407,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:rail"
+    ]
   },
-  {
+  "minecraft:raw_copper_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19051,10 +18427,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:raw_copper_block"
+    ]
   },
-  {
+  "minecraft:raw_gold_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19072,10 +18447,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:raw_gold_block"
+    ]
   },
-  {
+  "minecraft:raw_iron_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19093,10 +18467,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:raw_iron_block"
+    ]
   },
-  {
+  "minecraft:redstone_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19114,10 +18487,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:redstone_block"
+    ]
   },
-  {
+  "minecraft:redstone_lamp": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19135,10 +18507,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:redstone_lamp"
+    ]
   },
-  {
+  "minecraft:redstone_ore": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19197,10 +18568,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:redstone_ore"
+    ]
   },
-  {
+  "minecraft:redstone_torch": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19218,10 +18588,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:redstone_torch"
+    ]
   },
-  {
+  "minecraft:redstone_wire": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19239,10 +18608,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:redstone_wire"
+    ]
   },
-  {
+  "minecraft:red_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19277,10 +18645,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_banner"
+    ]
   },
-  {
+  "minecraft:red_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19307,10 +18674,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_bed"
+    ]
   },
-  {
+  "minecraft:red_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19370,10 +18736,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_candle"
+    ]
   },
-  {
+  "minecraft:red_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19386,10 +18751,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_candle_cake"
+    ]
   },
-  {
+  "minecraft:red_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19407,10 +18771,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_carpet"
+    ]
   },
-  {
+  "minecraft:red_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19428,10 +18791,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_concrete"
+    ]
   },
-  {
+  "minecraft:red_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19449,10 +18811,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_concrete_powder"
+    ]
   },
-  {
+  "minecraft:red_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19470,10 +18831,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:red_mushroom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19491,10 +18851,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_mushroom"
+    ]
   },
-  {
+  "minecraft:red_mushroom_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19551,10 +18910,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_mushroom_block"
+    ]
   },
-  {
+  "minecraft:red_nether_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19572,10 +18930,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_nether_bricks"
+    ]
   },
-  {
+  "minecraft:red_nether_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19607,10 +18964,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_nether_brick_slab"
+    ]
   },
-  {
+  "minecraft:red_nether_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19628,10 +18984,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_nether_brick_stairs"
+    ]
   },
-  {
+  "minecraft:red_nether_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19649,10 +19004,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_nether_brick_wall"
+    ]
   },
-  {
+  "minecraft:red_sand": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19670,10 +19024,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_sand"
+    ]
   },
-  {
+  "minecraft:red_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19691,10 +19044,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_sandstone"
+    ]
   },
-  {
+  "minecraft:red_sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19726,10 +19078,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_sandstone_slab"
+    ]
   },
-  {
+  "minecraft:red_sandstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19747,10 +19098,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_sandstone_stairs"
+    ]
   },
-  {
+  "minecraft:red_sandstone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19768,10 +19118,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_sandstone_wall"
+    ]
   },
-  {
+  "minecraft:red_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19820,10 +19169,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_shulker_box"
+    ]
   },
-  {
+  "minecraft:red_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19851,10 +19199,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_stained_glass"
+    ]
   },
-  {
+  "minecraft:red_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19882,10 +19229,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:red_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19903,10 +19249,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_terracotta"
+    ]
   },
-  {
+  "minecraft:red_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19924,10 +19269,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_tulip"
+    ]
   },
-  {
+  "minecraft:red_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19945,10 +19289,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:red_wool"
+    ]
   },
-  {
+  "minecraft:repeater": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19966,10 +19309,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:repeater"
+    ]
   },
-  {
+  "minecraft:respawn_anchor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -19987,10 +19329,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:respawn_anchor"
+    ]
   },
-  {
+  "minecraft:rooted_dirt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20008,10 +19349,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:rooted_dirt"
+    ]
   },
-  {
+  "minecraft:rose_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20038,10 +19378,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:rose_bush"
+    ]
   },
-  {
+  "minecraft:sand": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20059,10 +19398,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sand"
+    ]
   },
-  {
+  "minecraft:sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20080,10 +19418,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sandstone"
+    ]
   },
-  {
+  "minecraft:sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20115,10 +19452,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sandstone_slab"
+    ]
   },
-  {
+  "minecraft:sandstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20136,10 +19472,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sandstone_stairs"
+    ]
   },
-  {
+  "minecraft:sandstone_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20157,10 +19492,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sandstone_wall"
+    ]
   },
-  {
+  "minecraft:scaffolding": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20178,10 +19512,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:scaffolding"
+    ]
   },
-  {
+  "minecraft:sculk_sensor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20199,10 +19532,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sculk_sensor"
+    ]
   },
-  {
+  "minecraft:seagrass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20225,10 +19557,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:seagrass"
+    ]
   },
-  {
+  "minecraft:sea_lantern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20294,10 +19625,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sea_lantern"
+    ]
   },
-  {
+  "minecraft:sea_pickle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20357,10 +19687,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sea_pickle"
+    ]
   },
-  {
+  "minecraft:shroomlight": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20378,10 +19707,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:shroomlight"
+    ]
   },
-  {
+  "minecraft:shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20430,10 +19758,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:shulker_box"
+    ]
   },
-  {
+  "minecraft:skeleton_skull": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20446,10 +19773,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:skeleton_skull"
+    ]
   },
-  {
+  "minecraft:slime_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20467,10 +19793,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:slime_block"
+    ]
   },
-  {
+  "minecraft:small_amethyst_bud": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20498,10 +19823,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:small_amethyst_bud"
+    ]
   },
-  {
+  "minecraft:small_dripleaf": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20524,10 +19848,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:small_dripleaf"
+    ]
   },
-  {
+  "minecraft:smithing_table": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20551,10 +19874,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smithing_table"
+    ]
   },
-  {
+  "minecraft:smoker": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20578,10 +19900,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smoker"
+    ]
   },
-  {
+  "minecraft:smooth_basalt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20599,10 +19920,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_basalt"
+    ]
   },
-  {
+  "minecraft:smooth_quartz": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20620,10 +19940,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_quartz"
+    ]
   },
-  {
+  "minecraft:smooth_quartz_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20655,10 +19974,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_quartz_slab"
+    ]
   },
-  {
+  "minecraft:smooth_quartz_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20676,10 +19994,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_quartz_stairs"
+    ]
   },
-  {
+  "minecraft:smooth_red_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20697,10 +20014,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_red_sandstone"
+    ]
   },
-  {
+  "minecraft:smooth_red_sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20732,10 +20048,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_red_sandstone_slab"
+    ]
   },
-  {
+  "minecraft:smooth_red_sandstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20753,10 +20068,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_red_sandstone_stairs"
+    ]
   },
-  {
+  "minecraft:smooth_sandstone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20774,10 +20088,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_sandstone"
+    ]
   },
-  {
+  "minecraft:smooth_sandstone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20809,10 +20122,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_sandstone_slab"
+    ]
   },
-  {
+  "minecraft:smooth_sandstone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20830,10 +20142,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_sandstone_stairs"
+    ]
   },
-  {
+  "minecraft:smooth_stone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20851,10 +20162,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_stone"
+    ]
   },
-  {
+  "minecraft:smooth_stone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -20886,10 +20196,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:smooth_stone_slab"
+    ]
   },
-  {
+  "minecraft:snow": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21219,10 +20528,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:snow"
+    ]
   },
-  {
+  "minecraft:snow_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21269,10 +20577,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:snow_block"
+    ]
   },
-  {
+  "minecraft:soul_campfire": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21321,14 +20628,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:soul_campfire"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:soul_fire"
+  "minecraft:soul_fire": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:soul_lantern": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21346,10 +20651,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:soul_lantern"
+    ]
   },
-  {
+  "minecraft:soul_sand": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21367,10 +20671,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:soul_sand"
+    ]
   },
-  {
+  "minecraft:soul_soil": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21388,10 +20691,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:soul_soil"
+    ]
   },
-  {
+  "minecraft:soul_torch": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21409,14 +20711,12 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:soul_torch"
+    ]
   },
-  {
-    "type": "minecraft:block",
-    "blockId": "minecraft:spawner"
+  "minecraft:spawner": {
+    "type": "minecraft:block"
   },
-  {
+  "minecraft:sponge": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21434,10 +20734,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sponge"
+    ]
   },
-  {
+  "minecraft:spore_blossom": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21455,10 +20754,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spore_blossom"
+    ]
   },
-  {
+  "minecraft:spruce_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21476,10 +20774,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_button"
+    ]
   },
-  {
+  "minecraft:spruce_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21506,10 +20803,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_door"
+    ]
   },
-  {
+  "minecraft:spruce_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21527,10 +20823,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_fence"
+    ]
   },
-  {
+  "minecraft:spruce_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21548,10 +20843,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_fence_gate"
+    ]
   },
-  {
+  "minecraft:spruce_leaves": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21684,10 +20978,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_leaves"
+    ]
   },
-  {
+  "minecraft:spruce_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21705,10 +20998,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_log"
+    ]
   },
-  {
+  "minecraft:spruce_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21726,10 +21018,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_planks"
+    ]
   },
-  {
+  "minecraft:spruce_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21747,10 +21038,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_pressure_plate"
+    ]
   },
-  {
+  "minecraft:spruce_sapling": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21768,10 +21058,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_sapling"
+    ]
   },
-  {
+  "minecraft:spruce_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21789,10 +21078,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_sign"
+    ]
   },
-  {
+  "minecraft:spruce_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21824,10 +21112,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_slab"
+    ]
   },
-  {
+  "minecraft:spruce_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21845,10 +21132,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_stairs"
+    ]
   },
-  {
+  "minecraft:spruce_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21866,10 +21152,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_trapdoor"
+    ]
   },
-  {
+  "minecraft:spruce_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21887,10 +21172,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:spruce_wood"
+    ]
   },
-  {
+  "minecraft:sticky_piston": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21908,10 +21192,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sticky_piston"
+    ]
   },
-  {
+  "minecraft:stone": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21953,10 +21236,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone"
+    ]
   },
-  {
+  "minecraft:stonecutter": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -21980,10 +21262,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stonecutter"
+    ]
   },
-  {
+  "minecraft:stone_bricks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22001,10 +21282,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_bricks"
+    ]
   },
-  {
+  "minecraft:stone_brick_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22036,10 +21316,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_brick_slab"
+    ]
   },
-  {
+  "minecraft:stone_brick_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22057,10 +21336,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_brick_stairs"
+    ]
   },
-  {
+  "minecraft:stone_brick_wall": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22078,10 +21356,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_brick_wall"
+    ]
   },
-  {
+  "minecraft:stone_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22099,10 +21376,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_button"
+    ]
   },
-  {
+  "minecraft:stone_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22120,10 +21396,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_pressure_plate"
+    ]
   },
-  {
+  "minecraft:stone_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22155,10 +21430,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_slab"
+    ]
   },
-  {
+  "minecraft:stone_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22176,10 +21450,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stone_stairs"
+    ]
   },
-  {
+  "minecraft:stripped_acacia_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22197,10 +21470,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_acacia_log"
+    ]
   },
-  {
+  "minecraft:stripped_acacia_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22218,10 +21490,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_acacia_wood"
+    ]
   },
-  {
+  "minecraft:stripped_birch_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22239,10 +21510,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_birch_log"
+    ]
   },
-  {
+  "minecraft:stripped_birch_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22260,10 +21530,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_birch_wood"
+    ]
   },
-  {
+  "minecraft:stripped_crimson_hyphae": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22281,10 +21550,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_crimson_hyphae"
+    ]
   },
-  {
+  "minecraft:stripped_crimson_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22302,10 +21570,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_crimson_stem"
+    ]
   },
-  {
+  "minecraft:stripped_dark_oak_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22323,10 +21590,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_dark_oak_log"
+    ]
   },
-  {
+  "minecraft:stripped_dark_oak_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22344,10 +21610,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_dark_oak_wood"
+    ]
   },
-  {
+  "minecraft:stripped_jungle_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22365,10 +21630,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_jungle_log"
+    ]
   },
-  {
+  "minecraft:stripped_jungle_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22386,10 +21650,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_jungle_wood"
+    ]
   },
-  {
+  "minecraft:stripped_oak_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22407,10 +21670,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_oak_log"
+    ]
   },
-  {
+  "minecraft:stripped_oak_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22428,10 +21690,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_oak_wood"
+    ]
   },
-  {
+  "minecraft:stripped_spruce_log": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22449,10 +21710,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_spruce_log"
+    ]
   },
-  {
+  "minecraft:stripped_spruce_wood": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22470,10 +21730,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_spruce_wood"
+    ]
   },
-  {
+  "minecraft:stripped_warped_hyphae": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22491,10 +21750,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_warped_hyphae"
+    ]
   },
-  {
+  "minecraft:stripped_warped_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22512,10 +21770,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:stripped_warped_stem"
+    ]
   },
-  {
+  "minecraft:sugar_cane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22533,10 +21790,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sugar_cane"
+    ]
   },
-  {
+  "minecraft:sunflower": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22563,10 +21819,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:sunflower"
+    ]
   },
-  {
+  "minecraft:sweet_berry_bush": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22650,10 +21905,9 @@
       {
         "function": "minecraft:explosion_decay"
       }
-    ],
-    "blockId": "minecraft:sweet_berry_bush"
+    ]
   },
-  {
+  "minecraft:tall_grass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22792,10 +22046,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tall_grass"
+    ]
   },
-  {
+  "minecraft:tall_seagrass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22825,10 +22078,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tall_seagrass"
+    ]
   },
-  {
+  "minecraft:target": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22846,10 +22098,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:target"
+    ]
   },
-  {
+  "minecraft:terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22867,10 +22118,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:terracotta"
+    ]
   },
-  {
+  "minecraft:tinted_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22888,10 +22138,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tinted_glass"
+    ]
   },
-  {
+  "minecraft:tnt": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22918,10 +22167,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tnt"
+    ]
   },
-  {
+  "minecraft:torch": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22939,10 +22187,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:torch"
+    ]
   },
-  {
+  "minecraft:trapped_chest": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22966,10 +22213,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:trapped_chest"
+    ]
   },
-  {
+  "minecraft:tripwire": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -22987,10 +22233,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tripwire"
+    ]
   },
-  {
+  "minecraft:tripwire_hook": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23008,10 +22253,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tripwire_hook"
+    ]
   },
-  {
+  "minecraft:tube_coral": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23039,10 +22283,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tube_coral"
+    ]
   },
-  {
+  "minecraft:tube_coral_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23084,10 +22327,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tube_coral_block"
+    ]
   },
-  {
+  "minecraft:tube_coral_fan": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23115,10 +22357,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tube_coral_fan"
+    ]
   },
-  {
+  "minecraft:tuff": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23136,10 +22377,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:tuff"
+    ]
   },
-  {
+  "minecraft:turtle_egg": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23167,10 +22407,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:turtle_egg"
+    ]
   },
-  {
+  "minecraft:twisting_vines": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23232,10 +22471,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:twisting_vines"
+    ]
   },
-  {
+  "minecraft:twisting_vines_plant": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23297,10 +22535,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:twisting_vines_plant"
+    ]
   },
-  {
+  "minecraft:vine": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23323,10 +22560,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:vine"
+    ]
   },
-  {
+  "minecraft:warped_button": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23344,10 +22580,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_button"
+    ]
   },
-  {
+  "minecraft:warped_door": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23374,10 +22609,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_door"
+    ]
   },
-  {
+  "minecraft:warped_fence": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23395,10 +22629,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_fence"
+    ]
   },
-  {
+  "minecraft:warped_fence_gate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23416,10 +22649,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_fence_gate"
+    ]
   },
-  {
+  "minecraft:warped_fungus": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23437,10 +22669,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_fungus"
+    ]
   },
-  {
+  "minecraft:warped_hyphae": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23458,10 +22689,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_hyphae"
+    ]
   },
-  {
+  "minecraft:warped_nylium": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23503,10 +22733,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_nylium"
+    ]
   },
-  {
+  "minecraft:warped_planks": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23524,10 +22753,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_planks"
+    ]
   },
-  {
+  "minecraft:warped_pressure_plate": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23545,10 +22773,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_pressure_plate"
+    ]
   },
-  {
+  "minecraft:warped_roots": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23566,10 +22793,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_roots"
+    ]
   },
-  {
+  "minecraft:warped_sign": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23587,10 +22813,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_sign"
+    ]
   },
-  {
+  "minecraft:warped_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23622,10 +22847,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_slab"
+    ]
   },
-  {
+  "minecraft:warped_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23643,10 +22867,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_stairs"
+    ]
   },
-  {
+  "minecraft:warped_stem": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23664,10 +22887,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_stem"
+    ]
   },
-  {
+  "minecraft:warped_trapdoor": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23685,10 +22907,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_trapdoor"
+    ]
   },
-  {
+  "minecraft:warped_wart_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23706,10 +22927,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:warped_wart_block"
+    ]
   },
-  {
+  "minecraft:water_cauldron": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23727,10 +22947,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:water_cauldron"
+    ]
   },
-  {
+  "minecraft:waxed_copper_block": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23748,10 +22967,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_copper_block"
+    ]
   },
-  {
+  "minecraft:waxed_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23769,10 +22987,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_cut_copper"
+    ]
   },
-  {
+  "minecraft:waxed_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23804,10 +23021,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:waxed_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23825,10 +23041,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:waxed_exposed_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23846,10 +23061,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_exposed_copper"
+    ]
   },
-  {
+  "minecraft:waxed_exposed_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23867,10 +23081,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_exposed_cut_copper"
+    ]
   },
-  {
+  "minecraft:waxed_exposed_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23902,10 +23115,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_exposed_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:waxed_exposed_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23923,10 +23135,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_exposed_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:waxed_oxidized_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23944,10 +23155,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_oxidized_copper"
+    ]
   },
-  {
+  "minecraft:waxed_oxidized_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -23965,10 +23175,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_oxidized_cut_copper"
+    ]
   },
-  {
+  "minecraft:waxed_oxidized_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24000,10 +23209,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_oxidized_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:waxed_oxidized_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24021,10 +23229,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_oxidized_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:waxed_weathered_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24042,10 +23249,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_weathered_copper"
+    ]
   },
-  {
+  "minecraft:waxed_weathered_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24063,10 +23269,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_weathered_cut_copper"
+    ]
   },
-  {
+  "minecraft:waxed_weathered_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24098,10 +23303,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_weathered_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:waxed_weathered_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24119,10 +23323,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:waxed_weathered_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:weathered_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24140,10 +23343,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weathered_copper"
+    ]
   },
-  {
+  "minecraft:weathered_cut_copper": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24161,10 +23363,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weathered_cut_copper"
+    ]
   },
-  {
+  "minecraft:weathered_cut_copper_slab": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24196,10 +23397,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weathered_cut_copper_slab"
+    ]
   },
-  {
+  "minecraft:weathered_cut_copper_stairs": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24217,10 +23417,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weathered_cut_copper_stairs"
+    ]
   },
-  {
+  "minecraft:weeping_vines": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24282,10 +23481,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weeping_vines"
+    ]
   },
-  {
+  "minecraft:weeping_vines_plant": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24347,10 +23545,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:weeping_vines_plant"
+    ]
   },
-  {
+  "minecraft:wet_sponge": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24368,10 +23565,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:wet_sponge"
+    ]
   },
-  {
+  "minecraft:wheat": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24437,10 +23633,9 @@
       {
         "function": "minecraft:explosion_decay"
       }
-    ],
-    "blockId": "minecraft:wheat"
+    ]
   },
-  {
+  "minecraft:white_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24475,10 +23670,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_banner"
+    ]
   },
-  {
+  "minecraft:white_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24505,10 +23699,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_bed"
+    ]
   },
-  {
+  "minecraft:white_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24568,10 +23761,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_candle"
+    ]
   },
-  {
+  "minecraft:white_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24584,10 +23776,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_candle_cake"
+    ]
   },
-  {
+  "minecraft:white_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24605,10 +23796,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_carpet"
+    ]
   },
-  {
+  "minecraft:white_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24626,10 +23816,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_concrete"
+    ]
   },
-  {
+  "minecraft:white_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24647,10 +23836,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_concrete_powder"
+    ]
   },
-  {
+  "minecraft:white_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24668,10 +23856,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:white_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24720,10 +23907,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_shulker_box"
+    ]
   },
-  {
+  "minecraft:white_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24751,10 +23937,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_stained_glass"
+    ]
   },
-  {
+  "minecraft:white_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24782,10 +23967,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:white_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24803,10 +23987,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_terracotta"
+    ]
   },
-  {
+  "minecraft:white_tulip": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24824,10 +24007,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_tulip"
+    ]
   },
-  {
+  "minecraft:white_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24845,10 +24027,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:white_wool"
+    ]
   },
-  {
+  "minecraft:wither_rose": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24866,10 +24047,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:wither_rose"
+    ]
   },
-  {
+  "minecraft:wither_skeleton_skull": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24882,10 +24062,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:wither_skeleton_skull"
+    ]
   },
-  {
+  "minecraft:yellow_banner": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24920,10 +24099,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_banner"
+    ]
   },
-  {
+  "minecraft:yellow_bed": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -24950,10 +24128,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_bed"
+    ]
   },
-  {
+  "minecraft:yellow_candle": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25013,10 +24190,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_candle"
+    ]
   },
-  {
+  "minecraft:yellow_candle_cake": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25029,10 +24205,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_candle_cake"
+    ]
   },
-  {
+  "minecraft:yellow_carpet": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25050,10 +24225,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_carpet"
+    ]
   },
-  {
+  "minecraft:yellow_concrete": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25071,10 +24245,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_concrete"
+    ]
   },
-  {
+  "minecraft:yellow_concrete_powder": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25092,10 +24265,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_concrete_powder"
+    ]
   },
-  {
+  "minecraft:yellow_glazed_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25113,10 +24285,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_glazed_terracotta"
+    ]
   },
-  {
+  "minecraft:yellow_shulker_box": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25165,10 +24336,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_shulker_box"
+    ]
   },
-  {
+  "minecraft:yellow_stained_glass": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25196,10 +24366,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_stained_glass"
+    ]
   },
-  {
+  "minecraft:yellow_stained_glass_pane": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25227,10 +24396,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_stained_glass_pane"
+    ]
   },
-  {
+  "minecraft:yellow_terracotta": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25248,10 +24416,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_terracotta"
+    ]
   },
-  {
+  "minecraft:yellow_wool": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25269,10 +24436,9 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:yellow_wool"
+    ]
   },
-  {
+  "minecraft:zombie_head": {
     "type": "minecraft:block",
     "pools": [
       {
@@ -25285,7 +24451,6 @@
           }
         ]
       }
-    ],
-    "blockId": "minecraft:zombie_head"
+    ]
   }
-]
+}

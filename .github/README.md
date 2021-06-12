@@ -92,7 +92,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Default Value             | :heavy_check_mark: | 1.16+        |
 | Client Synchronization    | :heavy_check_mark: | 1.16+        |
 | Attribute range           | :heavy_check_mark: | 1.16+        |
@@ -121,7 +121,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Block States              | :heavy_check_mark: | 1.16+        |
 | Block (State) Properties  | :heavy_check_mark: | 1.16+        |
 | Block Entities            | :heavy_check_mark: | 1.16+        |
@@ -142,7 +142,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### Dimension Types
 
@@ -168,7 +168,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Max Level                 | :heavy_check_mark: | 1.16+        |
 | Rarity                    | :heavy_check_mark: | 1.16+        |
 | Curse                     | :heavy_check_mark: | 1.16+        |
@@ -182,7 +182,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Entity Data Packet Info   | :heavy_check_mark: | 1.16+        |
 | Entity Data Serializers   | :heavy_check_mark: | 1.16+        |
 | Packet Type               | :heavy_check_mark: | 1.16+        |
@@ -196,7 +196,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Bucket Item               | :heavy_check_mark: | 1.16+        |
 
 ### Game Events
@@ -204,7 +204,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.17+        |
-| Name                      | :heavy_check_mark: | 1.17+        |
+| Mojang Name               | :heavy_check_mark: | 1.17+        |
 | Notification Radius       | :heavy_check_mark: | 1.17+        |
 
 ### Items
@@ -212,7 +212,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Useable (Depletes)        | :heavy_check_mark: | 1.16+        |
 | Max Stack Size            | :heavy_check_mark: | 1.16+        |
 | Max Damage (Durability)   | :heavy_check_mark: | 1.16+        |
@@ -236,14 +236,14 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### Potion (Status) Effects
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Color (Decimal value)     | :heavy_check_mark: | 1.16+        |
 | Instantenous              | :heavy_check_mark: | 1.16+        |
 
@@ -252,21 +252,21 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### SoundEvents
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### Villager professions
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Work Sound                | :heavy_check_mark: | 1.16+        |
 
 ### Villager types
@@ -274,7 +274,7 @@ They include JSON files full of useful data to do with Minecraft.
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
 | ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ## Maintainers
 

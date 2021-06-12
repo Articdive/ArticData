@@ -1,6 +1,5 @@
 package net.minestom.generators.tags;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import net.minestom.datagen.JsonOutputter;
@@ -24,14 +23,14 @@ public final class ItemTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         File tagFolder = new File(dataFolder, "tags");
         File itemTagsFolder = new File(tagFolder, "items");
 
         File[] listedFiles = itemTagsFolder.listFiles();
         if (listedFiles != null) {
             List<File> children = new ArrayList<>(Arrays.asList(listedFiles));
-            JsonArray itemTags = new JsonArray();
+            JsonObject itemTags = new JsonObject();
             for (int i = 0; i < children.size(); i++) {
                 File file = children.get(i);
                 // Add subdirectories files to the for-loop.
@@ -53,13 +52,13 @@ public final class ItemTagGenerator_1_16_5 extends DataGenerator_1_16_5<Void> {
                 // Make sure we use the correct slashes.
                 fileName = fileName.replace("\\", "/");
                 // Remove .json (substring of 5)
-                itemTag.addProperty("tagName", fileName.substring(0, fileName.length() - 5));
-                itemTags.add(itemTag);
+                String tagName = fileName.substring(0, fileName.length() - 5);
+                itemTags.add("minecraft:" + tagName, itemTag);
             }
             return itemTags;
         } else {
             LOGGER.error("Failed to find item tags in data folder.");
-            return new JsonArray();
+            return new JsonObject();
         }
     }
 }

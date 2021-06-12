@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minestom.generators.common.DataGenerator_1_16_5;
@@ -30,8 +29,8 @@ public final class MapColorGenerator_1_16_5 extends DataGenerator_1_16_5<Materia
     }
 
     @Override
-    public JsonArray generate() {
-        JsonArray mapColors = new JsonArray();
+    public JsonObject generate() {
+        JsonObject mapColors = new JsonObject();
 
         for (MaterialColor mc : MaterialColor.MATERIAL_COLORS) {
             if (mc == null) {
@@ -39,10 +38,9 @@ public final class MapColorGenerator_1_16_5 extends DataGenerator_1_16_5<Materia
             }
             JsonObject mapColor = new JsonObject();
 
-            mapColor.addProperty("name", names.get(mc));
             mapColor.addProperty("id", mc.id);
             mapColor.addProperty("color", mc.col);
-            mapColors.add(mapColor);
+            mapColors.add(names.get(mc), mapColor);
         }
         return mapColors;
     }

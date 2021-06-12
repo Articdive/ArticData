@@ -34,16 +34,15 @@ public final class BlockEntityGenerator_1_16_5 extends DataGenerator_1_16_5<Bloc
 
     @Override
     @SuppressWarnings("unchecked")
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> blockEntityRLs = Registry.BLOCK_ENTITY_TYPE.keySet();
-        JsonArray blockEntities = new JsonArray();
+        JsonObject blockEntities = new JsonObject();
 
         for (ResourceLocation blockEntityRL : blockEntityRLs) {
             BlockEntityType<?> bet = Registry.BLOCK_ENTITY_TYPE.get(blockEntityRL);
 
             JsonObject blockEntity = new JsonObject();
-            blockEntity.addProperty("id", blockEntityRL.toString());
-            blockEntity.addProperty("name", names.get(bet));
+            blockEntity.addProperty("mojangName", names.get(bet));
 
             // Use reflection to get valid blocks
             {
@@ -66,7 +65,7 @@ public final class BlockEntityGenerator_1_16_5 extends DataGenerator_1_16_5<Bloc
                 }
                 blockEntity.add("blocks", beBlocks);
             }
-            blockEntities.add(blockEntity);
+            blockEntities.add(blockEntityRL.toString(), blockEntity);
         }
         return blockEntities;
     }

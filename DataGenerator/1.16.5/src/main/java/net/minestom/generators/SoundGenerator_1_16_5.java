@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -33,9 +32,9 @@ public final class SoundGenerator_1_16_5 extends DataGenerator_1_16_5<SoundEvent
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> soundRLs = Registry.SOUND_EVENT.keySet();
-        JsonArray sounds = new JsonArray();
+        JsonObject sounds = new JsonObject();
 
         for (ResourceLocation soundRL : soundRLs) {
             SoundEvent se = Registry.SOUND_EVENT.get(soundRL);
@@ -44,9 +43,8 @@ public final class SoundGenerator_1_16_5 extends DataGenerator_1_16_5<SoundEvent
             }
             JsonObject sound = new JsonObject();
 
-            sound.addProperty("id", soundRL.toString());
-            sound.addProperty("name", names.get(se));
-            sounds.add(sound);
+            sound.addProperty("mojangName", names.get(se));
+            sounds.add(soundRL.toString(), sound);
         }
         return sounds;
     }

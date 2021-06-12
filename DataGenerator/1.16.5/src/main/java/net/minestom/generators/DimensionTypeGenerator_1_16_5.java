@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceLocation;
@@ -20,9 +19,9 @@ public final class DimensionTypeGenerator_1_16_5 extends DataGenerator_1_16_5<Di
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> dimensionTypeRLs = RegistryAccess.RegistryHolder.builtin().dimensionTypes().keySet();
-        JsonArray dimensionTypes = new JsonArray();
+        JsonObject dimensionTypes = new JsonObject();
 
         for (ResourceLocation dimensionTypeRL : dimensionTypeRLs) {
             DimensionType dt = RegistryAccess.RegistryHolder.builtin().dimensionTypes().get(dimensionTypeRL);
@@ -31,7 +30,6 @@ public final class DimensionTypeGenerator_1_16_5 extends DataGenerator_1_16_5<Di
             }
             JsonObject dimensionType = new JsonObject();
 
-            dimensionType.addProperty("id", dimensionTypeRL.toString());
             dimensionType.addProperty("bedWorks", dt.bedWorks());
             dimensionType.addProperty("coordinateScale", dt.coordinateScale());
             dimensionType.addProperty("ceiling", dt.hasCeiling());
@@ -43,7 +41,8 @@ public final class DimensionTypeGenerator_1_16_5 extends DataGenerator_1_16_5<Di
             dimensionType.addProperty("natural", dt.natural());
             dimensionType.addProperty("ultraWarm", dt.ultraWarm());
             dimensionType.addProperty("respawnAnchorWorks", dt.respawnAnchorWorks());
-            dimensionTypes.add(dimensionType);
+
+            dimensionTypes.add(dimensionTypeRL.toString(), dimensionType);
         }
         return dimensionTypes;
     }

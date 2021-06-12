@@ -1,15 +1,14 @@
-[
-  {
+{
+  "ignore_vibrations_sneaking": {
     "replace": false,
     "values": [
       "minecraft:hit_ground",
       "minecraft:projectile_shoot",
       "minecraft:step",
       "minecraft:swim"
-    ],
-    "tagName": "ignore_vibrations_sneaking"
+    ]
   },
-  {
+  "vibrations": {
     "replace": false,
     "values": [
       "minecraft:block_attach",
@@ -57,7 +56,6 @@
       "minecraft:step",
       "minecraft:swim",
       "minecraft:wolf_shaking"
-    ],
-    "tagName": "vibrations"
+    ]
   }
-]
+}

@@ -1,33 +1,30 @@
-[
-  {
+{
+  "minecraft:acacia_logs": {
     "replace": false,
     "values": [
       "minecraft:acacia_log",
       "minecraft:acacia_wood",
       "minecraft:stripped_acacia_log",
       "minecraft:stripped_acacia_wood"
-    ],
-    "tagName": "acacia_logs"
+    ]
   },
-  {
+  "minecraft:anvil": {
     "replace": false,
     "values": [
       "minecraft:anvil",
       "minecraft:chipped_anvil",
       "minecraft:damaged_anvil"
-    ],
-    "tagName": "anvil"
+    ]
   },
-  {
+  "minecraft:arrows": {
     "replace": false,
     "values": [
       "minecraft:arrow",
       "minecraft:tipped_arrow",
       "minecraft:spectral_arrow"
-    ],
-    "tagName": "arrows"
+    ]
   },
-  {
+  "minecraft:banners": {
     "replace": false,
     "values": [
       "minecraft:white_banner",
@@ -46,10 +43,9 @@
       "minecraft:green_banner",
       "minecraft:red_banner",
       "minecraft:black_banner"
-    ],
-    "tagName": "banners"
+    ]
   },
-  {
+  "minecraft:beacon_payment_items": {
     "replace": false,
     "values": [
       "minecraft:netherite_ingot",
@@ -57,10 +53,9 @@
       "minecraft:diamond",
       "minecraft:gold_ingot",
       "minecraft:iron_ingot"
-    ],
-    "tagName": "beacon_payment_items"
+    ]
   },
-  {
+  "minecraft:beds": {
     "replace": false,
     "values": [
       "minecraft:red_bed",
@@ -79,20 +74,18 @@
       "minecraft:purple_bed",
       "minecraft:white_bed",
       "minecraft:yellow_bed"
-    ],
-    "tagName": "beds"
+    ]
   },
-  {
+  "minecraft:birch_logs": {
     "replace": false,
     "values": [
       "minecraft:birch_log",
       "minecraft:birch_wood",
       "minecraft:stripped_birch_log",
       "minecraft:stripped_birch_wood"
-    ],
-    "tagName": "birch_logs"
+    ]
   },
-  {
+  "minecraft:boats": {
     "replace": false,
     "values": [
       "minecraft:oak_boat",
@@ -101,19 +94,17 @@
       "minecraft:jungle_boat",
       "minecraft:acacia_boat",
       "minecraft:dark_oak_boat"
-    ],
-    "tagName": "boats"
+    ]
   },
-  {
+  "minecraft:buttons": {
     "replace": false,
     "values": [
       "#minecraft:wooden_buttons",
       "minecraft:stone_button",
       "minecraft:polished_blackstone_button"
-    ],
-    "tagName": "buttons"
+    ]
   },
-  {
+  "minecraft:carpets": {
     "replace": false,
     "values": [
       "minecraft:white_carpet",
@@ -132,18 +123,16 @@
       "minecraft:green_carpet",
       "minecraft:red_carpet",
       "minecraft:black_carpet"
-    ],
-    "tagName": "carpets"
+    ]
   },
-  {
+  "minecraft:coals": {
     "replace": false,
     "values": [
       "minecraft:coal",
       "minecraft:charcoal"
-    ],
-    "tagName": "coals"
+    ]
   },
-  {
+  "minecraft:creeper_drop_music_discs": {
     "replace": false,
     "values": [
       "minecraft:music_disc_13",
@@ -158,46 +147,41 @@
       "minecraft:music_disc_ward",
       "minecraft:music_disc_11",
       "minecraft:music_disc_wait"
-    ],
-    "tagName": "creeper_drop_music_discs"
+    ]
   },
-  {
+  "minecraft:crimson_stems": {
     "replace": false,
     "values": [
       "minecraft:crimson_stem",
       "minecraft:stripped_crimson_stem",
       "minecraft:crimson_hyphae",
       "minecraft:stripped_crimson_hyphae"
-    ],
-    "tagName": "crimson_stems"
+    ]
   },
-  {
+  "minecraft:dark_oak_logs": {
     "replace": false,
     "values": [
       "minecraft:dark_oak_log",
       "minecraft:dark_oak_wood",
       "minecraft:stripped_dark_oak_log",
       "minecraft:stripped_dark_oak_wood"
-    ],
-    "tagName": "dark_oak_logs"
+    ]
   },
-  {
+  "minecraft:doors": {
     "replace": false,
     "values": [
       "#minecraft:wooden_doors",
       "minecraft:iron_door"
-    ],
-    "tagName": "doors"
+    ]
   },
-  {
+  "minecraft:fences": {
     "replace": false,
     "values": [
       "#minecraft:wooden_fences",
       "minecraft:nether_brick_fence"
-    ],
-    "tagName": "fences"
+    ]
   },
-  {
+  "minecraft:fishes": {
     "replace": false,
     "values": [
       "minecraft:cod",
@@ -206,36 +190,32 @@
       "minecraft:cooked_salmon",
       "minecraft:pufferfish",
       "minecraft:tropical_fish"
-    ],
-    "tagName": "fishes"
+    ]
   },
-  {
+  "minecraft:flowers": {
     "replace": false,
     "values": [
       "#minecraft:small_flowers",
       "#minecraft:tall_flowers"
-    ],
-    "tagName": "flowers"
+    ]
   },
-  {
+  "minecraft:gold_ores": {
     "replace": false,
     "values": [
       "minecraft:gold_ore",
       "minecraft:nether_gold_ore"
-    ],
-    "tagName": "gold_ores"
+    ]
   },
-  {
+  "minecraft:jungle_logs": {
     "replace": false,
     "values": [
       "minecraft:jungle_log",
       "minecraft:jungle_wood",
       "minecraft:stripped_jungle_log",
       "minecraft:stripped_jungle_wood"
-    ],
-    "tagName": "jungle_logs"
+    ]
   },
-  {
+  "minecraft:leaves": {
     "replace": false,
     "values": [
       "minecraft:jungle_leaves",
@@ -244,27 +224,24 @@
       "minecraft:dark_oak_leaves",
       "minecraft:acacia_leaves",
       "minecraft:birch_leaves"
-    ],
-    "tagName": "leaves"
+    ]
   },
-  {
+  "minecraft:lectern_books": {
     "replace": false,
     "values": [
       "minecraft:written_book",
       "minecraft:writable_book"
-    ],
-    "tagName": "lectern_books"
+    ]
   },
-  {
+  "minecraft:logs": {
     "replace": false,
     "values": [
       "#minecraft:logs_that_burn",
       "#minecraft:crimson_stems",
       "#minecraft:warped_stems"
-    ],
-    "tagName": "logs"
+    ]
   },
-  {
+  "minecraft:logs_that_burn": {
     "replace": false,
     "values": [
       "#minecraft:dark_oak_logs",
@@ -273,18 +250,16 @@
       "#minecraft:birch_logs",
       "#minecraft:jungle_logs",
       "#minecraft:spruce_logs"
-    ],
-    "tagName": "logs_that_burn"
+    ]
   },
-  {
+  "minecraft:music_discs": {
     "replace": false,
     "values": [
       "#minecraft:creeper_drop_music_discs",
       "minecraft:music_disc_pigstep"
-    ],
-    "tagName": "music_discs"
+    ]
   },
-  {
+  "minecraft:non_flammable_wood": {
     "replace": false,
     "values": [
       "minecraft:warped_stem",
@@ -315,20 +290,18 @@
       "minecraft:warped_door",
       "minecraft:crimson_sign",
       "minecraft:warped_sign"
-    ],
-    "tagName": "non_flammable_wood"
+    ]
   },
-  {
+  "minecraft:oak_logs": {
     "replace": false,
     "values": [
       "minecraft:oak_log",
       "minecraft:oak_wood",
       "minecraft:stripped_oak_log",
       "minecraft:stripped_oak_wood"
-    ],
-    "tagName": "oak_logs"
+    ]
   },
-  {
+  "minecraft:piglin_loved": {
     "replace": false,
     "values": [
       "#minecraft:gold_ores",
@@ -352,19 +325,17 @@
       "minecraft:golden_shovel",
       "minecraft:golden_axe",
       "minecraft:golden_hoe"
-    ],
-    "tagName": "piglin_loved"
+    ]
   },
-  {
+  "minecraft:piglin_repellents": {
     "replace": false,
     "values": [
       "minecraft:soul_torch",
       "minecraft:soul_lantern",
       "minecraft:soul_campfire"
-    ],
-    "tagName": "piglin_repellents"
+    ]
   },
-  {
+  "minecraft:planks": {
     "replace": false,
     "values": [
       "minecraft:oak_planks",
@@ -375,28 +346,25 @@
       "minecraft:dark_oak_planks",
       "minecraft:crimson_planks",
       "minecraft:warped_planks"
-    ],
-    "tagName": "planks"
+    ]
   },
-  {
+  "minecraft:rails": {
     "replace": false,
     "values": [
       "minecraft:rail",
       "minecraft:powered_rail",
       "minecraft:detector_rail",
       "minecraft:activator_rail"
-    ],
-    "tagName": "rails"
+    ]
   },
-  {
+  "minecraft:sand": {
     "replace": false,
     "values": [
       "minecraft:sand",
       "minecraft:red_sand"
-    ],
-    "tagName": "sand"
+    ]
   },
-  {
+  "minecraft:saplings": {
     "replace": false,
     "values": [
       "minecraft:oak_sapling",
@@ -405,10 +373,9 @@
       "minecraft:jungle_sapling",
       "minecraft:acacia_sapling",
       "minecraft:dark_oak_sapling"
-    ],
-    "tagName": "saplings"
+    ]
   },
-  {
+  "minecraft:signs": {
     "replace": false,
     "values": [
       "minecraft:oak_sign",
@@ -419,10 +386,9 @@
       "minecraft:dark_oak_sign",
       "minecraft:crimson_sign",
       "minecraft:warped_sign"
-    ],
-    "tagName": "signs"
+    ]
   },
-  {
+  "minecraft:slabs": {
     "replace": false,
     "values": [
       "#minecraft:wooden_slabs",
@@ -458,10 +424,9 @@
       "minecraft:blackstone_slab",
       "minecraft:polished_blackstone_brick_slab",
       "minecraft:polished_blackstone_slab"
-    ],
-    "tagName": "slabs"
+    ]
   },
-  {
+  "minecraft:small_flowers": {
     "replace": false,
     "values": [
       "minecraft:dandelion",
@@ -477,28 +442,25 @@
       "minecraft:cornflower",
       "minecraft:lily_of_the_valley",
       "minecraft:wither_rose"
-    ],
-    "tagName": "small_flowers"
+    ]
   },
-  {
+  "minecraft:soul_fire_base_blocks": {
     "replace": false,
     "values": [
       "minecraft:soul_sand",
       "minecraft:soul_soil"
-    ],
-    "tagName": "soul_fire_base_blocks"
+    ]
   },
-  {
+  "minecraft:spruce_logs": {
     "replace": false,
     "values": [
       "minecraft:spruce_log",
       "minecraft:spruce_wood",
       "minecraft:stripped_spruce_log",
       "minecraft:stripped_spruce_wood"
-    ],
-    "tagName": "spruce_logs"
+    ]
   },
-  {
+  "minecraft:stairs": {
     "replace": false,
     "values": [
       "#minecraft:wooden_stairs",
@@ -530,54 +492,48 @@
       "minecraft:blackstone_stairs",
       "minecraft:polished_blackstone_brick_stairs",
       "minecraft:polished_blackstone_stairs"
-    ],
-    "tagName": "stairs"
+    ]
   },
-  {
+  "minecraft:stone_bricks": {
     "replace": false,
     "values": [
       "minecraft:stone_bricks",
       "minecraft:mossy_stone_bricks",
       "minecraft:cracked_stone_bricks",
       "minecraft:chiseled_stone_bricks"
-    ],
-    "tagName": "stone_bricks"
+    ]
   },
-  {
+  "minecraft:stone_crafting_materials": {
     "replace": false,
     "values": [
       "minecraft:cobblestone",
       "minecraft:blackstone"
-    ],
-    "tagName": "stone_crafting_materials"
+    ]
   },
-  {
+  "minecraft:stone_tool_materials": {
     "replace": false,
     "values": [
       "minecraft:cobblestone",
       "minecraft:blackstone"
-    ],
-    "tagName": "stone_tool_materials"
+    ]
   },
-  {
+  "minecraft:tall_flowers": {
     "replace": false,
     "values": [
       "minecraft:sunflower",
       "minecraft:lilac",
       "minecraft:peony",
       "minecraft:rose_bush"
-    ],
-    "tagName": "tall_flowers"
+    ]
   },
-  {
+  "minecraft:trapdoors": {
     "replace": false,
     "values": [
       "#minecraft:wooden_trapdoors",
       "minecraft:iron_trapdoor"
-    ],
-    "tagName": "trapdoors"
+    ]
   },
-  {
+  "minecraft:walls": {
     "replace": false,
     "values": [
       "minecraft:cobblestone_wall",
@@ -597,20 +553,18 @@
       "minecraft:blackstone_wall",
       "minecraft:polished_blackstone_brick_wall",
       "minecraft:polished_blackstone_wall"
-    ],
-    "tagName": "walls"
+    ]
   },
-  {
+  "minecraft:warped_stems": {
     "replace": false,
     "values": [
       "minecraft:warped_stem",
       "minecraft:stripped_warped_stem",
       "minecraft:warped_hyphae",
       "minecraft:stripped_warped_hyphae"
-    ],
-    "tagName": "warped_stems"
+    ]
   },
-  {
+  "minecraft:wooden_buttons": {
     "replace": false,
     "values": [
       "minecraft:oak_button",
@@ -621,10 +575,9 @@
       "minecraft:dark_oak_button",
       "minecraft:crimson_button",
       "minecraft:warped_button"
-    ],
-    "tagName": "wooden_buttons"
+    ]
   },
-  {
+  "minecraft:wooden_doors": {
     "replace": false,
     "values": [
       "minecraft:oak_door",
@@ -635,10 +588,9 @@
       "minecraft:dark_oak_door",
       "minecraft:crimson_door",
       "minecraft:warped_door"
-    ],
-    "tagName": "wooden_doors"
+    ]
   },
-  {
+  "minecraft:wooden_fences": {
     "replace": false,
     "values": [
       "minecraft:oak_fence",
@@ -649,10 +601,9 @@
       "minecraft:jungle_fence",
       "minecraft:crimson_fence",
       "minecraft:warped_fence"
-    ],
-    "tagName": "wooden_fences"
+    ]
   },
-  {
+  "minecraft:wooden_pressure_plates": {
     "replace": false,
     "values": [
       "minecraft:oak_pressure_plate",
@@ -663,10 +614,9 @@
       "minecraft:dark_oak_pressure_plate",
       "minecraft:crimson_pressure_plate",
       "minecraft:warped_pressure_plate"
-    ],
-    "tagName": "wooden_pressure_plates"
+    ]
   },
-  {
+  "minecraft:wooden_slabs": {
     "replace": false,
     "values": [
       "minecraft:oak_slab",
@@ -677,10 +627,9 @@
       "minecraft:dark_oak_slab",
       "minecraft:crimson_slab",
       "minecraft:warped_slab"
-    ],
-    "tagName": "wooden_slabs"
+    ]
   },
-  {
+  "minecraft:wooden_stairs": {
     "replace": false,
     "values": [
       "minecraft:oak_stairs",
@@ -691,10 +640,9 @@
       "minecraft:dark_oak_stairs",
       "minecraft:crimson_stairs",
       "minecraft:warped_stairs"
-    ],
-    "tagName": "wooden_stairs"
+    ]
   },
-  {
+  "minecraft:wooden_trapdoors": {
     "replace": false,
     "values": [
       "minecraft:acacia_trapdoor",
@@ -705,10 +653,9 @@
       "minecraft:spruce_trapdoor",
       "minecraft:crimson_trapdoor",
       "minecraft:warped_trapdoor"
-    ],
-    "tagName": "wooden_trapdoors"
+    ]
   },
-  {
+  "minecraft:wool": {
     "replace": false,
     "values": [
       "minecraft:white_wool",
@@ -727,7 +674,6 @@
       "minecraft:green_wool",
       "minecraft:red_wool",
       "minecraft:black_wool"
-    ],
-    "tagName": "wool"
+    ]
   }
-]
+}

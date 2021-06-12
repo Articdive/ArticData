@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -33,19 +32,18 @@ public final class FluidGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> fluidRLs = Registry.FLUID.keySet();
-        JsonArray fluids = new JsonArray();
+        JsonObject fluids = new JsonObject();
 
         for (ResourceLocation fluidRL : fluidRLs) {
             Fluid f = Registry.FLUID.get(fluidRL);
 
             JsonObject fluid = new JsonObject();
-            fluid.addProperty("id", fluidRL.toString());
-            fluid.addProperty("name", names.get(f));
+            fluid.addProperty("mojangName", names.get(f));
             fluid.addProperty("bucketId", Registry.ITEM.getKey(f.getBucket()).toString());
 
-            fluids.add(fluid);
+            fluids.add(fluidRL.toString(), fluid);
         }
         return fluids;
     }

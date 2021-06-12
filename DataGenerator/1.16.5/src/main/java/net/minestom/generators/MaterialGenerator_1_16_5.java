@@ -39,16 +39,15 @@ public final class MaterialGenerator_1_16_5 extends DataGenerator_1_16_5<Item> {
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> itemRLs = Registry.ITEM.keySet();
-        JsonArray items = new JsonArray();
+        JsonObject items = new JsonObject();
 
         for (ResourceLocation itemRL : itemRLs) {
             Item i = Registry.ITEM.get(itemRL);
 
             JsonObject item = new JsonObject();
-            item.addProperty("id", itemRL.toString());
-            item.addProperty("name", names.get(i));
+            item.addProperty("mojangName", names.get(i));
             // item.addProperty("langId", i.getDescriptionId());
             item.addProperty("depletes", i.canBeDepleted());
             item.addProperty("maxStackSize", i.getMaxStackSize());
@@ -116,7 +115,7 @@ public final class MaterialGenerator_1_16_5 extends DataGenerator_1_16_5<Item> {
                 item.add("spawnEggProperties", spawnEggProperties);
             }
 
-            items.add(item);
+            items.add(itemRL.toString(), item);
         }
         return items;
     }

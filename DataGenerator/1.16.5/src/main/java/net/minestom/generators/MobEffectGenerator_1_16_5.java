@@ -1,6 +1,5 @@
 package net.minestom.generators;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -33,9 +32,9 @@ public final class MobEffectGenerator_1_16_5 extends DataGenerator_1_16_5<MobEff
     }
 
     @Override
-    public JsonArray generate() {
+    public JsonObject generate() {
         Set<ResourceLocation> effectRLs = Registry.MOB_EFFECT.keySet();
-        JsonArray effects = new JsonArray();
+        JsonObject effects = new JsonObject();
 
         for (ResourceLocation effectRL : effectRLs) {
             MobEffect me = Registry.MOB_EFFECT.get(effectRL);
@@ -45,14 +44,13 @@ public final class MobEffectGenerator_1_16_5 extends DataGenerator_1_16_5<MobEff
             if (me == null) {
                 continue;
             }
-            effect.addProperty("id", effectRL.toString());
-            effect.addProperty("numericalID", Registry.MOB_EFFECT.getId(me));
-            effect.addProperty("name", names.get(me));
+            effect.addProperty("id", Registry.MOB_EFFECT.getId(me));
+            effect.addProperty("mojangName", names.get(me));
             // effect.addProperty("langId", me.getDescriptionId());
             effect.addProperty("color", me.getColor());
             effect.addProperty("instantaneous", me.isInstantenous());
 
-            effects.add(effect);
+            effects.add(effectRL.toString(), effect);
         }
         return effects;
     }
