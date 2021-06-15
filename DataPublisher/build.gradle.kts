@@ -19,17 +19,6 @@ tasks {
             destinationDirectory.set(layout.buildDirectory.dir("dist"))
             from(verFolder)
         }
-        // packageVersion_customizable_1.16.5
-//        register<Jar>("packageVersions_customizable_$mcV") {
-//            archiveBaseName.set("minestom-data-customizable")
-//            archiveVersion.set(mcV)
-//            // Exclude meta inf
-//            manifest = null
-//
-//            destinationDirectory.set(layout.buildDirectory.dir("dist"))
-//            // TODO: Add filter for only customizable data
-//            from(verFolder)
-//        }
     }
 }
 
@@ -47,20 +36,12 @@ publishing {
 
                 artifact(tasks.getByName("packageVersions_full_$mcV"))
             }
-//            // Customizable
-//            create<MavenPublication>("packageVersions_customizable_$mcV") {
-//                groupId = "net.minestom"
-//                artifactId = "minestom-data-customizable"
-//                version = mcV
-//
-//                artifact(tasks.getByName("packageVersions_customizable_$mcV"))
-//            }
         }
     }
     repositories {
         maven {
             name = "minestom-repo"
-            url = uri("https://repo.minestom.com/repository/maven-public")
+            url = uri("https://repo.minestom.net/repository/maven-public")
             credentials {
                 username = System.getenv("MINESTOM_REPO_CREDS_USR")
                 password = System.getenv("MINESTOM_REPO_CREDS_PSW")
