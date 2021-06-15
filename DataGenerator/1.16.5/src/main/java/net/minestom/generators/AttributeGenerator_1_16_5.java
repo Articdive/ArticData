@@ -45,6 +45,7 @@ public final class AttributeGenerator_1_16_5 extends DataGenerator_1_16_5<Attrib
                 continue;
             }
             attribute.addProperty("mojangName", names.get(a));
+            attribute.addProperty("translationKey", a.getDescriptionId());
             attribute.addProperty("defaultValue", a.getDefaultValue());
             attribute.addProperty("clientSync", a.isClientSyncable());
             if (a instanceof RangedAttribute) {

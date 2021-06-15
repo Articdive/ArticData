@@ -10,6 +10,7 @@ import net.minecraft.world.level.EmptyBlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.material.PushReaction;
@@ -61,11 +62,15 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             block.addProperty("speedFactor", b.getSpeedFactor());
             block.addProperty("jumpFactor", b.getJumpFactor());
             block.addProperty("defaultStateId", Block.BLOCK_STATE_REGISTRY.getId(b.defaultBlockState()));
+
             Item correspondingItem = Item.BY_BLOCK.getOrDefault(b, null);
             if (correspondingItem != null) {
                 block.addProperty("correspondingItem", Registry.ITEM.getKey(correspondingItem).toString());
             }
             block.addProperty("blockEntity", b instanceof EntityBlock);
+            block.addProperty("gravity", b instanceof FallingBlock);
+            block.addProperty("canRespawnIn", b.isPossibleToRespawnInThis());
+            block.addProperty("translationKey", b.getDescriptionId());
 
             // Default values
             double defaultHardness = b.defaultBlockState().getDestroySpeed(EmptyBlockGetter.INSTANCE, BlockPos.ZERO);

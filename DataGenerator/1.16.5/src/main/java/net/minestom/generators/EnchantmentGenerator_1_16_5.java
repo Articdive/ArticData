@@ -44,7 +44,7 @@ public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Ench
             JsonObject enchantment = new JsonObject();
 
             enchantment.addProperty("mojangName", names.get(e));
-            // enchantment.addProperty("langId", e.getDescriptionId());
+            enchantment.addProperty("translationKey", e.getDescriptionId());
             enchantment.addProperty("maxLevel", e.getMaxLevel());
             enchantment.addProperty("minLevel", e.getMinLevel());
             enchantment.addProperty("rarity", e.getRarity().toString());

@@ -1,5 +1,6 @@
 {
   "minecraft:ocean": {
+    "mojangName": "OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.0,
@@ -14,6 +15,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:plains": {
+    "mojangName": "PLAINS",
     "humid": false,
     "scale": 0.05,
     "depth": 0.125,
@@ -28,6 +30,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:desert": {
+    "mojangName": "DESERT",
     "humid": false,
     "scale": 0.05,
     "depth": 0.125,
@@ -42,6 +45,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:mountains": {
+    "mojangName": "MOUNTAINS",
     "humid": false,
     "scale": 0.5,
     "depth": 1.0,
@@ -56,6 +60,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:forest": {
+    "mojangName": "FOREST",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -70,6 +75,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:taiga": {
+    "mojangName": "TAIGA",
     "humid": false,
     "scale": 0.2,
     "depth": 0.2,
@@ -84,6 +90,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:swamp": {
+    "mojangName": "SWAMP",
     "humid": true,
     "scale": 0.1,
     "depth": -0.2,
@@ -99,6 +106,7 @@
     "grassColorModifier": "SWAMP"
   },
   "minecraft:river": {
+    "mojangName": "RIVER",
     "humid": false,
     "scale": 0.0,
     "depth": -0.5,
@@ -113,6 +121,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:nether_wastes": {
+    "mojangName": "NETHER_WASTES",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -127,6 +136,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:the_end": {
+    "mojangName": "THE_END",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -141,6 +151,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:frozen_ocean": {
+    "mojangName": "FROZEN_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.0,
@@ -155,6 +166,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:frozen_river": {
+    "mojangName": "FROZEN_RIVER",
     "humid": false,
     "scale": 0.0,
     "depth": -0.5,
@@ -169,6 +181,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:snowy_tundra": {
+    "mojangName": "SNOWY_TUNDRA",
     "humid": false,
     "scale": 0.05,
     "depth": 0.125,
@@ -183,6 +196,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:snowy_mountains": {
+    "mojangName": "SNOWY_MOUNTAINS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -197,6 +211,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:mushroom_fields": {
+    "mojangName": "MUSHROOM_FIELDS",
     "humid": true,
     "scale": 0.3,
     "depth": 0.2,
@@ -211,6 +226,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:mushroom_field_shore": {
+    "mojangName": "MUSHROOM_FIELD_SHORE",
     "humid": true,
     "scale": 0.025,
     "depth": 0.0,
@@ -225,6 +241,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:beach": {
+    "mojangName": "BEACH",
     "humid": false,
     "scale": 0.025,
     "depth": 0.0,
@@ -239,6 +256,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:desert_hills": {
+    "mojangName": "DESERT_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -253,6 +271,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:wooded_hills": {
+    "mojangName": "WOODED_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -267,6 +286,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:taiga_hills": {
+    "mojangName": "TAIGA_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -281,6 +301,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:mountain_edge": {
+    "mojangName": "MOUNTAIN_EDGE",
     "humid": false,
     "scale": 0.3,
     "depth": 0.8,
@@ -295,6 +316,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:jungle": {
+    "mojangName": "JUNGLE",
     "humid": true,
     "scale": 0.2,
     "depth": 0.1,
@@ -309,6 +331,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:jungle_hills": {
+    "mojangName": "JUNGLE_HILLS",
     "humid": true,
     "scale": 0.3,
     "depth": 0.45,
@@ -323,6 +346,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:jungle_edge": {
+    "mojangName": "JUNGLE_EDGE",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -337,6 +361,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:deep_ocean": {
+    "mojangName": "DEEP_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.8,
@@ -351,6 +376,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:stone_shore": {
+    "mojangName": "STONE_SHORE",
     "humid": false,
     "scale": 0.8,
     "depth": 0.1,
@@ -365,6 +391,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:snowy_beach": {
+    "mojangName": "SNOWY_BEACH",
     "humid": false,
     "scale": 0.025,
     "depth": 0.0,
@@ -379,6 +406,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:birch_forest": {
+    "mojangName": "BIRCH_FOREST",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -393,6 +421,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:birch_forest_hills": {
+    "mojangName": "BIRCH_FOREST_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -407,6 +436,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:dark_forest": {
+    "mojangName": "DARK_FOREST",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -421,6 +451,7 @@
     "grassColorModifier": "DARK_FOREST"
   },
   "minecraft:snowy_taiga": {
+    "mojangName": "SNOWY_TAIGA",
     "humid": false,
     "scale": 0.2,
     "depth": 0.2,
@@ -435,6 +466,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:snowy_taiga_hills": {
+    "mojangName": "SNOWY_TAIGA_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -449,6 +481,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:giant_tree_taiga": {
+    "mojangName": "GIANT_TREE_TAIGA",
     "humid": false,
     "scale": 0.2,
     "depth": 0.2,
@@ -463,6 +496,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:giant_tree_taiga_hills": {
+    "mojangName": "GIANT_TREE_TAIGA_HILLS",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -477,6 +511,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:wooded_mountains": {
+    "mojangName": "WOODED_MOUNTAINS",
     "humid": false,
     "scale": 0.5,
     "depth": 1.0,
@@ -491,6 +526,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:savanna": {
+    "mojangName": "SAVANNA",
     "humid": false,
     "scale": 0.05,
     "depth": 0.125,
@@ -505,6 +541,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:savanna_plateau": {
+    "mojangName": "SAVANNA_PLATEAU",
     "humid": false,
     "scale": 0.025,
     "depth": 1.5,
@@ -519,6 +556,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:badlands": {
+    "mojangName": "BADLANDS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -535,6 +573,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:wooded_badlands_plateau": {
+    "mojangName": "WOODED_BADLANDS_PLATEAU",
     "humid": false,
     "scale": 0.025,
     "depth": 1.5,
@@ -551,6 +590,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:badlands_plateau": {
+    "mojangName": "BADLANDS_PLATEAU",
     "humid": false,
     "scale": 0.025,
     "depth": 1.5,
@@ -567,6 +607,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:small_end_islands": {
+    "mojangName": "SMALL_END_ISLANDS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -581,6 +622,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:end_midlands": {
+    "mojangName": "END_MIDLANDS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -595,6 +637,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:end_highlands": {
+    "mojangName": "END_HIGHLANDS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -609,6 +652,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:end_barrens": {
+    "mojangName": "END_BARRENS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -623,6 +667,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:warm_ocean": {
+    "mojangName": "WARM_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.0,
@@ -637,6 +682,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:lukewarm_ocean": {
+    "mojangName": "LUKEWARM_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.0,
@@ -651,6 +697,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:cold_ocean": {
+    "mojangName": "COLD_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.0,
@@ -665,6 +712,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:deep_warm_ocean": {
+    "mojangName": "DEEP_WARM_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.8,
@@ -679,6 +727,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:deep_lukewarm_ocean": {
+    "mojangName": "DEEP_LUKEWARM_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.8,
@@ -693,6 +742,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:deep_cold_ocean": {
+    "mojangName": "DEEP_COLD_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.8,
@@ -707,6 +757,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:deep_frozen_ocean": {
+    "mojangName": "DEEP_FROZEN_OCEAN",
     "humid": false,
     "scale": 0.1,
     "depth": -1.8,
@@ -721,6 +772,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:the_void": {
+    "mojangName": "THE_VOID",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -735,6 +787,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:sunflower_plains": {
+    "mojangName": "SUNFLOWER_PLAINS",
     "humid": false,
     "scale": 0.05,
     "depth": 0.125,
@@ -749,6 +802,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:desert_lakes": {
+    "mojangName": "DESERT_LAKES",
     "humid": false,
     "scale": 0.25,
     "depth": 0.225,
@@ -763,6 +817,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:gravelly_mountains": {
+    "mojangName": "GRAVELLY_MOUNTAINS",
     "humid": false,
     "scale": 0.5,
     "depth": 1.0,
@@ -777,6 +832,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:flower_forest": {
+    "mojangName": "FLOWER_FOREST",
     "humid": false,
     "scale": 0.4,
     "depth": 0.1,
@@ -791,6 +847,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:taiga_mountains": {
+    "mojangName": "TAIGA_MOUNTAINS",
     "humid": false,
     "scale": 0.4,
     "depth": 0.3,
@@ -805,6 +862,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:swamp_hills": {
+    "mojangName": "SWAMP_HILLS",
     "humid": true,
     "scale": 0.3,
     "depth": -0.1,
@@ -820,6 +878,7 @@
     "grassColorModifier": "SWAMP"
   },
   "minecraft:ice_spikes": {
+    "mojangName": "ICE_SPIKES",
     "humid": false,
     "scale": 0.45000002,
     "depth": 0.425,
@@ -834,6 +893,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:modified_jungle": {
+    "mojangName": "MODIFIED_JUNGLE",
     "humid": true,
     "scale": 0.4,
     "depth": 0.2,
@@ -848,6 +908,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:modified_jungle_edge": {
+    "mojangName": "MODIFIED_JUNGLE_EDGE",
     "humid": false,
     "scale": 0.4,
     "depth": 0.2,
@@ -862,6 +923,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:tall_birch_forest": {
+    "mojangName": "TALL_BIRCH_FOREST",
     "humid": false,
     "scale": 0.4,
     "depth": 0.2,
@@ -876,6 +938,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:tall_birch_hills": {
+    "mojangName": "TALL_BIRCH_HILLS",
     "humid": false,
     "scale": 0.5,
     "depth": 0.55,
@@ -890,6 +953,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:dark_forest_hills": {
+    "mojangName": "DARK_FOREST_HILLS",
     "humid": false,
     "scale": 0.4,
     "depth": 0.2,
@@ -904,6 +968,7 @@
     "grassColorModifier": "DARK_FOREST"
   },
   "minecraft:snowy_taiga_mountains": {
+    "mojangName": "SNOWY_TAIGA_MOUNTAINS",
     "humid": false,
     "scale": 0.4,
     "depth": 0.3,
@@ -918,6 +983,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:giant_spruce_taiga": {
+    "mojangName": "GIANT_SPRUCE_TAIGA",
     "humid": false,
     "scale": 0.2,
     "depth": 0.2,
@@ -932,6 +998,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:giant_spruce_taiga_hills": {
+    "mojangName": "GIANT_SPRUCE_TAIGA_HILLS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.2,
@@ -946,6 +1013,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:modified_gravelly_mountains": {
+    "mojangName": "MODIFIED_GRAVELLY_MOUNTAINS",
     "humid": false,
     "scale": 0.5,
     "depth": 1.0,
@@ -960,6 +1028,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:shattered_savanna": {
+    "mojangName": "SHATTERED_SAVANNA",
     "humid": false,
     "scale": 1.225,
     "depth": 0.3625,
@@ -974,6 +1043,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:shattered_savanna_plateau": {
+    "mojangName": "SHATTERED_SAVANNA_PLATEAU",
     "humid": false,
     "scale": 1.2125001,
     "depth": 1.05,
@@ -988,6 +1058,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:eroded_badlands": {
+    "mojangName": "ERODED_BADLANDS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -1004,6 +1075,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:modified_wooded_badlands_plateau": {
+    "mojangName": "MODIFIED_WOODED_BADLANDS_PLATEAU",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -1020,6 +1092,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:modified_badlands_plateau": {
+    "mojangName": "MODIFIED_BADLANDS_PLATEAU",
     "humid": false,
     "scale": 0.3,
     "depth": 0.45,
@@ -1036,6 +1109,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:bamboo_jungle": {
+    "mojangName": "BAMBOO_JUNGLE",
     "humid": true,
     "scale": 0.2,
     "depth": 0.1,
@@ -1050,6 +1124,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:bamboo_jungle_hills": {
+    "mojangName": "BAMBOO_JUNGLE_HILLS",
     "humid": true,
     "scale": 0.3,
     "depth": 0.45,
@@ -1064,6 +1139,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:soul_sand_valley": {
+    "mojangName": "SOUL_SAND_VALLEY",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -1078,6 +1154,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:crimson_forest": {
+    "mojangName": "CRIMSON_FOREST",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -1092,6 +1169,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:warped_forest": {
+    "mojangName": "WARPED_FOREST",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,
@@ -1106,6 +1184,7 @@
     "grassColorModifier": "NONE"
   },
   "minecraft:basalt_deltas": {
+    "mojangName": "BASALT_DELTAS",
     "humid": false,
     "scale": 0.2,
     "depth": 0.1,

@@ -23,6 +23,7 @@
       }
     ],
     "mojangName": "AREA_EFFECT_CLOUD",
+    "translationKey": "entity.minecraft.area_effect_cloud",
     "packetType": "BASE",
     "fireImmune": true,
     "height": 0.5,
@@ -68,6 +69,7 @@
       }
     ],
     "mojangName": "ARMOR_STAND",
+    "translationKey": "entity.minecraft.armor_stand",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.975,
@@ -83,6 +85,7 @@
       }
     ],
     "mojangName": "ARROW",
+    "translationKey": "entity.minecraft.arrow",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -108,6 +111,7 @@
       }
     ],
     "mojangName": "AXOLOTL",
+    "translationKey": "entity.minecraft.axolotl",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.42,
@@ -123,6 +127,7 @@
       }
     ],
     "mojangName": "BAT",
+    "translationKey": "entity.minecraft.bat",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.9,
@@ -143,6 +148,7 @@
       }
     ],
     "mojangName": "BEE",
+    "translationKey": "entity.minecraft.bee",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.6,
@@ -158,6 +164,7 @@
       }
     ],
     "mojangName": "BLAZE",
+    "translationKey": "entity.minecraft.blaze",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 1.8,
@@ -203,6 +210,7 @@
       }
     ],
     "mojangName": "BOAT",
+    "translationKey": "entity.minecraft.boat",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5625,
@@ -233,6 +241,7 @@
       }
     ],
     "mojangName": "CAT",
+    "translationKey": "entity.minecraft.cat",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.7,
@@ -242,6 +251,7 @@
   "minecraft:cave_spider": {
     "metadata": [],
     "mojangName": "CAVE_SPIDER",
+    "translationKey": "entity.minecraft.cave_spider",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.5,
@@ -251,6 +261,7 @@
   "minecraft:chicken": {
     "metadata": [],
     "mojangName": "CHICKEN",
+    "translationKey": "entity.minecraft.chicken",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.7,
@@ -260,6 +271,7 @@
   "minecraft:cod": {
     "metadata": [],
     "mojangName": "COD",
+    "translationKey": "entity.minecraft.cod",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.3,
@@ -269,6 +281,7 @@
   "minecraft:cow": {
     "metadata": [],
     "mojangName": "COW",
+    "translationKey": "entity.minecraft.cow",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.4,
@@ -294,6 +307,7 @@
       }
     ],
     "mojangName": "CREEPER",
+    "translationKey": "entity.minecraft.creeper",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.7,
@@ -319,6 +333,7 @@
       }
     ],
     "mojangName": "DOLPHIN",
+    "translationKey": "entity.minecraft.dolphin",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.6,
@@ -328,6 +343,7 @@
   "minecraft:donkey": {
     "metadata": [],
     "mojangName": "DONKEY",
+    "translationKey": "entity.minecraft.donkey",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.5,
@@ -337,6 +353,7 @@
   "minecraft:dragon_fireball": {
     "metadata": [],
     "mojangName": "DRAGON_FIREBALL",
+    "translationKey": "entity.minecraft.dragon_fireball",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 1.0,
@@ -346,6 +363,7 @@
   "minecraft:drowned": {
     "metadata": [],
     "mojangName": "DROWNED",
+    "translationKey": "entity.minecraft.drowned",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -355,6 +373,7 @@
   "minecraft:elder_guardian": {
     "metadata": [],
     "mojangName": "ELDER_GUARDIAN",
+    "translationKey": "entity.minecraft.elder_guardian",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.9975,
@@ -375,6 +394,7 @@
       }
     ],
     "mojangName": "END_CRYSTAL",
+    "translationKey": "entity.minecraft.end_crystal",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 2.0,
@@ -390,6 +410,7 @@
       }
     ],
     "mojangName": "ENDER_DRAGON",
+    "translationKey": "entity.minecraft.ender_dragon",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 8.0,
@@ -415,6 +436,7 @@
       }
     ],
     "mojangName": "ENDERMAN",
+    "translationKey": "entity.minecraft.enderman",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 2.9,
@@ -424,6 +446,7 @@
   "minecraft:endermite": {
     "metadata": [],
     "mojangName": "ENDERMITE",
+    "translationKey": "entity.minecraft.endermite",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.3,
@@ -433,6 +456,7 @@
   "minecraft:evoker": {
     "metadata": [],
     "mojangName": "EVOKER",
+    "translationKey": "entity.minecraft.evoker",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -442,6 +466,7 @@
   "minecraft:evoker_fangs": {
     "metadata": [],
     "mojangName": "EVOKER_FANGS",
+    "translationKey": "entity.minecraft.evoker_fangs",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.8,
@@ -451,6 +476,7 @@
   "minecraft:experience_orb": {
     "metadata": [],
     "mojangName": "EXPERIENCE_ORB",
+    "translationKey": "entity.minecraft.experience_orb",
     "packetType": "EXPERIENCE_ORB",
     "fireImmune": false,
     "height": 0.5,
@@ -466,6 +492,7 @@
       }
     ],
     "mojangName": "EYE_OF_ENDER",
+    "translationKey": "entity.minecraft.eye_of_ender",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -481,6 +508,7 @@
       }
     ],
     "mojangName": "FALLING_BLOCK",
+    "translationKey": "entity.minecraft.falling_block",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.98,
@@ -506,6 +534,7 @@
       }
     ],
     "mojangName": "FIREWORK_ROCKET",
+    "translationKey": "entity.minecraft.firework_rocket",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -536,6 +565,7 @@
       }
     ],
     "mojangName": "FOX",
+    "translationKey": "entity.minecraft.fox",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.7,
@@ -551,6 +581,7 @@
       }
     ],
     "mojangName": "GHAST",
+    "translationKey": "entity.minecraft.ghast",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 4.0,
@@ -560,6 +591,7 @@
   "minecraft:giant": {
     "metadata": [],
     "mojangName": "GIANT",
+    "translationKey": "entity.minecraft.giant",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 12.0,
@@ -569,6 +601,7 @@
   "minecraft:glow_item_frame": {
     "metadata": [],
     "mojangName": "GLOW_ITEM_FRAME",
+    "translationKey": "entity.minecraft.glow_item_frame",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -584,6 +617,7 @@
       }
     ],
     "mojangName": "GLOW_SQUID",
+    "translationKey": "entity.minecraft.glow_squid",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.8,
@@ -599,6 +633,7 @@
       }
     ],
     "mojangName": "GOAT",
+    "translationKey": "entity.minecraft.goat",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.3,
@@ -619,6 +654,7 @@
       }
     ],
     "mojangName": "GUARDIAN",
+    "translationKey": "entity.minecraft.guardian",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.85,
@@ -634,6 +670,7 @@
       }
     ],
     "mojangName": "HOGLIN",
+    "translationKey": "entity.minecraft.hoglin",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.4,
@@ -649,6 +686,7 @@
       }
     ],
     "mojangName": "HORSE",
+    "translationKey": "entity.minecraft.horse",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.6,
@@ -658,6 +696,7 @@
   "minecraft:husk": {
     "metadata": [],
     "mojangName": "HUSK",
+    "translationKey": "entity.minecraft.husk",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -667,6 +706,7 @@
   "minecraft:illusioner": {
     "metadata": [],
     "mojangName": "ILLUSIONER",
+    "translationKey": "entity.minecraft.illusioner",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -682,6 +722,7 @@
       }
     ],
     "mojangName": "IRON_GOLEM",
+    "translationKey": "entity.minecraft.iron_golem",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 2.7,
@@ -697,6 +738,7 @@
       }
     ],
     "mojangName": "ITEM",
+    "translationKey": "entity.minecraft.item",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -717,6 +759,7 @@
       }
     ],
     "mojangName": "ITEM_FRAME",
+    "translationKey": "entity.minecraft.item_frame",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -726,6 +769,7 @@
   "minecraft:fireball": {
     "metadata": [],
     "mojangName": "FIREBALL",
+    "translationKey": "entity.minecraft.fireball",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 1.0,
@@ -735,6 +779,7 @@
   "minecraft:leash_knot": {
     "metadata": [],
     "mojangName": "LEASH_KNOT",
+    "translationKey": "entity.minecraft.leash_knot",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -744,6 +789,7 @@
   "minecraft:lightning_bolt": {
     "metadata": [],
     "mojangName": "LIGHTNING_BOLT",
+    "translationKey": "entity.minecraft.lightning_bolt",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.0,
@@ -769,6 +815,7 @@
       }
     ],
     "mojangName": "LLAMA",
+    "translationKey": "entity.minecraft.llama",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.87,
@@ -778,6 +825,7 @@
   "minecraft:llama_spit": {
     "metadata": [],
     "mojangName": "LLAMA_SPIT",
+    "translationKey": "entity.minecraft.llama_spit",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -787,6 +835,7 @@
   "minecraft:magma_cube": {
     "metadata": [],
     "mojangName": "MAGMA_CUBE",
+    "translationKey": "entity.minecraft.magma_cube",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 2.04,
@@ -796,6 +845,7 @@
   "minecraft:marker": {
     "metadata": [],
     "mojangName": "MARKER",
+    "translationKey": "entity.minecraft.marker",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.0,
@@ -805,6 +855,7 @@
   "minecraft:minecart": {
     "metadata": [],
     "mojangName": "MINECART",
+    "translationKey": "entity.minecraft.minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -814,6 +865,7 @@
   "minecraft:chest_minecart": {
     "metadata": [],
     "mojangName": "CHEST_MINECART",
+    "translationKey": "entity.minecraft.chest_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -834,6 +886,7 @@
       }
     ],
     "mojangName": "COMMAND_BLOCK_MINECART",
+    "translationKey": "entity.minecraft.command_block_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -849,6 +902,7 @@
       }
     ],
     "mojangName": "FURNACE_MINECART",
+    "translationKey": "entity.minecraft.furnace_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -858,6 +912,7 @@
   "minecraft:hopper_minecart": {
     "metadata": [],
     "mojangName": "HOPPER_MINECART",
+    "translationKey": "entity.minecraft.hopper_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -867,6 +922,7 @@
   "minecraft:spawner_minecart": {
     "metadata": [],
     "mojangName": "SPAWNER_MINECART",
+    "translationKey": "entity.minecraft.spawner_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -876,6 +932,7 @@
   "minecraft:tnt_minecart": {
     "metadata": [],
     "mojangName": "TNT_MINECART",
+    "translationKey": "entity.minecraft.tnt_minecart",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.7,
@@ -885,6 +942,7 @@
   "minecraft:mule": {
     "metadata": [],
     "mojangName": "MULE",
+    "translationKey": "entity.minecraft.mule",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.6,
@@ -900,6 +958,7 @@
       }
     ],
     "mojangName": "MOOSHROOM",
+    "translationKey": "entity.minecraft.mooshroom",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.4,
@@ -915,6 +974,7 @@
       }
     ],
     "mojangName": "OCELOT",
+    "translationKey": "entity.minecraft.ocelot",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.7,
@@ -924,6 +984,7 @@
   "minecraft:painting": {
     "metadata": [],
     "mojangName": "PAINTING",
+    "translationKey": "entity.minecraft.painting",
     "packetType": "PAINTING",
     "fireImmune": false,
     "height": 0.5,
@@ -964,6 +1025,7 @@
       }
     ],
     "mojangName": "PANDA",
+    "translationKey": "entity.minecraft.panda",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.25,
@@ -979,6 +1041,7 @@
       }
     ],
     "mojangName": "PARROT",
+    "translationKey": "entity.minecraft.parrot",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.9,
@@ -994,6 +1057,7 @@
       }
     ],
     "mojangName": "PHANTOM",
+    "translationKey": "entity.minecraft.phantom",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.5,
@@ -1014,6 +1078,7 @@
       }
     ],
     "mojangName": "PIG",
+    "translationKey": "entity.minecraft.pig",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.9,
@@ -1039,6 +1104,7 @@
       }
     ],
     "mojangName": "PIGLIN",
+    "translationKey": "entity.minecraft.piglin",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1048,6 +1114,7 @@
   "minecraft:piglin_brute": {
     "metadata": [],
     "mojangName": "PIGLIN_BRUTE",
+    "translationKey": "entity.minecraft.piglin_brute",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1063,6 +1130,7 @@
       }
     ],
     "mojangName": "PILLAGER",
+    "translationKey": "entity.minecraft.pillager",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1078,6 +1146,7 @@
       }
     ],
     "mojangName": "POLAR_BEAR",
+    "translationKey": "entity.minecraft.polar_bear",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.4,
@@ -1093,6 +1162,7 @@
       }
     ],
     "mojangName": "TNT",
+    "translationKey": "entity.minecraft.tnt",
     "packetType": "BASE",
     "fireImmune": true,
     "height": 0.98,
@@ -1108,6 +1178,7 @@
       }
     ],
     "mojangName": "PUFFERFISH",
+    "translationKey": "entity.minecraft.pufferfish",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.7,
@@ -1123,6 +1194,7 @@
       }
     ],
     "mojangName": "RABBIT",
+    "translationKey": "entity.minecraft.rabbit",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.5,
@@ -1132,6 +1204,7 @@
   "minecraft:ravager": {
     "metadata": [],
     "mojangName": "RAVAGER",
+    "translationKey": "entity.minecraft.ravager",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 2.2,
@@ -1141,6 +1214,7 @@
   "minecraft:salmon": {
     "metadata": [],
     "mojangName": "SALMON",
+    "translationKey": "entity.minecraft.salmon",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.4,
@@ -1156,6 +1230,7 @@
       }
     ],
     "mojangName": "SHEEP",
+    "translationKey": "entity.minecraft.sheep",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.3,
@@ -1181,6 +1256,7 @@
       }
     ],
     "mojangName": "SHULKER",
+    "translationKey": "entity.minecraft.shulker",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 1.0,
@@ -1190,6 +1266,7 @@
   "minecraft:shulker_bullet": {
     "metadata": [],
     "mojangName": "SHULKER_BULLET",
+    "translationKey": "entity.minecraft.shulker_bullet",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.3125,
@@ -1199,6 +1276,7 @@
   "minecraft:silverfish": {
     "metadata": [],
     "mojangName": "SILVERFISH",
+    "translationKey": "entity.minecraft.silverfish",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.3,
@@ -1214,6 +1292,7 @@
       }
     ],
     "mojangName": "SKELETON",
+    "translationKey": "entity.minecraft.skeleton",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.99,
@@ -1223,6 +1302,7 @@
   "minecraft:skeleton_horse": {
     "metadata": [],
     "mojangName": "SKELETON_HORSE",
+    "translationKey": "entity.minecraft.skeleton_horse",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.6,
@@ -1238,6 +1318,7 @@
       }
     ],
     "mojangName": "SLIME",
+    "translationKey": "entity.minecraft.slime",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 2.04,
@@ -1247,6 +1328,7 @@
   "minecraft:small_fireball": {
     "metadata": [],
     "mojangName": "SMALL_FIREBALL",
+    "translationKey": "entity.minecraft.small_fireball",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.3125,
@@ -1262,6 +1344,7 @@
       }
     ],
     "mojangName": "SNOW_GOLEM",
+    "translationKey": "entity.minecraft.snow_golem",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.9,
@@ -1271,6 +1354,7 @@
   "minecraft:snowball": {
     "metadata": [],
     "mojangName": "SNOWBALL",
+    "translationKey": "entity.minecraft.snowball",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -1280,6 +1364,7 @@
   "minecraft:spectral_arrow": {
     "metadata": [],
     "mojangName": "SPECTRAL_ARROW",
+    "translationKey": "entity.minecraft.spectral_arrow",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -1295,6 +1380,7 @@
       }
     ],
     "mojangName": "SPIDER",
+    "translationKey": "entity.minecraft.spider",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.9,
@@ -1304,6 +1390,7 @@
   "minecraft:squid": {
     "metadata": [],
     "mojangName": "SQUID",
+    "translationKey": "entity.minecraft.squid",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.8,
@@ -1313,6 +1400,7 @@
   "minecraft:stray": {
     "metadata": [],
     "mojangName": "STRAY",
+    "translationKey": "entity.minecraft.stray",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.99,
@@ -1338,6 +1426,7 @@
       }
     ],
     "mojangName": "STRIDER",
+    "translationKey": "entity.minecraft.strider",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 1.7,
@@ -1347,6 +1436,7 @@
   "minecraft:egg": {
     "metadata": [],
     "mojangName": "EGG",
+    "translationKey": "entity.minecraft.egg",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -1356,6 +1446,7 @@
   "minecraft:ender_pearl": {
     "metadata": [],
     "mojangName": "ENDER_PEARL",
+    "translationKey": "entity.minecraft.ender_pearl",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -1365,6 +1456,7 @@
   "minecraft:experience_bottle": {
     "metadata": [],
     "mojangName": "EXPERIENCE_BOTTLE",
+    "translationKey": "entity.minecraft.experience_bottle",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -1374,6 +1466,7 @@
   "minecraft:potion": {
     "metadata": [],
     "mojangName": "POTION",
+    "translationKey": "entity.minecraft.potion",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,
@@ -1394,6 +1487,7 @@
       }
     ],
     "mojangName": "TRIDENT",
+    "translationKey": "entity.minecraft.trident",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.5,
@@ -1403,6 +1497,7 @@
   "minecraft:trader_llama": {
     "metadata": [],
     "mojangName": "TRADER_LLAMA",
+    "translationKey": "entity.minecraft.trader_llama",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.87,
@@ -1418,6 +1513,7 @@
       }
     ],
     "mojangName": "TROPICAL_FISH",
+    "translationKey": "entity.minecraft.tropical_fish",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.4,
@@ -1458,6 +1554,7 @@
       }
     ],
     "mojangName": "TURTLE",
+    "translationKey": "entity.minecraft.turtle",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.4,
@@ -1473,6 +1570,7 @@
       }
     ],
     "mojangName": "VEX",
+    "translationKey": "entity.minecraft.vex",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 0.8,
@@ -1488,6 +1586,7 @@
       }
     ],
     "mojangName": "VILLAGER",
+    "translationKey": "entity.minecraft.villager",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1497,6 +1596,7 @@
   "minecraft:vindicator": {
     "metadata": [],
     "mojangName": "VINDICATOR",
+    "translationKey": "entity.minecraft.vindicator",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1506,6 +1606,7 @@
   "minecraft:wandering_trader": {
     "metadata": [],
     "mojangName": "WANDERING_TRADER",
+    "translationKey": "entity.minecraft.wandering_trader",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1521,6 +1622,7 @@
       }
     ],
     "mojangName": "WITCH",
+    "translationKey": "entity.minecraft.witch",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1551,6 +1653,7 @@
       }
     ],
     "mojangName": "WITHER",
+    "translationKey": "entity.minecraft.wither",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 3.5,
@@ -1560,6 +1663,7 @@
   "minecraft:wither_skeleton": {
     "metadata": [],
     "mojangName": "WITHER_SKELETON",
+    "translationKey": "entity.minecraft.wither_skeleton",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 2.4,
@@ -1575,6 +1679,7 @@
       }
     ],
     "mojangName": "WITHER_SKULL",
+    "translationKey": "entity.minecraft.wither_skull",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.3125,
@@ -1600,6 +1705,7 @@
       }
     ],
     "mojangName": "WOLF",
+    "translationKey": "entity.minecraft.wolf",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 0.85,
@@ -1615,6 +1721,7 @@
       }
     ],
     "mojangName": "ZOGLIN",
+    "translationKey": "entity.minecraft.zoglin",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 1.4,
@@ -1640,6 +1747,7 @@
       }
     ],
     "mojangName": "ZOMBIE",
+    "translationKey": "entity.minecraft.zombie",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1649,6 +1757,7 @@
   "minecraft:zombie_horse": {
     "metadata": [],
     "mojangName": "ZOMBIE_HORSE",
+    "translationKey": "entity.minecraft.zombie_horse",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.6,
@@ -1669,6 +1778,7 @@
       }
     ],
     "mojangName": "ZOMBIE_VILLAGER",
+    "translationKey": "entity.minecraft.zombie_villager",
     "packetType": "LIVING",
     "fireImmune": false,
     "height": 1.95,
@@ -1678,6 +1788,7 @@
   "minecraft:zombified_piglin": {
     "metadata": [],
     "mojangName": "ZOMBIFIED_PIGLIN",
+    "translationKey": "entity.minecraft.zombified_piglin",
     "packetType": "LIVING",
     "fireImmune": true,
     "height": 1.95,
@@ -1718,6 +1829,7 @@
       }
     ],
     "mojangName": "PLAYER",
+    "translationKey": "entity.minecraft.player",
     "packetType": "PLAYER",
     "fireImmune": false,
     "height": 1.8,
@@ -1738,6 +1850,7 @@
       }
     ],
     "mojangName": "FISHING_BOBBER",
+    "translationKey": "entity.minecraft.fishing_bobber",
     "packetType": "BASE",
     "fireImmune": false,
     "height": 0.25,

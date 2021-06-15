@@ -48,7 +48,7 @@ public final class MaterialGenerator_1_16_5 extends DataGenerator_1_16_5<Item> {
 
             JsonObject item = new JsonObject();
             item.addProperty("mojangName", names.get(i));
-            // item.addProperty("langId", i.getDescriptionId());
+            item.addProperty("translationKey", i.getDescriptionId());
             item.addProperty("depletes", i.canBeDepleted());
             item.addProperty("maxStackSize", i.getMaxStackSize());
             item.addProperty("maxDamage", i.getMaxDamage());

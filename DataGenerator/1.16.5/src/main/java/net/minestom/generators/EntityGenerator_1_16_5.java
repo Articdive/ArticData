@@ -100,7 +100,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             entity.add("metadata", metadata);
 
             entity.addProperty("mojangName", names.get(et));
-            // entity.addProperty("langId", et.getDescriptionId());
+            entity.addProperty("translationKey", et.getDescriptionId());
             // entity.addProperty("category", et.getCategory().toString()); basically useless
             entity.addProperty("packetType", packetType);
             entity.addProperty("fireImmune", et.fireImmune());

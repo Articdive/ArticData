@@ -42,7 +42,6 @@ public final class PotionGenerator_1_16_5 extends DataGenerator_1_16_5<Potion> {
             JsonObject effect = new JsonObject();
             // Null safety check.
             effect.addProperty("mojangName", names.get(p));
-            // effect.addProperty("langId", me.getDescriptionId());
 
             potions.add(effectRL.toString(), effect);
         }
