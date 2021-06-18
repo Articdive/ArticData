@@ -1,4 +1,4 @@
-group = "net.minestom"
+group = "de.articdive"
 version = "0.1.0"
 
 allprojects {
@@ -10,7 +10,7 @@ val compileVersions = getVersionsRequiredForCompile(mcVersion)
 val genVersion by extra {
     compileVersions[0]
 }
-val outputLocation: String = (project.properties["output"] ?: "../Minestom-Data/${mcVersion}/") as String
+val outputLocation: String = (project.properties["output"] ?: "../Articdata/${mcVersion}/") as String
 
 tasks {
     register("generateData") {

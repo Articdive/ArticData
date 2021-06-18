@@ -1,10 +1,10 @@
-# DataGenerator
+# ArticData
 
 [![license](https://img.shields.io/github/license/Minestom/DataGenerator.svg)](../LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 [![Discord Shield](https://discordapp.com/api/guilds/706185253441634317/widget.png?style=shield)](https://discord.gg/UnQtnUS)
 
-This is the data generator for [Minestom](https://github.com/Minestom/Minestom)
+This is a data extractor and generator for Minecraft.
 
 It works in the JVM 16 (or higher) environment it takes advantage of [Gradle](https://gradle.org/) and is written in
 Java.
@@ -20,6 +20,7 @@ Java.
     - [Custom Statistics](#custom-statistics)
     - [Enchantments](#enchantments)
     - [Entities](#entities)
+    - [Entity Data Serializers](#entity-data-serializers)
     - [Fluids](#fluids)
     - [Game Events](#game-events)
     - [Items](#items)
@@ -29,8 +30,8 @@ Java.
     - [Potions](#potions)
     - [Sounds](#soundevents)
     - [Sound Sources](#sound-sources)
-    - [Villager professions](#villager-professions)
-    - [Villager types](#villager-types)
+    - [Villager Professions](#villager-professions)
+    - [Villager Types](#villager-types)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -39,7 +40,7 @@ Java.
 
 ### Maven and Gradle
 
-To add Minestom-data (not the generator) to your project using [Maven](http://maven.apache.org/)
+To add ArticData (not the generator) to your project using [Maven](http://maven.apache.org/)
 or [Gradle](https://gradle.org/):
 
 Repository (Maven):
@@ -55,8 +56,8 @@ Dependency (Maven):
 
 ```
 <dependency>
-    <groupId>net.minestom</groupId>
-    <artifactId>minestom-data-full</artifactId>
+    <groupId>de.articdive</groupId>
+    <artifactId>articdata</artifactId>
     <version>1.16.5</version>
 </dependency>
 ```
@@ -76,23 +77,30 @@ Dependency (Gradle Kotlin DSL)
 
 ```
 dependencies {
-    implementation("net.minestom:minestom-data-full:1.16.5")
+    implementation("de.articdive:articdata:1.16.5")
 }
 ```
 
 ## Usage
 
-The repository artifacts include the data located [here](../Minestom-data)
+The repository artifacts include the data located [here](../Articdata)
 
 They include JSON files full of useful data to do with Minecraft.
 
 ## Supported Data
+We emit data in two ways:
+- One JSON Object with namespaced identifiers as keys for json objects. [Example](../Articdata/1.17/1_17_blocks.json)
+- One JSON Array with many json objects. [Example](../Articdata/1.17/1_17_map_colors.json)
+
+If you require any data, open a GitHub Issue and specify the data you need.
+
+WARNING: There is no guarantee that the format of the data will stay the same.
 
 ### Attributes
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Default Value             | :heavy_check_mark: | 1.16+        |
@@ -103,7 +111,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Humidity                  | :heavy_check_mark: | 1.16+        |
 | Scale                     | :heavy_check_mark: | 1.16+        |
@@ -123,7 +132,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Block States              | :heavy_check_mark: | 1.16+        |
@@ -147,14 +157,15 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### Dimension Types
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Bed Works                 | :heavy_check_mark: | 1.16+        |
 | Coordinate Scale          | :heavy_check_mark: | 1.16+        |
 | Ceiling                   | :heavy_check_mark: | 1.16+        |
@@ -173,7 +184,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Max Level                 | :heavy_check_mark: | 1.16+        |
@@ -188,7 +200,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Entity Data Packet Info   | :heavy_check_mark: | 1.16+        |
@@ -199,11 +212,18 @@ They include JSON files full of useful data to do with Minecraft.
 | Width                     | :heavy_check_mark: | 1.16+        |
 | Client Tracking Range     | :heavy_check_mark: | 1.16+        |
 
+### Entity Data Serializers
+
+| Data Type                 | Supported?         | Versions     |
+| :-----------------------: | ------------------ | :----------: |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
+
 ### Fluids
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Bucket Item               | :heavy_check_mark: | 1.16+        |
 
@@ -211,7 +231,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.17+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.17+        |
 | Notification Radius       | :heavy_check_mark: | 1.17+        |
 
@@ -219,7 +240,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Useable (Depletes)        | :heavy_check_mark: | 1.16+        |
@@ -236,22 +258,24 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
-| Name                      | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Color (Decimal value)     | :heavy_check_mark: | 1.16+        |
 
 ### Particles
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### Potion (Status) Effects
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Color (Decimal value)     | :heavy_check_mark: | 1.16+        |
 | Instantenous              | :heavy_check_mark: | 1.16+        |
@@ -260,27 +284,32 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ### SoundEvents
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
+| Translation Key (ID Path) | :heavy_check_mark: | 1.16+        |
 
 ### Sound Sources
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
+| Type                      | :heavy_check_mark: | 1.16+        |
 
 ### Villager professions
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Work Sound                | :heavy_check_mark: | 1.16+        |
 
@@ -288,7 +317,8 @@ They include JSON files full of useful data to do with Minecraft.
 
 | Data Type                 | Supported?         | Versions     |
 | :-----------------------: | ------------------ | :----------: |
-| ID                        | :heavy_check_mark: | 1.16+        |
+| Protocol ID               | :heavy_check_mark: | 1.16+        |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 
 ## Maintainers

@@ -1,4 +1,4 @@
-group = "net.minestom.data_generator"
+group = "de.articdive.datagen"
 
 plugins {
     id("application")
@@ -6,7 +6,7 @@ plugins {
 }
 
 application {
-    mainClass.set("net.minestom.datagen.DataGen")
+    mainClass.set("de.articdive.articdata.datagen.DataGen")
 }
 
 allprojects {

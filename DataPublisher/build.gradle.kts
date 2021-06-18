@@ -2,7 +2,7 @@ plugins {
     id("maven-publish")
 }
 
-val dataDir: File = project.rootProject.file("Minestom-data")
+val dataDir: File = project.rootProject.file("Articdata")
 val verFolders: List<File> =
     dataDir.listFiles()?.filterNotNull()?.filter { file -> file.isDirectory } ?: emptyList()
 
@@ -12,7 +12,7 @@ tasks {
         val mcV = verFolder.name
         // packageVersion_full_1.16.5
         register<Jar>("packageVersions_full_$mcV") {
-            archiveBaseName.set("minestom-data-full")
+            archiveBaseName.set("articdata")
             archiveVersion.set(mcV)
 
 
@@ -30,8 +30,8 @@ publishing {
 
             // Full
             create<MavenPublication>("packageVersions_full_$mcV") {
-                groupId = "net.minestom"
-                artifactId = "minestom-data-full"
+                groupId = "de.articdive"
+                artifactId = "articdata"
                 version = mcV
 
                 artifact(tasks.getByName("packageVersions_full_$mcV"))

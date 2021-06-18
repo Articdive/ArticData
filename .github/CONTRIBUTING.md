@@ -1,4 +1,4 @@
-## How to contribute to the Minestom Data Generator
+## How to contribute to Articdata
 #### **Did you find a bug?**
 * Open a new GitHub issue if it's not already reported.
 
@@ -13,16 +13,16 @@
 * Do not open an issue on GitHub until you have collected positive feedback about the change from a maintainer.
 
 #### **Do you have questions about the source code?**
-* Ask any question about how to use the Minestom Data Generator in the GitHub issues section.
+* Ask any question about how to use ArticData in the GitHub issues section.
 
-#### **Do you want to contribute to the Minestom  DataGenerator documentation?**
+#### **Do you want to contribute to the ArticData documentation?**
 * Feel free to do so! Just make sure to conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification when editing the README.md.
 
 ## General Contribution Rules
-* By contributing to the Minestom Data Generator project your code/contribution will be licensed under the [MIT License](../LICENSE).
+* By contributing to the ArticData project your code/contribution will be licensed under the [MIT License](../LICENSE).
 
-Minestom is a community project. We encourage you to contribute! :)
+Articdata is a community project. We encourage you to contribute! :)
 
 Thanks! :heart: :heart: :heart:
 
-~Minestom Community
+~Articdata Community
