@@ -9,13 +9,14 @@ on:
       - master
 
 jobs:
-  build:
-
+  publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
 
+    environment:
+      name: "Minestom Repository Access Environment"
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 16
