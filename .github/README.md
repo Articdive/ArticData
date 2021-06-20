@@ -1,6 +1,6 @@
 # ArticData
 
-[![license](https://img.shields.io/github/license/Minestom/DataGenerator.svg)](../LICENSE)
+[![license](https://img.shields.io/github/license/Articdive/ArticData.svg)](../LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 [![Discord Shield](https://discordapp.com/api/guilds/706185253441634317/widget.png?style=shield)](https://discord.gg/UnQtnUS)
 
