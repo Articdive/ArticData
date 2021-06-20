@@ -43,8 +43,8 @@ publishing {
             name = "minestom-repo"
             url = uri("https://repo.minestom.net/repository/maven-public")
             credentials {
-                username = System.getenv("MINESTOM_REPO_CREDS_USR")
-                password = System.getenv("MINESTOM_REPO_CREDS_PSW")
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
     }
