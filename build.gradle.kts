@@ -8,34 +8,33 @@ val supportedVersions = project.properties["supportedVersions"].toString().split
 tasks {
     var eulaCheck = false
     for (mcVersion in supportedVersions) {
-        if (!eulaCheck) {
-            logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
-            logger.warn("We also require a running Minecraft server to extract data.")
-            logger.warn("Please read the Minecraft EULA located at https://account.mojang.com/documents/minecraft_eula.")
-            logger.warn("In order to agree to the EULA you must create a file called eula.txt with the text 'eula=true'.")
-            val eulaTxt = File("${project.rootProject.projectDir}/eula.txt")
-            logger.warn("The file must be located at '${eulaTxt.absolutePath}'.")
-            if (eulaTxt.exists() && eulaTxt.readText(Charsets.UTF_8).equals("eula=true", true)) {
-                logger.warn("")
-                logger.warn("The EULA has been accepted and signed.")
-                logger.warn("")
-            } else {
-                throw GradleException("Data generation has been halted as the EULA has not been signed.")
-            }
-            logger.warn("It is unclear if the data from the data generator also adhere to the Minecraft EULA.")
-            logger.warn("Please consult your own legal team!")
-            logger.warn("All data is given independently without warranty, guarantee or liability of any kind.")
-            logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
-            logger.warn("")
-            eulaCheck = true
-        }
-
         val outputLocation: String =
             (findProperty("output") ?: rootDir.resolve("Articdata").resolve(mcVersion).absolutePath) as String
         val compileVersions = getVersionsRequiredForCompile(mcVersion)
         val implementedVersion = compileVersions[0]
 
         register("generateData_$mcVersion") {
+            if (!eulaCheck) {
+                logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
+                logger.warn("We also require a running Minecraft server to extract data.")
+                logger.warn("Please read the Minecraft EULA located at https://account.mojang.com/documents/minecraft_eula.")
+                logger.warn("In order to agree to the EULA you must create a file called eula.txt with the text 'eula=true'.")
+                val eulaTxt = File("${project.rootProject.projectDir}/eula.txt")
+                logger.warn("The file must be located at '${eulaTxt.absolutePath}'.")
+                if (eulaTxt.exists() && eulaTxt.readText(Charsets.UTF_8).equals("eula=true", true)) {
+                    logger.warn("")
+                    logger.warn("The EULA has been accepted and signed.")
+                    logger.warn("")
+                } else {
+                    throw GradleException("Data generation has been halted as the EULA has not been signed.")
+                }
+                logger.warn("It is unclear if the data from the data generator also adhere to the Minecraft EULA.")
+                logger.warn("Please consult your own legal team!")
+                logger.warn("All data is given independently without warranty, guarantee or liability of any kind.")
+                logger.warn("The data may or may not be the intellectual property of Mojang Studios.")
+                logger.warn("")
+                eulaCheck = true
+            }
             // Here is an example:
             // We want to run the data generator for the version 1.16.3
             // This will mean we want to run the code from the 1.16.5 generators with the 1.16.3 JAR on runtime
@@ -51,7 +50,7 @@ tasks {
             // TL;DR: We decompile one (or more) version for compile, and only ever one for runtime.
 
             // Run the DataGenerator
-            dependsOn(project(":DataGenerator").tasks.getByName<JavaExec>("run_$implementedVersion")  {
+            dependsOn(project(":DataGenerator").tasks.getByName<JavaExec>("run_$implementedVersion") {
                 doFirst {
                     args = arrayListOf(mcVersion, outputLocation)
                 }
