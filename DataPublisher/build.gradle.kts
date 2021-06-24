@@ -3,38 +3,32 @@ plugins {
 }
 
 val dataDir: File = project.rootProject.file("Articdata")
-val verFolders: List<File> =
-    dataDir.listFiles()?.filterNotNull()?.filter { file -> file.isDirectory } ?: emptyList()
+val supportedVersions = project.properties["supportedVersions"].toString().split(",").map(String::trim)
 
 tasks {
-    for (verFolder in verFolders) {
-        // the version folder name is the version, e.g. 1.16.5
-        val mcV = verFolder.name
+    for (mcVersion in supportedVersions) {
         // packageVersion_full_1.16.5
-        register<Jar>("packageVersions_full_$mcV") {
+        register<Jar>("packageVersions_full_$mcVersion") {
             archiveBaseName.set("articdata")
-            archiveVersion.set(mcV)
+            archiveVersion.set(mcVersion)
 
 
             destinationDirectory.set(layout.buildDirectory.dir("dist"))
-            from(verFolder)
+            from(dataDir.resolve(mcVersion))
         }
     }
 }
 
 publishing {
     publications {
-        for (verFolder in verFolders) {
-            // the version folder name is the version, e.g. 1.16.5
-            val mcV = verFolder.name
-
+        for (mcVersion in supportedVersions) {
             // Full
-            create<MavenPublication>("packageVersions_full_$mcV") {
+            create<MavenPublication>("V$mcVersion") {
                 groupId = "de.articdive"
                 artifactId = "articdata"
-                version = mcV
+                version = mcVersion
 
-                artifact(tasks.getByName("packageVersions_full_$mcV"))
+                artifact(tasks.getByName("packageVersions_full_$mcVersion"))
             }
         }
     }
