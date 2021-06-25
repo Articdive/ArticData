@@ -1,13 +1,8 @@
 plugins {
     java
-    application
 }
 
 group = "de.articdive"
-
-application {
-    mainClass.set("de.articdive.articdata.Deobfuscator")
-}
 
 repositories {
     mavenCentral()
@@ -31,7 +26,26 @@ configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_16
 }
 
+val supportedVersions = project.properties["supportedVersions"].toString().split(",").map(String::trim)
 tasks {
+    for (mcVersion in supportedVersions) {
+        register<JavaExec>("run_deobfuscator_$mcVersion") {
+            args = arrayListOf(mcVersion)
+            // Make sure we run the JAR task
+            dependsOn(this@tasks.getByName<Jar>("jar"))
+            mainClass.set("de.articdive.articdata.Deobfuscator")
+
+            var classpath: FileCollection = project.objects.fileCollection()
+
+            classpath = classpath.plus(
+                configurations.getByName("runtimeClasspath")
+            )
+            classpath = classpath.plus(
+                this@tasks.getByName<Jar>("jar").outputs.files
+            )
+            setClasspath(classpath)
+        }
+    }
     test {
         useJUnitPlatform()
     }

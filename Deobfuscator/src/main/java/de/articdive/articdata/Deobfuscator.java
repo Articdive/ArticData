@@ -19,7 +19,6 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -33,15 +32,10 @@ public class Deobfuscator {
 
     public static void main(String[] args) {
         if (args.length == 0) {
-            LOGGER.info("You must specify a version (or multiple) to deobfuscated.");
+            LOGGER.info("You must specify a version to deobfuscate.");
             return;
         }
-        for (String version : args) {
-            deobfuscationVersion(version);
-        }
-    }
-
-    public static void deobfuscationVersion(String version) {
+        String version = args[0];
         // Create downloads Folder
         if (!WORK_FOLDER.exists() && !WORK_FOLDER.mkdirs()) {
             LOGGER.error("Failed to create work folder.");
@@ -62,7 +56,7 @@ public class Deobfuscator {
                 return;
             }
             Reconstruct reconstruct = new Reconstruct(new Config() {
-                private int threads = Runtime.getRuntime().availableProcessors();
+                private int threads = 0;
 
                 @Override
                 public boolean isDebug() {
@@ -81,7 +75,7 @@ public class Deobfuscator {
 
                 @Override
                 public Collection<String> getTransformers() {
-                    return new ArrayList<>();
+                    return null;
                 }
 
                 @Override
@@ -105,7 +99,6 @@ public class Deobfuscator {
                 }
             });
             reconstruct.load();
-            reconstruct.shutdown();
             LOGGER.error("Successfully generated the deobfuscated JAR.");
         } else {
             LOGGER.info("JAR already exists for version '" + version + "'.");

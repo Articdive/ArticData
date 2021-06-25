@@ -11,6 +11,9 @@ tasks {
         val outputLocation: String =
             (findProperty("output") ?: rootDir.resolve("Articdata").resolve(mcVersion).absolutePath) as String
         val compileVersions = getVersionsRequiredForCompile(mcVersion)
+        if (!compileVersions.contains(mcVersion)) {
+            compileVersions.add(mcVersion)
+        }
         val implementedVersion = compileVersions[0]
 
         register("generateData_$mcVersion") {
@@ -54,13 +57,9 @@ tasks {
                     args = arrayListOf(mcVersion, outputLocation)
                 }
                 // Compile deobfuscation plus runtime deobufscation
-                dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run") {
-                    args = if (!compileVersions.contains(mcVersion)) {
-                        compileVersions.plus(mcVersion)
-                    } else {
-                        compileVersions
-                    }
-                })
+                for (compileVersion in compileVersions) {
+                    dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run_deobfuscator_$compileVersion"))
+                }
             })
         }
     }
