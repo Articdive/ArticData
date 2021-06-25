@@ -62,7 +62,7 @@ public class Deobfuscator {
                 return;
             }
             Reconstruct reconstruct = new Reconstruct(new Config() {
-                private int threads = 1;
+                private int threads = Runtime.getRuntime().availableProcessors();
 
                 @Override
                 public boolean isDebug() {
@@ -105,6 +105,7 @@ public class Deobfuscator {
                 }
             });
             reconstruct.load();
+            reconstruct.shutdown();
             LOGGER.error("Successfully generated the deobfuscated JAR.");
         } else {
             LOGGER.info("JAR already exists for version '" + version + "'.");

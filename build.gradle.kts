@@ -16,10 +16,9 @@ tasks {
         register("generateData_$mcVersion") {
             if (!eulaCheck) {
                 logger.warn("Mojang requires all source-code and mappings used to be governed by the Minecraft EULA.")
-                logger.warn("We also require a running Minecraft server to extract data.")
                 logger.warn("Please read the Minecraft EULA located at https://account.mojang.com/documents/minecraft_eula.")
                 logger.warn("In order to agree to the EULA you must create a file called eula.txt with the text 'eula=true'.")
-                val eulaTxt = File("${project.rootProject.projectDir}/eula.txt")
+                val eulaTxt = File("${rootProject.projectDir}/eula.txt")
                 logger.warn("The file must be located at '${eulaTxt.absolutePath}'.")
                 if (eulaTxt.exists() && eulaTxt.readText(Charsets.UTF_8).equals("eula=true", true)) {
                     logger.warn("")
