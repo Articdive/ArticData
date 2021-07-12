@@ -96,8 +96,7 @@ public final class MaterialGenerator_1_16_5 extends DataGenerator_1_16_5<Item> {
                 item.add("foodProperties", foodProperties);
             }
             // Armor properties
-            if (i instanceof ArmorItem) {
-                ArmorItem ai = (ArmorItem) i;
+            if (i instanceof ArmorItem ai) {
 
                 JsonObject armorProperties = new JsonObject();
                 armorProperties.addProperty("defense", ai.getDefense());
@@ -107,8 +106,7 @@ public final class MaterialGenerator_1_16_5 extends DataGenerator_1_16_5<Item> {
                 item.add("armorProperties", armorProperties);
             }
             // SpawnEgg properties
-            if (i instanceof SpawnEggItem) {
-                SpawnEggItem sei = (SpawnEggItem) i;
+            if (i instanceof SpawnEggItem sei) {
 
                 JsonObject spawnEggProperties = new JsonObject();
                 spawnEggProperties.addProperty("entityType", Registry.ENTITY_TYPE.getKey(sei.getType(null)).toString());

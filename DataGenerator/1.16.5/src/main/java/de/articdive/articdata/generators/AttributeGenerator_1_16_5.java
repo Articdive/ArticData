@@ -48,8 +48,7 @@ public final class AttributeGenerator_1_16_5 extends DataGenerator_1_16_5<Attrib
             attribute.addProperty("translationKey", a.getDescriptionId());
             attribute.addProperty("defaultValue", a.getDefaultValue());
             attribute.addProperty("clientSync", a.isClientSyncable());
-            if (a instanceof RangedAttribute) {
-                RangedAttribute ra = (RangedAttribute) a;
+            if (a instanceof RangedAttribute ra) {
                 // Unfortuantely get via reflection
                 JsonObject range = new JsonObject();
                 try {

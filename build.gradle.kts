@@ -8,8 +8,6 @@ val supportedVersions = project.properties["supportedVersions"].toString().split
 tasks {
     var eulaCheck = false
     for (mcVersion in supportedVersions) {
-        val outputLocation: String =
-            (findProperty("output") ?: rootDir.resolve("Articdata").resolve(mcVersion).absolutePath) as String
         val compileVersions = getVersionsRequiredForCompile(mcVersion)
         if (!compileVersions.contains(mcVersion)) {
             compileVersions.add(mcVersion)
@@ -54,7 +52,11 @@ tasks {
             // Run the DataGenerator
             dependsOn(project(":DataGenerator").tasks.getByName<JavaExec>("run_$implementedVersion") {
                 doFirst {
-                    args = arrayListOf(mcVersion, outputLocation)
+                    args = arrayListOf(
+                        mcVersion,
+                        (findProperty("output") ?: rootDir.resolve("Articdata")
+                            .resolve(mcVersion).absolutePath) as String
+                    )
                 }
                 // Compile deobfuscation plus runtime deobufscation
                 for (compileVersion in compileVersions) {

@@ -55,7 +55,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             JsonObject block = new JsonObject();
             block.addProperty("id", Registry.BLOCK.getId(b));
             block.addProperty("mojangName", names.get(b));
-            // block.addProperty("langId", b.getDescriptionId());
+            block.addProperty("translationKey", b.getDescriptionId());
             block.addProperty("explosionResistance", b.getExplosionResistance());
             block.addProperty("friction", b.getFriction());
             block.addProperty("speedFactor", b.getSpeedFactor());
@@ -69,7 +69,6 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             block.addProperty("blockEntity", b instanceof EntityBlock);
             block.addProperty("gravity", b instanceof FallingBlock);
             block.addProperty("canRespawnIn", b.isPossibleToRespawnInThis());
-            block.addProperty("translationKey", b.getDescriptionId());
 
             // Block proprties
             {

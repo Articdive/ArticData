@@ -34,7 +34,8 @@ tasks {
                 project(":DataGenerator:$implementedVersion").tasks.getByName<Jar>("jar").outputs.files
             )
             doFirst {
-                val actualVersion = args?.get(0) ?: "1.16.5"
+                // The IDE will say args cannot be null, but then gradle will complain that this it can.
+                val actualVersion = args!![0] ?: "1.16.5"
                 classpath = classpath.plus(files("../Deobfuscator/deobfuscated_jars/deobfu_$actualVersion.jar"))
                 setClasspath(classpath)
             }
