@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.BufferedInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -19,6 +20,8 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -178,6 +181,27 @@ public class Deobfuscator {
         } catch (IOException e) {
             throw new IOException("Failed to download Minecraft server jar.", e);
         }
-        // TODO: Verify Checksum
+        // Verify checksum
+        try (FileInputStream fis = new FileInputStream(target)) {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
+            messageDigest.reset();
+            messageDigest.update(fis.readAllBytes());
+            byte[] digest = messageDigest.digest();
+            StringBuilder sb = new StringBuilder();
+            for (byte b : digest) {
+                sb.append(Integer.toString((b & 0xff) + 0x100, 16).substring(1));
+            }
+            // This just converts the sha1 back into a readable string.
+            String sha1Target = sb.toString();
+            LOGGER.info("The expected checksum was: {}.", sha1Source);
+            LOGGER.info("The calculated checksum was: {}.", sha1Target);
+            if (!sha1Target.equals(sha1Source)) {
+                LOGGER.error("The checksum test failed after downloading the Minecraft server jar.");
+                throw new IOException("Failed to download Minecraft server jar.");
+            }
+        } catch (NoSuchAlgorithmException e) {
+            LOGGER.error("Failed to find SHA-1 hashing algorithm in Java Environment.");
+            throw new IOException("Failed to download Minecraft server jar.");
+        }
     }
 }

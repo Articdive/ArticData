@@ -71,52 +71,18 @@ tasks {
 // Returns a List of versions required to get data for the specified version.
 fun getVersionsRequiredForCompile(version: String): ArrayList<String> {
     // IMPORTANT: THE FIRST RETURNED VERSION IS THE GENERATOR VERSION (IMPLEMENTED VERSION)
-    // TODO: Make sure this corresponds to DataGen and the versions required.
     when (version) {
-        "1.16" -> {
-            return arrayListOf("1.16.5")
-        }
-        "1.16.1" -> {
-            return arrayListOf("1.16.5")
-        }
-        "1.16.2" -> {
-            return arrayListOf("1.16.5")
-        }
-        "1.16.3" -> {
-            return arrayListOf("1.16.5")
-        }
-        "1.16.4" -> {
-            return arrayListOf("1.16.5")
-        }
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
         "1.16.5" -> {
             return arrayListOf("1.16.5")
         }
         // 1.17 (uses some 1.16.5 generators)
-        "1.17-pre1" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-pre2" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-pre3" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-pre4" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-pre5" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-rc1" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17-rc2" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17" -> {
-            return arrayListOf("1.17", "1.16.5")
-        }
-        "1.17.1-pre1" -> {
+        "1.17",
+        "1.17.1" -> {
             return arrayListOf("1.17", "1.16.5")
         }
         // Attempt with 1.16.5

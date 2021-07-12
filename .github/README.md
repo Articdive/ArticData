@@ -136,6 +136,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
+| Loot Table Key            | :heavy_check_mark: | 1.16+        |
 | Block States              | :heavy_check_mark: | 1.16+        |
 | Block (State) Properties  | :heavy_check_mark: | 1.16+        |
 | Block Entities            | :heavy_check_mark: | 1.16+        |
@@ -145,13 +146,37 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Speed & Jump Factor       | :heavy_check_mark: | 1.16+        |
 | Default Block State       | :heavy_check_mark: | 1.16+        |
 | Corresponding Item        | :heavy_check_mark: | 1.16+        |
-| Corresponding Map Colour  | :heavy_check_mark: | 1.16+        |
+| Corresponding Map Color   | :heavy_check_mark: | 1.16+        |
 | Solid, Liquid, Blocking   | :heavy_check_mark: | 1.16+        |
-| Hitboxes                  | :heavy_check_mark: | 1.16+        |
-| Light Emission            | :heavy_check_mark: | 1.16+        |
 | Piston Push Reaction      | :heavy_check_mark: | 1.16+        |
 | Gravity                   | :heavy_check_mark: | 1.16+        |
-| Can Respawn In            | :heavy_check_mark: | 1.16+        |
+| Respawn Eligibility       | :heavy_check_mark: | 1.16+        |
+| Tool Required For Drops   | :heavy_check_mark: | 1.16+        |
+
+#### Block Hitboxes, Shapes, Light Data, Opacity
+| Large Collision Shape     | :heavy_check_mark: | 1.16+        |
+| Occlusion                 | :heavy_check_mark: | 1.16+        |
+| Hitbox                    | :heavy_check_mark: | 1.16+        |
+| Collision Hitbox          | :heavy_check_mark: | 1.16+        |
+| Interaction Hitbox        | :heavy_check_mark: | 1.16+        |
+| Occlusion Hitbox          | :heavy_check_mark: | 1.16+        |
+| Visual Hitbox             | :heavy_check_mark: | 1.16+        |
+| Dynamic Shape             | :heavy_check_mark: | 1.16+        |
+| Solid Render              | :heavy_check_mark: | 1.16+        |
+| Light Emission            | :heavy_check_mark: | 1.16+        |
+| Light Block               | :heavy_check_mark: | 1.16+        |
+| Propagates Skylight Down  | :heavy_check_mark: | 1.16+        |
+| Shape for Light Occlusion | :heavy_check_mark: | 1.16+        |
+| Opacity                   | :heavy_check_mark: | 1.16+        |
+| Conditionally Opaque      | :heavy_check_mark: | 1.16+        |
+
+### Block Entities
+
+| Data Type                 | Supported?         | Versions     |
+| :-----------------------: | ------------------ | :----------: |
+| Namespace ID              | :heavy_check_mark: | 1.16+        |
+| Mojang Name               | :heavy_check_mark: | 1.16+        |
+| Block IDs                 | :heavy_check_mark: | 1.16+        |
 
 ### Custom Statistics
 
@@ -195,6 +220,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Tradeable                 | :heavy_check_mark: | 1.16+        |
 | Treasure Only             | :heavy_check_mark: | 1.16+        |
 | Category                  | :heavy_check_mark: | 1.16+        |
+| Incompatible Enchantments | :heavy_check_mark: | 1.16+        |
 
 ### Entities
 
@@ -204,6 +230,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Namespace ID              | :heavy_check_mark: | 1.16+        |
 | Mojang Name               | :heavy_check_mark: | 1.16+        |
 | Translation Key           | :heavy_check_mark: | 1.16+        |
+| Loot Table Key            | :heavy_check_mark: | 1.16+        |
 | Entity Data Packet Info   | :heavy_check_mark: | 1.16+        |
 | Entity Data Serializers   | :heavy_check_mark: | 1.16+        |
 | Packet Type               | :heavy_check_mark: | 1.16+        |

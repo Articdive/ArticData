@@ -1,0 +1,22 @@
+{
+  "minecraft:empty": {
+    "mojangName": "EMPTY",
+    "bucketId": "minecraft:air"
+  },
+  "minecraft:flowing_water": {
+    "mojangName": "FLOWING_WATER",
+    "bucketId": "minecraft:water_bucket"
+  },
+  "minecraft:water": {
+    "mojangName": "WATER",
+    "bucketId": "minecraft:water_bucket"
+  },
+  "minecraft:flowing_lava": {
+    "mojangName": "FLOWING_LAVA",
+    "bucketId": "minecraft:lava_bucket"
+  },
+  "minecraft:lava": {
+    "mojangName": "LAVA",
+    "bucketId": "minecraft:lava_bucket"
+  }
+}

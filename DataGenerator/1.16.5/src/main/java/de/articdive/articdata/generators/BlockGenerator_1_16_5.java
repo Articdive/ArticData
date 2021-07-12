@@ -62,6 +62,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             block.addProperty("jumpFactor", b.getJumpFactor());
             block.addProperty("dynamicShape", b.hasDynamicShape());
             block.addProperty("defaultStateId", Block.BLOCK_STATE_REGISTRY.getId(b.defaultBlockState()));
+            block.addProperty("lootTableLocation", b.getLootTable().toString());
 
             Item correspondingItem = Item.BY_BLOCK.getOrDefault(b, null);
             if (correspondingItem != null) {
@@ -122,6 +123,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("replaceable", bs.getMaterial().isReplaceable());
                     state.addProperty("solid", bs.getMaterial().isSolid());
                     state.addProperty("solidBlocking", bs.getMaterial().isSolidBlocking());
+                    state.addProperty("toolRequired", bs.requiresCorrectToolForDrops());
 
                     // Shapes (Hitboxes)
                     state.addProperty("largeCollisionShape", bs.hasLargeCollisionShape());

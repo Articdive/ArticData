@@ -2,6 +2,8 @@ package de.articdive.articdata.generators;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import de.articdive.articdata.datagen.DataGenHolder;
+import de.articdive.articdata.datagen.DataGenType;
 import de.articdive.articdata.generators.common.DataGenerator_1_16_5;
 import net.minecraft.core.Registry;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -12,8 +14,6 @@ import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.decoration.Painting;
 import net.minecraft.world.entity.player.Player;
-import de.articdive.articdata.datagen.DataGenHolder;
-import de.articdive.articdata.datagen.DataGenType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -84,6 +84,7 @@ public final class EntityGenerator_1_16_5 extends DataGenerator_1_16_5<EntityTyp
             entity.addProperty("height", et.getHeight());
             entity.addProperty("width", et.getWidth());
             entity.addProperty("clientTrackingRange", et.clientTrackingRange());
+            entity.addProperty("lootTableLocation", et.getDefaultLootTable().toString());
             // entity.addProperty("fixed", et.getDimensions().fixed); also basically useless
 
             // Use some reflection to find some metadata properties we need

@@ -1,0 +1,131 @@
+{
+  "minecraft:empty": {
+    "mojangName": "EMPTY"
+  },
+  "minecraft:water": {
+    "mojangName": "WATER"
+  },
+  "minecraft:mundane": {
+    "mojangName": "MUNDANE"
+  },
+  "minecraft:thick": {
+    "mojangName": "THICK"
+  },
+  "minecraft:awkward": {
+    "mojangName": "AWKWARD"
+  },
+  "minecraft:night_vision": {
+    "mojangName": "NIGHT_VISION"
+  },
+  "minecraft:long_night_vision": {
+    "mojangName": "LONG_NIGHT_VISION"
+  },
+  "minecraft:invisibility": {
+    "mojangName": "INVISIBILITY"
+  },
+  "minecraft:long_invisibility": {
+    "mojangName": "LONG_INVISIBILITY"
+  },
+  "minecraft:leaping": {
+    "mojangName": "LEAPING"
+  },
+  "minecraft:long_leaping": {
+    "mojangName": "LONG_LEAPING"
+  },
+  "minecraft:strong_leaping": {
+    "mojangName": "STRONG_LEAPING"
+  },
+  "minecraft:fire_resistance": {
+    "mojangName": "FIRE_RESISTANCE"
+  },
+  "minecraft:long_fire_resistance": {
+    "mojangName": "LONG_FIRE_RESISTANCE"
+  },
+  "minecraft:swiftness": {
+    "mojangName": "SWIFTNESS"
+  },
+  "minecraft:long_swiftness": {
+    "mojangName": "LONG_SWIFTNESS"
+  },
+  "minecraft:strong_swiftness": {
+    "mojangName": "STRONG_SWIFTNESS"
+  },
+  "minecraft:slowness": {
+    "mojangName": "SLOWNESS"
+  },
+  "minecraft:long_slowness": {
+    "mojangName": "LONG_SLOWNESS"
+  },
+  "minecraft:strong_slowness": {
+    "mojangName": "STRONG_SLOWNESS"
+  },
+  "minecraft:turtle_master": {
+    "mojangName": "TURTLE_MASTER"
+  },
+  "minecraft:long_turtle_master": {
+    "mojangName": "LONG_TURTLE_MASTER"
+  },
+  "minecraft:strong_turtle_master": {
+    "mojangName": "STRONG_TURTLE_MASTER"
+  },
+  "minecraft:water_breathing": {
+    "mojangName": "WATER_BREATHING"
+  },
+  "minecraft:long_water_breathing": {
+    "mojangName": "LONG_WATER_BREATHING"
+  },
+  "minecraft:healing": {
+    "mojangName": "HEALING"
+  },
+  "minecraft:strong_healing": {
+    "mojangName": "STRONG_HEALING"
+  },
+  "minecraft:harming": {
+    "mojangName": "HARMING"
+  },
+  "minecraft:strong_harming": {
+    "mojangName": "STRONG_HARMING"
+  },
+  "minecraft:poison": {
+    "mojangName": "POISON"
+  },
+  "minecraft:long_poison": {
+    "mojangName": "LONG_POISON"
+  },
+  "minecraft:strong_poison": {
+    "mojangName": "STRONG_POISON"
+  },
+  "minecraft:regeneration": {
+    "mojangName": "REGENERATION"
+  },
+  "minecraft:long_regeneration": {
+    "mojangName": "LONG_REGENERATION"
+  },
+  "minecraft:strong_regeneration": {
+    "mojangName": "STRONG_REGENERATION"
+  },
+  "minecraft:strength": {
+    "mojangName": "STRENGTH"
+  },
+  "minecraft:long_strength": {
+    "mojangName": "LONG_STRENGTH"
+  },
+  "minecraft:strong_strength": {
+    "mojangName": "STRONG_STRENGTH"
+  },
+  "minecraft:weakness": {
+    "mojangName": "WEAKNESS"
+  },
+  "minecraft:long_weakness": {
+    "mojangName": "LONG_WEAKNESS"
+  },
+  "minecraft:luck": {
+    "mojangName": "LUCK"
+  },
+  "minecraft:slow_falling": {
+    "mojangName": "SLOW_FALLING"
+  },
+  "minecraft:long_slow_falling": {
+    "mojangName": "LONG_SLOW_FALLING"
+  }
+}

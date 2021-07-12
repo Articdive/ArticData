@@ -10,7 +10,12 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR"
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:fire_protection",
+      "minecraft:blast_protection",
+      "minecraft:projectile_protection"
+    ]
   },
   "minecraft:fire_protection": {
     "id": 1,
@@ -23,7 +28,12 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR"
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:projectile_protection"
+    ]
   },
   "minecraft:feather_falling": {
     "id": 2,
@@ -36,7 +46,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_FEET"
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": []
   },
   "minecraft:blast_protection": {
     "id": 3,
@@ -49,7 +60,12 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR"
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection"
+    ]
   },
   "minecraft:projectile_protection": {
     "id": 4,
@@ -62,7 +78,12 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR"
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:protection",
+      "minecraft:fire_protection",
+      "minecraft:blast_protection"
+    ]
   },
   "minecraft:respiration": {
     "id": 5,
@@ -75,7 +96,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_HEAD"
+    "category": "ARMOR_HEAD",
+    "incompatibleEnchantments": []
   },
   "minecraft:aqua_affinity": {
     "id": 6,
@@ -88,7 +110,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_HEAD"
+    "category": "ARMOR_HEAD",
+    "incompatibleEnchantments": []
   },
   "minecraft:thorns": {
     "id": 7,
@@ -101,7 +124,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_CHEST"
+    "category": "ARMOR_CHEST",
+    "incompatibleEnchantments": []
   },
   "minecraft:depth_strider": {
     "id": 8,
@@ -114,7 +138,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_FEET"
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": [
+      "minecraft:frost_walker"
+    ]
   },
   "minecraft:frost_walker": {
     "id": 9,
@@ -127,7 +154,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": true,
-    "category": "ARMOR_FEET"
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": [
+      "minecraft:depth_strider"
+    ]
   },
   "minecraft:binding_curse": {
     "id": 10,
@@ -140,7 +170,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": true,
-    "category": "WEARABLE"
+    "category": "WEARABLE",
+    "incompatibleEnchantments": []
   },
   "minecraft:soul_speed": {
     "id": 11,
@@ -153,7 +184,8 @@
     "discoverable": false,
     "tradeable": false,
     "treasureOnly": true,
-    "category": "ARMOR_FEET"
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": []
   },
   "minecraft:sharpness": {
     "id": 12,
@@ -166,7 +198,11 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ]
   },
   "minecraft:smite": {
     "id": 13,
@@ -179,7 +215,11 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:sharpness",
+      "minecraft:bane_of_arthropods"
+    ]
   },
   "minecraft:bane_of_arthropods": {
     "id": 14,
@@ -192,7 +232,11 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:sharpness",
+      "minecraft:smite"
+    ]
   },
   "minecraft:knockback": {
     "id": 15,
@@ -205,7 +249,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": []
   },
   "minecraft:fire_aspect": {
     "id": 16,
@@ -218,7 +263,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": []
   },
   "minecraft:looting": {
     "id": 17,
@@ -231,7 +277,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:silk_touch"
+    ]
   },
   "minecraft:sweeping": {
     "id": 18,
@@ -244,7 +293,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON"
+    "category": "WEAPON",
+    "incompatibleEnchantments": []
   },
   "minecraft:efficiency": {
     "id": 19,
@@ -257,7 +307,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "DIGGER"
+    "category": "DIGGER",
+    "incompatibleEnchantments": []
   },
   "minecraft:silk_touch": {
     "id": 20,
@@ -270,7 +321,12 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "DIGGER"
+    "category": "DIGGER",
+    "incompatibleEnchantments": [
+      "minecraft:looting",
+      "minecraft:fortune",
+      "minecraft:luck_of_the_sea"
+    ]
   },
   "minecraft:unbreaking": {
     "id": 21,
@@ -283,7 +339,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BREAKABLE"
+    "category": "BREAKABLE",
+    "incompatibleEnchantments": []
   },
   "minecraft:fortune": {
     "id": 22,
@@ -296,7 +353,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "DIGGER"
+    "category": "DIGGER",
+    "incompatibleEnchantments": [
+      "minecraft:silk_touch"
+    ]
   },
   "minecraft:power": {
     "id": 23,
@@ -309,7 +369,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BOW"
+    "category": "BOW",
+    "incompatibleEnchantments": []
   },
   "minecraft:punch": {
     "id": 24,
@@ -322,7 +383,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BOW"
+    "category": "BOW",
+    "incompatibleEnchantments": []
   },
   "minecraft:flame": {
     "id": 25,
@@ -335,7 +397,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BOW"
+    "category": "BOW",
+    "incompatibleEnchantments": []
   },
   "minecraft:infinity": {
     "id": 26,
@@ -348,7 +411,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BOW"
+    "category": "BOW",
+    "incompatibleEnchantments": [
+      "minecraft:mending"
+    ]
   },
   "minecraft:luck_of_the_sea": {
     "id": 27,
@@ -361,7 +427,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "FISHING_ROD"
+    "category": "FISHING_ROD",
+    "incompatibleEnchantments": [
+      "minecraft:silk_touch"
+    ]
   },
   "minecraft:lure": {
     "id": 28,
@@ -374,7 +443,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "FISHING_ROD"
+    "category": "FISHING_ROD",
+    "incompatibleEnchantments": []
   },
   "minecraft:loyalty": {
     "id": 29,
@@ -387,7 +457,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT"
+    "category": "TRIDENT",
+    "incompatibleEnchantments": [
+      "minecraft:riptide"
+    ]
   },
   "minecraft:impaling": {
     "id": 30,
@@ -400,7 +473,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT"
+    "category": "TRIDENT",
+    "incompatibleEnchantments": []
   },
   "minecraft:riptide": {
     "id": 31,
@@ -413,7 +487,11 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT"
+    "category": "TRIDENT",
+    "incompatibleEnchantments": [
+      "minecraft:loyalty",
+      "minecraft:channeling"
+    ]
   },
   "minecraft:channeling": {
     "id": 32,
@@ -426,7 +504,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT"
+    "category": "TRIDENT",
+    "incompatibleEnchantments": [
+      "minecraft:riptide"
+    ]
   },
   "minecraft:multishot": {
     "id": 33,
@@ -439,7 +520,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "CROSSBOW"
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": [
+      "minecraft:piercing"
+    ]
   },
   "minecraft:quick_charge": {
     "id": 34,
@@ -452,7 +536,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "CROSSBOW"
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": []
   },
   "minecraft:piercing": {
     "id": 35,
@@ -465,7 +550,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "CROSSBOW"
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": [
+      "minecraft:multishot"
+    ]
   },
   "minecraft:mending": {
     "id": 36,
@@ -478,7 +566,10 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": true,
-    "category": "BREAKABLE"
+    "category": "BREAKABLE",
+    "incompatibleEnchantments": [
+      "minecraft:infinity"
+    ]
   },
   "minecraft:vanishing_curse": {
     "id": 37,
@@ -491,6 +582,7 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": true,
-    "category": "VANISHABLE"
+    "category": "VANISHABLE",
+    "incompatibleEnchantments": []
   }
 }

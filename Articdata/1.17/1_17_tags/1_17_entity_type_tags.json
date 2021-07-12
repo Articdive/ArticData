@@ -1,19 +1,9 @@
 {
-  "minecraft:freeze_hurts_extra_types": {
+  "minecraft:arrows": {
     "replace": false,
     "values": [
-      "minecraft:strider",
-      "minecraft:blaze",
-      "minecraft:magma_cube"
-    ]
-  },
-  "minecraft:freeze_immune_entity_types": {
-    "replace": false,
-    "values": [
-      "minecraft:stray",
-      "minecraft:polar_bear",
-      "minecraft:snow_golem",
-      "minecraft:wither"
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
     ]
   },
   "minecraft:axolotl_always_hostiles": {
@@ -35,13 +25,27 @@
       "minecraft:glow_squid"
     ]
   },
-  "minecraft:powder_snow_walkable_mobs": {
+  "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
-      "minecraft:rabbit",
-      "minecraft:endermite",
-      "minecraft:silverfish",
-      "minecraft:fox"
+      "minecraft:bee"
+    ]
+  },
+  "minecraft:freeze_hurts_extra_types": {
+    "replace": false,
+    "values": [
+      "minecraft:strider",
+      "minecraft:blaze",
+      "minecraft:magma_cube"
+    ]
+  },
+  "minecraft:freeze_immune_entity_types": {
+    "replace": false,
+    "values": [
+      "minecraft:stray",
+      "minecraft:polar_bear",
+      "minecraft:snow_golem",
+      "minecraft:wither"
     ]
   },
   "minecraft:impact_projectiles": {
@@ -57,17 +61,13 @@
       "minecraft:wither_skull"
     ]
   },
-  "minecraft:arrows": {
+  "minecraft:powder_snow_walkable_mobs": {
     "replace": false,
     "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:beehive_inhabitors": {
-    "replace": false,
-    "values": [
-      "minecraft:bee"
+      "minecraft:rabbit",
+      "minecraft:endermite",
+      "minecraft:silverfish",
+      "minecraft:fox"
     ]
   },
   "minecraft:raiders": {

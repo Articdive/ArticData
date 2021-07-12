@@ -1,5 +1,6 @@
 package de.articdive.articdata.generators;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import de.articdive.articdata.generators.common.DataGenerator_1_16_5;
 import net.minecraft.core.Registry;
@@ -11,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Field;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Enchantment> {
     private static final Logger LOGGER = LoggerFactory.getLogger(EnchantmentGenerator_1_16_5.class);
@@ -54,6 +56,16 @@ public final class EnchantmentGenerator_1_16_5 extends DataGenerator_1_16_5<Ench
             enchantment.addProperty("tradeable", e.isTradeable());
             enchantment.addProperty("treasureOnly", e.isTreasureOnly());
             enchantment.addProperty("category", e.category.name());
+
+            JsonArray incompatibleEnchaments = new JsonArray();
+            // Compatabilities
+            for (Enchantment e1 : Registry.ENCHANTMENT.stream().filter(e1 -> !e.isCompatibleWith(e1) && e != e1).collect(Collectors.toList())) {
+                ResourceLocation e1Key = Registry.ENCHANTMENT.getKey(e1);
+                if (e1Key != null) {
+                    incompatibleEnchaments.add(e1Key.toString());
+                }
+            }
+            enchantment.add("incompatibleEnchantments", incompatibleEnchaments);
 
             enchantments.add(enchantmentRL.toString(), enchantment);
         }
