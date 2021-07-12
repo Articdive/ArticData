@@ -60,6 +60,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
             block.addProperty("friction", b.getFriction());
             block.addProperty("speedFactor", b.getSpeedFactor());
             block.addProperty("jumpFactor", b.getJumpFactor());
+            block.addProperty("dynamicShape", b.hasDynamicShape());
             block.addProperty("defaultStateId", Block.BLOCK_STATE_REGISTRY.getId(b.defaultBlockState()));
 
             Item correspondingItem = Item.BY_BLOCK.getOrDefault(b, null);
@@ -103,11 +104,18 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("stateId", Block.BLOCK_STATE_REGISTRY.getId(bs));
 
                     // Default values
+                    final boolean conditionallyFullyOpaque = bs.canOcclude() & bs.useShapeForLightOcclusion();
+                    final int lightBlock = bs.getLightBlock(EmptyBlockGetter.INSTANCE, BlockPos.ZERO);
                     state.addProperty("hardness", bs.getDestroySpeed(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
                     state.addProperty("lightEmission", bs.getLightEmission());
+                    state.addProperty("occludes", bs.canOcclude());
+                    state.addProperty("useShapeForLightOcclusion", bs.useShapeForLightOcclusion());
+                    state.addProperty("propagatesSkylightDown", bs.propagatesSkylightDown(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
+                    state.addProperty("lightBlock", lightBlock);
+                    state.addProperty("conditionallyFullyOpaque", conditionallyFullyOpaque);
+                    state.addProperty("opacity", conditionallyFullyOpaque ? -1 : lightBlock);
                     state.addProperty("pushReaction", bs.getPistonPushReaction().name());
                     state.addProperty("mapColorId", bs.getMapColor(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).id);
-                    state.addProperty("occludes", bs.canOcclude());
                     state.addProperty("blocksMotion", bs.getMaterial().blocksMotion());
                     state.addProperty("flammable", bs.getMaterial().isFlammable());
                     state.addProperty("air", bs.isAir());
@@ -117,6 +125,8 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("solidBlocking", bs.getMaterial().isSolidBlocking());
 
                     // Shapes (Hitboxes)
+                    state.addProperty("largeCollisionShape", bs.hasLargeCollisionShape());
+                    state.addProperty("solidRender", bs.isSolidRender(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
                     state.addProperty("shape", bs.getShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     state.addProperty("collisionShape", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     state.addProperty("interactionShape", bs.getInteractionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
