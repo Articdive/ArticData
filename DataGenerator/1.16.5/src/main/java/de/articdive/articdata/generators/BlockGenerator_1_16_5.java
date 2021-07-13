@@ -127,6 +127,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
 
                     // Shapes (Hitboxes)
                     state.addProperty("largeCollisionShape", bs.hasLargeCollisionShape());
+                    state.addProperty("collisionShapeFullBlock", bs.isCollisionShapeFullBlock(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
                     state.addProperty("solidRender", bs.isSolidRender(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
                     state.addProperty("shape", bs.getShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     state.addProperty("collisionShape", bs.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
