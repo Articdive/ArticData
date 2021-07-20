@@ -17,7 +17,7 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.14.0")
 
     // Gson
-    implementation("com.google.code.gson:gson:2.8.6")
+    implementation("com.google.code.gson:gson:2.8.7")
     // Deobfuscator
     implementation("io.github.lxgaming:reconstruct-common:1.3.10")
 }

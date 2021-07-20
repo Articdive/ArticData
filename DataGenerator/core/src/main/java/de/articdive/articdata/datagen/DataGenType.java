@@ -3,9 +3,9 @@ package de.articdive.articdata.datagen;
 public enum DataGenType {
     ATTRIBUTES("attributes"),
     BIOMES("biomes"),
+    BLOCKS("blocks"),
     BLOCK_ENTITIES("block_entities"),
     BLOCK_PROPERTIES("block_properties"),
-    BLOCKS("blocks"),
     CUSTOM_STATISTICS("custom_statistics"),
     DIMENSION_TYPES("dimension_types"),
     ENCHANTMENTS("enchantments"),
@@ -13,10 +13,10 @@ public enum DataGenType {
     ENTITY_DATA_SERIALIZERS("entity_data_serializers"),
     FLUIDS("fluids"),
     GAME_EVENTS("game_events"), // Added in 1.17
-    MATERIALS("items"),
     MAP_COLORS("map_colors"),
-    PARTICLES("particles"),
+    MATERIALS("items"),
     MOB_EFFECTS("potion_effects"),
+    PARTICLES("particles"),
     POTIONS("potions"),
     SOUNDS("sounds"),
     SOUND_SOURCES("sound_sources"),

@@ -155,7 +155,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 
 #### Block Hitboxes, Shapes, Light Data, Opacity
 | Large Collision Shape      | :heavy_check_mark: | 1.16+        |
-| Collision shape full block | :heavy_check_mark: | 1.16+        |
+| Collision Shape Full Block | :heavy_check_mark: | 1.16+        |
 | Occlusion                  | :heavy_check_mark: | 1.16+        |
 | Hitbox                     | :heavy_check_mark: | 1.16+        |
 | Collision Hitbox           | :heavy_check_mark: | 1.16+        |
