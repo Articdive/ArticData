@@ -211,6 +211,7 @@
   },
   "HORIZONTAL_AXIS": {
     "key": "axis",
+    "enumMojangName": "Axis",
     "values": [
       "X",
       "Z"
@@ -218,6 +219,7 @@
   },
   "AXIS": {
     "key": "axis",
+    "enumMojangName": "Axis",
     "values": [
       "X",
       "Y",
@@ -268,6 +270,7 @@
   },
   "FACING": {
     "key": "facing",
+    "enumMojangName": "Direction",
     "values": [
       "NORTH",
       "EAST",
@@ -279,6 +282,7 @@
   },
   "FACING_HOPPER": {
     "key": "facing",
+    "enumMojangName": "Direction",
     "values": [
       "DOWN",
       "NORTH",
@@ -289,6 +293,7 @@
   },
   "HORIZONTAL_FACING": {
     "key": "facing",
+    "enumMojangName": "Direction",
     "values": [
       "NORTH",
       "SOUTH",
@@ -298,6 +303,7 @@
   },
   "ORIENTATION": {
     "key": "orientation",
+    "enumMojangName": "FrontAndTop",
     "values": [
       "DOWN_EAST",
       "DOWN_NORTH",
@@ -315,6 +321,7 @@
   },
   "ATTACH_FACE": {
     "key": "face",
+    "enumMojangName": "AttachFace",
     "values": [
       "FLOOR",
       "WALL",
@@ -323,6 +330,7 @@
   },
   "BELL_ATTACHMENT": {
     "key": "attachment",
+    "enumMojangName": "BellAttachType",
     "values": [
       "FLOOR",
       "CEILING",
@@ -332,6 +340,7 @@
   },
   "EAST_WALL": {
     "key": "east",
+    "enumMojangName": "WallSide",
     "values": [
       "NONE",
       "LOW",
@@ -340,6 +349,7 @@
   },
   "NORTH_WALL": {
     "key": "north",
+    "enumMojangName": "WallSide",
     "values": [
       "NONE",
       "LOW",
@@ -348,6 +358,7 @@
   },
   "SOUTH_WALL": {
     "key": "south",
+    "enumMojangName": "WallSide",
     "values": [
       "NONE",
       "LOW",
@@ -356,6 +367,7 @@
   },
   "WEST_WALL": {
     "key": "west",
+    "enumMojangName": "WallSide",
     "values": [
       "NONE",
       "LOW",
@@ -364,6 +376,7 @@
   },
   "EAST_REDSTONE": {
     "key": "east",
+    "enumMojangName": "RedstoneSide",
     "values": [
       "UP",
       "SIDE",
@@ -372,6 +385,7 @@
   },
   "NORTH_REDSTONE": {
     "key": "north",
+    "enumMojangName": "RedstoneSide",
     "values": [
       "UP",
       "SIDE",
@@ -380,6 +394,7 @@
   },
   "SOUTH_REDSTONE": {
     "key": "south",
+    "enumMojangName": "RedstoneSide",
     "values": [
       "UP",
       "SIDE",
@@ -388,6 +403,7 @@
   },
   "WEST_REDSTONE": {
     "key": "west",
+    "enumMojangName": "RedstoneSide",
     "values": [
       "UP",
       "SIDE",
@@ -396,6 +412,7 @@
   },
   "DOUBLE_BLOCK_HALF": {
     "key": "half",
+    "enumMojangName": "DoubleBlockHalf",
     "values": [
       "UPPER",
       "LOWER"
@@ -403,6 +420,7 @@
   },
   "HALF": {
     "key": "half",
+    "enumMojangName": "Half",
     "values": [
       "TOP",
       "BOTTOM"
@@ -410,6 +428,7 @@
   },
   "RAIL_SHAPE": {
     "key": "shape",
+    "enumMojangName": "RailShape",
     "values": [
       "NORTH_SOUTH",
       "EAST_WEST",
@@ -425,6 +444,7 @@
   },
   "RAIL_SHAPE_STRAIGHT": {
     "key": "shape",
+    "enumMojangName": "RailShape",
     "values": [
       "NORTH_SOUTH",
       "EAST_WEST",
@@ -791,6 +811,7 @@
   },
   "BED_PART": {
     "key": "part",
+    "enumMojangName": "BedPart",
     "values": [
       "HEAD",
       "FOOT"
@@ -798,6 +819,7 @@
   },
   "CHEST_TYPE": {
     "key": "type",
+    "enumMojangName": "ChestType",
     "values": [
       "SINGLE",
       "LEFT",
@@ -806,6 +828,7 @@
   },
   "MODE_COMPARATOR": {
     "key": "mode",
+    "enumMojangName": "ComparatorMode",
     "values": [
       "COMPARE",
       "SUBTRACT"
@@ -813,6 +836,7 @@
   },
   "DOOR_HINGE": {
     "key": "hinge",
+    "enumMojangName": "DoorHingeSide",
     "values": [
       "LEFT",
       "RIGHT"
@@ -820,6 +844,7 @@
   },
   "NOTEBLOCK_INSTRUMENT": {
     "key": "instrument",
+    "enumMojangName": "NoteBlockInstrument",
     "values": [
       "HARP",
       "BASEDRUM",
@@ -841,6 +866,7 @@
   },
   "PISTON_TYPE": {
     "key": "type",
+    "enumMojangName": "PistonType",
     "values": [
       "DEFAULT",
       "STICKY"
@@ -848,6 +874,7 @@
   },
   "SLAB_TYPE": {
     "key": "type",
+    "enumMojangName": "SlabType",
     "values": [
       "TOP",
       "BOTTOM",
@@ -856,6 +883,7 @@
   },
   "STAIRS_SHAPE": {
     "key": "shape",
+    "enumMojangName": "StairsShape",
     "values": [
       "STRAIGHT",
       "INNER_LEFT",
@@ -866,6 +894,7 @@
   },
   "STRUCTUREBLOCK_MODE": {
     "key": "mode",
+    "enumMojangName": "StructureMode",
     "values": [
       "SAVE",
       "LOAD",
@@ -875,6 +904,7 @@
   },
   "BAMBOO_LEAVES": {
     "key": "leaves",
+    "enumMojangName": "BambooLeaves",
     "values": [
       "NONE",
       "SMALL",
