@@ -62,7 +62,6 @@ tasks {
             }
             // Run the DataGenerator
             dependsOn(generatorRunTask)
-            println(generatorRunTask.classpath.files)
         }
     }
 }
