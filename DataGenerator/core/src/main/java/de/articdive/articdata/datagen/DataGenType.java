@@ -12,6 +12,7 @@ public enum DataGenType {
     ENTITIES("entities"),
     ENTITY_DATA_SERIALIZERS("entity_data_serializers"),
     FLUIDS("fluids"),
+    FLUID_PROPERTIES("fluid_properties"),
     GAME_EVENTS("game_events"), // Added in 1.17
     MAP_COLORS("map_colors"),
     MATERIALS("items"),
