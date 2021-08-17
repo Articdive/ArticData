@@ -124,7 +124,6 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("solid", bs.getMaterial().isSolid());
                     state.addProperty("solidBlocking", bs.getMaterial().isSolidBlocking());
                     state.addProperty("toolRequired", bs.requiresCorrectToolForDrops());
-                    state.addProperty("renderShape", bs.getRenderShape().name());
 
                     // Shapes (Hitboxes)
                     state.addProperty("largeCollisionShape", bs.hasLargeCollisionShape());
@@ -135,6 +134,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("interactionShape", bs.getInteractionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     state.addProperty("occlusionShape", bs.getOcclusionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
                     state.addProperty("visualShape", bs.getOcclusionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs().toString());
+                    state.addProperty("renderShape", bs.getRenderShape().name());
 
                     blockStates.add(state);
                 }

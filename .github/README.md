@@ -105,7 +105,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Translation Key           | :heavy_check_mark: | 1.16+        |
 | Default Value             | :heavy_check_mark: | 1.16+        |
 | Client Synchronization    | :heavy_check_mark: | 1.16+        |
-| Attribute range           | :heavy_check_mark: | 1.16+        |
+| Attribute Range           | :heavy_check_mark: | 1.16+        |
 
 ### Biomes
 
@@ -154,6 +154,8 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Tool Required For Drops    | :heavy_check_mark: | 1.16+        |
 
 #### Block Hitboxes, Shapes, Light Data, Opacity
+| Data Type                  | Supported?         | Versions     |
+| :------------------------: | ------------------ | :----------: |
 | Large Collision Shape      | :heavy_check_mark: | 1.16+        |
 | Collision Shape Full Block | :heavy_check_mark: | 1.16+        |
 | Occlusion                  | :heavy_check_mark: | 1.16+        |
@@ -170,6 +172,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Shape for Light Occlusion  | :heavy_check_mark: | 1.16+        |
 | Opacity                    | :heavy_check_mark: | 1.16+        |
 | Conditionally Opaque       | :heavy_check_mark: | 1.16+        |
+| Render Shape               | :heavy_check_mark: | 1.16+        |
 
 ### Block Entities
 
