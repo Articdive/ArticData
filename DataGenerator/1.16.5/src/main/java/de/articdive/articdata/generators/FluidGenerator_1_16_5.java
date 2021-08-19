@@ -50,8 +50,12 @@ public final class FluidGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
             Fluid f = Registry.FLUID.get(fluidRL);
 
             JsonObject fluid = new JsonObject();
+            fluid.addProperty("id", Registry.FLUID.getId(f));
             fluid.addProperty("mojangName", names.get(f));
             fluid.addProperty("bucketId", Registry.ITEM.getKey(f.getBucket()).toString());
+            fluid.addProperty("empty", f.defaultFluidState().isEmpty());
+            fluid.addProperty("randomlyTicking", f.defaultFluidState().isRandomlyTicking());
+            fluid.addProperty("explosionResistance", f.defaultFluidState().getExplosionResistance());
 
             {
                 final JsonArray properties = new JsonArray();
@@ -85,13 +89,10 @@ public final class FluidGenerator_1_16_5 extends DataGenerator_1_16_5<Fluid> {
 
                     // Default values
                     state.addProperty("source", fs.isSource());
-                    state.addProperty("empty", fs.isEmpty());
                     state.addProperty("height", fs.getHeight(EmptyBlockGetter.INSTANCE, BlockPos.ZERO));
                     state.addProperty("ownHeight", fs.getOwnHeight());
                     state.addProperty("amount", fs.getAmount());
-                    state.addProperty("randomlyTicking", fs.isRandomlyTicking());
-                    state.addProperty("explosionResistance", fs.getExplosionResistance());
-                    state.addProperty("blockState", Registry.BLOCK.getKey(fs.createLegacyBlock().getBlock()).toString());;
+                    state.addProperty("blockState", Registry.BLOCK.getKey(fs.createLegacyBlock().getBlock()).toString());
 
                     fluidStates.add(state);
                 }

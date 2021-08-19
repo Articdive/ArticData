@@ -125,6 +125,7 @@ public final class BlockGenerator_1_16_5 extends DataGenerator_1_16_5<Block> {
                     state.addProperty("solidBlocking", bs.getMaterial().isSolidBlocking());
                     state.addProperty("toolRequired", bs.requiresCorrectToolForDrops());
                     state.addProperty("renderShape", bs.getRenderShape().name());
+                    state.addProperty("fluidState", Registry.FLUID.getKey(bs.getFluidState().getType()).toString());
 
                     // Shapes (Hitboxes)
                     state.addProperty("largeCollisionShape", bs.hasLargeCollisionShape());
