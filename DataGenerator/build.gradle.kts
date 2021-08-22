@@ -28,18 +28,9 @@ tasks {
             mainClass.set("de.articdive.articdata.datagen.DataGen")
             var classpath: FileCollection = project.objects.fileCollection()
 
-            classpath = classpath.plus(
-                project(":DataGenerator:$implementedVersion").configurations.getByName("runtimeClasspath")
-            )
-            classpath = classpath.plus(
-                project(":DataGenerator:$implementedVersion").tasks.getByName<Jar>("jar").outputs.files
-            )
-            doFirst {
-                // The IDE will say args cannot be null, but then gradle will complain that this it can.
-                val actualVersion = args!![0] ?: "1.16.5"
-                classpath = classpath.plus(files("../Deobfuscator/deobfuscated_jars/deobfu_$actualVersion.jar"))
-                setClasspath(classpath)
-            }
+            classpath += project(":DataGenerator:$implementedVersion").configurations.getByName("runtimeClasspath")
+            classpath += project(":DataGenerator:$implementedVersion").tasks.getByName<Jar>("jar").outputs.files
+            setClasspath(classpath)
         }
     }
 }

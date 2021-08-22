@@ -48,21 +48,20 @@ tasks {
             // As long as the 1.16.5 JAR is also decompiled for compiling the 1.16.5 generators.
 
             // TL;DR: We decompile one (or more) version for compile, and only ever one for runtime.
-
-            // Run the DataGenerator
-            dependsOn(project(":DataGenerator").tasks.getByName<JavaExec>("run_$implementedVersion") {
-                doFirst {
-                    args = arrayListOf(
-                        mcVersion,
-                        (findProperty("output") ?: rootDir.resolve("Articdata")
-                            .resolve(mcVersion).absolutePath) as String
+            val generatorRunTask = (
+                    project(":DataGenerator").tasks.getByName<JavaExec>("run_$implementedVersion")
+                        .setArgsString(
+                            "$mcVersion " + (findProperty("output") ?: rootDir.resolve("Articdata")
+                                .resolve(mcVersion).absolutePath) as String
+                        )
+                        .classpath(files("./Deobfuscator/deobfuscated_jars/deobfu_$mcVersion.jar"))
                     )
-                }
-                // Compile deobfuscation plus runtime deobufscation
-                for (compileVersion in compileVersions) {
-                    dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run_deobfuscator_$compileVersion"))
-                }
-            })
+            // Compile deobfuscation plus runtime deobufscation
+            for (compileVersion in compileVersions) {
+                generatorRunTask.dependsOn(project(":Deobfuscator").tasks.getByName<JavaExec>("run_deobfuscator_$compileVersion"))
+            }
+            // Run the DataGenerator
+            dependsOn(generatorRunTask)
         }
     }
 }
