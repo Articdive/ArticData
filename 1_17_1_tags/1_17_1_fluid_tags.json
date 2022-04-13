@@ -1,0 +1,16 @@
+{
+  "minecraft:water": {
+    "replace": false,
+    "values": [
+      "minecraft:water",
+      "minecraft:flowing_water"
+    ]
+  },
+  "minecraft:lava": {
+    "replace": false,
+    "values": [
+      "minecraft:lava",
+      "minecraft:flowing_lava"
+    ]
+  }
+}
