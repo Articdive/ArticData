@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "mojangName": "MASTER",
+    "type": "master"
+  },
+  {
+    "id": 1,
+    "mojangName": "MUSIC",
+    "type": "music"
+  },
+  {
+    "id": 2,
+    "mojangName": "RECORDS",
+    "type": "record"
+  },
+  {
+    "id": 3,
+    "mojangName": "WEATHER",
+    "type": "weather"
+  },
+  {
+    "id": 4,
+    "mojangName": "BLOCKS",
+    "type": "block"
+  },
+  {
+    "id": 5,
+    "mojangName": "HOSTILE",
+    "type": "hostile"
+  },
+  {
+    "id": 6,
+    "mojangName": "NEUTRAL",
+    "type": "neutral"
+  },
+  {
+    "id": 7,
+    "mojangName": "PLAYERS",
+    "type": "player"
+  },
+  {
+    "id": 8,
+    "mojangName": "AMBIENT",
+    "type": "ambient"
+  },
+  {
+    "id": 9,
+    "mojangName": "VOICE",
+    "type": "voice"
+  }
+]
