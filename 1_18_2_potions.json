@@ -1,0 +1,131 @@
+{
+  "minecraft:invisibility": {
+    "mojangName": "INVISIBILITY"
+  },
+  "minecraft:water_breathing": {
+    "mojangName": "WATER_BREATHING"
+  },
+  "minecraft:water": {
+    "mojangName": "WATER"
+  },
+  "minecraft:strong_leaping": {
+    "mojangName": "STRONG_LEAPING"
+  },
+  "minecraft:poison": {
+    "mojangName": "POISON"
+  },
+  "minecraft:slowness": {
+    "mojangName": "SLOWNESS"
+  },
+  "minecraft:turtle_master": {
+    "mojangName": "TURTLE_MASTER"
+  },
+  "minecraft:slow_falling": {
+    "mojangName": "SLOW_FALLING"
+  },
+  "minecraft:long_regeneration": {
+    "mojangName": "LONG_REGENERATION"
+  },
+  "minecraft:long_strength": {
+    "mojangName": "LONG_STRENGTH"
+  },
+  "minecraft:fire_resistance": {
+    "mojangName": "FIRE_RESISTANCE"
+  },
+  "minecraft:swiftness": {
+    "mojangName": "SWIFTNESS"
+  },
+  "minecraft:mundane": {
+    "mojangName": "MUNDANE"
+  },
+  "minecraft:healing": {
+    "mojangName": "HEALING"
+  },
+  "minecraft:long_swiftness": {
+    "mojangName": "LONG_SWIFTNESS"
+  },
+  "minecraft:long_turtle_master": {
+    "mojangName": "LONG_TURTLE_MASTER"
+  },
+  "minecraft:empty": {
+    "mojangName": "EMPTY"
+  },
+  "minecraft:long_weakness": {
+    "mojangName": "LONG_WEAKNESS"
+  },
+  "minecraft:long_water_breathing": {
+    "mojangName": "LONG_WATER_BREATHING"
+  },
+  "minecraft:strong_slowness": {
+    "mojangName": "STRONG_SLOWNESS"
+  },
+  "minecraft:strong_swiftness": {
+    "mojangName": "STRONG_SWIFTNESS"
+  },
+  "minecraft:strong_poison": {
+    "mojangName": "STRONG_POISON"
+  },
+  "minecraft:long_slow_falling": {
+    "mojangName": "LONG_SLOW_FALLING"
+  },
+  "minecraft:awkward": {
+    "mojangName": "AWKWARD"
+  },
+  "minecraft:regeneration": {
+    "mojangName": "REGENERATION"
+  },
+  "minecraft:long_poison": {
+    "mojangName": "LONG_POISON"
+  },
+  "minecraft:strong_strength": {
+    "mojangName": "STRONG_STRENGTH"
+  },
+  "minecraft:luck": {
+    "mojangName": "LUCK"
+  },
+  "minecraft:strength": {
+    "mojangName": "STRENGTH"
+  },
+  "minecraft:long_slowness": {
+    "mojangName": "LONG_SLOWNESS"
+  },
+  "minecraft:strong_turtle_master": {
+    "mojangName": "STRONG_TURTLE_MASTER"
+  },
+  "minecraft:strong_healing": {
+    "mojangName": "STRONG_HEALING"
+  },
+  "minecraft:strong_regeneration": {
+    "mojangName": "STRONG_REGENERATION"
+  },
+  "minecraft:weakness": {
+    "mojangName": "WEAKNESS"
+  },
+  "minecraft:long_night_vision": {
+    "mojangName": "LONG_NIGHT_VISION"
+  },
+  "minecraft:long_leaping": {
+    "mojangName": "LONG_LEAPING"
+  },
+  "minecraft:thick": {
+    "mojangName": "THICK"
+  },
+  "minecraft:long_invisibility": {
+    "mojangName": "LONG_INVISIBILITY"
+  },
+  "minecraft:harming": {
+    "mojangName": "HARMING"
+  },
+  "minecraft:leaping": {
+    "mojangName": "LEAPING"
+  },
+  "minecraft:long_fire_resistance": {
+    "mojangName": "LONG_FIRE_RESISTANCE"
+  },
+  "minecraft:night_vision": {
+    "mojangName": "NIGHT_VISION"
+  },
+  "minecraft:strong_harming": {
+    "mojangName": "STRONG_HARMING"
+  }
+}
