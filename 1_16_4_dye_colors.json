@@ -1,0 +1,226 @@
+[
+  {
+    "id": 0,
+    "mojangName": "white",
+    "color": "SNOW",
+    "fireworkColor": 15790320,
+    "textColor": 16777215,
+    "textureDiffuseColor": 16383998,
+    "textureDiffuseColorBGR": 16711673,
+    "textureDiffuseColors": [
+      0.9764706,
+      1.0,
+      0.99607843
+    ]
+  },
+  {
+    "id": 1,
+    "mojangName": "orange",
+    "color": "COLOR_ORANGE",
+    "fireworkColor": 15435844,
+    "textColor": 16738335,
+    "textureDiffuseColor": 16351261,
+    "textureDiffuseColorBGR": 1933561,
+    "textureDiffuseColors": [
+      0.9764706,
+      0.5019608,
+      0.11372549
+    ]
+  },
+  {
+    "id": 2,
+    "mojangName": "magenta",
+    "color": "COLOR_MAGENTA",
+    "fireworkColor": 12801229,
+    "textColor": 16711935,
+    "textureDiffuseColor": 13061821,
+    "textureDiffuseColorBGR": 12406471,
+    "textureDiffuseColors": [
+      0.78039217,
+      0.30588236,
+      0.7411765
+    ]
+  },
+  {
+    "id": 3,
+    "mojangName": "light_blue",
+    "color": "COLOR_LIGHT_BLUE",
+    "fireworkColor": 6719955,
+    "textColor": 10141901,
+    "textureDiffuseColor": 3847130,
+    "textureDiffuseColorBGR": 14332730,
+    "textureDiffuseColors": [
+      0.22745098,
+      0.7019608,
+      0.85490197
+    ]
+  },
+  {
+    "id": 4,
+    "mojangName": "yellow",
+    "color": "COLOR_YELLOW",
+    "fireworkColor": 14602026,
+    "textColor": 16776960,
+    "textureDiffuseColor": 16701501,
+    "textureDiffuseColorBGR": 4053246,
+    "textureDiffuseColors": [
+      0.99607843,
+      0.84705883,
+      0.23921569
+    ]
+  },
+  {
+    "id": 5,
+    "mojangName": "lime",
+    "color": "COLOR_LIGHT_GREEN",
+    "fireworkColor": 4312372,
+    "textColor": 12582656,
+    "textureDiffuseColor": 8439583,
+    "textureDiffuseColorBGR": 2082688,
+    "textureDiffuseColors": [
+      0.5019608,
+      0.78039217,
+      0.12156863
+    ]
+  },
+  {
+    "id": 6,
+    "mojangName": "pink",
+    "color": "COLOR_PINK",
+    "fireworkColor": 14188952,
+    "textColor": 16738740,
+    "textureDiffuseColor": 15961002,
+    "textureDiffuseColorBGR": 11176947,
+    "textureDiffuseColors": [
+      0.9529412,
+      0.54509807,
+      0.6666667
+    ]
+  },
+  {
+    "id": 7,
+    "mojangName": "gray",
+    "color": "COLOR_GRAY",
+    "fireworkColor": 4408131,
+    "textColor": 8421504,
+    "textureDiffuseColor": 4673362,
+    "textureDiffuseColorBGR": 5394247,
+    "textureDiffuseColors": [
+      0.2784314,
+      0.30980393,
+      0.32156864
+    ]
+  },
+  {
+    "id": 8,
+    "mojangName": "light_gray",
+    "color": "COLOR_LIGHT_GRAY",
+    "fireworkColor": 11250603,
+    "textColor": 13882323,
+    "textureDiffuseColor": 10329495,
+    "textureDiffuseColorBGR": 9936285,
+    "textureDiffuseColors": [
+      0.6156863,
+      0.6156863,
+      0.5921569
+    ]
+  },
+  {
+    "id": 9,
+    "mojangName": "cyan",
+    "color": "COLOR_CYAN",
+    "fireworkColor": 2651799,
+    "textColor": 65535,
+    "textureDiffuseColor": 1481884,
+    "textureDiffuseColorBGR": 10263574,
+    "textureDiffuseColors": [
+      0.08627451,
+      0.6117647,
+      0.6117647
+    ]
+  },
+  {
+    "id": 10,
+    "mojangName": "purple",
+    "color": "COLOR_PURPLE",
+    "fireworkColor": 8073150,
+    "textColor": 10494192,
+    "textureDiffuseColor": 8991416,
+    "textureDiffuseColorBGR": 12071561,
+    "textureDiffuseColors": [
+      0.5372549,
+      0.19607843,
+      0.72156864
+    ]
+  },
+  {
+    "id": 11,
+    "mojangName": "blue",
+    "color": "COLOR_BLUE",
+    "fireworkColor": 2437522,
+    "textColor": 255,
+    "textureDiffuseColor": 3949738,
+    "textureDiffuseColorBGR": 11158588,
+    "textureDiffuseColors": [
+      0.23529412,
+      0.26666668,
+      0.6666667
+    ]
+  },
+  {
+    "id": 12,
+    "mojangName": "brown",
+    "color": "COLOR_BROWN",
+    "fireworkColor": 5320730,
+    "textColor": 9127187,
+    "textureDiffuseColor": 8606770,
+    "textureDiffuseColorBGR": 3298435,
+    "textureDiffuseColors": [
+      0.5137255,
+      0.32941177,
+      0.19607843
+    ]
+  },
+  {
+    "id": 13,
+    "mojangName": "green",
+    "color": "COLOR_GREEN",
+    "fireworkColor": 3887386,
+    "textColor": 65280,
+    "textureDiffuseColor": 6192150,
+    "textureDiffuseColorBGR": 1473630,
+    "textureDiffuseColors": [
+      0.36862746,
+      0.4862745,
+      0.08627451
+    ]
+  },
+  {
+    "id": 14,
+    "mojangName": "red",
+    "color": "COLOR_RED",
+    "fireworkColor": 11743532,
+    "textColor": 16711680,
+    "textureDiffuseColor": 11546150,
+    "textureDiffuseColorBGR": 2502320,
+    "textureDiffuseColors": [
+      0.6901961,
+      0.18039216,
+      0.14901961
+    ]
+  },
+  {
+    "id": 15,
+    "mojangName": "black",
+    "color": "COLOR_BLACK",
+    "fireworkColor": 1973019,
+    "textColor": 0,
+    "textureDiffuseColor": 1908001,
+    "textureDiffuseColorBGR": 2170141,
+    "textureDiffuseColors": [
+      0.11372549,
+      0.11372549,
+      0.12941177
+    ]
+  }
+]
