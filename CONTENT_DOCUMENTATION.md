@@ -76,6 +76,7 @@
 | Opacity                                 | :heavy_check_mark: |
 | Conditional Opacity                     | :heavy_check_mark: |
 | Render Shape                            | :heavy_check_mark: |
+| Offset                                  | :heavy_check_mark: |
 | Sound Information                       | :heavy_check_mark: |
 
 ### Block Entities
