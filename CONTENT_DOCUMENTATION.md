@@ -180,6 +180,7 @@
 
 | Data Type                               | Supported?         |
 | :-------------------------------------: | :----------------: |
+| Protocol ID                             | :heavy_check_mark: |
 | Namespace ID                            | :heavy_check_mark: |
 | Mojang Name                             | :heavy_check_mark: |
 | Corresponding Bucket Item               | :heavy_check_mark: |
@@ -250,6 +251,7 @@
 
 | Data Type                               | Supported?         |
 | :-------------------------------------: | :----------------: |
+| Protocol ID                             | :heavy_check_mark: |
 | Namespace ID                            | :heavy_check_mark: |
 | Mojang Name                             | :heavy_check_mark: |
 
