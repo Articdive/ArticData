@@ -1,77 +1,4 @@
 {
-  "minecraft:chest": {
-    "mojangName": "CHEST",
-    "blocks": [
-      {
-        "id": "minecraft:chest"
-      }
-    ]
-  },
-  "minecraft:piston": {
-    "mojangName": "PISTON",
-    "blocks": [
-      {
-        "id": "minecraft:moving_piston"
-      }
-    ]
-  },
-  "minecraft:barrel": {
-    "mojangName": "BARREL",
-    "blocks": [
-      {
-        "id": "minecraft:barrel"
-      }
-    ]
-  },
-  "minecraft:skull": {
-    "mojangName": "SKULL",
-    "blocks": [
-      {
-        "id": "minecraft:skeleton_skull"
-      },
-      {
-        "id": "minecraft:skeleton_wall_skull"
-      },
-      {
-        "id": "minecraft:creeper_head"
-      },
-      {
-        "id": "minecraft:creeper_wall_head"
-      },
-      {
-        "id": "minecraft:dragon_head"
-      },
-      {
-        "id": "minecraft:dragon_wall_head"
-      },
-      {
-        "id": "minecraft:zombie_head"
-      },
-      {
-        "id": "minecraft:zombie_wall_head"
-      },
-      {
-        "id": "minecraft:wither_skeleton_skull"
-      },
-      {
-        "id": "minecraft:wither_skeleton_wall_skull"
-      },
-      {
-        "id": "minecraft:player_head"
-      },
-      {
-        "id": "minecraft:player_wall_head"
-      }
-    ]
-  },
-  "minecraft:enchanting_table": {
-    "mojangName": "ENCHANTING_TABLE",
-    "blocks": [
-      {
-        "id": "minecraft:enchanting_table"
-      }
-    ]
-  },
   "minecraft:banner": {
     "mojangName": "BANNER",
     "blocks": [
@@ -173,182 +100,19 @@
       }
     ]
   },
-  "minecraft:bell": {
-    "mojangName": "BELL",
+  "minecraft:barrel": {
+    "mojangName": "BARREL",
     "blocks": [
       {
-        "id": "minecraft:bell"
+        "id": "minecraft:barrel"
       }
     ]
   },
-  "minecraft:end_portal": {
-    "mojangName": "END_PORTAL",
+  "minecraft:beacon": {
+    "mojangName": "BEACON",
     "blocks": [
       {
-        "id": "minecraft:end_portal"
-      }
-    ]
-  },
-  "minecraft:end_gateway": {
-    "mojangName": "END_GATEWAY",
-    "blocks": [
-      {
-        "id": "minecraft:end_gateway"
-      }
-    ]
-  },
-  "minecraft:structure_block": {
-    "mojangName": "STRUCTURE_BLOCK",
-    "blocks": [
-      {
-        "id": "minecraft:structure_block"
-      }
-    ]
-  },
-  "minecraft:ender_chest": {
-    "mojangName": "ENDER_CHEST",
-    "blocks": [
-      {
-        "id": "minecraft:ender_chest"
-      }
-    ]
-  },
-  "minecraft:smoker": {
-    "mojangName": "SMOKER",
-    "blocks": [
-      {
-        "id": "minecraft:smoker"
-      }
-    ]
-  },
-  "minecraft:campfire": {
-    "mojangName": "CAMPFIRE",
-    "blocks": [
-      {
-        "id": "minecraft:campfire"
-      },
-      {
-        "id": "minecraft:soul_campfire"
-      }
-    ]
-  },
-  "minecraft:dropper": {
-    "mojangName": "DROPPER",
-    "blocks": [
-      {
-        "id": "minecraft:dropper"
-      }
-    ]
-  },
-  "minecraft:shulker_box": {
-    "mojangName": "SHULKER_BOX",
-    "blocks": [
-      {
-        "id": "minecraft:shulker_box"
-      },
-      {
-        "id": "minecraft:black_shulker_box"
-      },
-      {
-        "id": "minecraft:blue_shulker_box"
-      },
-      {
-        "id": "minecraft:brown_shulker_box"
-      },
-      {
-        "id": "minecraft:cyan_shulker_box"
-      },
-      {
-        "id": "minecraft:gray_shulker_box"
-      },
-      {
-        "id": "minecraft:green_shulker_box"
-      },
-      {
-        "id": "minecraft:light_blue_shulker_box"
-      },
-      {
-        "id": "minecraft:light_gray_shulker_box"
-      },
-      {
-        "id": "minecraft:lime_shulker_box"
-      },
-      {
-        "id": "minecraft:magenta_shulker_box"
-      },
-      {
-        "id": "minecraft:orange_shulker_box"
-      },
-      {
-        "id": "minecraft:pink_shulker_box"
-      },
-      {
-        "id": "minecraft:purple_shulker_box"
-      },
-      {
-        "id": "minecraft:red_shulker_box"
-      },
-      {
-        "id": "minecraft:white_shulker_box"
-      },
-      {
-        "id": "minecraft:yellow_shulker_box"
-      }
-    ]
-  },
-  "minecraft:dispenser": {
-    "mojangName": "DISPENSER",
-    "blocks": [
-      {
-        "id": "minecraft:dispenser"
-      }
-    ]
-  },
-  "minecraft:lectern": {
-    "mojangName": "LECTERN",
-    "blocks": [
-      {
-        "id": "minecraft:lectern"
-      }
-    ]
-  },
-  "minecraft:daylight_detector": {
-    "mojangName": "DAYLIGHT_DETECTOR",
-    "blocks": [
-      {
-        "id": "minecraft:daylight_detector"
-      }
-    ]
-  },
-  "minecraft:brewing_stand": {
-    "mojangName": "BREWING_STAND",
-    "blocks": [
-      {
-        "id": "minecraft:brewing_stand"
-      }
-    ]
-  },
-  "minecraft:sculk_sensor": {
-    "mojangName": "SCULK_SENSOR",
-    "blocks": [
-      {
-        "id": "minecraft:sculk_sensor"
-      }
-    ]
-  },
-  "minecraft:furnace": {
-    "mojangName": "FURNACE",
-    "blocks": [
-      {
-        "id": "minecraft:furnace"
-      }
-    ]
-  },
-  "minecraft:jukebox": {
-    "mojangName": "JUKEBOX",
-    "blocks": [
-      {
-        "id": "minecraft:jukebox"
+        "id": "minecraft:beacon"
       }
     ]
   },
@@ -416,11 +180,60 @@
       }
     ]
   },
-  "minecraft:conduit": {
-    "mojangName": "CONDUIT",
+  "minecraft:bell": {
+    "mojangName": "BELL",
     "blocks": [
       {
-        "id": "minecraft:conduit"
+        "id": "minecraft:bell"
+      }
+    ]
+  },
+  "minecraft:blast_furnace": {
+    "mojangName": "BLAST_FURNACE",
+    "blocks": [
+      {
+        "id": "minecraft:blast_furnace"
+      }
+    ]
+  },
+  "minecraft:brewing_stand": {
+    "mojangName": "BREWING_STAND",
+    "blocks": [
+      {
+        "id": "minecraft:brewing_stand"
+      }
+    ]
+  },
+  "minecraft:campfire": {
+    "mojangName": "CAMPFIRE",
+    "blocks": [
+      {
+        "id": "minecraft:campfire"
+      },
+      {
+        "id": "minecraft:soul_campfire"
+      }
+    ]
+  },
+  "minecraft:chest": {
+    "mojangName": "CHEST",
+    "blocks": [
+      {
+        "id": "minecraft:chest"
+      }
+    ]
+  },
+  "minecraft:command_block": {
+    "mojangName": "COMMAND_BLOCK",
+    "blocks": [
+      {
+        "id": "minecraft:command_block"
+      },
+      {
+        "id": "minecraft:chain_command_block"
+      },
+      {
+        "id": "minecraft:repeating_command_block"
       }
     ]
   },
@@ -429,6 +242,190 @@
     "blocks": [
       {
         "id": "minecraft:comparator"
+      }
+    ]
+  },
+  "minecraft:conduit": {
+    "mojangName": "CONDUIT",
+    "blocks": [
+      {
+        "id": "minecraft:conduit"
+      }
+    ]
+  },
+  "minecraft:daylight_detector": {
+    "mojangName": "DAYLIGHT_DETECTOR",
+    "blocks": [
+      {
+        "id": "minecraft:daylight_detector"
+      }
+    ]
+  },
+  "minecraft:dispenser": {
+    "mojangName": "DISPENSER",
+    "blocks": [
+      {
+        "id": "minecraft:dispenser"
+      }
+    ]
+  },
+  "minecraft:dropper": {
+    "mojangName": "DROPPER",
+    "blocks": [
+      {
+        "id": "minecraft:dropper"
+      }
+    ]
+  },
+  "minecraft:enchanting_table": {
+    "mojangName": "ENCHANTING_TABLE",
+    "blocks": [
+      {
+        "id": "minecraft:enchanting_table"
+      }
+    ]
+  },
+  "minecraft:end_gateway": {
+    "mojangName": "END_GATEWAY",
+    "blocks": [
+      {
+        "id": "minecraft:end_gateway"
+      }
+    ]
+  },
+  "minecraft:end_portal": {
+    "mojangName": "END_PORTAL",
+    "blocks": [
+      {
+        "id": "minecraft:end_portal"
+      }
+    ]
+  },
+  "minecraft:ender_chest": {
+    "mojangName": "ENDER_CHEST",
+    "blocks": [
+      {
+        "id": "minecraft:ender_chest"
+      }
+    ]
+  },
+  "minecraft:furnace": {
+    "mojangName": "FURNACE",
+    "blocks": [
+      {
+        "id": "minecraft:furnace"
+      }
+    ]
+  },
+  "minecraft:hopper": {
+    "mojangName": "HOPPER",
+    "blocks": [
+      {
+        "id": "minecraft:hopper"
+      }
+    ]
+  },
+  "minecraft:jigsaw": {
+    "mojangName": "JIGSAW",
+    "blocks": [
+      {
+        "id": "minecraft:jigsaw"
+      }
+    ]
+  },
+  "minecraft:jukebox": {
+    "mojangName": "JUKEBOX",
+    "blocks": [
+      {
+        "id": "minecraft:jukebox"
+      }
+    ]
+  },
+  "minecraft:lectern": {
+    "mojangName": "LECTERN",
+    "blocks": [
+      {
+        "id": "minecraft:lectern"
+      }
+    ]
+  },
+  "minecraft:mob_spawner": {
+    "mojangName": "MOB_SPAWNER",
+    "blocks": [
+      {
+        "id": "minecraft:spawner"
+      }
+    ]
+  },
+  "minecraft:piston": {
+    "mojangName": "PISTON",
+    "blocks": [
+      {
+        "id": "minecraft:moving_piston"
+      }
+    ]
+  },
+  "minecraft:sculk_sensor": {
+    "mojangName": "SCULK_SENSOR",
+    "blocks": [
+      {
+        "id": "minecraft:sculk_sensor"
+      }
+    ]
+  },
+  "minecraft:shulker_box": {
+    "mojangName": "SHULKER_BOX",
+    "blocks": [
+      {
+        "id": "minecraft:shulker_box"
+      },
+      {
+        "id": "minecraft:black_shulker_box"
+      },
+      {
+        "id": "minecraft:blue_shulker_box"
+      },
+      {
+        "id": "minecraft:brown_shulker_box"
+      },
+      {
+        "id": "minecraft:cyan_shulker_box"
+      },
+      {
+        "id": "minecraft:gray_shulker_box"
+      },
+      {
+        "id": "minecraft:green_shulker_box"
+      },
+      {
+        "id": "minecraft:light_blue_shulker_box"
+      },
+      {
+        "id": "minecraft:light_gray_shulker_box"
+      },
+      {
+        "id": "minecraft:lime_shulker_box"
+      },
+      {
+        "id": "minecraft:magenta_shulker_box"
+      },
+      {
+        "id": "minecraft:orange_shulker_box"
+      },
+      {
+        "id": "minecraft:pink_shulker_box"
+      },
+      {
+        "id": "minecraft:purple_shulker_box"
+      },
+      {
+        "id": "minecraft:red_shulker_box"
+      },
+      {
+        "id": "minecraft:white_shulker_box"
+      },
+      {
+        "id": "minecraft:yellow_shulker_box"
       }
     ]
   },
@@ -485,33 +482,60 @@
       }
     ]
   },
-  "minecraft:command_block": {
-    "mojangName": "COMMAND_BLOCK",
+  "minecraft:skull": {
+    "mojangName": "SKULL",
     "blocks": [
       {
-        "id": "minecraft:command_block"
+        "id": "minecraft:skeleton_skull"
       },
       {
-        "id": "minecraft:chain_command_block"
+        "id": "minecraft:skeleton_wall_skull"
       },
       {
-        "id": "minecraft:repeating_command_block"
+        "id": "minecraft:creeper_head"
+      },
+      {
+        "id": "minecraft:creeper_wall_head"
+      },
+      {
+        "id": "minecraft:dragon_head"
+      },
+      {
+        "id": "minecraft:dragon_wall_head"
+      },
+      {
+        "id": "minecraft:zombie_head"
+      },
+      {
+        "id": "minecraft:zombie_wall_head"
+      },
+      {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      {
+        "id": "minecraft:wither_skeleton_wall_skull"
+      },
+      {
+        "id": "minecraft:player_head"
+      },
+      {
+        "id": "minecraft:player_wall_head"
       }
     ]
   },
-  "minecraft:mob_spawner": {
-    "mojangName": "MOB_SPAWNER",
+  "minecraft:smoker": {
+    "mojangName": "SMOKER",
     "blocks": [
       {
-        "id": "minecraft:spawner"
+        "id": "minecraft:smoker"
       }
     ]
   },
-  "minecraft:blast_furnace": {
-    "mojangName": "BLAST_FURNACE",
+  "minecraft:structure_block": {
+    "mojangName": "STRUCTURE_BLOCK",
     "blocks": [
       {
-        "id": "minecraft:blast_furnace"
+        "id": "minecraft:structure_block"
       }
     ]
   },
@@ -520,30 +544,6 @@
     "blocks": [
       {
         "id": "minecraft:trapped_chest"
-      }
-    ]
-  },
-  "minecraft:hopper": {
-    "mojangName": "HOPPER",
-    "blocks": [
-      {
-        "id": "minecraft:hopper"
-      }
-    ]
-  },
-  "minecraft:beacon": {
-    "mojangName": "BEACON",
-    "blocks": [
-      {
-        "id": "minecraft:beacon"
-      }
-    ]
-  },
-  "minecraft:jigsaw": {
-    "mojangName": "JIGSAW",
-    "blocks": [
-      {
-        "id": "minecraft:jigsaw"
       }
     ]
   }
