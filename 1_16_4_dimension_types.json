@@ -25,19 +25,6 @@
     "ultraWarm": false,
     "respawnAnchorWorks": false
   },
-  "minecraft:the_nether": {
-    "bedWorks": false,
-    "coordinateScale": 8.0,
-    "ceiling": true,
-    "fixedTime": true,
-    "raids": false,
-    "skyLight": false,
-    "piglinSafe": true,
-    "logicalHeight": 128,
-    "natural": false,
-    "ultraWarm": true,
-    "respawnAnchorWorks": true
-  },
   "minecraft:the_end": {
     "bedWorks": false,
     "coordinateScale": 1.0,
@@ -50,5 +37,18 @@
     "natural": false,
     "ultraWarm": false,
     "respawnAnchorWorks": false
+  },
+  "minecraft:the_nether": {
+    "bedWorks": false,
+    "coordinateScale": 8.0,
+    "ceiling": true,
+    "fixedTime": true,
+    "raids": false,
+    "skyLight": false,
+    "piglinSafe": true,
+    "logicalHeight": 128,
+    "natural": false,
+    "ultraWarm": true,
+    "respawnAnchorWorks": true
   }
 }
