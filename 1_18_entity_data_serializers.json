@@ -28,16 +28,8 @@
     "type": "ITEM_STACK"
   },
   {
-    "id": 13,
-    "type": "BLOCK_STATE"
-  },
-  {
     "id": 7,
     "type": "BOOLEAN"
-  },
-  {
-    "id": 15,
-    "type": "PARTICLE"
   },
   {
     "id": 8,
@@ -60,8 +52,16 @@
     "type": "OPTIONAL_UUID"
   },
   {
+    "id": 13,
+    "type": "BLOCK_STATE"
+  },
+  {
     "id": 14,
     "type": "COMPOUND_TAG"
+  },
+  {
+    "id": 15,
+    "type": "PARTICLE"
   },
   {
     "id": 16,

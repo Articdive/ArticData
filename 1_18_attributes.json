@@ -1,51 +1,21 @@
 {
-  "minecraft:generic.max_health": {
-    "mojangName": "MAX_HEALTH",
-    "translationKey": "attribute.name.generic.max_health",
-    "defaultValue": 20.0,
-    "clientSync": true,
-    "range": {
-      "maxValue": 1024.0,
-      "minValue": 1.0
-    }
-  },
-  "minecraft:generic.follow_range": {
-    "mojangName": "FOLLOW_RANGE",
-    "translationKey": "attribute.name.generic.follow_range",
-    "defaultValue": 32.0,
-    "clientSync": false,
-    "range": {
-      "maxValue": 2048.0,
-      "minValue": 0.0
-    }
-  },
-  "minecraft:generic.knockback_resistance": {
-    "mojangName": "KNOCKBACK_RESISTANCE",
-    "translationKey": "attribute.name.generic.knockback_resistance",
+  "minecraft:generic.armor": {
+    "mojangName": "ARMOR",
+    "translationKey": "attribute.name.generic.armor",
     "defaultValue": 0.0,
-    "clientSync": false,
+    "clientSync": true,
     "range": {
-      "maxValue": 1.0,
+      "maxValue": 30.0,
       "minValue": 0.0
     }
   },
-  "minecraft:generic.movement_speed": {
-    "mojangName": "MOVEMENT_SPEED",
-    "translationKey": "attribute.name.generic.movement_speed",
-    "defaultValue": 0.699999988079071,
+  "minecraft:generic.armor_toughness": {
+    "mojangName": "ARMOR_TOUGHNESS",
+    "translationKey": "attribute.name.generic.armor_toughness",
+    "defaultValue": 0.0,
     "clientSync": true,
     "range": {
-      "maxValue": 1024.0,
-      "minValue": 0.0
-    }
-  },
-  "minecraft:generic.flying_speed": {
-    "mojangName": "FLYING_SPEED",
-    "translationKey": "attribute.name.generic.flying_speed",
-    "defaultValue": 0.4000000059604645,
-    "clientSync": true,
-    "range": {
-      "maxValue": 1024.0,
+      "maxValue": 20.0,
       "minValue": 0.0
     }
   },
@@ -79,23 +49,33 @@
       "minValue": 0.0
     }
   },
-  "minecraft:generic.armor": {
-    "mojangName": "ARMOR",
-    "translationKey": "attribute.name.generic.armor",
-    "defaultValue": 0.0,
+  "minecraft:generic.flying_speed": {
+    "mojangName": "FLYING_SPEED",
+    "translationKey": "attribute.name.generic.flying_speed",
+    "defaultValue": 0.4000000059604645,
     "clientSync": true,
     "range": {
-      "maxValue": 30.0,
+      "maxValue": 1024.0,
       "minValue": 0.0
     }
   },
-  "minecraft:generic.armor_toughness": {
-    "mojangName": "ARMOR_TOUGHNESS",
-    "translationKey": "attribute.name.generic.armor_toughness",
-    "defaultValue": 0.0,
-    "clientSync": true,
+  "minecraft:generic.follow_range": {
+    "mojangName": "FOLLOW_RANGE",
+    "translationKey": "attribute.name.generic.follow_range",
+    "defaultValue": 32.0,
+    "clientSync": false,
     "range": {
-      "maxValue": 20.0,
+      "maxValue": 2048.0,
+      "minValue": 0.0
+    }
+  },
+  "minecraft:generic.knockback_resistance": {
+    "mojangName": "KNOCKBACK_RESISTANCE",
+    "translationKey": "attribute.name.generic.knockback_resistance",
+    "defaultValue": 0.0,
+    "clientSync": false,
+    "range": {
+      "maxValue": 1.0,
       "minValue": 0.0
     }
   },
@@ -109,13 +89,23 @@
       "minValue": -1024.0
     }
   },
-  "minecraft:zombie.spawn_reinforcements": {
-    "mojangName": "SPAWN_REINFORCEMENTS_CHANCE",
-    "translationKey": "attribute.name.zombie.spawn_reinforcements",
-    "defaultValue": 0.0,
-    "clientSync": false,
+  "minecraft:generic.max_health": {
+    "mojangName": "MAX_HEALTH",
+    "translationKey": "attribute.name.generic.max_health",
+    "defaultValue": 20.0,
+    "clientSync": true,
     "range": {
-      "maxValue": 1.0,
+      "maxValue": 1024.0,
+      "minValue": 1.0
+    }
+  },
+  "minecraft:generic.movement_speed": {
+    "mojangName": "MOVEMENT_SPEED",
+    "translationKey": "attribute.name.generic.movement_speed",
+    "defaultValue": 0.699999988079071,
+    "clientSync": true,
+    "range": {
+      "maxValue": 1024.0,
       "minValue": 0.0
     }
   },
@@ -126,6 +116,16 @@
     "clientSync": true,
     "range": {
       "maxValue": 2.0,
+      "minValue": 0.0
+    }
+  },
+  "minecraft:zombie.spawn_reinforcements": {
+    "mojangName": "SPAWN_REINFORCEMENTS_CHANCE",
+    "translationKey": "attribute.name.zombie.spawn_reinforcements",
+    "defaultValue": 0.0,
+    "clientSync": false,
+    "range": {
+      "maxValue": 1.0,
       "minValue": 0.0
     }
   }
