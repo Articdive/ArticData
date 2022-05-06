@@ -56,7 +56,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.18.1-d213d16a</version>
+        <version>1.18.1-f2691f32</version>
     </dependency>
 </dependencies>
 ```
@@ -68,7 +68,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.18.1-d213d16a")
+    implementation("de.articdive:articdata:1.18.1-f2691f32")
 }
 ```
 
@@ -167,6 +167,7 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 |         Render Shape         | :heavy_check_mark:  |
 |            Offset            | :heavy_check_mark:  |
 |      Sound Information       | :heavy_check_mark:  |
+|    Pick Block Information    | :heavy_check_mark:  |
 
 ### Block Entities
 
