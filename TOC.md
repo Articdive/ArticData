@@ -3,6 +3,7 @@
     - [Blocks](#blocks)
     - [Block Entities](#block-entities)
     - [Block Properties](#block-properties)
+    - [Commands](#commands)
     - [Custom Statistics](#custom-statistics)
     - [Dimension Types](#dimension-types)
     - [Dye Colors](#dye-colors)
