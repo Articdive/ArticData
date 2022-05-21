@@ -1,36 +1,4 @@
 {
-  "minecraft:skeletons": {
-    "replace": false,
-    "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
-    ]
-  },
-  "minecraft:arrows": {
-    "replace": false,
-    "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:beehive_inhabitors": {
-    "replace": false,
-    "values": [
-      "minecraft:bee"
-    ]
-  },
-  "minecraft:raiders": {
-    "replace": false,
-    "values": [
-      "minecraft:evoker",
-      "minecraft:pillager",
-      "minecraft:ravager",
-      "minecraft:vindicator",
-      "minecraft:illusioner",
-      "minecraft:witch"
-    ]
-  },
   "minecraft:powder_snow_walkable_mobs": {
     "replace": false,
     "values": [
@@ -40,12 +8,42 @@
       "minecraft:fox"
     ]
   },
+  "minecraft:arrows": {
+    "replace": false,
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
+  "minecraft:skeletons": {
+    "replace": false,
+    "values": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
+    ]
+  },
   "minecraft:freeze_hurts_extra_types": {
     "replace": false,
     "values": [
       "minecraft:strider",
       "minecraft:blaze",
       "minecraft:magma_cube"
+    ]
+  },
+  "minecraft:freeze_immune_entity_types": {
+    "replace": false,
+    "values": [
+      "minecraft:stray",
+      "minecraft:polar_bear",
+      "minecraft:snow_golem",
+      "minecraft:wither"
+    ]
+  },
+  "minecraft:beehive_inhabitors": {
+    "replace": false,
+    "values": [
+      "minecraft:bee"
     ]
   },
   "minecraft:axolotl_hunt_targets": {
@@ -59,13 +57,23 @@
       "minecraft:glow_squid"
     ]
   },
-  "minecraft:freeze_immune_entity_types": {
+  "minecraft:axolotl_always_hostiles": {
     "replace": false,
     "values": [
-      "minecraft:stray",
-      "minecraft:polar_bear",
-      "minecraft:snow_golem",
-      "minecraft:wither"
+      "minecraft:drowned",
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ]
+  },
+  "minecraft:raiders": {
+    "replace": false,
+    "values": [
+      "minecraft:evoker",
+      "minecraft:pillager",
+      "minecraft:ravager",
+      "minecraft:vindicator",
+      "minecraft:illusioner",
+      "minecraft:witch"
     ]
   },
   "minecraft:impact_projectiles": {
@@ -79,14 +87,6 @@
       "minecraft:trident",
       "minecraft:dragon_fireball",
       "minecraft:wither_skull"
-    ]
-  },
-  "minecraft:axolotl_always_hostiles": {
-    "replace": false,
-    "values": [
-      "minecraft:drowned",
-      "minecraft:guardian",
-      "minecraft:elder_guardian"
     ]
   }
 }
