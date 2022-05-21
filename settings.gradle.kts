@@ -1,1 +1,1 @@
-rootProject.name = "ArticData-1.18.2"
+rootProject.name = "ArticData-1.19"

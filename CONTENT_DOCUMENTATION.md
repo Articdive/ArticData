@@ -11,74 +11,76 @@
 
 ### Biomes
 
-|       Data Type        |     Supported?      |
-|:----------------------:|:-------------------:|
-|      Protocol ID       | :heavy_check_mark:  |
-|      Namespace ID      | :heavy_check_mark:  |
-|      Mojang Name       | :heavy_check_mark:  |
-|        Humidity        | :heavy_check_mark:  |
-|      Temperature       | :heavy_check_mark:  |
-|        Downfall        | :heavy_check_mark:  |
-|     Precipitation      | :heavy_check_mark:  |
-|      Ambient Loop      | :heavy_check_mark:  |
-|      Ambient Mood      | :heavy_check_mark:  |
-|    Ambient Particle    | :heavy_check_mark:  |
-|   Ambient Additions    | :heavy_check_mark:  |
-|    Background Music    | :heavy_check_mark:  |
-|       Fog Color        | :heavy_check_mark:  |
-|      Water Color       | :heavy_check_mark:  |
-|    Water Fog Color     | :heavy_check_mark:  |
-|       Sky Color        | :heavy_check_mark:  |
-|      Grass Color       | :heavy_check_mark:  |
-|  Grass Color Modifier  | :heavy_check_mark:  |
-|     Foliage Color      | :heavy_check_mark:  |
-| Foliage Color Override | :heavy_check_mark:  |
-|        Category        | :heavy_check_mark:  |
+|       Data Type        |     Supported?      |   Description   |
+|:----------------------:|:-------------------:|:---------------:|
+|      Protocol ID       | :heavy_check_mark:  |                 |
+|      Namespace ID      | :heavy_check_mark:  |                 |
+|      Mojang Name       | :heavy_check_mark:  |                 |
+|        Humidity        | :heavy_check_mark:  |                 |
+|      Temperature       | :heavy_check_mark:  |                 |
+|        Downfall        | :heavy_check_mark:  |                 |
+|     Precipitation      | :heavy_check_mark:  |                 |
+|      Ambient Loop      | :heavy_check_mark:  |                 |
+|      Ambient Mood      | :heavy_check_mark:  |                 |
+|    Ambient Particle    | :heavy_check_mark:  |                 |
+|   Ambient Additions    | :heavy_check_mark:  |                 |
+|    Background Music    | :heavy_check_mark:  |                 |
+|       Fog Color        | :heavy_check_mark:  |                 |
+|      Water Color       | :heavy_check_mark:  |                 |
+|    Water Fog Color     | :heavy_check_mark:  |                 |
+|       Sky Color        | :heavy_check_mark:  |                 |
+|      Grass Color       | :heavy_check_mark:  |                 |
+|  Grass Color Modifier  | :heavy_check_mark:  |                 |
+|     Foliage Color      | :heavy_check_mark:  |                 |
+| Foliage Color Override | :heavy_check_mark:  |                 |
+|        Category        |         :x:         | Removed (1.19). |
 
 ### Blocks
 
-|          Data Type           |     Supported?      |
-|:----------------------------:|:-------------------:|
-|         Protocol ID          | :heavy_check_mark:  |
-|         Namespace ID         | :heavy_check_mark:  |
-|         Mojang Name          | :heavy_check_mark:  |
-|       Translation Key        | :heavy_check_mark:  |
-|        Loot Table Key        | :heavy_check_mark:  |
-|         Block States         | :heavy_check_mark:  |
-|    BlockState Properties     | :heavy_check_mark:  |
-|        Block Entities        | :heavy_check_mark:  |
-|           Hardness           | :heavy_check_mark:  |
-|     Explosion Resistance     | :heavy_check_mark:  |
-|           Friction           | :heavy_check_mark:  |
-|     Speed & Jump Factor      | :heavy_check_mark:  |
-|     Default Block State      | :heavy_check_mark:  |
-|      Corresponding Item      | :heavy_check_mark:  |
-|   Corresponding Map Color    | :heavy_check_mark:  |
-| Solid, Liquid, Blocking etc. | :heavy_check_mark:  |
-|     Piston Push Reaction     | :heavy_check_mark:  |
-|           Gravity            | :heavy_check_mark:  |
-|      Respawn Eligiblity      | :heavy_check_mark:  |
-|    Tool Require For Drops    | :heavy_check_mark:  |
-|    Large Collision Shape     | :heavy_check_mark:  |
-|  Collision Shape Full Block  | :heavy_check_mark:  |
-|          Occlusion           | :heavy_check_mark:  |
-|            Hitbox            | :heavy_check_mark:  |
-|       Collision Hitbox       | :heavy_check_mark:  |
-|      Interaction Hitbox      | :heavy_check_mark:  |
-|       Occlusion Hitbox       | :heavy_check_mark:  |
-|        Visual Hitbox         | :heavy_check_mark:  |
-|        Dynamic Shape         | :heavy_check_mark:  |
-|         Solid Render         | :heavy_check_mark:  |
-|        Light Emission        | :heavy_check_mark:  |
-|         Light Block          | :heavy_check_mark:  |
-|   Propagates Skylight Down   | :heavy_check_mark:  |
-|  Shape for Light Occlusion   | :heavy_check_mark:  |
-|           Opacity            | :heavy_check_mark:  |
-|     Conditional Opacity      | :heavy_check_mark:  |
-|         Render Shape         | :heavy_check_mark:  |
-|            Offset            | :heavy_check_mark:  |
-|      Sound Information       | :heavy_check_mark:  |
-|    Pick Block Information    | :heavy_check_mark:  |
+|          Data Type           |     Supported?      |           Description           |
+|:----------------------------:|:-------------------:|:-------------------------------:|
+|         Protocol ID          | :heavy_check_mark:  |                                 |
+|         Namespace ID         | :heavy_check_mark:  |                                 |
+|         Mojang Name          | :heavy_check_mark:  |                                 |
+|       Translation Key        | :heavy_check_mark:  |                                 |
+|        Loot Table Key        | :heavy_check_mark:  |                                 |
+|         Block States         | :heavy_check_mark:  |                                 |
+|    BlockState Properties     | :heavy_check_mark:  |                                 |
+|        Block Entities        | :heavy_check_mark:  |                                 |
+|           Hardness           | :heavy_check_mark:  |                                 |
+|     Explosion Resistance     | :heavy_check_mark:  |                                 |
+|           Friction           | :heavy_check_mark:  |                                 |
+|     Speed & Jump Factor      | :heavy_check_mark:  |                                 |
+|     Default Block State      | :heavy_check_mark:  |                                 |
+|      Corresponding Item      | :heavy_check_mark:  |                                 |
+|   Corresponding Map Color    | :heavy_check_mark:  |                                 |
+| Solid, Liquid, Blocking etc. | :heavy_check_mark:  |                                 |
+|     Piston Push Reaction     | :heavy_check_mark:  |                                 |
+|           Gravity            | :heavy_check_mark:  |                                 |
+|      Respawn Eligiblity      | :heavy_check_mark:  |                                 |
+|    Tool Require For Drops    | :heavy_check_mark:  |                                 |
+|    Large Collision Shape     | :heavy_check_mark:  |                                 |
+|  Collision Shape Full Block  | :heavy_check_mark:  |                                 |
+|          Occlusion           | :heavy_check_mark:  |                                 |
+|            Hitbox            | :heavy_check_mark:  |                                 |
+|       Collision Hitbox       | :heavy_check_mark:  |                                 |
+|      Interaction Hitbox      | :heavy_check_mark:  |                                 |
+|       Occlusion Hitbox       | :heavy_check_mark:  |                                 |
+|        Visual Hitbox         | :heavy_check_mark:  |                                 |
+|        Dynamic Shape         | :heavy_check_mark:  |                                 |
+|         Solid Render         | :heavy_check_mark:  |                                 |
+|        Light Emission        | :heavy_check_mark:  |                                 |
+|         Light Block          | :heavy_check_mark:  |                                 |
+|   Propagates Skylight Down   | :heavy_check_mark:  |                                 |
+|  Shape for Light Occlusion   | :heavy_check_mark:  |                                 |
+|           Opacity            | :heavy_check_mark:  |                                 |
+|     Conditional Opacity      | :heavy_check_mark:  |                                 |
+|         Render Shape         | :heavy_check_mark:  |                                 |
+|            Offset            |         :x:         | Now BlockState-specific (1.19). |
+|       Vertical Offset        | :heavy_check_mark:  |                                 |
+|      Horizontal Offset       | :heavy_check_mark:  |                                 |
+|      Sound Information       | :heavy_check_mark:  |                                 |
+|    Pick Block Information    | :heavy_check_mark:  |                                 |
 
 ### Block Entities
 
@@ -245,6 +247,15 @@
 |   Mojang Name   | :heavy_check_mark:  |
 | Color (Decimal) | :heavy_check_mark:  |
 |  Instanteneous  | :heavy_check_mark:  |
+
+### Packets
+
+|    Data Type     |     Supported?      |
+|:----------------:|:-------------------:|
+|    Packet ID     | :heavy_check_mark:  |
+| Packet Classname | :heavy_check_mark:  |
+| Packet Direction | :heavy_check_mark:  |
+| Connection State | :heavy_check_mark:  |
 
 ### Particles
 

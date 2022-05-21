@@ -1,0 +1,94 @@
+[
+  {
+    "id": 0,
+    "type": "BYTE"
+  },
+  {
+    "id": 1,
+    "type": "INT"
+  },
+  {
+    "id": 2,
+    "type": "FLOAT"
+  },
+  {
+    "id": 3,
+    "type": "STRING"
+  },
+  {
+    "id": 4,
+    "type": "COMPONENT"
+  },
+  {
+    "id": 5,
+    "type": "OPTIONAL_COMPONENT"
+  },
+  {
+    "id": 6,
+    "type": "ITEM_STACK"
+  },
+  {
+    "id": 7,
+    "type": "BOOLEAN"
+  },
+  {
+    "id": 8,
+    "type": "ROTATIONS"
+  },
+  {
+    "id": 9,
+    "type": "BLOCK_POS"
+  },
+  {
+    "id": 10,
+    "type": "OPTIONAL_BLOCK_POS"
+  },
+  {
+    "id": 11,
+    "type": "DIRECTION"
+  },
+  {
+    "id": 12,
+    "type": "OPTIONAL_UUID"
+  },
+  {
+    "id": 13,
+    "type": "BLOCK_STATE"
+  },
+  {
+    "id": 14,
+    "type": "COMPOUND_TAG"
+  },
+  {
+    "id": 15,
+    "type": "PARTICLE"
+  },
+  {
+    "id": 16,
+    "type": "VILLAGER_DATA"
+  },
+  {
+    "id": 17,
+    "type": "OPTIONAL_UNSIGNED_INT"
+  },
+  {
+    "id": 18,
+    "type": "POSE"
+  },
+  {
+    "id": 19,
+    "type": "CAT_VARIANT"
+  },
+  {
+    "id": 20,
+    "type": "FROG_VARIANT"
+  },
+  {
+    "id": 21,
+    "type": "OPTIONAL_GLOBAL_POS"
+  },
+  {
+    "id": 22,
+    "type": "PAINTING_VARIANT"
+  }
+]
