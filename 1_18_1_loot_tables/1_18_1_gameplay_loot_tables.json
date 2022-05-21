@@ -1,50 +1,4 @@
 {
-  "minecraft:cat_morning_gift": {
-    "type": "minecraft:gift",
-    "pools": [
-      {
-        "rolls": 1.0,
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:rabbit_hide"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:rabbit_foot"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:chicken"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:feather"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:rotten_flesh"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:string"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:phantom_membrane"
-          }
-        ]
-      }
-    ]
-  },
   "minecraft:piglin_bartering": {
     "type": "minecraft:barter",
     "pools": [
@@ -341,7 +295,7 @@
       }
     ]
   },
-  "minecraft:hero_of_the_village/fisherman_gift": {
+  "minecraft:cat_morning_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -350,17 +304,44 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:cod"
+            "weight": 10,
+            "name": "minecraft:rabbit_hide"
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:salmon"
+            "weight": 10,
+            "name": "minecraft:rabbit_foot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:chicken"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:feather"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:string"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:phantom_membrane"
           }
         ]
       }
     ]
   },
-  "minecraft:hero_of_the_village/butcher_gift": {
+  "minecraft:hero_of_the_village/mason_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -369,29 +350,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:cooked_rabbit"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_chicken"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_porkchop"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_beef"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_mutton"
+            "name": "minecraft:clay"
           }
         ]
       }
     ]
   },
-  "minecraft:hero_of_the_village/leatherworker_gift": {
+  "minecraft:hero_of_the_village/cleric_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -400,57 +365,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:leather"
-          }
-        ]
-      }
-    ]
-  },
-  "minecraft:hero_of_the_village/farmer_gift": {
-    "type": "minecraft:gift",
-    "pools": [
-      {
-        "rolls": 1.0,
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bread"
+            "name": "minecraft:redstone"
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:pumpkin_pie"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cookie"
-          }
-        ]
-      }
-    ]
-  },
-  "minecraft:hero_of_the_village/armorer_gift": {
-    "type": "minecraft:gift",
-    "pools": [
-      {
-        "rolls": 1.0,
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:chainmail_helmet"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:chainmail_chestplate"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:chainmail_leggings"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:chainmail_boots"
+            "name": "minecraft:lapis_lazuli"
           }
         ]
       }
@@ -474,25 +393,6 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:iron_axe"
-          }
-        ]
-      }
-    ]
-  },
-  "minecraft:hero_of_the_village/cleric_gift": {
-    "type": "minecraft:gift",
-    "pools": [
-      {
-        "rolls": 1.0,
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:redstone"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lapis_lazuli"
           }
         ]
       }
@@ -525,7 +425,7 @@
       }
     ]
   },
-  "minecraft:hero_of_the_village/cartographer_gift": {
+  "minecraft:hero_of_the_village/fisherman_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -534,17 +434,17 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:map"
+            "name": "minecraft:cod"
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:paper"
+            "name": "minecraft:salmon"
           }
         ]
       }
     ]
   },
-  "minecraft:hero_of_the_village/mason_gift": {
+  "minecraft:hero_of_the_village/farmer_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -553,13 +453,21 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:clay"
+            "name": "minecraft:bread"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_pie"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie"
           }
         ]
       }
     ]
   },
-  "minecraft:hero_of_the_village/librarian_gift": {
+  "minecraft:hero_of_the_village/leatherworker_gift": {
     "type": "minecraft:gift",
     "pools": [
       {
@@ -568,7 +476,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:book"
+            "name": "minecraft:leather"
           }
         ]
       }
@@ -912,6 +820,172 @@
       }
     ]
   },
+  "minecraft:hero_of_the_village/butcher_gift": {
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_rabbit"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_chicken"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_porkchop"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_beef"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_mutton"
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:hero_of_the_village/cartographer_gift": {
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper"
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:hero_of_the_village/librarian_gift": {
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book"
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:hero_of_the_village/armorer_gift": {
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots"
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:fishing/treasure": {
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:name_tag"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.0,
+                  "max": 0.25
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30.0,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:bow"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.0,
+                  "max": 0.25
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30.0,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:fishing_rod"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30.0,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell"
+          }
+        ]
+      }
+    ]
+  },
   "minecraft:fishing/fish": {
     "type": "minecraft:fishing",
     "pools": [
@@ -1073,80 +1147,6 @@
             ],
             "weight": 10,
             "name": "minecraft:bamboo"
-          }
-        ]
-      }
-    ]
-  },
-  "minecraft:fishing/treasure": {
-    "type": "minecraft:fishing",
-    "pools": [
-      {
-        "rolls": 1.0,
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:name_tag"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:saddle"
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:set_damage",
-                "damage": {
-                  "type": "minecraft:uniform",
-                  "min": 0.0,
-                  "max": 0.25
-                },
-                "add": false
-              },
-              {
-                "function": "minecraft:enchant_with_levels",
-                "levels": 30.0,
-                "treasure": true
-              }
-            ],
-            "name": "minecraft:bow"
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:set_damage",
-                "damage": {
-                  "type": "minecraft:uniform",
-                  "min": 0.0,
-                  "max": 0.25
-                },
-                "add": false
-              },
-              {
-                "function": "minecraft:enchant_with_levels",
-                "levels": 30.0,
-                "treasure": true
-              }
-            ],
-            "name": "minecraft:fishing_rod"
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:enchant_with_levels",
-                "levels": 30.0,
-                "treasure": true
-              }
-            ],
-            "name": "minecraft:book"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:nautilus_shell"
           }
         ]
       }

@@ -246,6 +246,15 @@
 | Color (Decimal) | :heavy_check_mark:  |
 |  Instanteneous  | :heavy_check_mark:  |
 
+### Packets
+
+|    Data Type     |     Supported?      |
+|:----------------:|:-------------------:|
+|    Packet ID     | :heavy_check_mark:  |
+| Packet Classname | :heavy_check_mark:  |
+| Packet Direction | :heavy_check_mark:  |
+| Connection State | :heavy_check_mark:  |
+
 ### Particles
 
 |  Data Type   |     Supported?      |
