@@ -15,6 +15,7 @@
     - [Map Colors](#map-colors)
     - [Items](#items)
     - [Potion Effects](#potion-effects)
+    - [Packets](#packets)
     - [Particles](#particles)
     - [Potions](#potions)
     - [Recipes](#recipes)
