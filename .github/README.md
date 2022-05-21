@@ -31,6 +31,7 @@ Java. The generators for this data are located [here](https://github.com/Articdi
     - [Map Colors](#map-colors)
     - [Items](#items)
     - [Potion Effects](#potion-effects)
+    - [Packets](#packets)
     - [Particles](#particles)
     - [Potions](#potions)
     - [Recipes](#recipes)
@@ -56,7 +57,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.17-25e366e2</version>
+        <version>1.17-cc0aeabd</version>
     </dependency>
 </dependencies>
 ```
@@ -68,7 +69,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.17-25e366e2")
+    implementation("de.articdive:articdata:1.17-cc0aeabd")
 }
 ```
 
@@ -336,6 +337,15 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 |   Mojang Name   | :heavy_check_mark:  |
 | Color (Decimal) | :heavy_check_mark:  |
 |  Instanteneous  | :heavy_check_mark:  |
+
+### Packets
+
+|    Data Type     |     Supported?      |
+|:----------------:|:-------------------:|
+|    Packet ID     | :heavy_check_mark:  |
+| Packet Classname | :heavy_check_mark:  |
+| Packet Direction | :heavy_check_mark:  |
+| Connection State | :heavy_check_mark:  |
 
 ### Particles
 
