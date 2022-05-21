@@ -1,17 +1,17 @@
 {
+  "minecraft:arrows": {
+    "replace": false,
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
   "minecraft:skeletons": {
     "replace": false,
     "values": [
       "minecraft:skeleton",
       "minecraft:stray",
       "minecraft:wither_skeleton"
-    ]
-  },
-  "minecraft:arrows": {
-    "replace": false,
-    "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
     ]
   },
   "minecraft:beehive_inhabitors": {
