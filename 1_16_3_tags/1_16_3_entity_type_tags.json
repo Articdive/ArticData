@@ -1,23 +1,28 @@
 {
-  "minecraft:arrows": {
+  "minecraft:impact_projectiles": {
     "replace": false,
     "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:skeletons": {
-    "replace": false,
-    "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
+      "#minecraft:arrows",
+      "minecraft:snowball",
+      "minecraft:fireball",
+      "minecraft:small_fireball",
+      "minecraft:egg",
+      "minecraft:trident",
+      "minecraft:dragon_fireball",
+      "minecraft:wither_skull"
     ]
   },
   "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
       "minecraft:bee"
+    ]
+  },
+  "minecraft:arrows": {
+    "replace": false,
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
     ]
   },
   "minecraft:raiders": {
@@ -31,17 +36,12 @@
       "minecraft:witch"
     ]
   },
-  "minecraft:impact_projectiles": {
+  "minecraft:skeletons": {
     "replace": false,
     "values": [
-      "#minecraft:arrows",
-      "minecraft:snowball",
-      "minecraft:fireball",
-      "minecraft:small_fireball",
-      "minecraft:egg",
-      "minecraft:trident",
-      "minecraft:dragon_fireball",
-      "minecraft:wither_skull"
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
     ]
   }
 }
