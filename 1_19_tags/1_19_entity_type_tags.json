@@ -1,16 +1,14 @@
 {
-  "minecraft:powder_snow_walkable_mobs": {
+  "minecraft:impact_projectiles": {
     "values": [
-      "minecraft:rabbit",
-      "minecraft:endermite",
-      "minecraft:silverfish",
-      "minecraft:fox"
-    ]
-  },
-  "minecraft:arrows": {
-    "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
+      "#minecraft:arrows",
+      "minecraft:snowball",
+      "minecraft:fireball",
+      "minecraft:small_fireball",
+      "minecraft:egg",
+      "minecraft:trident",
+      "minecraft:dragon_fireball",
+      "minecraft:wither_skull"
     ]
   },
   "minecraft:frog_food": {
@@ -19,18 +17,9 @@
       "minecraft:magma_cube"
     ]
   },
-  "minecraft:skeletons": {
+  "minecraft:beehive_inhabitors": {
     "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
-    ]
-  },
-  "minecraft:freeze_hurts_extra_types": {
-    "values": [
-      "minecraft:strider",
-      "minecraft:blaze",
-      "minecraft:magma_cube"
+      "minecraft:bee"
     ]
   },
   "minecraft:freeze_immune_entity_types": {
@@ -41,9 +30,42 @@
       "minecraft:wither"
     ]
   },
-  "minecraft:beehive_inhabitors": {
+  "minecraft:arrows": {
     "values": [
-      "minecraft:bee"
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
+  "minecraft:raiders": {
+    "values": [
+      "minecraft:evoker",
+      "minecraft:pillager",
+      "minecraft:ravager",
+      "minecraft:vindicator",
+      "minecraft:illusioner",
+      "minecraft:witch"
+    ]
+  },
+  "minecraft:powder_snow_walkable_mobs": {
+    "values": [
+      "minecraft:rabbit",
+      "minecraft:endermite",
+      "minecraft:silverfish",
+      "minecraft:fox"
+    ]
+  },
+  "minecraft:axolotl_always_hostiles": {
+    "values": [
+      "minecraft:drowned",
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ]
+  },
+  "minecraft:skeletons": {
+    "values": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
     ]
   },
   "minecraft:axolotl_hunt_targets": {
@@ -57,33 +79,11 @@
       "minecraft:tadpole"
     ]
   },
-  "minecraft:axolotl_always_hostiles": {
+  "minecraft:freeze_hurts_extra_types": {
     "values": [
-      "minecraft:drowned",
-      "minecraft:guardian",
-      "minecraft:elder_guardian"
-    ]
-  },
-  "minecraft:raiders": {
-    "values": [
-      "minecraft:evoker",
-      "minecraft:pillager",
-      "minecraft:ravager",
-      "minecraft:vindicator",
-      "minecraft:illusioner",
-      "minecraft:witch"
-    ]
-  },
-  "minecraft:impact_projectiles": {
-    "values": [
-      "#minecraft:arrows",
-      "minecraft:snowball",
-      "minecraft:fireball",
-      "minecraft:small_fireball",
-      "minecraft:egg",
-      "minecraft:trident",
-      "minecraft:dragon_fireball",
-      "minecraft:wither_skull"
+      "minecraft:strider",
+      "minecraft:blaze",
+      "minecraft:magma_cube"
     ]
   }
 }

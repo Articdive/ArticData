@@ -2142,18 +2142,13 @@
         "serializer": "BYTE"
       },
       {
-        "mojangName": "data_last_death_location",
-        "id": 19,
-        "serializer": "OPTIONAL_GLOBAL_POS"
-      },
-      {
         "mojangName": "data_shoulder_left",
-        "id": 20,
+        "id": 19,
         "serializer": "COMPOUND_TAG"
       },
       {
         "mojangName": "data_shoulder_right",
-        "id": 21,
+        "id": 20,
         "serializer": "COMPOUND_TAG"
       }
     ]

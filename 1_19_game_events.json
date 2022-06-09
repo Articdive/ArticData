@@ -213,5 +213,10 @@
     "id": 42,
     "mojangName": "SWIM",
     "notificationRadius": 16
+  },
+  "minecraft:teleport": {
+    "id": 43,
+    "mojangName": "TELEPORT",
+    "notificationRadius": 16
   }
 }
