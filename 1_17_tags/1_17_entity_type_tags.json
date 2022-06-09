@@ -1,34 +1,21 @@
 {
-  "minecraft:powder_snow_walkable_mobs": {
+  "minecraft:impact_projectiles": {
     "replace": false,
     "values": [
-      "minecraft:rabbit",
-      "minecraft:endermite",
-      "minecraft:silverfish",
-      "minecraft:fox"
+      "#minecraft:arrows",
+      "minecraft:snowball",
+      "minecraft:fireball",
+      "minecraft:small_fireball",
+      "minecraft:egg",
+      "minecraft:trident",
+      "minecraft:dragon_fireball",
+      "minecraft:wither_skull"
     ]
   },
-  "minecraft:arrows": {
+  "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:skeletons": {
-    "replace": false,
-    "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
-    ]
-  },
-  "minecraft:freeze_hurts_extra_types": {
-    "replace": false,
-    "values": [
-      "minecraft:strider",
-      "minecraft:blaze",
-      "minecraft:magma_cube"
+      "minecraft:bee"
     ]
   },
   "minecraft:freeze_immune_entity_types": {
@@ -40,29 +27,11 @@
       "minecraft:wither"
     ]
   },
-  "minecraft:beehive_inhabitors": {
+  "minecraft:arrows": {
     "replace": false,
     "values": [
-      "minecraft:bee"
-    ]
-  },
-  "minecraft:axolotl_hunt_targets": {
-    "replace": false,
-    "values": [
-      "minecraft:tropical_fish",
-      "minecraft:pufferfish",
-      "minecraft:salmon",
-      "minecraft:cod",
-      "minecraft:squid",
-      "minecraft:glow_squid"
-    ]
-  },
-  "minecraft:axolotl_always_hostiles": {
-    "replace": false,
-    "values": [
-      "minecraft:drowned",
-      "minecraft:guardian",
-      "minecraft:elder_guardian"
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
     ]
   },
   "minecraft:raiders": {
@@ -76,17 +45,48 @@
       "minecraft:witch"
     ]
   },
-  "minecraft:impact_projectiles": {
+  "minecraft:powder_snow_walkable_mobs": {
     "replace": false,
     "values": [
-      "#minecraft:arrows",
-      "minecraft:snowball",
-      "minecraft:fireball",
-      "minecraft:small_fireball",
-      "minecraft:egg",
-      "minecraft:trident",
-      "minecraft:dragon_fireball",
-      "minecraft:wither_skull"
+      "minecraft:rabbit",
+      "minecraft:endermite",
+      "minecraft:silverfish",
+      "minecraft:fox"
+    ]
+  },
+  "minecraft:axolotl_always_hostiles": {
+    "replace": false,
+    "values": [
+      "minecraft:drowned",
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ]
+  },
+  "minecraft:skeletons": {
+    "replace": false,
+    "values": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
+    ]
+  },
+  "minecraft:axolotl_hunt_targets": {
+    "replace": false,
+    "values": [
+      "minecraft:tropical_fish",
+      "minecraft:pufferfish",
+      "minecraft:salmon",
+      "minecraft:cod",
+      "minecraft:squid",
+      "minecraft:glow_squid"
+    ]
+  },
+  "minecraft:freeze_hurts_extra_types": {
+    "replace": false,
+    "values": [
+      "minecraft:strider",
+      "minecraft:blaze",
+      "minecraft:magma_cube"
     ]
   }
 }
