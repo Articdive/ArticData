@@ -2096,28 +2096,36 @@
     "mojangName": "HONEY_DRINK"
   },
   "minecraft:item.goat_horn.sound.0": {
-    "id": 524
+    "id": 524,
+    "mojangName": "GOAT_HORN_0"
   },
   "minecraft:item.goat_horn.sound.1": {
-    "id": 525
+    "id": 525,
+    "mojangName": "GOAT_HORN_1"
   },
   "minecraft:item.goat_horn.sound.2": {
-    "id": 526
+    "id": 526,
+    "mojangName": "GOAT_HORN_2"
   },
   "minecraft:item.goat_horn.sound.3": {
-    "id": 527
+    "id": 527,
+    "mojangName": "GOAT_HORN_3"
   },
   "minecraft:item.goat_horn.sound.4": {
-    "id": 528
+    "id": 528,
+    "mojangName": "GOAT_HORN_4"
   },
   "minecraft:item.goat_horn.sound.5": {
-    "id": 529
+    "id": 529,
+    "mojangName": "GOAT_HORN_5"
   },
   "minecraft:item.goat_horn.sound.6": {
-    "id": 530
+    "id": 530,
+    "mojangName": "GOAT_HORN_6"
   },
   "minecraft:item.goat_horn.sound.7": {
-    "id": 531
+    "id": 531,
+    "mojangName": "GOAT_HORN_7"
   },
   "minecraft:entity.horse.ambient": {
     "id": 532,

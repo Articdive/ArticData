@@ -57,7 +57,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.19-774c1ad9</version>
+        <version>1.19-cc288bde</version>
     </dependency>
 </dependencies>
 ```
@@ -69,7 +69,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.19-774c1ad9")
+    implementation("de.articdive:articdata:1.19-cc288bde")
 }
 ```
 
@@ -375,12 +375,12 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 
 ### Sounds
 
-|    Data Type    |     Supported?      |
-|:---------------:|:-------------------:|
-|   Protocol ID   | :heavy_check_mark:  |
-|  Namespace ID   | :heavy_check_mark:  |
-|   Mojang Name   | :heavy_check_mark:  |
-| Translation Key | :heavy_check_mark:  |
+|    Data Type    |     Supported?      |                    Description                    |
+|:---------------:|:-------------------:|:-------------------------------------------------:|
+|   Protocol ID   | :heavy_check_mark:  |                                                   |
+|  Namespace ID   | :heavy_check_mark:  |                                                   |
+|   Mojang Name   | :heavy_check_mark:  | Goat Horn Sound Variants are not named by Mojang. |
+| Translation Key | :heavy_check_mark:  |                                                   |
 
 ### Sound Sources
 
