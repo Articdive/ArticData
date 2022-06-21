@@ -12,10 +12,12 @@
       "minecraft:wither_skull"
     ]
   },
-  "minecraft:beehive_inhabitors": {
+  "minecraft:skeletons": {
     "replace": false,
     "values": [
-      "minecraft:bee"
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
     ]
   },
   "minecraft:arrows": {
@@ -36,12 +38,10 @@
       "minecraft:witch"
     ]
   },
-  "minecraft:skeletons": {
+  "minecraft:beehive_inhabitors": {
     "replace": false,
     "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
+      "minecraft:bee"
     ]
   }
 }
