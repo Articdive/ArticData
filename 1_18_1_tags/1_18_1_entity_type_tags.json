@@ -1,23 +1,4 @@
 {
-  "minecraft:impact_projectiles": {
-    "replace": false,
-    "values": [
-      "#minecraft:arrows",
-      "minecraft:snowball",
-      "minecraft:fireball",
-      "minecraft:small_fireball",
-      "minecraft:egg",
-      "minecraft:trident",
-      "minecraft:dragon_fireball",
-      "minecraft:wither_skull"
-    ]
-  },
-  "minecraft:beehive_inhabitors": {
-    "replace": false,
-    "values": [
-      "minecraft:bee"
-    ]
-  },
   "minecraft:freeze_immune_entity_types": {
     "replace": false,
     "values": [
@@ -27,24 +8,6 @@
       "minecraft:wither"
     ]
   },
-  "minecraft:arrows": {
-    "replace": false,
-    "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:raiders": {
-    "replace": false,
-    "values": [
-      "minecraft:evoker",
-      "minecraft:pillager",
-      "minecraft:ravager",
-      "minecraft:vindicator",
-      "minecraft:illusioner",
-      "minecraft:witch"
-    ]
-  },
   "minecraft:powder_snow_walkable_mobs": {
     "replace": false,
     "values": [
@@ -52,22 +15,6 @@
       "minecraft:endermite",
       "minecraft:silverfish",
       "minecraft:fox"
-    ]
-  },
-  "minecraft:axolotl_always_hostiles": {
-    "replace": false,
-    "values": [
-      "minecraft:drowned",
-      "minecraft:guardian",
-      "minecraft:elder_guardian"
-    ]
-  },
-  "minecraft:skeletons": {
-    "replace": false,
-    "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
     ]
   },
   "minecraft:axolotl_hunt_targets": {
@@ -81,12 +28,65 @@
       "minecraft:glow_squid"
     ]
   },
+  "minecraft:impact_projectiles": {
+    "replace": false,
+    "values": [
+      "#minecraft:arrows",
+      "minecraft:snowball",
+      "minecraft:fireball",
+      "minecraft:small_fireball",
+      "minecraft:egg",
+      "minecraft:trident",
+      "minecraft:dragon_fireball",
+      "minecraft:wither_skull"
+    ]
+  },
+  "minecraft:skeletons": {
+    "replace": false,
+    "values": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
+    ]
+  },
+  "minecraft:arrows": {
+    "replace": false,
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
+  "minecraft:axolotl_always_hostiles": {
+    "replace": false,
+    "values": [
+      "minecraft:drowned",
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ]
+  },
   "minecraft:freeze_hurts_extra_types": {
     "replace": false,
     "values": [
       "minecraft:strider",
       "minecraft:blaze",
       "minecraft:magma_cube"
+    ]
+  },
+  "minecraft:raiders": {
+    "replace": false,
+    "values": [
+      "minecraft:evoker",
+      "minecraft:pillager",
+      "minecraft:ravager",
+      "minecraft:vindicator",
+      "minecraft:illusioner",
+      "minecraft:witch"
+    ]
+  },
+  "minecraft:beehive_inhabitors": {
+    "replace": false,
+    "values": [
+      "minecraft:bee"
     ]
   }
 }
