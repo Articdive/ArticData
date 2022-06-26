@@ -2,6 +2,7 @@
 
 |       Data Type        |     Supported?      |
 |:----------------------:|:-------------------:|
+|      Protocol ID       | :heavy_check_mark:  |
 |      Namespace ID      | :heavy_check_mark:  |
 |      Mojang Name       | :heavy_check_mark:  |
 |    Translation Key     | :heavy_check_mark:  |
