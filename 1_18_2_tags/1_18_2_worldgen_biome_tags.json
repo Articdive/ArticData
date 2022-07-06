@@ -1,11 +1,11 @@
 {
-  "minecraft:biome/has_structure/village_taiga": {
+  "minecraft:has_structure/village_taiga": {
     "replace": false,
     "values": [
       "minecraft:taiga"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_standard": {
+  "minecraft:has_structure/ruined_portal_standard": {
     "replace": false,
     "values": [
       "#minecraft:is_beach",
@@ -22,13 +22,13 @@
       "minecraft:sunflower_plains"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_desert": {
+  "minecraft:has_structure/ruined_portal_desert": {
     "replace": false,
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/ocean_ruin_warm": {
+  "minecraft:has_structure/ocean_ruin_warm": {
     "replace": false,
     "values": [
       "minecraft:lukewarm_ocean",
@@ -36,7 +36,7 @@
       "minecraft:deep_lukewarm_ocean"
     ]
   },
-  "minecraft:biome/has_structure/pillager_outpost": {
+  "minecraft:has_structure/pillager_outpost": {
     "replace": false,
     "values": [
       "minecraft:desert",
@@ -48,19 +48,19 @@
       "minecraft:grove"
     ]
   },
-  "minecraft:biome/has_structure/shipwreck": {
+  "minecraft:has_structure/shipwreck": {
     "replace": false,
     "values": [
       "#minecraft:is_ocean"
     ]
   },
-  "minecraft:biome/has_structure/village_desert": {
+  "minecraft:has_structure/village_desert": {
     "replace": false,
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/stronghold": {
+  "minecraft:has_structure/stronghold": {
     "replace": false,
     "values": [
       "minecraft:plains",
@@ -100,56 +100,56 @@
       "minecraft:lush_caves"
     ]
   },
-  "minecraft:biome/has_structure/swamp_hut": {
+  "minecraft:has_structure/swamp_hut": {
     "replace": false,
     "values": [
       "minecraft:swamp"
     ]
   },
-  "minecraft:biome/has_structure/shipwreck_beached": {
+  "minecraft:has_structure/shipwreck_beached": {
     "replace": false,
     "values": [
       "#minecraft:is_beach"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_jungle": {
+  "minecraft:has_structure/ruined_portal_jungle": {
     "replace": false,
     "values": [
       "#minecraft:is_jungle"
     ]
   },
-  "minecraft:biome/has_structure/village_plains": {
+  "minecraft:has_structure/village_plains": {
     "replace": false,
     "values": [
       "minecraft:plains",
       "minecraft:meadow"
     ]
   },
-  "minecraft:biome/has_structure/woodland_mansion": {
+  "minecraft:has_structure/woodland_mansion": {
     "replace": false,
     "values": [
       "minecraft:dark_forest"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_swamp": {
+  "minecraft:has_structure/ruined_portal_swamp": {
     "replace": false,
     "values": [
       "minecraft:swamp"
     ]
   },
-  "minecraft:biome/has_structure/mineshaft_mesa": {
+  "minecraft:has_structure/mineshaft_mesa": {
     "replace": false,
     "values": [
       "#minecraft:is_badlands"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_ocean": {
+  "minecraft:has_structure/ruined_portal_ocean": {
     "replace": false,
     "values": [
       "#minecraft:is_ocean"
     ]
   },
-  "minecraft:biome/has_structure/mineshaft": {
+  "minecraft:has_structure/mineshaft": {
     "replace": false,
     "values": [
       "#minecraft:is_ocean",
@@ -175,7 +175,7 @@
       "minecraft:lush_caves"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_mountain": {
+  "minecraft:has_structure/ruined_portal_mountain": {
     "replace": false,
     "values": [
       "#minecraft:is_badlands",
@@ -186,19 +186,19 @@
       "#minecraft:is_mountain"
     ]
   },
-  "minecraft:biome/has_structure/ocean_monument": {
+  "minecraft:has_structure/ocean_monument": {
     "replace": false,
     "values": [
       "#minecraft:is_deep_ocean"
     ]
   },
-  "minecraft:biome/has_structure/village_savanna": {
+  "minecraft:has_structure/village_savanna": {
     "replace": false,
     "values": [
       "minecraft:savanna"
     ]
   },
-  "minecraft:biome/has_structure/bastion_remnant": {
+  "minecraft:has_structure/bastion_remnant": {
     "replace": false,
     "values": [
       "minecraft:crimson_forest",
@@ -207,26 +207,26 @@
       "minecraft:warped_forest"
     ]
   },
-  "minecraft:biome/has_structure/end_city": {
+  "minecraft:has_structure/end_city": {
     "replace": false,
     "values": [
       "minecraft:end_highlands",
       "minecraft:end_midlands"
     ]
   },
-  "minecraft:biome/has_structure/village_snowy": {
+  "minecraft:has_structure/village_snowy": {
     "replace": false,
     "values": [
       "minecraft:snowy_plains"
     ]
   },
-  "minecraft:biome/has_structure/nether_fortress": {
+  "minecraft:has_structure/nether_fortress": {
     "replace": false,
     "values": [
       "#minecraft:is_nether"
     ]
   },
-  "minecraft:biome/has_structure/ocean_ruin_cold": {
+  "minecraft:has_structure/ocean_ruin_cold": {
     "replace": false,
     "values": [
       "minecraft:frozen_ocean",
@@ -237,20 +237,20 @@
       "minecraft:deep_ocean"
     ]
   },
-  "minecraft:biome/has_structure/buried_treasure": {
+  "minecraft:has_structure/buried_treasure": {
     "replace": false,
     "values": [
       "#minecraft:is_beach"
     ]
   },
-  "minecraft:biome/has_structure/jungle_temple": {
+  "minecraft:has_structure/jungle_temple": {
     "replace": false,
     "values": [
       "minecraft:bamboo_jungle",
       "minecraft:jungle"
     ]
   },
-  "minecraft:biome/has_structure/igloo": {
+  "minecraft:has_structure/igloo": {
     "replace": false,
     "values": [
       "minecraft:snowy_taiga",
@@ -258,25 +258,25 @@
       "minecraft:snowy_slopes"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_nether": {
+  "minecraft:has_structure/ruined_portal_nether": {
     "replace": false,
     "values": [
       "#minecraft:is_nether"
     ]
   },
-  "minecraft:biome/has_structure/desert_pyramid": {
+  "minecraft:has_structure/desert_pyramid": {
     "replace": false,
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/nether_fossil": {
+  "minecraft:has_structure/nether_fossil": {
     "replace": false,
     "values": [
       "minecraft:soul_sand_valley"
     ]
   },
-  "minecraft:biome/is_deep_ocean": {
+  "minecraft:is_deep_ocean": {
     "replace": false,
     "values": [
       "minecraft:deep_frozen_ocean",
@@ -285,7 +285,7 @@
       "minecraft:deep_lukewarm_ocean"
     ]
   },
-  "minecraft:biome/is_nether": {
+  "minecraft:is_nether": {
     "replace": false,
     "values": [
       "minecraft:nether_wastes",
@@ -295,7 +295,7 @@
       "minecraft:warped_forest"
     ]
   },
-  "minecraft:biome/is_forest": {
+  "minecraft:is_forest": {
     "replace": false,
     "values": [
       "minecraft:forest",
@@ -306,7 +306,7 @@
       "minecraft:grove"
     ]
   },
-  "minecraft:biome/is_badlands": {
+  "minecraft:is_badlands": {
     "replace": false,
     "values": [
       "minecraft:badlands",
@@ -314,7 +314,7 @@
       "minecraft:wooded_badlands"
     ]
   },
-  "minecraft:biome/is_mountain": {
+  "minecraft:is_mountain": {
     "replace": false,
     "values": [
       "minecraft:meadow",
@@ -324,14 +324,14 @@
       "minecraft:snowy_slopes"
     ]
   },
-  "minecraft:biome/is_beach": {
+  "minecraft:is_beach": {
     "replace": false,
     "values": [
       "minecraft:beach",
       "minecraft:snowy_beach"
     ]
   },
-  "minecraft:biome/is_taiga": {
+  "minecraft:is_taiga": {
     "replace": false,
     "values": [
       "minecraft:taiga",
@@ -340,7 +340,7 @@
       "minecraft:old_growth_spruce_taiga"
     ]
   },
-  "minecraft:biome/is_jungle": {
+  "minecraft:is_jungle": {
     "replace": false,
     "values": [
       "minecraft:bamboo_jungle",
@@ -348,14 +348,14 @@
       "minecraft:sparse_jungle"
     ]
   },
-  "minecraft:biome/is_river": {
+  "minecraft:is_river": {
     "replace": false,
     "values": [
       "minecraft:river",
       "minecraft:frozen_river"
     ]
   },
-  "minecraft:biome/is_ocean": {
+  "minecraft:is_ocean": {
     "replace": false,
     "values": [
       "#minecraft:is_deep_ocean",
@@ -366,86 +366,12 @@
       "minecraft:warm_ocean"
     ]
   },
-  "minecraft:biome/is_hill": {
+  "minecraft:is_hill": {
     "replace": false,
     "values": [
       "minecraft:windswept_hills",
       "minecraft:windswept_forest",
       "minecraft:windswept_gravelly_hills"
-    ]
-  },
-  "minecraft:configured_structure_feature/on_woodland_explorer_maps": {
-    "replace": false,
-    "values": [
-      "minecraft:mansion"
-    ]
-  },
-  "minecraft:configured_structure_feature/on_treasure_maps": {
-    "replace": false,
-    "values": [
-      "minecraft:buried_treasure"
-    ]
-  },
-  "minecraft:configured_structure_feature/ruined_portal": {
-    "replace": false,
-    "values": [
-      "minecraft:ruined_portal_desert",
-      "minecraft:ruined_portal_jungle",
-      "minecraft:ruined_portal_mountain",
-      "minecraft:ruined_portal_nether",
-      "minecraft:ruined_portal_ocean",
-      "minecraft:ruined_portal",
-      "minecraft:ruined_portal_swamp"
-    ]
-  },
-  "minecraft:configured_structure_feature/shipwreck": {
-    "replace": false,
-    "values": [
-      "minecraft:shipwreck",
-      "minecraft:shipwreck_beached"
-    ]
-  },
-  "minecraft:configured_structure_feature/ocean_ruin": {
-    "replace": false,
-    "values": [
-      "minecraft:ocean_ruin_cold",
-      "minecraft:ocean_ruin_warm"
-    ]
-  },
-  "minecraft:configured_structure_feature/mineshaft": {
-    "replace": false,
-    "values": [
-      "minecraft:mineshaft",
-      "minecraft:mineshaft_mesa"
-    ]
-  },
-  "minecraft:configured_structure_feature/village": {
-    "replace": false,
-    "values": [
-      "minecraft:village_plains",
-      "minecraft:village_desert",
-      "minecraft:village_savanna",
-      "minecraft:village_snowy",
-      "minecraft:village_taiga"
-    ]
-  },
-  "minecraft:configured_structure_feature/dolphin_located": {
-    "replace": false,
-    "values": [
-      "#minecraft:ocean_ruin",
-      "#minecraft:shipwreck"
-    ]
-  },
-  "minecraft:configured_structure_feature/on_ocean_explorer_maps": {
-    "replace": false,
-    "values": [
-      "minecraft:monument"
-    ]
-  },
-  "minecraft:configured_structure_feature/eye_of_ender_located": {
-    "replace": false,
-    "values": [
-      "minecraft:stronghold"
     ]
   }
 }
