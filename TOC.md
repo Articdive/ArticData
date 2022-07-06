@@ -3,7 +3,6 @@
     - [Blocks](#blocks)
     - [Block Entities](#block-entities)
     - [Block Properties](#block-properties)
-    - [Block Tags](#block-tags)
     - [Commands](#commands)
     - [Custom Statistics](#custom-statistics)
     - [Dimension Types](#dimension-types)
