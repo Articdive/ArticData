@@ -1,5 +1,5 @@
 {
-  "vibrations": {
+  "minecraft:vibrations": {
     "values": [
       "minecraft:block_attach",
       "minecraft:block_change",
@@ -44,7 +44,7 @@
       "minecraft:flap"
     ]
   },
-  "warden_can_listen": {
+  "minecraft:warden_can_listen": {
     "values": [
       "minecraft:block_attach",
       "minecraft:block_change",
@@ -90,17 +90,17 @@
       "#minecraft:shrieker_can_listen"
     ]
   },
-  "allay_can_listen": {
+  "minecraft:allay_can_listen": {
     "values": [
       "minecraft:note_block_play"
     ]
   },
-  "shrieker_can_listen": {
+  "minecraft:shrieker_can_listen": {
     "values": [
       "minecraft:sculk_sensor_tendrils_clicking"
     ]
   },
-  "ignore_vibrations_sneaking": {
+  "minecraft:ignore_vibrations_sneaking": {
     "values": [
       "minecraft:hit_ground",
       "minecraft:projectile_shoot",
