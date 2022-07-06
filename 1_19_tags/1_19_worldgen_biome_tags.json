@@ -1,46 +1,31 @@
 {
-  "minecraft:world_preset/normal": {
-    "values": [
-      "minecraft:normal",
-      "minecraft:flat",
-      "minecraft:large_biomes",
-      "minecraft:amplified",
-      "minecraft:single_biome_surface"
-    ]
-  },
-  "minecraft:world_preset/extended": {
-    "values": [
-      "#minecraft:normal",
-      "minecraft:debug_all_block_states"
-    ]
-  },
-  "minecraft:biome/polar_bears_spawn_on_alternate_blocks": {
+  "minecraft:polar_bears_spawn_on_alternate_blocks": {
     "values": [
       "minecraft:frozen_ocean",
       "minecraft:deep_frozen_ocean"
     ]
   },
-  "minecraft:biome/only_allows_snow_and_gold_rabbits": {
+  "minecraft:only_allows_snow_and_gold_rabbits": {
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/reduce_water_ambient_spawns": {
+  "minecraft:reduce_water_ambient_spawns": {
     "values": [
       "#minecraft:is_river"
     ]
   },
-  "minecraft:biome/has_structure/village_taiga": {
+  "minecraft:has_structure/village_taiga": {
     "values": [
       "minecraft:taiga"
     ]
   },
-  "minecraft:biome/has_structure/ancient_city": {
+  "minecraft:has_structure/ancient_city": {
     "values": [
       "minecraft:deep_dark"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_standard": {
+  "minecraft:has_structure/ruined_portal_standard": {
     "values": [
       "#minecraft:is_beach",
       "#minecraft:is_river",
@@ -56,19 +41,19 @@
       "minecraft:sunflower_plains"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_desert": {
+  "minecraft:has_structure/ruined_portal_desert": {
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/ocean_ruin_warm": {
+  "minecraft:has_structure/ocean_ruin_warm": {
     "values": [
       "minecraft:lukewarm_ocean",
       "minecraft:warm_ocean",
       "minecraft:deep_lukewarm_ocean"
     ]
   },
-  "minecraft:biome/has_structure/pillager_outpost": {
+  "minecraft:has_structure/pillager_outpost": {
     "values": [
       "minecraft:desert",
       "minecraft:plains",
@@ -79,64 +64,64 @@
       "minecraft:grove"
     ]
   },
-  "minecraft:biome/has_structure/shipwreck": {
+  "minecraft:has_structure/shipwreck": {
     "values": [
       "#minecraft:is_ocean"
     ]
   },
-  "minecraft:biome/has_structure/village_desert": {
+  "minecraft:has_structure/village_desert": {
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/stronghold": {
+  "minecraft:has_structure/stronghold": {
     "values": [
       "#minecraft:is_overworld"
     ]
   },
-  "minecraft:biome/has_structure/swamp_hut": {
+  "minecraft:has_structure/swamp_hut": {
     "values": [
       "minecraft:swamp"
     ]
   },
-  "minecraft:biome/has_structure/shipwreck_beached": {
+  "minecraft:has_structure/shipwreck_beached": {
     "values": [
       "#minecraft:is_beach"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_jungle": {
+  "minecraft:has_structure/ruined_portal_jungle": {
     "values": [
       "#minecraft:is_jungle"
     ]
   },
-  "minecraft:biome/has_structure/village_plains": {
+  "minecraft:has_structure/village_plains": {
     "values": [
       "minecraft:plains",
       "minecraft:meadow"
     ]
   },
-  "minecraft:biome/has_structure/woodland_mansion": {
+  "minecraft:has_structure/woodland_mansion": {
     "values": [
       "minecraft:dark_forest"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_swamp": {
+  "minecraft:has_structure/ruined_portal_swamp": {
     "values": [
       "minecraft:swamp",
       "minecraft:mangrove_swamp"
     ]
   },
-  "minecraft:biome/has_structure/mineshaft_mesa": {
+  "minecraft:has_structure/mineshaft_mesa": {
     "values": [
       "#minecraft:is_badlands"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_ocean": {
+  "minecraft:has_structure/ruined_portal_ocean": {
     "values": [
       "#minecraft:is_ocean"
     ]
   },
-  "minecraft:biome/has_structure/mineshaft": {
+  "minecraft:has_structure/mineshaft": {
     "values": [
       "#minecraft:is_ocean",
       "#minecraft:is_river",
@@ -162,7 +147,7 @@
       "minecraft:lush_caves"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_mountain": {
+  "minecraft:has_structure/ruined_portal_mountain": {
     "values": [
       "#minecraft:is_badlands",
       "#minecraft:is_hill",
@@ -172,17 +157,17 @@
       "#minecraft:is_mountain"
     ]
   },
-  "minecraft:biome/has_structure/ocean_monument": {
+  "minecraft:has_structure/ocean_monument": {
     "values": [
       "#minecraft:is_deep_ocean"
     ]
   },
-  "minecraft:biome/has_structure/village_savanna": {
+  "minecraft:has_structure/village_savanna": {
     "values": [
       "minecraft:savanna"
     ]
   },
-  "minecraft:biome/has_structure/bastion_remnant": {
+  "minecraft:has_structure/bastion_remnant": {
     "values": [
       "minecraft:crimson_forest",
       "minecraft:nether_wastes",
@@ -190,23 +175,23 @@
       "minecraft:warped_forest"
     ]
   },
-  "minecraft:biome/has_structure/end_city": {
+  "minecraft:has_structure/end_city": {
     "values": [
       "minecraft:end_highlands",
       "minecraft:end_midlands"
     ]
   },
-  "minecraft:biome/has_structure/village_snowy": {
+  "minecraft:has_structure/village_snowy": {
     "values": [
       "minecraft:snowy_plains"
     ]
   },
-  "minecraft:biome/has_structure/nether_fortress": {
+  "minecraft:has_structure/nether_fortress": {
     "values": [
       "#minecraft:is_nether"
     ]
   },
-  "minecraft:biome/has_structure/ocean_ruin_cold": {
+  "minecraft:has_structure/ocean_ruin_cold": {
     "values": [
       "minecraft:frozen_ocean",
       "minecraft:cold_ocean",
@@ -216,45 +201,45 @@
       "minecraft:deep_ocean"
     ]
   },
-  "minecraft:biome/has_structure/buried_treasure": {
+  "minecraft:has_structure/buried_treasure": {
     "values": [
       "#minecraft:is_beach"
     ]
   },
-  "minecraft:biome/has_structure/jungle_temple": {
+  "minecraft:has_structure/jungle_temple": {
     "values": [
       "minecraft:bamboo_jungle",
       "minecraft:jungle"
     ]
   },
-  "minecraft:biome/has_structure/igloo": {
+  "minecraft:has_structure/igloo": {
     "values": [
       "minecraft:snowy_taiga",
       "minecraft:snowy_plains",
       "minecraft:snowy_slopes"
     ]
   },
-  "minecraft:biome/has_structure/ruined_portal_nether": {
+  "minecraft:has_structure/ruined_portal_nether": {
     "values": [
       "#minecraft:is_nether"
     ]
   },
-  "minecraft:biome/has_structure/desert_pyramid": {
+  "minecraft:has_structure/desert_pyramid": {
     "values": [
       "minecraft:desert"
     ]
   },
-  "minecraft:biome/has_structure/nether_fossil": {
+  "minecraft:has_structure/nether_fossil": {
     "values": [
       "minecraft:soul_sand_valley"
     ]
   },
-  "minecraft:biome/produces_corals_from_bonemeal": {
+  "minecraft:produces_corals_from_bonemeal": {
     "values": [
       "minecraft:warm_ocean"
     ]
   },
-  "minecraft:biome/is_overworld": {
+  "minecraft:is_overworld": {
     "values": [
       "minecraft:mushroom_fields",
       "minecraft:deep_frozen_ocean",
@@ -310,12 +295,12 @@
       "minecraft:deep_dark"
     ]
   },
-  "minecraft:biome/without_patrol_spawns": {
+  "minecraft:without_patrol_spawns": {
     "values": [
       "minecraft:mushroom_fields"
     ]
   },
-  "minecraft:biome/is_deep_ocean": {
+  "minecraft:is_deep_ocean": {
     "values": [
       "minecraft:deep_frozen_ocean",
       "minecraft:deep_cold_ocean",
@@ -323,14 +308,14 @@
       "minecraft:deep_lukewarm_ocean"
     ]
   },
-  "minecraft:biome/is_savanna": {
+  "minecraft:is_savanna": {
     "values": [
       "minecraft:savanna",
       "minecraft:savanna_plateau",
       "minecraft:windswept_savanna"
     ]
   },
-  "minecraft:biome/is_nether": {
+  "minecraft:is_nether": {
     "values": [
       "minecraft:nether_wastes",
       "minecraft:soul_sand_valley",
@@ -339,23 +324,23 @@
       "minecraft:basalt_deltas"
     ]
   },
-  "minecraft:biome/required_ocean_monument_surrounding": {
+  "minecraft:required_ocean_monument_surrounding": {
     "values": [
       "#minecraft:is_ocean",
       "#minecraft:is_river"
     ]
   },
-  "minecraft:biome/more_frequent_drowned_spawns": {
+  "minecraft:more_frequent_drowned_spawns": {
     "values": [
       "#minecraft:is_river"
     ]
   },
-  "minecraft:biome/without_zombie_sieges": {
+  "minecraft:without_zombie_sieges": {
     "values": [
       "minecraft:mushroom_fields"
     ]
   },
-  "minecraft:biome/is_forest": {
+  "minecraft:is_forest": {
     "values": [
       "minecraft:forest",
       "minecraft:flower_forest",
@@ -365,14 +350,14 @@
       "minecraft:grove"
     ]
   },
-  "minecraft:biome/is_badlands": {
+  "minecraft:is_badlands": {
     "values": [
       "minecraft:badlands",
       "minecraft:eroded_badlands",
       "minecraft:wooded_badlands"
     ]
   },
-  "minecraft:biome/is_end": {
+  "minecraft:is_end": {
     "values": [
       "minecraft:the_end",
       "minecraft:end_highlands",
@@ -381,13 +366,13 @@
       "minecraft:end_barrens"
     ]
   },
-  "minecraft:biome/has_closer_water_fog": {
+  "minecraft:has_closer_water_fog": {
     "values": [
       "minecraft:swamp",
       "minecraft:mangrove_swamp"
     ]
   },
-  "minecraft:biome/water_on_map_outlines": {
+  "minecraft:water_on_map_outlines": {
     "values": [
       "#minecraft:is_ocean",
       "#minecraft:is_river",
@@ -395,12 +380,12 @@
       "minecraft:mangrove_swamp"
     ]
   },
-  "minecraft:biome/without_wandering_trader_spawns": {
+  "minecraft:without_wandering_trader_spawns": {
     "values": [
       "minecraft:the_void"
     ]
   },
-  "minecraft:biome/stronghold_biased_to": {
+  "minecraft:stronghold_biased_to": {
     "values": [
       "minecraft:plains",
       "minecraft:sunflower_plains",
@@ -439,7 +424,7 @@
       "minecraft:lush_caves"
     ]
   },
-  "minecraft:biome/is_mountain": {
+  "minecraft:is_mountain": {
     "values": [
       "minecraft:meadow",
       "minecraft:frozen_peaks",
@@ -448,19 +433,19 @@
       "minecraft:snowy_slopes"
     ]
   },
-  "minecraft:biome/plays_underwater_music": {
+  "minecraft:plays_underwater_music": {
     "values": [
       "#minecraft:is_ocean",
       "#minecraft:is_river"
     ]
   },
-  "minecraft:biome/is_beach": {
+  "minecraft:is_beach": {
     "values": [
       "minecraft:beach",
       "minecraft:snowy_beach"
     ]
   },
-  "minecraft:biome/is_taiga": {
+  "minecraft:is_taiga": {
     "values": [
       "minecraft:taiga",
       "minecraft:snowy_taiga",
@@ -468,25 +453,25 @@
       "minecraft:old_growth_spruce_taiga"
     ]
   },
-  "minecraft:biome/is_jungle": {
+  "minecraft:is_jungle": {
     "values": [
       "minecraft:bamboo_jungle",
       "minecraft:jungle",
       "minecraft:sparse_jungle"
     ]
   },
-  "minecraft:biome/allows_tropical_fish_spawns_at_any_height": {
+  "minecraft:allows_tropical_fish_spawns_at_any_height": {
     "values": [
       "minecraft:lush_caves"
     ]
   },
-  "minecraft:biome/is_river": {
+  "minecraft:is_river": {
     "values": [
       "minecraft:river",
       "minecraft:frozen_river"
     ]
   },
-  "minecraft:biome/spawns_warm_variant_frogs": {
+  "minecraft:spawns_warm_variant_frogs": {
     "values": [
       "minecraft:desert",
       "minecraft:warm_ocean",
@@ -497,7 +482,7 @@
       "minecraft:mangrove_swamp"
     ]
   },
-  "minecraft:biome/is_ocean": {
+  "minecraft:is_ocean": {
     "values": [
       "#minecraft:is_deep_ocean",
       "minecraft:frozen_ocean",
@@ -507,7 +492,7 @@
       "minecraft:warm_ocean"
     ]
   },
-  "minecraft:biome/spawns_cold_variant_frogs": {
+  "minecraft:spawns_cold_variant_frogs": {
     "values": [
       "minecraft:snowy_plains",
       "minecraft:ice_spikes",
@@ -524,109 +509,22 @@
       "#minecraft:is_end"
     ]
   },
-  "minecraft:biome/is_hill": {
+  "minecraft:is_hill": {
     "values": [
       "minecraft:windswept_hills",
       "minecraft:windswept_forest",
       "minecraft:windswept_gravelly_hills"
     ]
   },
-  "minecraft:biome/mineshaft_blocking": {
+  "minecraft:mineshaft_blocking": {
     "values": [
       "minecraft:deep_dark"
     ]
   },
-  "minecraft:biome/allows_surface_slime_spawns": {
+  "minecraft:allows_surface_slime_spawns": {
     "values": [
       "minecraft:swamp",
       "minecraft:mangrove_swamp"
-    ]
-  },
-  "minecraft:structure/on_woodland_explorer_maps": {
-    "values": [
-      "minecraft:mansion"
-    ]
-  },
-  "minecraft:structure/on_treasure_maps": {
-    "values": [
-      "minecraft:buried_treasure"
-    ]
-  },
-  "minecraft:structure/ruined_portal": {
-    "values": [
-      "minecraft:ruined_portal_desert",
-      "minecraft:ruined_portal_jungle",
-      "minecraft:ruined_portal_mountain",
-      "minecraft:ruined_portal_nether",
-      "minecraft:ruined_portal_ocean",
-      "minecraft:ruined_portal",
-      "minecraft:ruined_portal_swamp"
-    ]
-  },
-  "minecraft:structure/shipwreck": {
-    "values": [
-      "minecraft:shipwreck",
-      "minecraft:shipwreck_beached"
-    ]
-  },
-  "minecraft:structure/ocean_ruin": {
-    "values": [
-      "minecraft:ocean_ruin_cold",
-      "minecraft:ocean_ruin_warm"
-    ]
-  },
-  "minecraft:structure/cats_spawn_in": {
-    "values": [
-      "minecraft:swamp_hut"
-    ]
-  },
-  "minecraft:structure/mineshaft": {
-    "values": [
-      "minecraft:mineshaft",
-      "minecraft:mineshaft_mesa"
-    ]
-  },
-  "minecraft:structure/village": {
-    "values": [
-      "minecraft:village_plains",
-      "minecraft:village_desert",
-      "minecraft:village_savanna",
-      "minecraft:village_snowy",
-      "minecraft:village_taiga"
-    ]
-  },
-  "minecraft:structure/cats_spawn_as_black": {
-    "values": [
-      "minecraft:swamp_hut"
-    ]
-  },
-  "minecraft:structure/dolphin_located": {
-    "values": [
-      "#minecraft:ocean_ruin",
-      "#minecraft:shipwreck"
-    ]
-  },
-  "minecraft:structure/on_ocean_explorer_maps": {
-    "values": [
-      "minecraft:monument"
-    ]
-  },
-  "minecraft:structure/eye_of_ender_located": {
-    "values": [
-      "minecraft:stronghold"
-    ]
-  },
-  "minecraft:flat_level_generator_preset/visible": {
-    "values": [
-      "minecraft:classic_flat",
-      "minecraft:tunnelers_dream",
-      "minecraft:water_world",
-      "minecraft:overworld",
-      "minecraft:snowy_kingdom",
-      "minecraft:bottomless_pit",
-      "minecraft:desert",
-      "minecraft:redstone_ready",
-      "minecraft:the_void"
     ]
   }
 }
