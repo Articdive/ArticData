@@ -18,6 +18,7 @@ Java. The generators for this data are located [here](https://github.com/Articdi
     - [Blocks](#blocks)
     - [Block Entities](#block-entities)
     - [Block Properties](#block-properties)
+    - [Block Tags](#block-tags)
     - [Commands](#commands)
     - [Custom Statistics](#custom-statistics)
     - [Dimension Types](#dimension-types)
@@ -56,7 +57,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.16.3-3d941269</version>
+        <version>1.16.3-88313627</version>
     </dependency>
 </dependencies>
 ```
@@ -68,7 +69,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.16.3-3d941269")
+    implementation("de.articdive:articdata:1.16.3-88313627")
 }
 ```
 
@@ -179,6 +180,12 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 |   Mojang Name   | :heavy_check_mark:  |
 |       Key       | :heavy_check_mark:  |
 | Possible Values | :heavy_check_mark:  |
+
+### Block Tags
+
+| Data Type | Supported? |
+|:---------:|:----------:|
+
 
 ### Commands
 
