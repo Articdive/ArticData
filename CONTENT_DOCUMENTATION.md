@@ -91,12 +91,6 @@
 |       Key       | :heavy_check_mark:  |
 | Possible Values | :heavy_check_mark:  |
 
-### Block Tags
-
-| Data Type | Supported? |
-|:---------:|:----------:|
-
-
 ### Commands
 
 |      Data Type      |     Supported?      |           Description            |
