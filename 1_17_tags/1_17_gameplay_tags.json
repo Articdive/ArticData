@@ -1,5 +1,5 @@
 {
-  "vibrations": {
+  "minecraft:vibrations": {
     "replace": false,
     "values": [
       "minecraft:block_attach",
@@ -49,7 +49,7 @@
       "minecraft:wolf_shaking"
     ]
   },
-  "ignore_vibrations_sneaking": {
+  "minecraft:ignore_vibrations_sneaking": {
     "replace": false,
     "values": [
       "minecraft:hit_ground",
