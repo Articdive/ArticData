@@ -1,0 +1,30 @@
+{
+  "minecraft:desert": {
+    "id": 0,
+    "mojangName": "DESERT"
+  },
+  "minecraft:jungle": {
+    "id": 1,
+    "mojangName": "JUNGLE"
+  },
+  "minecraft:plains": {
+    "id": 2,
+    "mojangName": "PLAINS"
+  },
+  "minecraft:savanna": {
+    "id": 3,
+    "mojangName": "SAVANNA"
+  },
+  "minecraft:snow": {
+    "id": 4,
+    "mojangName": "SNOW"
+  },
+  "minecraft:swamp": {
+    "id": 5,
+    "mojangName": "SWAMP"
+  },
+  "minecraft:taiga": {
+    "id": 6,
+    "mojangName": "TAIGA"
+  }
+}
