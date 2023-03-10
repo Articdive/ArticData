@@ -1,0 +1,358 @@
+{
+  "minecraft:ambient_entity_effect": {
+    "id": 0,
+    "mojangName": "AMBIENT_ENTITY_EFFECT"
+  },
+  "minecraft:angry_villager": {
+    "id": 1,
+    "mojangName": "ANGRY_VILLAGER"
+  },
+  "minecraft:ash": {
+    "id": 68,
+    "mojangName": "ASH"
+  },
+  "minecraft:barrier": {
+    "id": 2,
+    "mojangName": "BARRIER"
+  },
+  "minecraft:block": {
+    "id": 4,
+    "mojangName": "BLOCK"
+  },
+  "minecraft:bubble": {
+    "id": 5,
+    "mojangName": "BUBBLE"
+  },
+  "minecraft:bubble_column_up": {
+    "id": 58,
+    "mojangName": "BUBBLE_COLUMN_UP"
+  },
+  "minecraft:bubble_pop": {
+    "id": 56,
+    "mojangName": "BUBBLE_POP"
+  },
+  "minecraft:campfire_cosy_smoke": {
+    "id": 61,
+    "mojangName": "CAMPFIRE_COSY_SMOKE"
+  },
+  "minecraft:campfire_signal_smoke": {
+    "id": 62,
+    "mojangName": "CAMPFIRE_SIGNAL_SMOKE"
+  },
+  "minecraft:cloud": {
+    "id": 6,
+    "mojangName": "CLOUD"
+  },
+  "minecraft:composter": {
+    "id": 33,
+    "mojangName": "COMPOSTER"
+  },
+  "minecraft:crimson_spore": {
+    "id": 69,
+    "mojangName": "CRIMSON_SPORE"
+  },
+  "minecraft:crit": {
+    "id": 7,
+    "mojangName": "CRIT"
+  },
+  "minecraft:current_down": {
+    "id": 57,
+    "mojangName": "CURRENT_DOWN"
+  },
+  "minecraft:damage_indicator": {
+    "id": 8,
+    "mojangName": "DAMAGE_INDICATOR"
+  },
+  "minecraft:dolphin": {
+    "id": 60,
+    "mojangName": "DOLPHIN"
+  },
+  "minecraft:dragon_breath": {
+    "id": 9,
+    "mojangName": "DRAGON_BREATH"
+  },
+  "minecraft:dripping_dripstone_lava": {
+    "id": 79,
+    "mojangName": "DRIPPING_DRIPSTONE_LAVA"
+  },
+  "minecraft:dripping_dripstone_water": {
+    "id": 81,
+    "mojangName": "DRIPPING_DRIPSTONE_WATER"
+  },
+  "minecraft:dripping_honey": {
+    "id": 63,
+    "mojangName": "DRIPPING_HONEY"
+  },
+  "minecraft:dripping_lava": {
+    "id": 10,
+    "mojangName": "DRIPPING_LAVA"
+  },
+  "minecraft:dripping_obsidian_tear": {
+    "id": 72,
+    "mojangName": "DRIPPING_OBSIDIAN_TEAR"
+  },
+  "minecraft:dripping_water": {
+    "id": 13,
+    "mojangName": "DRIPPING_WATER"
+  },
+  "minecraft:dust": {
+    "id": 15,
+    "mojangName": "DUST"
+  },
+  "minecraft:dust_color_transition": {
+    "id": 16,
+    "mojangName": "DUST_COLOR_TRANSITION"
+  },
+  "minecraft:effect": {
+    "id": 17,
+    "mojangName": "EFFECT"
+  },
+  "minecraft:elder_guardian": {
+    "id": 18,
+    "mojangName": "ELDER_GUARDIAN"
+  },
+  "minecraft:electric_spark": {
+    "id": 87,
+    "mojangName": "ELECTRIC_SPARK"
+  },
+  "minecraft:enchant": {
+    "id": 20,
+    "mojangName": "ENCHANT"
+  },
+  "minecraft:enchanted_hit": {
+    "id": 19,
+    "mojangName": "ENCHANTED_HIT"
+  },
+  "minecraft:end_rod": {
+    "id": 21,
+    "mojangName": "END_ROD"
+  },
+  "minecraft:entity_effect": {
+    "id": 22,
+    "mojangName": "ENTITY_EFFECT"
+  },
+  "minecraft:explosion": {
+    "id": 24,
+    "mojangName": "EXPLOSION"
+  },
+  "minecraft:explosion_emitter": {
+    "id": 23,
+    "mojangName": "EXPLOSION_EMITTER"
+  },
+  "minecraft:falling_dripstone_lava": {
+    "id": 80,
+    "mojangName": "FALLING_DRIPSTONE_LAVA"
+  },
+  "minecraft:falling_dripstone_water": {
+    "id": 82,
+    "mojangName": "FALLING_DRIPSTONE_WATER"
+  },
+  "minecraft:falling_dust": {
+    "id": 25,
+    "mojangName": "FALLING_DUST"
+  },
+  "minecraft:falling_honey": {
+    "id": 64,
+    "mojangName": "FALLING_HONEY"
+  },
+  "minecraft:falling_lava": {
+    "id": 11,
+    "mojangName": "FALLING_LAVA"
+  },
+  "minecraft:falling_nectar": {
+    "id": 66,
+    "mojangName": "FALLING_NECTAR"
+  },
+  "minecraft:falling_obsidian_tear": {
+    "id": 73,
+    "mojangName": "FALLING_OBSIDIAN_TEAR"
+  },
+  "minecraft:falling_spore_blossom": {
+    "id": 67,
+    "mojangName": "FALLING_SPORE_BLOSSOM"
+  },
+  "minecraft:falling_water": {
+    "id": 14,
+    "mojangName": "FALLING_WATER"
+  },
+  "minecraft:firework": {
+    "id": 26,
+    "mojangName": "FIREWORK"
+  },
+  "minecraft:fishing": {
+    "id": 27,
+    "mojangName": "FISHING"
+  },
+  "minecraft:flame": {
+    "id": 28,
+    "mojangName": "FLAME"
+  },
+  "minecraft:flash": {
+    "id": 31,
+    "mojangName": "FLASH"
+  },
+  "minecraft:glow": {
+    "id": 84,
+    "mojangName": "GLOW"
+  },
+  "minecraft:glow_squid_ink": {
+    "id": 83,
+    "mojangName": "GLOW_SQUID_INK"
+  },
+  "minecraft:happy_villager": {
+    "id": 32,
+    "mojangName": "HAPPY_VILLAGER"
+  },
+  "minecraft:heart": {
+    "id": 34,
+    "mojangName": "HEART"
+  },
+  "minecraft:instant_effect": {
+    "id": 35,
+    "mojangName": "INSTANT_EFFECT"
+  },
+  "minecraft:item": {
+    "id": 36,
+    "mojangName": "ITEM"
+  },
+  "minecraft:item_slime": {
+    "id": 38,
+    "mojangName": "ITEM_SLIME"
+  },
+  "minecraft:item_snowball": {
+    "id": 39,
+    "mojangName": "ITEM_SNOWBALL"
+  },
+  "minecraft:landing_honey": {
+    "id": 65,
+    "mojangName": "LANDING_HONEY"
+  },
+  "minecraft:landing_lava": {
+    "id": 12,
+    "mojangName": "LANDING_LAVA"
+  },
+  "minecraft:landing_obsidian_tear": {
+    "id": 74,
+    "mojangName": "LANDING_OBSIDIAN_TEAR"
+  },
+  "minecraft:large_smoke": {
+    "id": 40,
+    "mojangName": "LARGE_SMOKE"
+  },
+  "minecraft:lava": {
+    "id": 41,
+    "mojangName": "LAVA"
+  },
+  "minecraft:light": {
+    "id": 3,
+    "mojangName": "LIGHT"
+  },
+  "minecraft:mycelium": {
+    "id": 42,
+    "mojangName": "MYCELIUM"
+  },
+  "minecraft:nautilus": {
+    "id": 59,
+    "mojangName": "NAUTILUS"
+  },
+  "minecraft:note": {
+    "id": 43,
+    "mojangName": "NOTE"
+  },
+  "minecraft:poof": {
+    "id": 44,
+    "mojangName": "POOF"
+  },
+  "minecraft:portal": {
+    "id": 45,
+    "mojangName": "PORTAL"
+  },
+  "minecraft:rain": {
+    "id": 46,
+    "mojangName": "RAIN"
+  },
+  "minecraft:reverse_portal": {
+    "id": 75,
+    "mojangName": "REVERSE_PORTAL"
+  },
+  "minecraft:scrape": {
+    "id": 88,
+    "mojangName": "SCRAPE"
+  },
+  "minecraft:small_flame": {
+    "id": 77,
+    "mojangName": "SMALL_FLAME"
+  },
+  "minecraft:smoke": {
+    "id": 47,
+    "mojangName": "SMOKE"
+  },
+  "minecraft:sneeze": {
+    "id": 48,
+    "mojangName": "SNEEZE"
+  },
+  "minecraft:snowflake": {
+    "id": 78,
+    "mojangName": "SNOWFLAKE"
+  },
+  "minecraft:soul": {
+    "id": 30,
+    "mojangName": "SOUL"
+  },
+  "minecraft:soul_fire_flame": {
+    "id": 29,
+    "mojangName": "SOUL_FIRE_FLAME"
+  },
+  "minecraft:spit": {
+    "id": 49,
+    "mojangName": "SPIT"
+  },
+  "minecraft:splash": {
+    "id": 54,
+    "mojangName": "SPLASH"
+  },
+  "minecraft:spore_blossom_air": {
+    "id": 71,
+    "mojangName": "SPORE_BLOSSOM_AIR"
+  },
+  "minecraft:squid_ink": {
+    "id": 50,
+    "mojangName": "SQUID_INK"
+  },
+  "minecraft:sweep_attack": {
+    "id": 51,
+    "mojangName": "SWEEP_ATTACK"
+  },
+  "minecraft:totem_of_undying": {
+    "id": 52,
+    "mojangName": "TOTEM_OF_UNDYING"
+  },
+  "minecraft:underwater": {
+    "id": 53,
+    "mojangName": "UNDERWATER"
+  },
+  "minecraft:vibration": {
+    "id": 37,
+    "mojangName": "VIBRATION"
+  },
+  "minecraft:warped_spore": {
+    "id": 70,
+    "mojangName": "WARPED_SPORE"
+  },
+  "minecraft:wax_off": {
+    "id": 86,
+    "mojangName": "WAX_OFF"
+  },
+  "minecraft:wax_on": {
+    "id": 85,
+    "mojangName": "WAX_ON"
+  },
+  "minecraft:white_ash": {
+    "id": 76,
+    "mojangName": "WHITE_ASH"
+  },
+  "minecraft:witch": {
+    "id": 55,
+    "mojangName": "WITCH"
+  }
+}
