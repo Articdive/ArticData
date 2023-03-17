@@ -1,34 +1,4 @@
 {
-  "minecraft:pattern_item/skull": {
-    "values": [
-      "minecraft:skull"
-    ]
-  },
-  "minecraft:pattern_item/flower": {
-    "values": [
-      "minecraft:flower"
-    ]
-  },
-  "minecraft:pattern_item/creeper": {
-    "values": [
-      "minecraft:creeper"
-    ]
-  },
-  "minecraft:pattern_item/mojang": {
-    "values": [
-      "minecraft:mojang"
-    ]
-  },
-  "minecraft:pattern_item/globe": {
-    "values": [
-      "minecraft:globe"
-    ]
-  },
-  "minecraft:pattern_item/piglin": {
-    "values": [
-      "minecraft:piglin"
-    ]
-  },
   "minecraft:no_item_required": {
     "values": [
       "minecraft:square_bottom_left",
@@ -65,6 +35,36 @@
       "minecraft:gradient",
       "minecraft:gradient_up",
       "minecraft:bricks"
+    ]
+  },
+  "minecraft:pattern_item/creeper": {
+    "values": [
+      "minecraft:creeper"
+    ]
+  },
+  "minecraft:pattern_item/flower": {
+    "values": [
+      "minecraft:flower"
+    ]
+  },
+  "minecraft:pattern_item/globe": {
+    "values": [
+      "minecraft:globe"
+    ]
+  },
+  "minecraft:pattern_item/mojang": {
+    "values": [
+      "minecraft:mojang"
+    ]
+  },
+  "minecraft:pattern_item/piglin": {
+    "values": [
+      "minecraft:piglin"
+    ]
+  },
+  "minecraft:pattern_item/skull": {
+    "values": [
+      "minecraft:skull"
     ]
   }
 }

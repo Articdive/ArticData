@@ -1,4 +1,17 @@
 {
+  "minecraft:arrows": {
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
+  "minecraft:axolotl_always_hostiles": {
+    "values": [
+      "minecraft:drowned",
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ]
+  },
   "minecraft:axolotl_hunt_targets": {
     "values": [
       "minecraft:tropical_fish",
@@ -10,18 +23,9 @@
       "minecraft:tadpole"
     ]
   },
-  "minecraft:skeletons": {
+  "minecraft:beehive_inhabitors": {
     "values": [
-      "minecraft:skeleton",
-      "minecraft:stray",
-      "minecraft:wither_skeleton"
-    ]
-  },
-  "minecraft:axolotl_always_hostiles": {
-    "values": [
-      "minecraft:drowned",
-      "minecraft:guardian",
-      "minecraft:elder_guardian"
+      "minecraft:bee"
     ]
   },
   "minecraft:freeze_hurts_extra_types": {
@@ -29,37 +33,6 @@
       "minecraft:strider",
       "minecraft:blaze",
       "minecraft:magma_cube"
-    ]
-  },
-  "minecraft:arrows": {
-    "values": [
-      "minecraft:arrow",
-      "minecraft:spectral_arrow"
-    ]
-  },
-  "minecraft:powder_snow_walkable_mobs": {
-    "values": [
-      "minecraft:rabbit",
-      "minecraft:endermite",
-      "minecraft:silverfish",
-      "minecraft:fox"
-    ]
-  },
-  "minecraft:beehive_inhabitors": {
-    "values": [
-      "minecraft:bee"
-    ]
-  },
-  "minecraft:impact_projectiles": {
-    "values": [
-      "#minecraft:arrows",
-      "minecraft:snowball",
-      "minecraft:fireball",
-      "minecraft:small_fireball",
-      "minecraft:egg",
-      "minecraft:trident",
-      "minecraft:dragon_fireball",
-      "minecraft:wither_skull"
     ]
   },
   "minecraft:freeze_immune_entity_types": {
@@ -76,6 +49,26 @@
       "minecraft:magma_cube"
     ]
   },
+  "minecraft:impact_projectiles": {
+    "values": [
+      "#minecraft:arrows",
+      "minecraft:snowball",
+      "minecraft:fireball",
+      "minecraft:small_fireball",
+      "minecraft:egg",
+      "minecraft:trident",
+      "minecraft:dragon_fireball",
+      "minecraft:wither_skull"
+    ]
+  },
+  "minecraft:powder_snow_walkable_mobs": {
+    "values": [
+      "minecraft:rabbit",
+      "minecraft:endermite",
+      "minecraft:silverfish",
+      "minecraft:fox"
+    ]
+  },
   "minecraft:raiders": {
     "values": [
       "minecraft:evoker",
@@ -84,6 +77,13 @@
       "minecraft:vindicator",
       "minecraft:illusioner",
       "minecraft:witch"
+    ]
+  },
+  "minecraft:skeletons": {
+    "values": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton"
     ]
   }
 }

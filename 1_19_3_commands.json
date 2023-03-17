@@ -1,5 +1,4 @@
 {
-  "type": "root",
   "children": {
     "advancement": {
       "type": "literal",
@@ -8004,5 +8003,6 @@
         "experience"
       ]
     }
-  }
+  },
+  "type": "root"
 }

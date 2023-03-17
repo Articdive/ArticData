@@ -1,52 +1,47 @@
 {
-  "minecraft:protection": {
-    "id": 0,
-    "mojangName": "ALL_DAMAGE_PROTECTION",
-    "translationKey": "enchantment.minecraft.protection",
-    "maxLevel": 4,
+  "minecraft:aqua_affinity": {
+    "id": 6,
+    "mojangName": "AQUA_AFFINITY",
+    "translationKey": "enchantment.minecraft.aqua_affinity",
+    "maxLevel": 1,
     "minLevel": 1,
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR",
-    "incompatibleEnchantments": [
-      "minecraft:fire_protection",
-      "minecraft:blast_protection",
-      "minecraft:projectile_protection"
-    ]
+    "category": "ARMOR_HEAD",
+    "incompatibleEnchantments": []
   },
-  "minecraft:fire_protection": {
-    "id": 1,
-    "mojangName": "FIRE_PROTECTION",
-    "translationKey": "enchantment.minecraft.fire_protection",
-    "maxLevel": 4,
+  "minecraft:bane_of_arthropods": {
+    "id": 15,
+    "mojangName": "BANE_OF_ARTHROPODS",
+    "translationKey": "enchantment.minecraft.bane_of_arthropods",
+    "maxLevel": 5,
     "minLevel": 1,
     "rarity": "UNCOMMON",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR",
+    "category": "WEAPON",
     "incompatibleEnchantments": [
-      "minecraft:protection",
-      "minecraft:blast_protection",
-      "minecraft:projectile_protection"
+      "minecraft:sharpness",
+      "minecraft:smite"
     ]
   },
-  "minecraft:feather_falling": {
-    "id": 2,
-    "mojangName": "FALL_PROTECTION",
-    "translationKey": "enchantment.minecraft.feather_falling",
-    "maxLevel": 4,
+  "minecraft:binding_curse": {
+    "id": 10,
+    "mojangName": "BINDING_CURSE",
+    "translationKey": "enchantment.minecraft.binding_curse",
+    "maxLevel": 1,
     "minLevel": 1,
-    "rarity": "UNCOMMON",
-    "curse": false,
+    "rarity": "VERY_RARE",
+    "curse": true,
     "discoverable": true,
     "tradeable": true,
-    "treasureOnly": false,
-    "category": "ARMOR_FEET",
+    "treasureOnly": true,
+    "category": "WEARABLE",
     "incompatibleEnchantments": []
   },
   "minecraft:blast_protection": {
@@ -67,65 +62,21 @@
       "minecraft:projectile_protection"
     ]
   },
-  "minecraft:projectile_protection": {
-    "id": 4,
-    "mojangName": "PROJECTILE_PROTECTION",
-    "translationKey": "enchantment.minecraft.projectile_protection",
-    "maxLevel": 4,
-    "minLevel": 1,
-    "rarity": "UNCOMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "ARMOR",
-    "incompatibleEnchantments": [
-      "minecraft:protection",
-      "minecraft:fire_protection",
-      "minecraft:blast_protection"
-    ]
-  },
-  "minecraft:respiration": {
-    "id": 5,
-    "mojangName": "RESPIRATION",
-    "translationKey": "enchantment.minecraft.respiration",
-    "maxLevel": 3,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "ARMOR_HEAD",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:aqua_affinity": {
-    "id": 6,
-    "mojangName": "AQUA_AFFINITY",
-    "translationKey": "enchantment.minecraft.aqua_affinity",
+  "minecraft:channeling": {
+    "id": 33,
+    "mojangName": "CHANNELING",
+    "translationKey": "enchantment.minecraft.channeling",
     "maxLevel": 1,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "ARMOR_HEAD",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:thorns": {
-    "id": 7,
-    "mojangName": "THORNS",
-    "translationKey": "enchantment.minecraft.thorns",
-    "maxLevel": 3,
     "minLevel": 1,
     "rarity": "VERY_RARE",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "ARMOR_CHEST",
-    "incompatibleEnchantments": []
+    "category": "TRIDENT",
+    "incompatibleEnchantments": [
+      "minecraft:riptide"
+    ]
   },
   "minecraft:depth_strider": {
     "id": 8,
@@ -141,6 +92,96 @@
     "category": "ARMOR_FEET",
     "incompatibleEnchantments": [
       "minecraft:frost_walker"
+    ]
+  },
+  "minecraft:efficiency": {
+    "id": 20,
+    "mojangName": "BLOCK_EFFICIENCY",
+    "translationKey": "enchantment.minecraft.efficiency",
+    "maxLevel": 5,
+    "minLevel": 1,
+    "rarity": "COMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "DIGGER",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:feather_falling": {
+    "id": 2,
+    "mojangName": "FALL_PROTECTION",
+    "translationKey": "enchantment.minecraft.feather_falling",
+    "maxLevel": 4,
+    "minLevel": 1,
+    "rarity": "UNCOMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:fire_aspect": {
+    "id": 17,
+    "mojangName": "FIRE_ASPECT",
+    "translationKey": "enchantment.minecraft.fire_aspect",
+    "maxLevel": 2,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "WEAPON",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:fire_protection": {
+    "id": 1,
+    "mojangName": "FIRE_PROTECTION",
+    "translationKey": "enchantment.minecraft.fire_protection",
+    "maxLevel": 4,
+    "minLevel": 1,
+    "rarity": "UNCOMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:flame": {
+    "id": 26,
+    "mojangName": "FLAMING_ARROWS",
+    "translationKey": "enchantment.minecraft.flame",
+    "maxLevel": 1,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "BOW",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:fortune": {
+    "id": 23,
+    "mojangName": "BLOCK_FORTUNE",
+    "translationKey": "enchantment.minecraft.fortune",
+    "maxLevel": 3,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "DIGGER",
+    "incompatibleEnchantments": [
+      "minecraft:silk_touch"
     ]
   },
   "minecraft:frost_walker": {
@@ -159,97 +200,34 @@
       "minecraft:depth_strider"
     ]
   },
-  "minecraft:binding_curse": {
-    "id": 10,
-    "mojangName": "BINDING_CURSE",
-    "translationKey": "enchantment.minecraft.binding_curse",
+  "minecraft:impaling": {
+    "id": 31,
+    "mojangName": "IMPALING",
+    "translationKey": "enchantment.minecraft.impaling",
+    "maxLevel": 5,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "TRIDENT",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:infinity": {
+    "id": 27,
+    "mojangName": "INFINITY_ARROWS",
+    "translationKey": "enchantment.minecraft.infinity",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
-    "curse": true,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": true,
-    "category": "WEARABLE",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:soul_speed": {
-    "id": 11,
-    "mojangName": "SOUL_SPEED",
-    "translationKey": "enchantment.minecraft.soul_speed",
-    "maxLevel": 3,
-    "minLevel": 1,
-    "rarity": "VERY_RARE",
-    "curse": false,
-    "discoverable": false,
-    "tradeable": false,
-    "treasureOnly": true,
-    "category": "ARMOR_FEET",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:swift_sneak": {
-    "id": 12,
-    "mojangName": "SWIFT_SNEAK",
-    "translationKey": "enchantment.minecraft.swift_sneak",
-    "maxLevel": 3,
-    "minLevel": 1,
-    "rarity": "VERY_RARE",
-    "curse": false,
-    "discoverable": false,
-    "tradeable": false,
-    "treasureOnly": true,
-    "category": "ARMOR_LEGS",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:sharpness": {
-    "id": 13,
-    "mojangName": "SHARPNESS",
-    "translationKey": "enchantment.minecraft.sharpness",
-    "maxLevel": 5,
-    "minLevel": 1,
-    "rarity": "COMMON",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "WEAPON",
+    "category": "BOW",
     "incompatibleEnchantments": [
-      "minecraft:smite",
-      "minecraft:bane_of_arthropods"
-    ]
-  },
-  "minecraft:smite": {
-    "id": 14,
-    "mojangName": "SMITE",
-    "translationKey": "enchantment.minecraft.smite",
-    "maxLevel": 5,
-    "minLevel": 1,
-    "rarity": "UNCOMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "WEAPON",
-    "incompatibleEnchantments": [
-      "minecraft:sharpness",
-      "minecraft:bane_of_arthropods"
-    ]
-  },
-  "minecraft:bane_of_arthropods": {
-    "id": 15,
-    "mojangName": "BANE_OF_ARTHROPODS",
-    "translationKey": "enchantment.minecraft.bane_of_arthropods",
-    "maxLevel": 5,
-    "minLevel": 1,
-    "rarity": "UNCOMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "WEAPON",
-    "incompatibleEnchantments": [
-      "minecraft:sharpness",
-      "minecraft:smite"
+      "minecraft:mending"
     ]
   },
   "minecraft:knockback": {
@@ -259,20 +237,6 @@
     "maxLevel": 2,
     "minLevel": 1,
     "rarity": "UNCOMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "WEAPON",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:fire_aspect": {
-    "id": 17,
-    "mojangName": "FIRE_ASPECT",
-    "translationKey": "enchantment.minecraft.fire_aspect",
-    "maxLevel": 2,
-    "minLevel": 1,
-    "rarity": "RARE",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
@@ -296,56 +260,10 @@
       "minecraft:silk_touch"
     ]
   },
-  "minecraft:sweeping": {
-    "id": 19,
-    "mojangName": "SWEEPING_EDGE",
-    "translationKey": "enchantment.minecraft.sweeping",
-    "maxLevel": 3,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "WEAPON",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:efficiency": {
-    "id": 20,
-    "mojangName": "BLOCK_EFFICIENCY",
-    "translationKey": "enchantment.minecraft.efficiency",
-    "maxLevel": 5,
-    "minLevel": 1,
-    "rarity": "COMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "DIGGER",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:silk_touch": {
-    "id": 21,
-    "mojangName": "SILK_TOUCH",
-    "translationKey": "enchantment.minecraft.silk_touch",
-    "maxLevel": 1,
-    "minLevel": 1,
-    "rarity": "VERY_RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "DIGGER",
-    "incompatibleEnchantments": [
-      "minecraft:looting",
-      "minecraft:fortune",
-      "minecraft:luck_of_the_sea"
-    ]
-  },
-  "minecraft:unbreaking": {
-    "id": 22,
-    "mojangName": "UNBREAKING",
-    "translationKey": "enchantment.minecraft.unbreaking",
+  "minecraft:loyalty": {
+    "id": 30,
+    "mojangName": "LOYALTY",
+    "translationKey": "enchantment.minecraft.loyalty",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -353,81 +271,9 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "BREAKABLE",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:fortune": {
-    "id": 23,
-    "mojangName": "BLOCK_FORTUNE",
-    "translationKey": "enchantment.minecraft.fortune",
-    "maxLevel": 3,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "DIGGER",
+    "category": "TRIDENT",
     "incompatibleEnchantments": [
-      "minecraft:silk_touch"
-    ]
-  },
-  "minecraft:power": {
-    "id": 24,
-    "mojangName": "POWER_ARROWS",
-    "translationKey": "enchantment.minecraft.power",
-    "maxLevel": 5,
-    "minLevel": 1,
-    "rarity": "COMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "BOW",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:punch": {
-    "id": 25,
-    "mojangName": "PUNCH_ARROWS",
-    "translationKey": "enchantment.minecraft.punch",
-    "maxLevel": 2,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "BOW",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:flame": {
-    "id": 26,
-    "mojangName": "FLAMING_ARROWS",
-    "translationKey": "enchantment.minecraft.flame",
-    "maxLevel": 1,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "BOW",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:infinity": {
-    "id": 27,
-    "mojangName": "INFINITY_ARROWS",
-    "translationKey": "enchantment.minecraft.infinity",
-    "maxLevel": 1,
-    "minLevel": 1,
-    "rarity": "VERY_RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "BOW",
-    "incompatibleEnchantments": [
-      "minecraft:mending"
+      "minecraft:riptide"
     ]
   },
   "minecraft:luck_of_the_sea": {
@@ -460,10 +306,122 @@
     "category": "FISHING_ROD",
     "incompatibleEnchantments": []
   },
-  "minecraft:loyalty": {
-    "id": 30,
-    "mojangName": "LOYALTY",
-    "translationKey": "enchantment.minecraft.loyalty",
+  "minecraft:mending": {
+    "id": 37,
+    "mojangName": "MENDING",
+    "translationKey": "enchantment.minecraft.mending",
+    "maxLevel": 1,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": true,
+    "category": "BREAKABLE",
+    "incompatibleEnchantments": [
+      "minecraft:infinity"
+    ]
+  },
+  "minecraft:multishot": {
+    "id": 34,
+    "mojangName": "MULTISHOT",
+    "translationKey": "enchantment.minecraft.multishot",
+    "maxLevel": 1,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": [
+      "minecraft:piercing"
+    ]
+  },
+  "minecraft:piercing": {
+    "id": 36,
+    "mojangName": "PIERCING",
+    "translationKey": "enchantment.minecraft.piercing",
+    "maxLevel": 4,
+    "minLevel": 1,
+    "rarity": "COMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": [
+      "minecraft:multishot"
+    ]
+  },
+  "minecraft:power": {
+    "id": 24,
+    "mojangName": "POWER_ARROWS",
+    "translationKey": "enchantment.minecraft.power",
+    "maxLevel": 5,
+    "minLevel": 1,
+    "rarity": "COMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "BOW",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:projectile_protection": {
+    "id": 4,
+    "mojangName": "PROJECTILE_PROTECTION",
+    "translationKey": "enchantment.minecraft.projectile_protection",
+    "maxLevel": 4,
+    "minLevel": 1,
+    "rarity": "UNCOMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:protection",
+      "minecraft:fire_protection",
+      "minecraft:blast_protection"
+    ]
+  },
+  "minecraft:protection": {
+    "id": 0,
+    "mojangName": "ALL_DAMAGE_PROTECTION",
+    "translationKey": "enchantment.minecraft.protection",
+    "maxLevel": 4,
+    "minLevel": 1,
+    "rarity": "COMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "ARMOR",
+    "incompatibleEnchantments": [
+      "minecraft:fire_protection",
+      "minecraft:blast_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:punch": {
+    "id": 25,
+    "mojangName": "PUNCH_ARROWS",
+    "translationKey": "enchantment.minecraft.punch",
+    "maxLevel": 2,
+    "minLevel": 1,
+    "rarity": "RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "BOW",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:quick_charge": {
+    "id": 35,
+    "mojangName": "QUICK_CHARGE",
+    "translationKey": "enchantment.minecraft.quick_charge",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -471,23 +429,21 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT",
-    "incompatibleEnchantments": [
-      "minecraft:riptide"
-    ]
+    "category": "CROSSBOW",
+    "incompatibleEnchantments": []
   },
-  "minecraft:impaling": {
-    "id": 31,
-    "mojangName": "IMPALING",
-    "translationKey": "enchantment.minecraft.impaling",
-    "maxLevel": 5,
+  "minecraft:respiration": {
+    "id": 5,
+    "mojangName": "RESPIRATION",
+    "translationKey": "enchantment.minecraft.respiration",
+    "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT",
+    "category": "ARMOR_HEAD",
     "incompatibleEnchantments": []
   },
   "minecraft:riptide": {
@@ -507,10 +463,27 @@
       "minecraft:channeling"
     ]
   },
-  "minecraft:channeling": {
-    "id": 33,
-    "mojangName": "CHANNELING",
-    "translationKey": "enchantment.minecraft.channeling",
+  "minecraft:sharpness": {
+    "id": 13,
+    "mojangName": "SHARPNESS",
+    "translationKey": "enchantment.minecraft.sharpness",
+    "maxLevel": 5,
+    "minLevel": 1,
+    "rarity": "COMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ]
+  },
+  "minecraft:silk_touch": {
+    "id": 21,
+    "mojangName": "SILK_TOUCH",
+    "translationKey": "enchantment.minecraft.silk_touch",
     "maxLevel": 1,
     "minLevel": 1,
     "rarity": "VERY_RARE",
@@ -518,31 +491,90 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "TRIDENT",
+    "category": "DIGGER",
     "incompatibleEnchantments": [
-      "minecraft:riptide"
+      "minecraft:looting",
+      "minecraft:fortune",
+      "minecraft:luck_of_the_sea"
     ]
   },
-  "minecraft:multishot": {
-    "id": 34,
-    "mojangName": "MULTISHOT",
-    "translationKey": "enchantment.minecraft.multishot",
-    "maxLevel": 1,
+  "minecraft:smite": {
+    "id": 14,
+    "mojangName": "SMITE",
+    "translationKey": "enchantment.minecraft.smite",
+    "maxLevel": 5,
+    "minLevel": 1,
+    "rarity": "UNCOMMON",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "WEAPON",
+    "incompatibleEnchantments": [
+      "minecraft:sharpness",
+      "minecraft:bane_of_arthropods"
+    ]
+  },
+  "minecraft:soul_speed": {
+    "id": 11,
+    "mojangName": "SOUL_SPEED",
+    "translationKey": "enchantment.minecraft.soul_speed",
+    "maxLevel": 3,
+    "minLevel": 1,
+    "rarity": "VERY_RARE",
+    "curse": false,
+    "discoverable": false,
+    "tradeable": false,
+    "treasureOnly": true,
+    "category": "ARMOR_FEET",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:sweeping": {
+    "id": 19,
+    "mojangName": "SWEEPING_EDGE",
+    "translationKey": "enchantment.minecraft.sweeping",
+    "maxLevel": 3,
     "minLevel": 1,
     "rarity": "RARE",
     "curse": false,
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "CROSSBOW",
-    "incompatibleEnchantments": [
-      "minecraft:piercing"
-    ]
+    "category": "WEAPON",
+    "incompatibleEnchantments": []
   },
-  "minecraft:quick_charge": {
-    "id": 35,
-    "mojangName": "QUICK_CHARGE",
-    "translationKey": "enchantment.minecraft.quick_charge",
+  "minecraft:swift_sneak": {
+    "id": 12,
+    "mojangName": "SWIFT_SNEAK",
+    "translationKey": "enchantment.minecraft.swift_sneak",
+    "maxLevel": 3,
+    "minLevel": 1,
+    "rarity": "VERY_RARE",
+    "curse": false,
+    "discoverable": false,
+    "tradeable": false,
+    "treasureOnly": true,
+    "category": "ARMOR_LEGS",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:thorns": {
+    "id": 7,
+    "mojangName": "THORNS",
+    "translationKey": "enchantment.minecraft.thorns",
+    "maxLevel": 3,
+    "minLevel": 1,
+    "rarity": "VERY_RARE",
+    "curse": false,
+    "discoverable": true,
+    "tradeable": true,
+    "treasureOnly": false,
+    "category": "ARMOR_CHEST",
+    "incompatibleEnchantments": []
+  },
+  "minecraft:unbreaking": {
+    "id": 22,
+    "mojangName": "UNBREAKING",
+    "translationKey": "enchantment.minecraft.unbreaking",
     "maxLevel": 3,
     "minLevel": 1,
     "rarity": "UNCOMMON",
@@ -550,40 +582,8 @@
     "discoverable": true,
     "tradeable": true,
     "treasureOnly": false,
-    "category": "CROSSBOW",
-    "incompatibleEnchantments": []
-  },
-  "minecraft:piercing": {
-    "id": 36,
-    "mojangName": "PIERCING",
-    "translationKey": "enchantment.minecraft.piercing",
-    "maxLevel": 4,
-    "minLevel": 1,
-    "rarity": "COMMON",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": false,
-    "category": "CROSSBOW",
-    "incompatibleEnchantments": [
-      "minecraft:multishot"
-    ]
-  },
-  "minecraft:mending": {
-    "id": 37,
-    "mojangName": "MENDING",
-    "translationKey": "enchantment.minecraft.mending",
-    "maxLevel": 1,
-    "minLevel": 1,
-    "rarity": "RARE",
-    "curse": false,
-    "discoverable": true,
-    "tradeable": true,
-    "treasureOnly": true,
     "category": "BREAKABLE",
-    "incompatibleEnchantments": [
-      "minecraft:infinity"
-    ]
+    "incompatibleEnchantments": []
   },
   "minecraft:vanishing_curse": {
     "id": 38,

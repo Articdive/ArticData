@@ -256,17 +256,28 @@
       }
     ]
   },
-  "minecraft:chest_boat": {
-    "id": 9,
-    "mojangName": "CHEST_BOAT",
-    "translationKey": "entity.minecraft.chest_boat",
-    "packetType": "BASE",
+  "minecraft:camel": {
+    "id": 11,
+    "mojangName": "CAMEL",
+    "translationKey": "entity.minecraft.camel",
+    "packetType": "LIVING",
     "fireImmune": false,
-    "height": 0.5625,
-    "width": 1.375,
+    "height": 2.375,
+    "width": 1.7,
     "clientTrackingRange": 10,
-    "lootTableLocation": "minecraft:entities/chest_boat",
-    "metadata": []
+    "lootTableLocation": "minecraft:entities/camel",
+    "metadata": [
+      {
+        "mojangName": "dash",
+        "id": 19,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "last_pose_change_tick",
+        "id": 20,
+        "serializer": "LONG"
+      }
+    ]
   },
   "minecraft:cat": {
     "id": 10,
@@ -301,29 +312,6 @@
       }
     ]
   },
-  "minecraft:camel": {
-    "id": 11,
-    "mojangName": "CAMEL",
-    "translationKey": "entity.minecraft.camel",
-    "packetType": "LIVING",
-    "fireImmune": false,
-    "height": 2.375,
-    "width": 1.7,
-    "clientTrackingRange": 10,
-    "lootTableLocation": "minecraft:entities/camel",
-    "metadata": [
-      {
-        "mojangName": "dash",
-        "id": 19,
-        "serializer": "BOOLEAN"
-      },
-      {
-        "mojangName": "last_pose_change_tick",
-        "id": 20,
-        "serializer": "LONG"
-      }
-    ]
-  },
   "minecraft:cave_spider": {
     "id": 12,
     "mojangName": "CAVE_SPIDER",
@@ -334,6 +322,30 @@
     "width": 0.7,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/cave_spider",
+    "metadata": []
+  },
+  "minecraft:chest_boat": {
+    "id": 9,
+    "mojangName": "CHEST_BOAT",
+    "translationKey": "entity.minecraft.chest_boat",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.5625,
+    "width": 1.375,
+    "clientTrackingRange": 10,
+    "lootTableLocation": "minecraft:entities/chest_boat",
+    "metadata": []
+  },
+  "minecraft:chest_minecart": {
+    "id": 55,
+    "mojangName": "CHEST_MINECART",
+    "translationKey": "entity.minecraft.chest_minecart",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/chest_minecart",
     "metadata": []
   },
   "minecraft:chicken": {
@@ -359,6 +371,29 @@
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/cod",
     "metadata": []
+  },
+  "minecraft:command_block_minecart": {
+    "id": 56,
+    "mojangName": "COMMAND_BLOCK_MINECART",
+    "translationKey": "entity.minecraft.command_block_minecart",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/command_block_minecart",
+    "metadata": [
+      {
+        "mojangName": "data_id_command_name",
+        "id": 14,
+        "serializer": "STRING"
+      },
+      {
+        "mojangName": "data_id_last_output",
+        "id": 15,
+        "serializer": "COMPONENT"
+      }
+    ]
   },
   "minecraft:cow": {
     "id": 15,
@@ -464,6 +499,18 @@
     "lootTableLocation": "minecraft:entities/drowned",
     "metadata": []
   },
+  "minecraft:egg": {
+    "id": 94,
+    "mojangName": "EGG",
+    "translationKey": "entity.minecraft.egg",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/egg",
+    "metadata": []
+  },
   "minecraft:elder_guardian": {
     "id": 21,
     "mojangName": "ELDER_GUARDIAN",
@@ -516,6 +563,18 @@
         "serializer": "INT"
       }
     ]
+  },
+  "minecraft:ender_pearl": {
+    "id": 95,
+    "mojangName": "ENDER_PEARL",
+    "translationKey": "entity.minecraft.ender_pearl",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/ender_pearl",
+    "metadata": []
   },
   "minecraft:enderman": {
     "id": 24,
@@ -581,6 +640,18 @@
     "lootTableLocation": "minecraft:entities/evoker_fangs",
     "metadata": []
   },
+  "minecraft:experience_bottle": {
+    "id": 96,
+    "mojangName": "EXPERIENCE_BOTTLE",
+    "translationKey": "entity.minecraft.experience_bottle",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/experience_bottle",
+    "metadata": []
+  },
   "minecraft:experience_orb": {
     "id": 28,
     "mojangName": "EXPERIENCE_ORB",
@@ -629,6 +700,18 @@
       }
     ]
   },
+  "minecraft:fireball": {
+    "id": 47,
+    "mojangName": "FIREBALL",
+    "translationKey": "entity.minecraft.fireball",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 1.0,
+    "width": 1.0,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/fireball",
+    "metadata": []
+  },
   "minecraft:firework_rocket": {
     "id": 31,
     "mojangName": "FIREWORK_ROCKET",
@@ -653,6 +736,29 @@
       {
         "mojangName": "data_shot_at_angle",
         "id": 10,
+        "serializer": "BOOLEAN"
+      }
+    ]
+  },
+  "minecraft:fishing_bobber": {
+    "id": 118,
+    "mojangName": "FISHING_BOBBER",
+    "translationKey": "entity.minecraft.fishing_bobber",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/fishing_bobber",
+    "metadata": [
+      {
+        "mojangName": "data_hooked_entity",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_biting",
+        "id": 9,
         "serializer": "BOOLEAN"
       }
     ]
@@ -710,6 +816,24 @@
         "mojangName": "data_tongue_target_id",
         "id": 18,
         "serializer": "OPTIONAL_UNSIGNED_INT"
+      }
+    ]
+  },
+  "minecraft:furnace_minecart": {
+    "id": 57,
+    "mojangName": "FURNACE_MINECART",
+    "translationKey": "entity.minecraft.furnace_minecart",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/furnace_minecart",
+    "metadata": [
+      {
+        "mojangName": "data_id_fuel",
+        "id": 14,
+        "serializer": "BOOLEAN"
       }
     ]
   },
@@ -842,6 +966,18 @@
       }
     ]
   },
+  "minecraft:hopper_minecart": {
+    "id": 58,
+    "mojangName": "HOPPER_MINECART",
+    "translationKey": "entity.minecraft.hopper_minecart",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/hopper_minecart",
+    "metadata": []
+  },
   "minecraft:horse": {
     "id": 41,
     "mojangName": "HORSE",
@@ -943,18 +1079,6 @@
       }
     ]
   },
-  "minecraft:fireball": {
-    "id": 47,
-    "mojangName": "FIREBALL",
-    "translationKey": "entity.minecraft.fireball",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 1.0,
-    "width": 1.0,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/fireball",
-    "metadata": []
-  },
   "minecraft:leash_knot": {
     "id": 48,
     "mojangName": "LEASH_KNOT",
@@ -1055,107 +1179,6 @@
     "lootTableLocation": "minecraft:entities/minecart",
     "metadata": []
   },
-  "minecraft:chest_minecart": {
-    "id": 55,
-    "mojangName": "CHEST_MINECART",
-    "translationKey": "entity.minecraft.chest_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/chest_minecart",
-    "metadata": []
-  },
-  "minecraft:command_block_minecart": {
-    "id": 56,
-    "mojangName": "COMMAND_BLOCK_MINECART",
-    "translationKey": "entity.minecraft.command_block_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/command_block_minecart",
-    "metadata": [
-      {
-        "mojangName": "data_id_command_name",
-        "id": 14,
-        "serializer": "STRING"
-      },
-      {
-        "mojangName": "data_id_last_output",
-        "id": 15,
-        "serializer": "COMPONENT"
-      }
-    ]
-  },
-  "minecraft:furnace_minecart": {
-    "id": 57,
-    "mojangName": "FURNACE_MINECART",
-    "translationKey": "entity.minecraft.furnace_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/furnace_minecart",
-    "metadata": [
-      {
-        "mojangName": "data_id_fuel",
-        "id": 14,
-        "serializer": "BOOLEAN"
-      }
-    ]
-  },
-  "minecraft:hopper_minecart": {
-    "id": 58,
-    "mojangName": "HOPPER_MINECART",
-    "translationKey": "entity.minecraft.hopper_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/hopper_minecart",
-    "metadata": []
-  },
-  "minecraft:spawner_minecart": {
-    "id": 59,
-    "mojangName": "SPAWNER_MINECART",
-    "translationKey": "entity.minecraft.spawner_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/spawner_minecart",
-    "metadata": []
-  },
-  "minecraft:tnt_minecart": {
-    "id": 60,
-    "mojangName": "TNT_MINECART",
-    "translationKey": "entity.minecraft.tnt_minecart",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.7,
-    "width": 0.98,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/tnt_minecart",
-    "metadata": []
-  },
-  "minecraft:mule": {
-    "id": 61,
-    "mojangName": "MULE",
-    "translationKey": "entity.minecraft.mule",
-    "packetType": "LIVING",
-    "fireImmune": false,
-    "height": 1.6,
-    "width": 1.3964844,
-    "clientTrackingRange": 8,
-    "lootTableLocation": "minecraft:entities/mule",
-    "metadata": []
-  },
   "minecraft:mooshroom": {
     "id": 62,
     "mojangName": "MOOSHROOM",
@@ -1173,6 +1196,18 @@
         "serializer": "STRING"
       }
     ]
+  },
+  "minecraft:mule": {
+    "id": 61,
+    "mojangName": "MULE",
+    "translationKey": "entity.minecraft.mule",
+    "packetType": "LIVING",
+    "fireImmune": false,
+    "height": 1.6,
+    "width": 1.3964844,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/mule",
+    "metadata": []
   },
   "minecraft:ocelot": {
     "id": 63,
@@ -1370,6 +1405,49 @@
       }
     ]
   },
+  "minecraft:player": {
+    "id": 117,
+    "mojangName": "PLAYER",
+    "translationKey": "entity.minecraft.player",
+    "packetType": "PLAYER",
+    "fireImmune": false,
+    "height": 1.8,
+    "width": 0.6,
+    "clientTrackingRange": 32,
+    "lootTableLocation": "minecraft:entities/player",
+    "metadata": [
+      {
+        "mojangName": "data_player_absorption_id",
+        "id": 15,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_score_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_player_mode_customisation",
+        "id": 17,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_player_main_hand",
+        "id": 18,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_shoulder_left",
+        "id": 19,
+        "serializer": "COMPOUND_TAG"
+      },
+      {
+        "mojangName": "data_shoulder_right",
+        "id": 20,
+        "serializer": "COMPOUND_TAG"
+      }
+    ]
+  },
   "minecraft:polar_bear": {
     "id": 72,
     "mojangName": "POLAR_BEAR",
@@ -1388,23 +1466,17 @@
       }
     ]
   },
-  "minecraft:tnt": {
-    "id": 73,
-    "mojangName": "TNT",
-    "translationKey": "entity.minecraft.tnt",
+  "minecraft:potion": {
+    "id": 97,
+    "mojangName": "POTION",
+    "translationKey": "entity.minecraft.potion",
     "packetType": "BASE",
-    "fireImmune": true,
-    "height": 0.98,
-    "width": 0.98,
-    "clientTrackingRange": 10,
-    "lootTableLocation": "minecraft:entities/tnt",
-    "metadata": [
-      {
-        "mojangName": "data_fuse_id",
-        "id": 8,
-        "serializer": "INT"
-      }
-    ]
+    "fireImmune": false,
+    "height": 0.25,
+    "width": 0.25,
+    "clientTrackingRange": 4,
+    "lootTableLocation": "minecraft:entities/potion",
+    "metadata": []
   },
   "minecraft:pufferfish": {
     "id": 74,
@@ -1626,6 +1698,18 @@
     "lootTableLocation": "minecraft:entities/snowball",
     "metadata": []
   },
+  "minecraft:spawner_minecart": {
+    "id": 59,
+    "mojangName": "SPAWNER_MINECART",
+    "translationKey": "entity.minecraft.spawner_minecart",
+    "packetType": "BASE",
+    "fireImmune": false,
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/spawner_minecart",
+    "metadata": []
+  },
   "minecraft:spectral_arrow": {
     "id": 88,
     "mojangName": "SPECTRAL_ARROW",
@@ -1720,52 +1804,46 @@
     "lootTableLocation": "minecraft:entities/tadpole",
     "metadata": []
   },
-  "minecraft:egg": {
-    "id": 94,
-    "mojangName": "EGG",
-    "translationKey": "entity.minecraft.egg",
+  "minecraft:tnt": {
+    "id": 73,
+    "mojangName": "TNT",
+    "translationKey": "entity.minecraft.tnt",
+    "packetType": "BASE",
+    "fireImmune": true,
+    "height": 0.98,
+    "width": 0.98,
+    "clientTrackingRange": 10,
+    "lootTableLocation": "minecraft:entities/tnt",
+    "metadata": [
+      {
+        "mojangName": "data_fuse_id",
+        "id": 8,
+        "serializer": "INT"
+      }
+    ]
+  },
+  "minecraft:tnt_minecart": {
+    "id": 60,
+    "mojangName": "TNT_MINECART",
+    "translationKey": "entity.minecraft.tnt_minecart",
     "packetType": "BASE",
     "fireImmune": false,
-    "height": 0.25,
-    "width": 0.25,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/egg",
+    "height": 0.7,
+    "width": 0.98,
+    "clientTrackingRange": 8,
+    "lootTableLocation": "minecraft:entities/tnt_minecart",
     "metadata": []
   },
-  "minecraft:ender_pearl": {
-    "id": 95,
-    "mojangName": "ENDER_PEARL",
-    "translationKey": "entity.minecraft.ender_pearl",
-    "packetType": "BASE",
+  "minecraft:trader_llama": {
+    "id": 99,
+    "mojangName": "TRADER_LLAMA",
+    "translationKey": "entity.minecraft.trader_llama",
+    "packetType": "LIVING",
     "fireImmune": false,
-    "height": 0.25,
-    "width": 0.25,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/ender_pearl",
-    "metadata": []
-  },
-  "minecraft:experience_bottle": {
-    "id": 96,
-    "mojangName": "EXPERIENCE_BOTTLE",
-    "translationKey": "entity.minecraft.experience_bottle",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.25,
-    "width": 0.25,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/experience_bottle",
-    "metadata": []
-  },
-  "minecraft:potion": {
-    "id": 97,
-    "mojangName": "POTION",
-    "translationKey": "entity.minecraft.potion",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.25,
-    "width": 0.25,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/potion",
+    "height": 1.87,
+    "width": 0.9,
+    "clientTrackingRange": 10,
+    "lootTableLocation": "minecraft:entities/trader_llama",
     "metadata": []
   },
   "minecraft:trident": {
@@ -1790,18 +1868,6 @@
         "serializer": "BOOLEAN"
       }
     ]
-  },
-  "minecraft:trader_llama": {
-    "id": 99,
-    "mojangName": "TRADER_LLAMA",
-    "translationKey": "entity.minecraft.trader_llama",
-    "packetType": "LIVING",
-    "fireImmune": false,
-    "height": 1.87,
-    "width": 0.9,
-    "clientTrackingRange": 10,
-    "lootTableLocation": "minecraft:entities/trader_llama",
-    "metadata": []
   },
   "minecraft:tropical_fish": {
     "id": 100,
@@ -2143,71 +2209,5 @@
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/zombified_piglin",
     "metadata": []
-  },
-  "minecraft:player": {
-    "id": 117,
-    "mojangName": "PLAYER",
-    "translationKey": "entity.minecraft.player",
-    "packetType": "PLAYER",
-    "fireImmune": false,
-    "height": 1.8,
-    "width": 0.6,
-    "clientTrackingRange": 32,
-    "lootTableLocation": "minecraft:entities/player",
-    "metadata": [
-      {
-        "mojangName": "data_player_absorption_id",
-        "id": 15,
-        "serializer": "FLOAT"
-      },
-      {
-        "mojangName": "data_score_id",
-        "id": 16,
-        "serializer": "INT"
-      },
-      {
-        "mojangName": "data_player_mode_customisation",
-        "id": 17,
-        "serializer": "BYTE"
-      },
-      {
-        "mojangName": "data_player_main_hand",
-        "id": 18,
-        "serializer": "BYTE"
-      },
-      {
-        "mojangName": "data_shoulder_left",
-        "id": 19,
-        "serializer": "COMPOUND_TAG"
-      },
-      {
-        "mojangName": "data_shoulder_right",
-        "id": 20,
-        "serializer": "COMPOUND_TAG"
-      }
-    ]
-  },
-  "minecraft:fishing_bobber": {
-    "id": 118,
-    "mojangName": "FISHING_BOBBER",
-    "translationKey": "entity.minecraft.fishing_bobber",
-    "packetType": "BASE",
-    "fireImmune": false,
-    "height": 0.25,
-    "width": 0.25,
-    "clientTrackingRange": 4,
-    "lootTableLocation": "minecraft:entities/fishing_bobber",
-    "metadata": [
-      {
-        "mojangName": "data_hooked_entity",
-        "id": 8,
-        "serializer": "INT"
-      },
-      {
-        "mojangName": "data_biting",
-        "id": 9,
-        "serializer": "BOOLEAN"
-      }
-    ]
   }
 }

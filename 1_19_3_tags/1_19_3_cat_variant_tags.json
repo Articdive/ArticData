@@ -1,10 +1,4 @@
 {
-  "minecraft:full_moon_spawns": {
-    "values": [
-      "#minecraft:default_spawns",
-      "minecraft:all_black"
-    ]
-  },
   "minecraft:default_spawns": {
     "values": [
       "minecraft:tabby",
@@ -17,6 +11,12 @@
       "minecraft:ragdoll",
       "minecraft:white",
       "minecraft:jellie"
+    ]
+  },
+  "minecraft:full_moon_spawns": {
+    "values": [
+      "#minecraft:default_spawns",
+      "minecraft:all_black"
     ]
   }
 }

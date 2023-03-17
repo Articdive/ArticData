@@ -9,6 +9,45 @@
     ],
     "CLIENTBOUND": []
   },
+  "LOGIN": {
+    "id": 2,
+    "SERVERBOUND": [
+      {
+        "name": "ServerboundHelloPacket",
+        "id": 0
+      },
+      {
+        "name": "ServerboundKeyPacket",
+        "id": 1
+      },
+      {
+        "name": "ServerboundCustomQueryPacket",
+        "id": 2
+      }
+    ],
+    "CLIENTBOUND": [
+      {
+        "name": "ClientboundLoginDisconnectPacket",
+        "id": 0
+      },
+      {
+        "name": "ClientboundHelloPacket",
+        "id": 1
+      },
+      {
+        "name": "ClientboundGameProfilePacket",
+        "id": 2
+      },
+      {
+        "name": "ClientboundLoginCompressionPacket",
+        "id": 3
+      },
+      {
+        "name": "ClientboundCustomQueryPacket",
+        "id": 4
+      }
+    ]
+  },
   "PLAY": {
     "id": 0,
     "SERVERBOUND": [
@@ -668,45 +707,6 @@
       {
         "name": "ClientboundPongResponsePacket",
         "id": 1
-      }
-    ]
-  },
-  "LOGIN": {
-    "id": 2,
-    "SERVERBOUND": [
-      {
-        "name": "ServerboundHelloPacket",
-        "id": 0
-      },
-      {
-        "name": "ServerboundKeyPacket",
-        "id": 1
-      },
-      {
-        "name": "ServerboundCustomQueryPacket",
-        "id": 2
-      }
-    ],
-    "CLIENTBOUND": [
-      {
-        "name": "ClientboundLoginDisconnectPacket",
-        "id": 0
-      },
-      {
-        "name": "ClientboundHelloPacket",
-        "id": 1
-      },
-      {
-        "name": "ClientboundGameProfilePacket",
-        "id": 2
-      },
-      {
-        "name": "ClientboundLoginCompressionPacket",
-        "id": 3
-      },
-      {
-        "name": "ClientboundCustomQueryPacket",
-        "id": 4
       }
     ]
   }

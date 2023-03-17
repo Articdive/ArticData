@@ -1,18 +1,18 @@
 {
+  "minecraft:cats_spawn_as_black": {
+    "values": [
+      "minecraft:swamp_hut"
+    ]
+  },
   "minecraft:cats_spawn_in": {
     "values": [
       "minecraft:swamp_hut"
     ]
   },
-  "minecraft:ruined_portal": {
+  "minecraft:dolphin_located": {
     "values": [
-      "minecraft:ruined_portal_desert",
-      "minecraft:ruined_portal_jungle",
-      "minecraft:ruined_portal_mountain",
-      "minecraft:ruined_portal_nether",
-      "minecraft:ruined_portal_ocean",
-      "minecraft:ruined_portal",
-      "minecraft:ruined_portal_swamp"
+      "#minecraft:ocean_ruin",
+      "#minecraft:shipwreck"
     ]
   },
   "minecraft:eye_of_ender_located": {
@@ -20,26 +20,10 @@
       "minecraft:stronghold"
     ]
   },
-  "minecraft:shipwreck": {
-    "values": [
-      "minecraft:shipwreck",
-      "minecraft:shipwreck_beached"
-    ]
-  },
-  "minecraft:cats_spawn_as_black": {
-    "values": [
-      "minecraft:swamp_hut"
-    ]
-  },
   "minecraft:mineshaft": {
     "values": [
       "minecraft:mineshaft",
       "minecraft:mineshaft_mesa"
-    ]
-  },
-  "minecraft:on_woodland_explorer_maps": {
-    "values": [
-      "minecraft:mansion"
     ]
   },
   "minecraft:ocean_ruin": {
@@ -58,10 +42,26 @@
       "minecraft:buried_treasure"
     ]
   },
-  "minecraft:dolphin_located": {
+  "minecraft:on_woodland_explorer_maps": {
     "values": [
-      "#minecraft:ocean_ruin",
-      "#minecraft:shipwreck"
+      "minecraft:mansion"
+    ]
+  },
+  "minecraft:ruined_portal": {
+    "values": [
+      "minecraft:ruined_portal_desert",
+      "minecraft:ruined_portal_jungle",
+      "minecraft:ruined_portal_mountain",
+      "minecraft:ruined_portal_nether",
+      "minecraft:ruined_portal_ocean",
+      "minecraft:ruined_portal",
+      "minecraft:ruined_portal_swamp"
+    ]
+  },
+  "minecraft:shipwreck": {
+    "values": [
+      "minecraft:shipwreck",
+      "minecraft:shipwreck_beached"
     ]
   },
   "minecraft:village": {

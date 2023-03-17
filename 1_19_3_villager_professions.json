@@ -1,8 +1,4 @@
 {
-  "minecraft:none": {
-    "id": 0,
-    "mojangName": "NONE"
-  },
   "minecraft:armorer": {
     "id": 1,
     "mojangName": "ARMORER",
@@ -56,6 +52,10 @@
   "minecraft:nitwit": {
     "id": 11,
     "mojangName": "NITWIT"
+  },
+  "minecraft:none": {
+    "id": 0,
+    "mojangName": "NONE"
   },
   "minecraft:shepherd": {
     "id": 12,
