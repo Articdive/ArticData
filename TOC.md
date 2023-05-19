@@ -12,6 +12,7 @@
     - [Entity Data Serializers](#entity-data-serializers)
     - [Fluids](#fluids)
     - [Fluid Properties](#fluid-properties)
+    - [Game Events](#game-events)
     - [Map Colors](#map-colors)
     - [Items](#items)
     - [Potion Effects](#potion-effects)

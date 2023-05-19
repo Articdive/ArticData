@@ -27,6 +27,7 @@ Java. The generators for this data are located [here](https://github.com/Articdi
     - [Entity Data Serializers](#entity-data-serializers)
     - [Fluids](#fluids)
     - [Fluid Properties](#fluid-properties)
+    - [Game Events](#game-events)
     - [Map Colors](#map-colors)
     - [Items](#items)
     - [Potion Effects](#potion-effects)
@@ -56,7 +57,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.19.4-9ab279cf</version>
+        <version>1.19.4-900a7c33</version>
     </dependency>
 </dependencies>
 ```
@@ -68,7 +69,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.19.4-9ab279cf")
+    implementation("de.articdive:articdata:1.19.4-900a7c33")
 }
 ```
 
@@ -273,6 +274,15 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 | Data Type | Supported? |
 |:---------:|:----------:|
 
+
+### Game Events
+
+|      Data Type      |     Supported?      |
+|:-------------------:|:-------------------:|
+|     Protocol ID     | :heavy_check_mark:  |
+|    Namespace ID     | :heavy_check_mark:  |
+|     Mojang Name     | :heavy_check_mark:  |
+| Notification Radius | :heavy_check_mark:  |
 
 ### Map Colors
 

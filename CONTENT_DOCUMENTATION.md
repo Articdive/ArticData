@@ -185,6 +185,15 @@
 |:---------:|:----------:|
 
 
+### Game Events
+
+|      Data Type      |     Supported?      |
+|:-------------------:|:-------------------:|
+|     Protocol ID     | :heavy_check_mark:  |
+|    Namespace ID     | :heavy_check_mark:  |
+|     Mojang Name     | :heavy_check_mark:  |
+| Notification Radius | :heavy_check_mark:  |
+
 ### Map Colors
 
 |    Data Type    |     Supported?      |
