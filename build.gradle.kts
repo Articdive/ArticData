@@ -6,7 +6,7 @@ plugins {
 tasks {
     register<Jar>("packageVersion") {
         archiveBaseName.set("articdata")
-        archiveVersion.set("1.16.3-e4574c0f")
+        archiveVersion.set("1.16.3-762f76b8")
 
         destinationDirectory.set(layout.buildDirectory.dir("dist"))
         from(project.rootProject.rootDir)
@@ -20,7 +20,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "de.articdive"
             artifactId = "articdata"
-            version = "1.16.3-e4574c0f"
+            version = "1.16.3-762f76b8"
 
             pom {
                 name.set("ArticData")
