@@ -1,0 +1,302 @@
+{
+  "minecraft:block_activate": {
+    "id": 0,
+    "mojangName": "BLOCK_ACTIVATE",
+    "notificationRadius": 16
+  },
+  "minecraft:block_attach": {
+    "id": 1,
+    "mojangName": "BLOCK_ATTACH",
+    "notificationRadius": 16
+  },
+  "minecraft:block_change": {
+    "id": 2,
+    "mojangName": "BLOCK_CHANGE",
+    "notificationRadius": 16
+  },
+  "minecraft:block_close": {
+    "id": 3,
+    "mojangName": "BLOCK_CLOSE",
+    "notificationRadius": 16
+  },
+  "minecraft:block_deactivate": {
+    "id": 4,
+    "mojangName": "BLOCK_DEACTIVATE",
+    "notificationRadius": 16
+  },
+  "minecraft:block_destroy": {
+    "id": 5,
+    "mojangName": "BLOCK_DESTROY",
+    "notificationRadius": 16
+  },
+  "minecraft:block_detach": {
+    "id": 6,
+    "mojangName": "BLOCK_DETACH",
+    "notificationRadius": 16
+  },
+  "minecraft:block_open": {
+    "id": 7,
+    "mojangName": "BLOCK_OPEN",
+    "notificationRadius": 16
+  },
+  "minecraft:block_place": {
+    "id": 8,
+    "mojangName": "BLOCK_PLACE",
+    "notificationRadius": 16
+  },
+  "minecraft:container_close": {
+    "id": 9,
+    "mojangName": "CONTAINER_CLOSE",
+    "notificationRadius": 16
+  },
+  "minecraft:container_open": {
+    "id": 10,
+    "mojangName": "CONTAINER_OPEN",
+    "notificationRadius": 16
+  },
+  "minecraft:drink": {
+    "id": 11,
+    "mojangName": "DRINK",
+    "notificationRadius": 16
+  },
+  "minecraft:eat": {
+    "id": 12,
+    "mojangName": "EAT",
+    "notificationRadius": 16
+  },
+  "minecraft:elytra_glide": {
+    "id": 13,
+    "mojangName": "ELYTRA_GLIDE",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_damage": {
+    "id": 14,
+    "mojangName": "ENTITY_DAMAGE",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_die": {
+    "id": 15,
+    "mojangName": "ENTITY_DIE",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_dismount": {
+    "id": 16,
+    "mojangName": "ENTITY_DISMOUNT",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_interact": {
+    "id": 17,
+    "mojangName": "ENTITY_INTERACT",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_mount": {
+    "id": 18,
+    "mojangName": "ENTITY_MOUNT",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_place": {
+    "id": 19,
+    "mojangName": "ENTITY_PLACE",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_roar": {
+    "id": 20,
+    "mojangName": "ENTITY_ROAR",
+    "notificationRadius": 16
+  },
+  "minecraft:entity_shake": {
+    "id": 21,
+    "mojangName": "ENTITY_SHAKE",
+    "notificationRadius": 16
+  },
+  "minecraft:equip": {
+    "id": 22,
+    "mojangName": "EQUIP",
+    "notificationRadius": 16
+  },
+  "minecraft:explode": {
+    "id": 23,
+    "mojangName": "EXPLODE",
+    "notificationRadius": 16
+  },
+  "minecraft:flap": {
+    "id": 24,
+    "mojangName": "FLAP",
+    "notificationRadius": 16
+  },
+  "minecraft:fluid_pickup": {
+    "id": 25,
+    "mojangName": "FLUID_PICKUP",
+    "notificationRadius": 16
+  },
+  "minecraft:fluid_place": {
+    "id": 26,
+    "mojangName": "FLUID_PLACE",
+    "notificationRadius": 16
+  },
+  "minecraft:hit_ground": {
+    "id": 27,
+    "mojangName": "HIT_GROUND",
+    "notificationRadius": 16
+  },
+  "minecraft:instrument_play": {
+    "id": 28,
+    "mojangName": "INSTRUMENT_PLAY",
+    "notificationRadius": 16
+  },
+  "minecraft:item_interact_finish": {
+    "id": 29,
+    "mojangName": "ITEM_INTERACT_FINISH",
+    "notificationRadius": 16
+  },
+  "minecraft:item_interact_start": {
+    "id": 30,
+    "mojangName": "ITEM_INTERACT_START",
+    "notificationRadius": 16
+  },
+  "minecraft:jukebox_play": {
+    "id": 31,
+    "mojangName": "JUKEBOX_PLAY",
+    "notificationRadius": 10
+  },
+  "minecraft:jukebox_stop_play": {
+    "id": 32,
+    "mojangName": "JUKEBOX_STOP_PLAY",
+    "notificationRadius": 10
+  },
+  "minecraft:lightning_strike": {
+    "id": 33,
+    "mojangName": "LIGHTNING_STRIKE",
+    "notificationRadius": 16
+  },
+  "minecraft:note_block_play": {
+    "id": 34,
+    "mojangName": "NOTE_BLOCK_PLAY",
+    "notificationRadius": 16
+  },
+  "minecraft:prime_fuse": {
+    "id": 35,
+    "mojangName": "PRIME_FUSE",
+    "notificationRadius": 16
+  },
+  "minecraft:projectile_land": {
+    "id": 36,
+    "mojangName": "PROJECTILE_LAND",
+    "notificationRadius": 16
+  },
+  "minecraft:projectile_shoot": {
+    "id": 37,
+    "mojangName": "PROJECTILE_SHOOT",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_1": {
+    "id": 45,
+    "mojangName": "RESONATE_1",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_10": {
+    "id": 54,
+    "mojangName": "RESONATE_10",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_11": {
+    "id": 55,
+    "mojangName": "RESONATE_11",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_12": {
+    "id": 56,
+    "mojangName": "RESONATE_12",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_13": {
+    "id": 57,
+    "mojangName": "RESONATE_13",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_14": {
+    "id": 58,
+    "mojangName": "RESONATE_14",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_15": {
+    "id": 59,
+    "mojangName": "RESONATE_15",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_2": {
+    "id": 46,
+    "mojangName": "RESONATE_2",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_3": {
+    "id": 47,
+    "mojangName": "RESONATE_3",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_4": {
+    "id": 48,
+    "mojangName": "RESONATE_4",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_5": {
+    "id": 49,
+    "mojangName": "RESONATE_5",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_6": {
+    "id": 50,
+    "mojangName": "RESONATE_6",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_7": {
+    "id": 51,
+    "mojangName": "RESONATE_7",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_8": {
+    "id": 52,
+    "mojangName": "RESONATE_8",
+    "notificationRadius": 16
+  },
+  "minecraft:resonate_9": {
+    "id": 53,
+    "mojangName": "RESONATE_9",
+    "notificationRadius": 16
+  },
+  "minecraft:sculk_sensor_tendrils_clicking": {
+    "id": 38,
+    "mojangName": "SCULK_SENSOR_TENDRILS_CLICKING",
+    "notificationRadius": 16
+  },
+  "minecraft:shear": {
+    "id": 39,
+    "mojangName": "SHEAR",
+    "notificationRadius": 16
+  },
+  "minecraft:shriek": {
+    "id": 40,
+    "mojangName": "SHRIEK",
+    "notificationRadius": 32
+  },
+  "minecraft:splash": {
+    "id": 41,
+    "mojangName": "SPLASH",
+    "notificationRadius": 16
+  },
+  "minecraft:step": {
+    "id": 42,
+    "mojangName": "STEP",
+    "notificationRadius": 16
+  },
+  "minecraft:swim": {
+    "id": 43,
+    "mojangName": "SWIM",
+    "notificationRadius": 16
+  },
+  "minecraft:teleport": {
+    "id": 44,
+    "mojangName": "TELEPORT",
+    "notificationRadius": 16
+  }
+}
