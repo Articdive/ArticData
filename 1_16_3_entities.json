@@ -29,6 +29,41 @@
         "mojangName": "data_particle",
         "id": 10,
         "serializer": "PARTICLE"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -77,6 +112,76 @@
         "mojangName": "data_right_leg_pose",
         "id": 20,
         "serializer": "ROTATIONS"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -95,6 +200,51 @@
         "mojangName": "id_effect_color",
         "id": 9,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "id_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "pierce_level",
+        "id": 8,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -113,6 +263,81 @@
         "mojangName": "data_id_flags",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -136,6 +361,86 @@
         "mojangName": "data_remaining_anger_time",
         "id": 17,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -154,6 +459,81 @@
         "mojangName": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -202,6 +582,41 @@
         "mojangName": "data_id_bubble_time",
         "id": 13,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -235,6 +650,96 @@
         "mojangName": "data_collar_color",
         "id": 21,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_owneruuid_id",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -248,7 +753,88 @@
     "width": 0.7,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/cave_spider",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_flags_id",
+        "id": 15,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:chest_minecart": {
     "id": 46,
@@ -260,7 +846,73 @@
     "width": 0.98,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/chest_minecart",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:chicken": {
     "id": 9,
@@ -272,7 +924,88 @@
     "width": 0.4,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/chicken",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:cod": {
     "id": 10,
@@ -284,7 +1017,88 @@
     "width": 0.5,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/cod",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "from_bucket",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:command_block_minecart": {
     "id": 47,
@@ -306,6 +1120,71 @@
         "mojangName": "data_id_last_output",
         "id": 14,
         "serializer": "COMPONENT"
+      },
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -319,7 +1198,88 @@
     "width": 0.9,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/cow",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:creeper": {
     "id": 12,
@@ -346,6 +1306,81 @@
         "mojangName": "data_is_ignited",
         "id": 17,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -374,6 +1409,81 @@
         "mojangName": "moistness_level",
         "id": 17,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -387,7 +1497,103 @@
     "width": 1.3964844,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/donkey",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_chest",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:dragon_fireball": {
     "id": 15,
@@ -399,7 +1605,43 @@
     "width": 1.0,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/dragon_fireball",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:drowned": {
     "id": 16,
@@ -411,7 +1653,98 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/drowned",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_special_type_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_drowned_conversion_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:egg": {
     "id": 84,
@@ -423,7 +1756,48 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/egg",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:elder_guardian": {
     "id": 17,
@@ -435,7 +1809,93 @@
     "width": 1.9975,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/elder_guardian",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_moving",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_attack_target",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:end_crystal": {
     "id": 18,
@@ -457,6 +1917,41 @@
         "mojangName": "data_show_bottom",
         "id": 8,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -475,6 +1970,81 @@
         "mojangName": "data_phase",
         "id": 15,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -488,7 +2058,48 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/ender_pearl",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:enderman": {
     "id": 20,
@@ -515,6 +2126,81 @@
         "mojangName": "data_stared_at",
         "id": 17,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -528,7 +2214,83 @@
     "width": 0.4,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/endermite",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:evoker": {
     "id": 22,
@@ -540,7 +2302,93 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/evoker",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_spell_casting_id",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:evoker_fangs": {
     "id": 23,
@@ -552,7 +2400,43 @@
     "width": 0.5,
     "clientTrackingRange": 6,
     "lootTableLocation": "minecraft:entities/evoker_fangs",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:experience_bottle": {
     "id": 86,
@@ -564,7 +2448,48 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/experience_bottle",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:experience_orb": {
     "id": 24,
@@ -576,7 +2501,43 @@
     "width": 0.5,
     "clientTrackingRange": 6,
     "lootTableLocation": "minecraft:entities/experience_orb",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:eye_of_ender": {
     "id": 25,
@@ -593,6 +2554,41 @@
         "mojangName": "data_item_stack",
         "id": 7,
         "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -611,6 +2607,41 @@
         "mojangName": "data_start_pos",
         "id": 7,
         "serializer": "BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -624,7 +2655,48 @@
     "width": 1.0,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/fireball",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:firework_rocket": {
     "id": 27,
@@ -651,6 +2723,41 @@
         "mojangName": "data_shot_at_angle",
         "id": 9,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -674,6 +2781,41 @@
         "mojangName": "data_biting",
         "id": 8,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -707,6 +2849,86 @@
         "mojangName": "data_trusted_id_1",
         "id": 19,
         "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -725,6 +2947,71 @@
         "mojangName": "data_id_fuel",
         "id": 13,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -743,6 +3030,81 @@
         "mojangName": "data_is_charging",
         "id": 15,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -756,7 +3118,83 @@
     "width": 3.6,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/giant",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:guardian": {
     "id": 31,
@@ -778,6 +3216,81 @@
         "mojangName": "data_id_attack_target",
         "id": 16,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -796,6 +3309,86 @@
         "mojangName": "data_immune_to_zombification",
         "id": 16,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -809,7 +3402,73 @@
     "width": 0.98,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/hopper_minecart",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:horse": {
     "id": 33,
@@ -826,6 +3485,96 @@
         "mojangName": "data_id_type_variant",
         "id": 18,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -839,7 +3588,98 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/husk",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_special_type_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_drowned_conversion_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:illusioner": {
     "id": 35,
@@ -851,7 +3691,93 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/illusioner",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_spell_casting_id",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:iron_golem": {
     "id": 36,
@@ -868,6 +3794,81 @@
         "mojangName": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -886,6 +3887,41 @@
         "mojangName": "data_item",
         "id": 7,
         "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -909,6 +3945,41 @@
         "mojangName": "data_rotation",
         "id": 8,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -922,7 +3993,43 @@
     "width": 0.5,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/leash_knot",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:lightning_bolt": {
     "id": 41,
@@ -934,7 +4041,43 @@
     "width": 0.0,
     "clientTrackingRange": 16,
     "lootTableLocation": "minecraft:entities/lightning_bolt",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:llama": {
     "id": 42,
@@ -961,6 +4104,101 @@
         "mojangName": "data_variant_id",
         "id": 21,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_chest",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -974,7 +4212,43 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/llama_spit",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:magma_cube": {
     "id": 44,
@@ -986,7 +4260,88 @@
     "width": 2.04,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/magma_cube",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "id_size",
+        "id": 15,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:minecart": {
     "id": 45,
@@ -998,7 +4353,73 @@
     "width": 0.98,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/minecart",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:mooshroom": {
     "id": 53,
@@ -1015,6 +4436,86 @@
         "mojangName": "data_type",
         "id": 16,
         "serializer": "STRING"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1028,7 +4529,103 @@
     "width": 1.3964844,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/mule",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_chest",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:ocelot": {
     "id": 54,
@@ -1045,6 +4642,86 @@
         "mojangName": "data_trusting",
         "id": 16,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1058,7 +4735,43 @@
     "width": 0.5,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/painting",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:panda": {
     "id": 56,
@@ -1100,6 +4813,86 @@
         "mojangName": "data_id_flags",
         "id": 21,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1118,6 +4911,96 @@
         "mojangName": "data_variant_id",
         "id": 18,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_owneruuid_id",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1136,6 +5019,81 @@
         "mojangName": "id_size",
         "id": 15,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1159,6 +5117,86 @@
         "mojangName": "data_boost_time",
         "id": 17,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1187,6 +5225,86 @@
         "mojangName": "data_is_dancing",
         "id": 18,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_immune_to_zombification",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1200,7 +5318,88 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/piglin_brute",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_immune_to_zombification",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:pillager": {
     "id": 62,
@@ -1217,6 +5416,86 @@
         "mojangName": "is_charging_crossbow",
         "id": 16,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1260,6 +5539,76 @@
         "mojangName": "data_shoulder_right",
         "id": 19,
         "serializer": "COMPOUND_TAG"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1278,6 +5627,86 @@
         "mojangName": "data_standing_id",
         "id": 16,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1291,7 +5720,48 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/potion",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:pufferfish": {
     "id": 65,
@@ -1308,6 +5778,86 @@
         "mojangName": "puff_state",
         "id": 16,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "from_bucket",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1326,6 +5876,86 @@
         "mojangName": "data_type_id",
         "id": 16,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1339,7 +5969,88 @@
     "width": 1.95,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/ravager",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:salmon": {
     "id": 68,
@@ -1351,7 +6062,88 @@
     "width": 0.7,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/salmon",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "from_bucket",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:sheep": {
     "id": 69,
@@ -1368,6 +6160,86 @@
         "mojangName": "data_wool_id",
         "id": 16,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1401,6 +6273,81 @@
         "mojangName": "data_color_id",
         "id": 18,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1414,7 +6361,43 @@
     "width": 0.3125,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/shulker_bullet",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:silverfish": {
     "id": 72,
@@ -1426,7 +6409,83 @@
     "width": 0.4,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/silverfish",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:skeleton": {
     "id": 73,
@@ -1438,7 +6497,83 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/skeleton",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:skeleton_horse": {
     "id": 74,
@@ -1450,7 +6585,98 @@
     "width": 1.3964844,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/skeleton_horse",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:slime": {
     "id": 75,
@@ -1467,6 +6693,81 @@
         "mojangName": "id_size",
         "id": 15,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1480,7 +6781,48 @@
     "width": 0.3125,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/small_fireball",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:snow_golem": {
     "id": 77,
@@ -1497,6 +6839,81 @@
         "mojangName": "data_pumpkin_id",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1510,7 +6927,48 @@
     "width": 0.25,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/snowball",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_item_stack",
+        "id": 7,
+        "serializer": "ITEM_STACK"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:spawner_minecart": {
     "id": 50,
@@ -1522,7 +6980,73 @@
     "width": 0.98,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/spawner_minecart",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:spectral_arrow": {
     "id": 79,
@@ -1534,7 +7058,53 @@
     "width": 0.5,
     "clientTrackingRange": 4,
     "lootTableLocation": "minecraft:entities/spectral_arrow",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "id_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "pierce_level",
+        "id": 8,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:spider": {
     "id": 80,
@@ -1551,6 +7121,81 @@
         "mojangName": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1564,7 +7209,83 @@
     "width": 0.8,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/squid",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:stray": {
     "id": 82,
@@ -1576,7 +7297,83 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/stray",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:strider": {
     "id": 83,
@@ -1603,6 +7400,86 @@
         "mojangName": "data_saddle_id",
         "id": 18,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1621,6 +7498,41 @@
         "mojangName": "data_fuse_id",
         "id": 7,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1634,7 +7546,73 @@
     "width": 0.98,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/tnt_minecart",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_hurt",
+        "id": 7,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_hurtdir",
+        "id": 8,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_damage",
+        "id": 9,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_id_display_block",
+        "id": 10,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_display_offset",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_custom_display",
+        "id": 12,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:trader_llama": {
     "id": 89,
@@ -1646,7 +7624,118 @@
     "width": 0.9,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/trader_llama",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_strength_id",
+        "id": 19,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_swag_id",
+        "id": 20,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_variant_id",
+        "id": 21,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_id_chest",
+        "id": 18,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:trident": {
     "id": 88,
@@ -1668,6 +7757,51 @@
         "mojangName": "id_foil",
         "id": 10,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "id_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "pierce_level",
+        "id": 8,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1686,6 +7820,86 @@
         "mojangName": "data_id_type_variant",
         "id": 16,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "from_bucket",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1729,6 +7943,86 @@
         "mojangName": "travelling",
         "id": 21,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1747,6 +8041,81 @@
         "mojangName": "data_flags_id",
         "id": 15,
         "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1765,6 +8134,91 @@
         "mojangName": "data_villager_data",
         "id": 17,
         "serializer": "VILLAGER_DATA"
+      },
+      {
+        "mojangName": "data_unhappy_counter",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1778,7 +8232,88 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/vindicator",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:wandering_trader": {
     "id": 95,
@@ -1790,7 +8325,93 @@
     "width": 0.6,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/wandering_trader",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_unhappy_counter",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:witch": {
     "id": 96,
@@ -1807,6 +8428,86 @@
         "mojangName": "data_using_item",
         "id": 16,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "is_celebrating",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1840,6 +8541,81 @@
         "mojangName": "data_id_inv",
         "id": 18,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1853,7 +8629,83 @@
     "width": 0.7,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/wither_skeleton",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:wither_skull": {
     "id": 99,
@@ -1870,6 +8722,41 @@
         "mojangName": "data_dangerous",
         "id": 7,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1898,6 +8785,96 @@
         "mojangName": "data_remaining_anger_time",
         "id": 20,
         "serializer": "INT"
+      },
+      {
+        "mojangName": "data_flags_id",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_owneruuid_id",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1916,6 +8893,81 @@
         "mojangName": "data_baby_id",
         "id": 15,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1944,6 +8996,81 @@
         "mojangName": "data_drowned_conversion_id",
         "id": 17,
         "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1957,7 +9084,98 @@
     "width": 1.3964844,
     "clientTrackingRange": 10,
     "lootTableLocation": "minecraft:entities/zombie_horse",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_id_flags",
+        "id": 16,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_id_owner_uuid",
+        "id": 17,
+        "serializer": "OPTIONAL_UUID"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   },
   "minecraft:zombie_villager": {
     "id": 104,
@@ -1979,6 +9197,96 @@
         "mojangName": "data_villager_data",
         "id": 19,
         "serializer": "VILLAGER_DATA"
+      },
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_special_type_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_drowned_conversion_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
       }
     ]
   },
@@ -1992,6 +9300,97 @@
     "width": 0.6,
     "clientTrackingRange": 8,
     "lootTableLocation": "minecraft:entities/zombified_piglin",
-    "metadata": []
+    "metadata": [
+      {
+        "mojangName": "data_baby_id",
+        "id": 15,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_special_type_id",
+        "id": 16,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_drowned_conversion_id",
+        "id": 17,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_mob_flags_id",
+        "id": 14,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_living_entity_flags",
+        "id": 7,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_health_id",
+        "id": 8,
+        "serializer": "FLOAT"
+      },
+      {
+        "mojangName": "data_effect_color_id",
+        "id": 9,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_effect_ambience_id",
+        "id": 10,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_arrow_count_id",
+        "id": 11,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_stinger_count_id",
+        "id": 12,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "sleeping_pos_id",
+        "id": 13,
+        "serializer": "OPTIONAL_BLOCK_POS"
+      },
+      {
+        "mojangName": "data_shared_flags_id",
+        "id": 0,
+        "serializer": "BYTE"
+      },
+      {
+        "mojangName": "data_air_supply_id",
+        "id": 1,
+        "serializer": "INT"
+      },
+      {
+        "mojangName": "data_custom_name",
+        "id": 2,
+        "serializer": "OPTIONAL_COMPONENT"
+      },
+      {
+        "mojangName": "data_custom_name_visible",
+        "id": 3,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_silent",
+        "id": 4,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_no_gravity",
+        "id": 5,
+        "serializer": "BOOLEAN"
+      },
+      {
+        "mojangName": "data_pose",
+        "id": 6,
+        "serializer": "POSE"
+      }
+    ]
   }
 }
