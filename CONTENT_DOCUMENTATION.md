@@ -239,13 +239,14 @@
 
 ### Potion Effects
 
-|    Data Type    |     Supported?      |
-|:---------------:|:-------------------:|
-|   Protocol ID   | :heavy_check_mark:  |
-|  Namespace ID   | :heavy_check_mark:  |
-|   Mojang Name   | :heavy_check_mark:  |
-| Color (Decimal) | :heavy_check_mark:  |
-|  Instanteneous  | :heavy_check_mark:  |
+|      Data Type      |     Supported?      |
+|:-------------------:|:-------------------:|
+|     Protocol ID     | :heavy_check_mark:  |
+|    Namespace ID     | :heavy_check_mark:  |
+|     Mojang Name     | :heavy_check_mark:  |
+|   Color (Decimal)   | :heavy_check_mark:  |
+|    Instanteneous    | :heavy_check_mark:  |
+| Attribute Modifiers | :heavy_check_mark:  |
 
 ### Packets
 
