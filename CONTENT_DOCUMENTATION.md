@@ -269,11 +269,12 @@
 
 ### Potions
 
-|  Data Type   |     Supported?      |
-|:------------:|:-------------------:|
-| Protocol ID  | :heavy_check_mark:  |
-| Namespace ID | :heavy_check_mark:  |
-| Mojang Name  | :heavy_check_mark:  |
+|   Data Type    |     Supported?      |
+|:--------------:|:-------------------:|
+|  Protocol ID   | :heavy_check_mark:  |
+|  Namespace ID  | :heavy_check_mark:  |
+|  Mojang Name   | :heavy_check_mark:  |
+| Potion Effects | :heavy_check_mark:  |
 
 ### Recipes
 
