@@ -3741,14 +3741,6 @@
                 "function": "minecraft:set_stew_effect",
                 "effects": [
                   {
-                    "type": "minecraft:poison",
-                    "duration": {
-                      "type": "minecraft:uniform",
-                      "min": 10.0,
-                      "max": 20.0
-                    }
-                  },
-                  {
                     "type": "minecraft:weakness",
                     "duration": {
                       "type": "minecraft:uniform",
@@ -3757,11 +3749,19 @@
                     }
                   },
                   {
-                    "type": "minecraft:jump_boost",
+                    "type": "minecraft:night_vision",
                     "duration": {
                       "type": "minecraft:uniform",
                       "min": 7.0,
                       "max": 10.0
+                    }
+                  },
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "type": "minecraft:uniform",
+                      "min": 10.0,
+                      "max": 20.0
                     }
                   },
                   {
@@ -3773,7 +3773,7 @@
                     }
                   },
                   {
-                    "type": "minecraft:night_vision",
+                    "type": "minecraft:jump_boost",
                     "duration": {
                       "type": "minecraft:uniform",
                       "min": 7.0,
