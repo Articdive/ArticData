@@ -1,0 +1,849 @@
+{
+  "CONFIGURATION": {
+    "ordinal": 4,
+    "id": "configuration",
+    "SERVERBOUND": [
+      {
+        "name": "ServerboundClientInformationPacket",
+        "id": 0
+      },
+      {
+        "name": "ServerboundCustomPayloadPacket",
+        "id": 1
+      },
+      {
+        "name": "ServerboundFinishConfigurationPacket",
+        "id": 2
+      },
+      {
+        "name": "ServerboundKeepAlivePacket",
+        "id": 3
+      },
+      {
+        "name": "ServerboundPongPacket",
+        "id": 4
+      },
+      {
+        "name": "ServerboundResourcePackPacket",
+        "id": 5
+      }
+    ],
+    "CLIENTBOUND": [
+      {
+        "name": "ClientboundCustomPayloadPacket",
+        "id": 0
+      },
+      {
+        "name": "ClientboundDisconnectPacket",
+        "id": 1
+      },
+      {
+        "name": "ClientboundFinishConfigurationPacket",
+        "id": 2
+      },
+      {
+        "name": "ClientboundKeepAlivePacket",
+        "id": 3
+      },
+      {
+        "name": "ClientboundPingPacket",
+        "id": 4
+      },
+      {
+        "name": "ClientboundRegistryDataPacket",
+        "id": 5
+      },
+      {
+        "name": "ClientboundResourcePackPopPacket",
+        "id": 6
+      },
+      {
+        "name": "ClientboundResourcePackPushPacket",
+        "id": 7
+      },
+      {
+        "name": "ClientboundUpdateEnabledFeaturesPacket",
+        "id": 8
+      },
+      {
+        "name": "ClientboundUpdateTagsPacket",
+        "id": 9
+      }
+    ]
+  },
+  "HANDSHAKING": {
+    "ordinal": 0,
+    "id": "handshake",
+    "SERVERBOUND": [
+      {
+        "name": "ClientIntentionPacket",
+        "id": 0
+      }
+    ],
+    "CLIENTBOUND": []
+  },
+  "LOGIN": {
+    "ordinal": 3,
+    "id": "login",
+    "SERVERBOUND": [
+      {
+        "name": "ServerboundHelloPacket",
+        "id": 0
+      },
+      {
+        "name": "ServerboundKeyPacket",
+        "id": 1
+      },
+      {
+        "name": "ServerboundCustomQueryAnswerPacket",
+        "id": 2
+      },
+      {
+        "name": "ServerboundLoginAcknowledgedPacket",
+        "id": 3
+      }
+    ],
+    "CLIENTBOUND": [
+      {
+        "name": "ClientboundLoginDisconnectPacket",
+        "id": 0
+      },
+      {
+        "name": "ClientboundHelloPacket",
+        "id": 1
+      },
+      {
+        "name": "ClientboundGameProfilePacket",
+        "id": 2
+      },
+      {
+        "name": "ClientboundLoginCompressionPacket",
+        "id": 3
+      },
+      {
+        "name": "ClientboundCustomQueryPacket",
+        "id": 4
+      }
+    ]
+  },
+  "PLAY": {
+    "ordinal": 1,
+    "id": "play",
+    "SERVERBOUND": [
+      {
+        "name": "ServerboundAcceptTeleportationPacket",
+        "id": 0
+      },
+      {
+        "name": "ServerboundBlockEntityTagQuery",
+        "id": 1
+      },
+      {
+        "name": "ServerboundChangeDifficultyPacket",
+        "id": 2
+      },
+      {
+        "name": "ServerboundChatAckPacket",
+        "id": 3
+      },
+      {
+        "name": "ServerboundChatCommandPacket",
+        "id": 4
+      },
+      {
+        "name": "ServerboundChatPacket",
+        "id": 5
+      },
+      {
+        "name": "ServerboundChatSessionUpdatePacket",
+        "id": 6
+      },
+      {
+        "name": "ServerboundChunkBatchReceivedPacket",
+        "id": 7
+      },
+      {
+        "name": "ServerboundClientCommandPacket",
+        "id": 8
+      },
+      {
+        "name": "ServerboundClientInformationPacket",
+        "id": 9
+      },
+      {
+        "name": "ServerboundCommandSuggestionPacket",
+        "id": 10
+      },
+      {
+        "name": "ServerboundConfigurationAcknowledgedPacket",
+        "id": 11
+      },
+      {
+        "name": "ServerboundContainerButtonClickPacket",
+        "id": 12
+      },
+      {
+        "name": "ServerboundContainerClickPacket",
+        "id": 13
+      },
+      {
+        "name": "ServerboundContainerClosePacket",
+        "id": 14
+      },
+      {
+        "name": "ServerboundContainerSlotStateChangedPacket",
+        "id": 15
+      },
+      {
+        "name": "ServerboundCustomPayloadPacket",
+        "id": 16
+      },
+      {
+        "name": "ServerboundEditBookPacket",
+        "id": 17
+      },
+      {
+        "name": "ServerboundEntityTagQuery",
+        "id": 18
+      },
+      {
+        "name": "ServerboundInteractPacket",
+        "id": 19
+      },
+      {
+        "name": "ServerboundJigsawGeneratePacket",
+        "id": 20
+      },
+      {
+        "name": "ServerboundKeepAlivePacket",
+        "id": 21
+      },
+      {
+        "name": "ServerboundLockDifficultyPacket",
+        "id": 22
+      },
+      {
+        "name": "Pos",
+        "id": 23
+      },
+      {
+        "name": "PosRot",
+        "id": 24
+      },
+      {
+        "name": "Rot",
+        "id": 25
+      },
+      {
+        "name": "StatusOnly",
+        "id": 26
+      },
+      {
+        "name": "ServerboundMoveVehiclePacket",
+        "id": 27
+      },
+      {
+        "name": "ServerboundPaddleBoatPacket",
+        "id": 28
+      },
+      {
+        "name": "ServerboundPickItemPacket",
+        "id": 29
+      },
+      {
+        "name": "ServerboundPingRequestPacket",
+        "id": 30
+      },
+      {
+        "name": "ServerboundPlaceRecipePacket",
+        "id": 31
+      },
+      {
+        "name": "ServerboundPlayerAbilitiesPacket",
+        "id": 32
+      },
+      {
+        "name": "ServerboundPlayerActionPacket",
+        "id": 33
+      },
+      {
+        "name": "ServerboundPlayerCommandPacket",
+        "id": 34
+      },
+      {
+        "name": "ServerboundPlayerInputPacket",
+        "id": 35
+      },
+      {
+        "name": "ServerboundPongPacket",
+        "id": 36
+      },
+      {
+        "name": "ServerboundRecipeBookChangeSettingsPacket",
+        "id": 37
+      },
+      {
+        "name": "ServerboundRecipeBookSeenRecipePacket",
+        "id": 38
+      },
+      {
+        "name": "ServerboundRenameItemPacket",
+        "id": 39
+      },
+      {
+        "name": "ServerboundResourcePackPacket",
+        "id": 40
+      },
+      {
+        "name": "ServerboundSeenAdvancementsPacket",
+        "id": 41
+      },
+      {
+        "name": "ServerboundSelectTradePacket",
+        "id": 42
+      },
+      {
+        "name": "ServerboundSetBeaconPacket",
+        "id": 43
+      },
+      {
+        "name": "ServerboundSetCarriedItemPacket",
+        "id": 44
+      },
+      {
+        "name": "ServerboundSetCommandBlockPacket",
+        "id": 45
+      },
+      {
+        "name": "ServerboundSetCommandMinecartPacket",
+        "id": 46
+      },
+      {
+        "name": "ServerboundSetCreativeModeSlotPacket",
+        "id": 47
+      },
+      {
+        "name": "ServerboundSetJigsawBlockPacket",
+        "id": 48
+      },
+      {
+        "name": "ServerboundSetStructureBlockPacket",
+        "id": 49
+      },
+      {
+        "name": "ServerboundSignUpdatePacket",
+        "id": 50
+      },
+      {
+        "name": "ServerboundSwingPacket",
+        "id": 51
+      },
+      {
+        "name": "ServerboundTeleportToEntityPacket",
+        "id": 52
+      },
+      {
+        "name": "ServerboundUseItemOnPacket",
+        "id": 53
+      },
+      {
+        "name": "ServerboundUseItemPacket",
+        "id": 54
+      }
+    ],
+    "CLIENTBOUND": [
+      {
+        "name": "BundleDelimiterPacket",
+        "id": 0
+      },
+      {
+        "name": "ClientboundAddEntityPacket",
+        "id": 1
+      },
+      {
+        "name": "ClientboundAddExperienceOrbPacket",
+        "id": 2
+      },
+      {
+        "name": "ClientboundAnimatePacket",
+        "id": 3
+      },
+      {
+        "name": "ClientboundAwardStatsPacket",
+        "id": 4
+      },
+      {
+        "name": "ClientboundBlockChangedAckPacket",
+        "id": 5
+      },
+      {
+        "name": "ClientboundBlockDestructionPacket",
+        "id": 6
+      },
+      {
+        "name": "ClientboundBlockEntityDataPacket",
+        "id": 7
+      },
+      {
+        "name": "ClientboundBlockEventPacket",
+        "id": 8
+      },
+      {
+        "name": "ClientboundBlockUpdatePacket",
+        "id": 9
+      },
+      {
+        "name": "ClientboundBossEventPacket",
+        "id": 10
+      },
+      {
+        "name": "ClientboundChangeDifficultyPacket",
+        "id": 11
+      },
+      {
+        "name": "ClientboundChunkBatchFinishedPacket",
+        "id": 12
+      },
+      {
+        "name": "ClientboundChunkBatchStartPacket",
+        "id": 13
+      },
+      {
+        "name": "ClientboundChunksBiomesPacket",
+        "id": 14
+      },
+      {
+        "name": "ClientboundClearTitlesPacket",
+        "id": 15
+      },
+      {
+        "name": "ClientboundCommandSuggestionsPacket",
+        "id": 16
+      },
+      {
+        "name": "ClientboundCommandsPacket",
+        "id": 17
+      },
+      {
+        "name": "ClientboundContainerClosePacket",
+        "id": 18
+      },
+      {
+        "name": "ClientboundContainerSetContentPacket",
+        "id": 19
+      },
+      {
+        "name": "ClientboundContainerSetDataPacket",
+        "id": 20
+      },
+      {
+        "name": "ClientboundContainerSetSlotPacket",
+        "id": 21
+      },
+      {
+        "name": "ClientboundCooldownPacket",
+        "id": 22
+      },
+      {
+        "name": "ClientboundCustomChatCompletionsPacket",
+        "id": 23
+      },
+      {
+        "name": "ClientboundCustomPayloadPacket",
+        "id": 24
+      },
+      {
+        "name": "ClientboundDamageEventPacket",
+        "id": 25
+      },
+      {
+        "name": "ClientboundDeleteChatPacket",
+        "id": 26
+      },
+      {
+        "name": "ClientboundDisconnectPacket",
+        "id": 27
+      },
+      {
+        "name": "ClientboundDisguisedChatPacket",
+        "id": 28
+      },
+      {
+        "name": "ClientboundEntityEventPacket",
+        "id": 29
+      },
+      {
+        "name": "ClientboundExplodePacket",
+        "id": 30
+      },
+      {
+        "name": "ClientboundForgetLevelChunkPacket",
+        "id": 31
+      },
+      {
+        "name": "ClientboundGameEventPacket",
+        "id": 32
+      },
+      {
+        "name": "ClientboundHorseScreenOpenPacket",
+        "id": 33
+      },
+      {
+        "name": "ClientboundHurtAnimationPacket",
+        "id": 34
+      },
+      {
+        "name": "ClientboundInitializeBorderPacket",
+        "id": 35
+      },
+      {
+        "name": "ClientboundKeepAlivePacket",
+        "id": 36
+      },
+      {
+        "name": "ClientboundLevelChunkWithLightPacket",
+        "id": 37
+      },
+      {
+        "name": "ClientboundLevelEventPacket",
+        "id": 38
+      },
+      {
+        "name": "ClientboundLevelParticlesPacket",
+        "id": 39
+      },
+      {
+        "name": "ClientboundLightUpdatePacket",
+        "id": 40
+      },
+      {
+        "name": "ClientboundLoginPacket",
+        "id": 41
+      },
+      {
+        "name": "ClientboundMapItemDataPacket",
+        "id": 42
+      },
+      {
+        "name": "ClientboundMerchantOffersPacket",
+        "id": 43
+      },
+      {
+        "name": "Pos",
+        "id": 44
+      },
+      {
+        "name": "PosRot",
+        "id": 45
+      },
+      {
+        "name": "Rot",
+        "id": 46
+      },
+      {
+        "name": "ClientboundMoveVehiclePacket",
+        "id": 47
+      },
+      {
+        "name": "ClientboundOpenBookPacket",
+        "id": 48
+      },
+      {
+        "name": "ClientboundOpenScreenPacket",
+        "id": 49
+      },
+      {
+        "name": "ClientboundOpenSignEditorPacket",
+        "id": 50
+      },
+      {
+        "name": "ClientboundPingPacket",
+        "id": 51
+      },
+      {
+        "name": "ClientboundPongResponsePacket",
+        "id": 52
+      },
+      {
+        "name": "ClientboundPlaceGhostRecipePacket",
+        "id": 53
+      },
+      {
+        "name": "ClientboundPlayerAbilitiesPacket",
+        "id": 54
+      },
+      {
+        "name": "ClientboundPlayerChatPacket",
+        "id": 55
+      },
+      {
+        "name": "ClientboundPlayerCombatEndPacket",
+        "id": 56
+      },
+      {
+        "name": "ClientboundPlayerCombatEnterPacket",
+        "id": 57
+      },
+      {
+        "name": "ClientboundPlayerCombatKillPacket",
+        "id": 58
+      },
+      {
+        "name": "ClientboundPlayerInfoRemovePacket",
+        "id": 59
+      },
+      {
+        "name": "ClientboundPlayerInfoUpdatePacket",
+        "id": 60
+      },
+      {
+        "name": "ClientboundPlayerLookAtPacket",
+        "id": 61
+      },
+      {
+        "name": "ClientboundPlayerPositionPacket",
+        "id": 62
+      },
+      {
+        "name": "ClientboundRecipePacket",
+        "id": 63
+      },
+      {
+        "name": "ClientboundRemoveEntitiesPacket",
+        "id": 64
+      },
+      {
+        "name": "ClientboundRemoveMobEffectPacket",
+        "id": 65
+      },
+      {
+        "name": "ClientboundResetScorePacket",
+        "id": 66
+      },
+      {
+        "name": "ClientboundResourcePackPopPacket",
+        "id": 67
+      },
+      {
+        "name": "ClientboundResourcePackPushPacket",
+        "id": 68
+      },
+      {
+        "name": "ClientboundRespawnPacket",
+        "id": 69
+      },
+      {
+        "name": "ClientboundRotateHeadPacket",
+        "id": 70
+      },
+      {
+        "name": "ClientboundSectionBlocksUpdatePacket",
+        "id": 71
+      },
+      {
+        "name": "ClientboundSelectAdvancementsTabPacket",
+        "id": 72
+      },
+      {
+        "name": "ClientboundServerDataPacket",
+        "id": 73
+      },
+      {
+        "name": "ClientboundSetActionBarTextPacket",
+        "id": 74
+      },
+      {
+        "name": "ClientboundSetBorderCenterPacket",
+        "id": 75
+      },
+      {
+        "name": "ClientboundSetBorderLerpSizePacket",
+        "id": 76
+      },
+      {
+        "name": "ClientboundSetBorderSizePacket",
+        "id": 77
+      },
+      {
+        "name": "ClientboundSetBorderWarningDelayPacket",
+        "id": 78
+      },
+      {
+        "name": "ClientboundSetBorderWarningDistancePacket",
+        "id": 79
+      },
+      {
+        "name": "ClientboundSetCameraPacket",
+        "id": 80
+      },
+      {
+        "name": "ClientboundSetCarriedItemPacket",
+        "id": 81
+      },
+      {
+        "name": "ClientboundSetChunkCacheCenterPacket",
+        "id": 82
+      },
+      {
+        "name": "ClientboundSetChunkCacheRadiusPacket",
+        "id": 83
+      },
+      {
+        "name": "ClientboundSetDefaultSpawnPositionPacket",
+        "id": 84
+      },
+      {
+        "name": "ClientboundSetDisplayObjectivePacket",
+        "id": 85
+      },
+      {
+        "name": "ClientboundSetEntityDataPacket",
+        "id": 86
+      },
+      {
+        "name": "ClientboundSetEntityLinkPacket",
+        "id": 87
+      },
+      {
+        "name": "ClientboundSetEntityMotionPacket",
+        "id": 88
+      },
+      {
+        "name": "ClientboundSetEquipmentPacket",
+        "id": 89
+      },
+      {
+        "name": "ClientboundSetExperiencePacket",
+        "id": 90
+      },
+      {
+        "name": "ClientboundSetHealthPacket",
+        "id": 91
+      },
+      {
+        "name": "ClientboundSetObjectivePacket",
+        "id": 92
+      },
+      {
+        "name": "ClientboundSetPassengersPacket",
+        "id": 93
+      },
+      {
+        "name": "ClientboundSetPlayerTeamPacket",
+        "id": 94
+      },
+      {
+        "name": "ClientboundSetScorePacket",
+        "id": 95
+      },
+      {
+        "name": "ClientboundSetSimulationDistancePacket",
+        "id": 96
+      },
+      {
+        "name": "ClientboundSetSubtitleTextPacket",
+        "id": 97
+      },
+      {
+        "name": "ClientboundSetTimePacket",
+        "id": 98
+      },
+      {
+        "name": "ClientboundSetTitleTextPacket",
+        "id": 99
+      },
+      {
+        "name": "ClientboundSetTitlesAnimationPacket",
+        "id": 100
+      },
+      {
+        "name": "ClientboundSoundEntityPacket",
+        "id": 101
+      },
+      {
+        "name": "ClientboundSoundPacket",
+        "id": 102
+      },
+      {
+        "name": "ClientboundStartConfigurationPacket",
+        "id": 103
+      },
+      {
+        "name": "ClientboundStopSoundPacket",
+        "id": 104
+      },
+      {
+        "name": "ClientboundSystemChatPacket",
+        "id": 105
+      },
+      {
+        "name": "ClientboundTabListPacket",
+        "id": 106
+      },
+      {
+        "name": "ClientboundTagQueryPacket",
+        "id": 107
+      },
+      {
+        "name": "ClientboundTakeItemEntityPacket",
+        "id": 108
+      },
+      {
+        "name": "ClientboundTeleportEntityPacket",
+        "id": 109
+      },
+      {
+        "name": "ClientboundTickingStatePacket",
+        "id": 110
+      },
+      {
+        "name": "ClientboundTickingStepPacket",
+        "id": 111
+      },
+      {
+        "name": "ClientboundUpdateAdvancementsPacket",
+        "id": 112
+      },
+      {
+        "name": "ClientboundUpdateAttributesPacket",
+        "id": 113
+      },
+      {
+        "name": "ClientboundUpdateMobEffectPacket",
+        "id": 114
+      },
+      {
+        "name": "ClientboundUpdateRecipesPacket",
+        "id": 115
+      },
+      {
+        "name": "ClientboundUpdateTagsPacket",
+        "id": 116
+      }
+    ]
+  },
+  "STATUS": {
+    "ordinal": 2,
+    "id": "status",
+    "SERVERBOUND": [
+      {
+        "name": "ServerboundStatusRequestPacket",
+        "id": 0
+      },
+      {
+        "name": "ServerboundPingRequestPacket",
+        "id": 1
+      }
+    ],
+    "CLIENTBOUND": [
+      {
+        "name": "ClientboundStatusResponsePacket",
+        "id": 0
+      },
+      {
+        "name": "ClientboundPongResponsePacket",
+        "id": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "minecraft:acquirable_job_site": {
+    "values": [
+      "minecraft:armorer",
+      "minecraft:butcher",
+      "minecraft:cartographer",
+      "minecraft:cleric",
+      "minecraft:farmer",
+      "minecraft:fisherman",
+      "minecraft:fletcher",
+      "minecraft:leatherworker",
+      "minecraft:librarian",
+      "minecraft:mason",
+      "minecraft:shepherd",
+      "minecraft:toolsmith",
+      "minecraft:weaponsmith"
+    ]
+  },
+  "minecraft:bee_home": {
+    "values": [
+      "minecraft:beehive",
+      "minecraft:bee_nest"
+    ]
+  },
+  "minecraft:village": {
+    "values": [
+      "#minecraft:acquirable_job_site",
+      "minecraft:home",
+      "minecraft:meeting"
+    ]
+  }
+}
