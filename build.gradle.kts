@@ -6,7 +6,7 @@ plugins {
 tasks {
     register<Jar>("packageVersion") {
         archiveBaseName.set("articdata")
-        archiveVersion.set("1.20.1-77b86bc4")
+        archiveVersion.set("1.20.2-cb27856f")
 
         destinationDirectory.set(layout.buildDirectory.dir("dist"))
         from(project.rootProject.rootDir)
@@ -20,7 +20,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "de.articdive"
             artifactId = "articdata"
-            version = "1.20.1-77b86bc4"
+            version = "1.20.2-cb27856f"
 
             pom {
                 name.set("ArticData")
@@ -41,7 +41,7 @@ publishing {
                 scm {
                     connection.set("scm:git:github.com/Articdive/ArticData.git")
                     developerConnection.set("scm:git:ssh://github.com/Articdive/ArticData.git")
-                    url.set("https://github.com/Articdive/ArticData/tree/1.20.1")
+                    url.set("https://github.com/Articdive/ArticData/tree/1.20.2")
                 }
             }
 

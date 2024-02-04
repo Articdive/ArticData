@@ -1,0 +1,336 @@
+{
+  "minecraft:absorption": {
+    "id": 21,
+    "mojangName": "ABSORPTION",
+    "translationKey": "effect.minecraft.absorption",
+    "color": 2445989,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_absorption",
+        "uuid": "eae29cf0-701e-4ed6-883a-96f798f3dab5",
+        "value": 4.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:bad_omen": {
+    "id": 30,
+    "mojangName": "BAD_OMEN",
+    "translationKey": "effect.minecraft.bad_omen",
+    "color": 745784,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:blindness": {
+    "id": 14,
+    "mojangName": "BLINDNESS",
+    "translationKey": "effect.minecraft.blindness",
+    "color": 2039587,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:conduit_power": {
+    "id": 28,
+    "mojangName": "CONDUIT_POWER",
+    "translationKey": "effect.minecraft.conduit_power",
+    "color": 1950417,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:darkness": {
+    "id": 32,
+    "mojangName": "DARKNESS",
+    "translationKey": "effect.minecraft.darkness",
+    "color": 2696993,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:dolphins_grace": {
+    "id": 29,
+    "mojangName": "DOLPHINS_GRACE",
+    "translationKey": "effect.minecraft.dolphins_grace",
+    "color": 8954814,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:fire_resistance": {
+    "id": 11,
+    "mojangName": "FIRE_RESISTANCE",
+    "translationKey": "effect.minecraft.fire_resistance",
+    "color": 16750848,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:glowing": {
+    "id": 23,
+    "mojangName": "GLOWING",
+    "translationKey": "effect.minecraft.glowing",
+    "color": 9740385,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:haste": {
+    "id": 2,
+    "mojangName": "DIG_SPEED",
+    "translationKey": "effect.minecraft.haste",
+    "color": 14270531,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "uuid": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3",
+        "value": 0.10000000149011612,
+        "operation": "MULTIPLY_TOTAL"
+      }
+    ]
+  },
+  "minecraft:health_boost": {
+    "id": 20,
+    "mojangName": "HEALTH_BOOST",
+    "translationKey": "effect.minecraft.health_boost",
+    "color": 16284963,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "uuid": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc",
+        "value": 4.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:hero_of_the_village": {
+    "id": 31,
+    "mojangName": "HERO_OF_THE_VILLAGE",
+    "translationKey": "effect.minecraft.hero_of_the_village",
+    "color": 4521796,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:hunger": {
+    "id": 16,
+    "mojangName": "HUNGER",
+    "translationKey": "effect.minecraft.hunger",
+    "color": 5797459,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:instant_damage": {
+    "id": 6,
+    "mojangName": "HARM",
+    "translationKey": "effect.minecraft.instant_damage",
+    "color": 11101546,
+    "instantaneous": true,
+    "modifiers": []
+  },
+  "minecraft:instant_health": {
+    "id": 5,
+    "mojangName": "HEAL",
+    "translationKey": "effect.minecraft.instant_health",
+    "color": 16262179,
+    "instantaneous": true,
+    "modifiers": []
+  },
+  "minecraft:invisibility": {
+    "id": 13,
+    "mojangName": "INVISIBILITY",
+    "translationKey": "effect.minecraft.invisibility",
+    "color": 16185078,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:jump_boost": {
+    "id": 7,
+    "mojangName": "JUMP",
+    "translationKey": "effect.minecraft.jump_boost",
+    "color": 16646020,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:levitation": {
+    "id": 24,
+    "mojangName": "LEVITATION",
+    "translationKey": "effect.minecraft.levitation",
+    "color": 13565951,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:luck": {
+    "id": 25,
+    "mojangName": "LUCK",
+    "translationKey": "effect.minecraft.luck",
+    "color": 5882118,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.luck",
+        "uuid": "03c3c89d-7037-4b42-869f-b146bcb64d2e",
+        "value": 1.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:mining_fatigue": {
+    "id": 3,
+    "mojangName": "DIG_SLOWDOWN",
+    "translationKey": "effect.minecraft.mining_fatigue",
+    "color": 4866583,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "uuid": "55fced67-e92a-486e-9800-b47f202c4386",
+        "value": -0.10000000149011612,
+        "operation": "MULTIPLY_TOTAL"
+      }
+    ]
+  },
+  "minecraft:nausea": {
+    "id": 8,
+    "mojangName": "CONFUSION",
+    "translationKey": "effect.minecraft.nausea",
+    "color": 5578058,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:night_vision": {
+    "id": 15,
+    "mojangName": "NIGHT_VISION",
+    "translationKey": "effect.minecraft.night_vision",
+    "color": 12779366,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:poison": {
+    "id": 18,
+    "mojangName": "POISON",
+    "translationKey": "effect.minecraft.poison",
+    "color": 8889187,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:regeneration": {
+    "id": 9,
+    "mojangName": "REGENERATION",
+    "translationKey": "effect.minecraft.regeneration",
+    "color": 13458603,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:resistance": {
+    "id": 10,
+    "mojangName": "DAMAGE_RESISTANCE",
+    "translationKey": "effect.minecraft.resistance",
+    "color": 9520880,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:saturation": {
+    "id": 22,
+    "mojangName": "SATURATION",
+    "translationKey": "effect.minecraft.saturation",
+    "color": 16262179,
+    "instantaneous": true,
+    "modifiers": []
+  },
+  "minecraft:slow_falling": {
+    "id": 27,
+    "mojangName": "SLOW_FALLING",
+    "translationKey": "effect.minecraft.slow_falling",
+    "color": 15978425,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:slowness": {
+    "id": 1,
+    "mojangName": "MOVEMENT_SLOWDOWN",
+    "translationKey": "effect.minecraft.slowness",
+    "color": 9154528,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "uuid": "7107de5e-7ce8-4030-940e-514c1f160890",
+        "value": -0.15000000596046448,
+        "operation": "MULTIPLY_TOTAL"
+      }
+    ]
+  },
+  "minecraft:speed": {
+    "id": 0,
+    "mojangName": "MOVEMENT_SPEED",
+    "translationKey": "effect.minecraft.speed",
+    "color": 3402751,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "uuid": "91aeaa56-376b-4498-935b-2f7f68070635",
+        "value": 0.20000000298023224,
+        "operation": "MULTIPLY_TOTAL"
+      }
+    ]
+  },
+  "minecraft:strength": {
+    "id": 4,
+    "mojangName": "DAMAGE_BOOST",
+    "translationKey": "effect.minecraft.strength",
+    "color": 16762624,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "uuid": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9",
+        "value": 3.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:unluck": {
+    "id": 26,
+    "mojangName": "UNLUCK",
+    "translationKey": "effect.minecraft.unluck",
+    "color": 12624973,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.luck",
+        "uuid": "cc5af142-2bd2-4215-b636-2605aed11727",
+        "value": -1.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:water_breathing": {
+    "id": 12,
+    "mojangName": "WATER_BREATHING",
+    "translationKey": "effect.minecraft.water_breathing",
+    "color": 10017472,
+    "instantaneous": false,
+    "modifiers": []
+  },
+  "minecraft:weakness": {
+    "id": 17,
+    "mojangName": "WEAKNESS",
+    "translationKey": "effect.minecraft.weakness",
+    "color": 4738376,
+    "instantaneous": false,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "uuid": "22653b89-116e-49dc-9b6b-9971489b5be5",
+        "value": -4.0,
+        "operation": "ADDITION"
+      }
+    ]
+  },
+  "minecraft:wither": {
+    "id": 19,
+    "mojangName": "WITHER",
+    "translationKey": "effect.minecraft.wither",
+    "color": 7561558,
+    "instantaneous": false,
+    "modifiers": []
+  }
+}

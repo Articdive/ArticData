@@ -1,0 +1,1065 @@
+{
+  "AGE_1": {
+    "key": "age",
+    "values": [
+      0,
+      1
+    ]
+  },
+  "AGE_15": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "AGE_2": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "AGE_25": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "AGE_3": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "AGE_4": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "AGE_5": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "AGE_7": {
+    "key": "age",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "ATTACHED": {
+    "key": "attached",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "ATTACH_FACE": {
+    "key": "face",
+    "enumMojangName": "AttachFace",
+    "values": [
+      "FLOOR",
+      "WALL",
+      "CEILING"
+    ]
+  },
+  "AXIS": {
+    "key": "axis",
+    "enumMojangName": "Axis",
+    "values": [
+      "X",
+      "Y",
+      "Z"
+    ]
+  },
+  "BAMBOO_LEAVES": {
+    "key": "leaves",
+    "enumMojangName": "BambooLeaves",
+    "values": [
+      "NONE",
+      "SMALL",
+      "LARGE"
+    ]
+  },
+  "BED_PART": {
+    "key": "part",
+    "enumMojangName": "BedPart",
+    "values": [
+      "HEAD",
+      "FOOT"
+    ]
+  },
+  "BELL_ATTACHMENT": {
+    "key": "attachment",
+    "enumMojangName": "BellAttachType",
+    "values": [
+      "FLOOR",
+      "CEILING",
+      "SINGLE_WALL",
+      "DOUBLE_WALL"
+    ]
+  },
+  "BERRIES": {
+    "key": "berries",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "BITES": {
+    "key": "bites",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "BLOOM": {
+    "key": "bloom",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "BOTTOM": {
+    "key": "bottom",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CANDLES": {
+    "key": "candles",
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "CAN_SUMMON": {
+    "key": "can_summon",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHEST_TYPE": {
+    "key": "type",
+    "enumMojangName": "ChestType",
+    "values": [
+      "SINGLE",
+      "LEFT",
+      "RIGHT"
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_0_OCCUPIED": {
+    "key": "slot_0_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_1_OCCUPIED": {
+    "key": "slot_1_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_2_OCCUPIED": {
+    "key": "slot_2_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_3_OCCUPIED": {
+    "key": "slot_3_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_4_OCCUPIED": {
+    "key": "slot_4_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CHISELED_BOOKSHELF_SLOT_5_OCCUPIED": {
+    "key": "slot_5_occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CONDITIONAL": {
+    "key": "conditional",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "CRACKED": {
+    "key": "cracked",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "DELAY": {
+    "key": "delay",
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "DISARMED": {
+    "key": "disarmed",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "DISTANCE": {
+    "key": "distance",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "DOOR_HINGE": {
+    "key": "hinge",
+    "enumMojangName": "DoorHingeSide",
+    "values": [
+      "LEFT",
+      "RIGHT"
+    ]
+  },
+  "DOUBLE_BLOCK_HALF": {
+    "key": "half",
+    "enumMojangName": "DoubleBlockHalf",
+    "values": [
+      "UPPER",
+      "LOWER"
+    ]
+  },
+  "DOWN": {
+    "key": "down",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "DRAG": {
+    "key": "drag",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "DRIPSTONE_THICKNESS": {
+    "key": "thickness",
+    "enumMojangName": "DripstoneThickness",
+    "values": [
+      "TIP_MERGE",
+      "TIP",
+      "FRUSTUM",
+      "MIDDLE",
+      "BASE"
+    ]
+  },
+  "DUSTED": {
+    "key": "dusted",
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "EAST": {
+    "key": "east",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "EAST_REDSTONE": {
+    "key": "east",
+    "enumMojangName": "RedstoneSide",
+    "values": [
+      "UP",
+      "SIDE",
+      "NONE"
+    ]
+  },
+  "EAST_WALL": {
+    "key": "east",
+    "enumMojangName": "WallSide",
+    "values": [
+      "NONE",
+      "LOW",
+      "TALL"
+    ]
+  },
+  "EGGS": {
+    "key": "eggs",
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ENABLED": {
+    "key": "enabled",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "EXTENDED": {
+    "key": "extended",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "EYE": {
+    "key": "eye",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "FACING": {
+    "key": "facing",
+    "enumMojangName": "Direction",
+    "values": [
+      "NORTH",
+      "EAST",
+      "SOUTH",
+      "WEST",
+      "UP",
+      "DOWN"
+    ]
+  },
+  "FACING_HOPPER": {
+    "key": "facing",
+    "enumMojangName": "Direction",
+    "values": [
+      "DOWN",
+      "NORTH",
+      "SOUTH",
+      "WEST",
+      "EAST"
+    ]
+  },
+  "FALLING": {
+    "key": "falling",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "FLOWER_AMOUNT": {
+    "key": "flower_amount",
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "HALF": {
+    "key": "half",
+    "enumMojangName": "Half",
+    "values": [
+      "TOP",
+      "BOTTOM"
+    ]
+  },
+  "HANGING": {
+    "key": "hanging",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HAS_BOOK": {
+    "key": "has_book",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HAS_BOTTLE_0": {
+    "key": "has_bottle_0",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HAS_BOTTLE_1": {
+    "key": "has_bottle_1",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HAS_BOTTLE_2": {
+    "key": "has_bottle_2",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HAS_RECORD": {
+    "key": "has_record",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "HATCH": {
+    "key": "hatch",
+    "values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "HORIZONTAL_AXIS": {
+    "key": "axis",
+    "enumMojangName": "Axis",
+    "values": [
+      "X",
+      "Z"
+    ]
+  },
+  "HORIZONTAL_FACING": {
+    "key": "facing",
+    "enumMojangName": "Direction",
+    "values": [
+      "NORTH",
+      "SOUTH",
+      "WEST",
+      "EAST"
+    ]
+  },
+  "INVERTED": {
+    "key": "inverted",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "IN_WALL": {
+    "key": "in_wall",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "LAYERS": {
+    "key": "layers",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "LEVEL": {
+    "key": "level",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "LEVEL_CAULDRON": {
+    "key": "level",
+    "values": [
+      1,
+      2,
+      3
+    ]
+  },
+  "LEVEL_COMPOSTER": {
+    "key": "level",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "LEVEL_FLOWING": {
+    "key": "level",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "LEVEL_HONEY": {
+    "key": "honey_level",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "LIT": {
+    "key": "lit",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "LOCKED": {
+    "key": "locked",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "MODE_COMPARATOR": {
+    "key": "mode",
+    "enumMojangName": "ComparatorMode",
+    "values": [
+      "COMPARE",
+      "SUBTRACT"
+    ]
+  },
+  "MOISTURE": {
+    "key": "moisture",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "NORTH": {
+    "key": "north",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "NORTH_REDSTONE": {
+    "key": "north",
+    "enumMojangName": "RedstoneSide",
+    "values": [
+      "UP",
+      "SIDE",
+      "NONE"
+    ]
+  },
+  "NORTH_WALL": {
+    "key": "north",
+    "enumMojangName": "WallSide",
+    "values": [
+      "NONE",
+      "LOW",
+      "TALL"
+    ]
+  },
+  "NOTE": {
+    "key": "note",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "NOTEBLOCK_INSTRUMENT": {
+    "key": "instrument",
+    "enumMojangName": "NoteBlockInstrument",
+    "values": [
+      "HARP",
+      "BASEDRUM",
+      "SNARE",
+      "HAT",
+      "BASS",
+      "FLUTE",
+      "BELL",
+      "GUITAR",
+      "CHIME",
+      "XYLOPHONE",
+      "IRON_XYLOPHONE",
+      "COW_BELL",
+      "DIDGERIDOO",
+      "BIT",
+      "BANJO",
+      "PLING",
+      "ZOMBIE",
+      "SKELETON",
+      "CREEPER",
+      "DRAGON",
+      "WITHER_SKELETON",
+      "PIGLIN",
+      "CUSTOM_HEAD"
+    ]
+  },
+  "OCCUPIED": {
+    "key": "occupied",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "OPEN": {
+    "key": "open",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "ORIENTATION": {
+    "key": "orientation",
+    "enumMojangName": "FrontAndTop",
+    "values": [
+      "DOWN_EAST",
+      "DOWN_NORTH",
+      "DOWN_SOUTH",
+      "DOWN_WEST",
+      "UP_EAST",
+      "UP_NORTH",
+      "UP_SOUTH",
+      "UP_WEST",
+      "WEST_UP",
+      "EAST_UP",
+      "NORTH_UP",
+      "SOUTH_UP"
+    ]
+  },
+  "PERSISTENT": {
+    "key": "persistent",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "PICKLES": {
+    "key": "pickles",
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "PISTON_TYPE": {
+    "key": "type",
+    "enumMojangName": "PistonType",
+    "values": [
+      "DEFAULT",
+      "STICKY"
+    ]
+  },
+  "POWER": {
+    "key": "power",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "POWERED": {
+    "key": "powered",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "RAIL_SHAPE": {
+    "key": "shape",
+    "enumMojangName": "RailShape",
+    "values": [
+      "NORTH_SOUTH",
+      "EAST_WEST",
+      "ASCENDING_EAST",
+      "ASCENDING_WEST",
+      "ASCENDING_NORTH",
+      "ASCENDING_SOUTH",
+      "SOUTH_EAST",
+      "SOUTH_WEST",
+      "NORTH_WEST",
+      "NORTH_EAST"
+    ]
+  },
+  "RAIL_SHAPE_STRAIGHT": {
+    "key": "shape",
+    "enumMojangName": "RailShape",
+    "values": [
+      "NORTH_SOUTH",
+      "EAST_WEST",
+      "ASCENDING_EAST",
+      "ASCENDING_WEST",
+      "ASCENDING_NORTH",
+      "ASCENDING_SOUTH"
+    ]
+  },
+  "RESPAWN_ANCHOR_CHARGES": {
+    "key": "charges",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ROTATION_16": {
+    "key": "rotation",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "SCULK_SENSOR_PHASE": {
+    "key": "sculk_sensor_phase",
+    "enumMojangName": "SculkSensorPhase",
+    "values": [
+      "INACTIVE",
+      "ACTIVE",
+      "COOLDOWN"
+    ]
+  },
+  "SHORT": {
+    "key": "short",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "SHRIEKING": {
+    "key": "shrieking",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "SIGNAL_FIRE": {
+    "key": "signal_fire",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "SLAB_TYPE": {
+    "key": "type",
+    "enumMojangName": "SlabType",
+    "values": [
+      "TOP",
+      "BOTTOM",
+      "DOUBLE"
+    ]
+  },
+  "SNOWY": {
+    "key": "snowy",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "SOUTH": {
+    "key": "south",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "SOUTH_REDSTONE": {
+    "key": "south",
+    "enumMojangName": "RedstoneSide",
+    "values": [
+      "UP",
+      "SIDE",
+      "NONE"
+    ]
+  },
+  "SOUTH_WALL": {
+    "key": "south",
+    "enumMojangName": "WallSide",
+    "values": [
+      "NONE",
+      "LOW",
+      "TALL"
+    ]
+  },
+  "STABILITY_DISTANCE": {
+    "key": "distance",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "STAGE": {
+    "key": "stage",
+    "values": [
+      0,
+      1
+    ]
+  },
+  "STAIRS_SHAPE": {
+    "key": "shape",
+    "enumMojangName": "StairsShape",
+    "values": [
+      "STRAIGHT",
+      "INNER_LEFT",
+      "INNER_RIGHT",
+      "OUTER_LEFT",
+      "OUTER_RIGHT"
+    ]
+  },
+  "STRUCTUREBLOCK_MODE": {
+    "key": "mode",
+    "enumMojangName": "StructureMode",
+    "values": [
+      "SAVE",
+      "LOAD",
+      "CORNER",
+      "DATA"
+    ]
+  },
+  "TILT": {
+    "key": "tilt",
+    "enumMojangName": "Tilt",
+    "values": [
+      "NONE",
+      "UNSTABLE",
+      "PARTIAL",
+      "FULL"
+    ]
+  },
+  "TRIGGERED": {
+    "key": "triggered",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "UNSTABLE": {
+    "key": "unstable",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "UP": {
+    "key": "up",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "VERTICAL_DIRECTION": {
+    "key": "vertical_direction",
+    "enumMojangName": "Direction",
+    "values": [
+      "UP",
+      "DOWN"
+    ]
+  },
+  "WATERLOGGED": {
+    "key": "waterlogged",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "WEST": {
+    "key": "west",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "WEST_REDSTONE": {
+    "key": "west",
+    "enumMojangName": "RedstoneSide",
+    "values": [
+      "UP",
+      "SIDE",
+      "NONE"
+    ]
+  },
+  "WEST_WALL": {
+    "key": "west",
+    "enumMojangName": "WallSide",
+    "values": [
+      "NONE",
+      "LOW",
+      "TALL"
+    ]
+  }
+}
