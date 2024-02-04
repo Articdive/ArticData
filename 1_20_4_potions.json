@@ -1,0 +1,583 @@
+{
+  "minecraft:awkward": {
+    "id": 4,
+    "mojangName": "AWKWARD",
+    "potion_effects": []
+  },
+  "minecraft:empty": {
+    "id": 0,
+    "mojangName": "EMPTY",
+    "potion_effects": []
+  },
+  "minecraft:fire_resistance": {
+    "id": 12,
+    "mojangName": "FIRE_RESISTANCE",
+    "potion_effects": [
+      {
+        "id": "minecraft:fire_resistance",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:harming": {
+    "id": 27,
+    "mojangName": "HARMING",
+    "potion_effects": [
+      {
+        "id": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:healing": {
+    "id": 25,
+    "mojangName": "HEALING",
+    "potion_effects": [
+      {
+        "id": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:invisibility": {
+    "id": 7,
+    "mojangName": "INVISIBILITY",
+    "potion_effects": [
+      {
+        "id": "minecraft:invisibility",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:leaping": {
+    "id": 9,
+    "mojangName": "LEAPING",
+    "potion_effects": [
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_fire_resistance": {
+    "id": 13,
+    "mojangName": "LONG_FIRE_RESISTANCE",
+    "potion_effects": [
+      {
+        "id": "minecraft:fire_resistance",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_invisibility": {
+    "id": 8,
+    "mojangName": "LONG_INVISIBILITY",
+    "potion_effects": [
+      {
+        "id": "minecraft:invisibility",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_leaping": {
+    "id": 10,
+    "mojangName": "LONG_LEAPING",
+    "potion_effects": [
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_night_vision": {
+    "id": 6,
+    "mojangName": "LONG_NIGHT_VISION",
+    "potion_effects": [
+      {
+        "id": "minecraft:night_vision",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_poison": {
+    "id": 30,
+    "mojangName": "LONG_POISON",
+    "potion_effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 1800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_regeneration": {
+    "id": 33,
+    "mojangName": "LONG_REGENERATION",
+    "potion_effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 1800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_slow_falling": {
+    "id": 42,
+    "mojangName": "LONG_SLOW_FALLING",
+    "potion_effects": [
+      {
+        "id": "minecraft:slow_falling",
+        "duration": 4800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_slowness": {
+    "id": 18,
+    "mojangName": "LONG_SLOWNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 4800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_strength": {
+    "id": 36,
+    "mojangName": "LONG_STRENGTH",
+    "potion_effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_swiftness": {
+    "id": 15,
+    "mojangName": "LONG_SWIFTNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_turtle_master": {
+    "id": 21,
+    "mojangName": "LONG_TURTLE_MASTER",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 800,
+        "amplifier": 3,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 800,
+        "amplifier": 2,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_water_breathing": {
+    "id": 24,
+    "mojangName": "LONG_WATER_BREATHING",
+    "potion_effects": [
+      {
+        "id": "minecraft:water_breathing",
+        "duration": 9600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:long_weakness": {
+    "id": 39,
+    "mojangName": "LONG_WEAKNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:weakness",
+        "duration": 4800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:luck": {
+    "id": 40,
+    "mojangName": "LUCK",
+    "potion_effects": [
+      {
+        "id": "minecraft:luck",
+        "duration": 6000,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:mundane": {
+    "id": 2,
+    "mojangName": "MUNDANE",
+    "potion_effects": []
+  },
+  "minecraft:night_vision": {
+    "id": 5,
+    "mojangName": "NIGHT_VISION",
+    "potion_effects": [
+      {
+        "id": "minecraft:night_vision",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:poison": {
+    "id": 29,
+    "mojangName": "POISON",
+    "potion_effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 900,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:regeneration": {
+    "id": 32,
+    "mojangName": "REGENERATION",
+    "potion_effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 900,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:slow_falling": {
+    "id": 41,
+    "mojangName": "SLOW_FALLING",
+    "potion_effects": [
+      {
+        "id": "minecraft:slow_falling",
+        "duration": 1800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:slowness": {
+    "id": 17,
+    "mojangName": "SLOWNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 1800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strength": {
+    "id": 35,
+    "mojangName": "STRENGTH",
+    "potion_effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_harming": {
+    "id": 28,
+    "mojangName": "STRONG_HARMING",
+    "potion_effects": [
+      {
+        "id": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_healing": {
+    "id": 26,
+    "mojangName": "STRONG_HEALING",
+    "potion_effects": [
+      {
+        "id": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_leaping": {
+    "id": 11,
+    "mojangName": "STRONG_LEAPING",
+    "potion_effects": [
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 1800,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_poison": {
+    "id": 31,
+    "mojangName": "STRONG_POISON",
+    "potion_effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 432,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_regeneration": {
+    "id": 34,
+    "mojangName": "STRONG_REGENERATION",
+    "potion_effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 450,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_slowness": {
+    "id": 19,
+    "mojangName": "STRONG_SLOWNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 400,
+        "amplifier": 3,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_strength": {
+    "id": 37,
+    "mojangName": "STRONG_STRENGTH",
+    "potion_effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 1800,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_swiftness": {
+    "id": 16,
+    "mojangName": "STRONG_SWIFTNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 1800,
+        "amplifier": 1,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:strong_turtle_master": {
+    "id": 22,
+    "mojangName": "STRONG_TURTLE_MASTER",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 400,
+        "amplifier": 5,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 400,
+        "amplifier": 3,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:swiftness": {
+    "id": 14,
+    "mojangName": "SWIFTNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:thick": {
+    "id": 3,
+    "mojangName": "THICK",
+    "potion_effects": []
+  },
+  "minecraft:turtle_master": {
+    "id": 20,
+    "mojangName": "TURTLE_MASTER",
+    "potion_effects": [
+      {
+        "id": "minecraft:slowness",
+        "duration": 400,
+        "amplifier": 3,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 400,
+        "amplifier": 2,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:water": {
+    "id": 1,
+    "mojangName": "WATER",
+    "potion_effects": []
+  },
+  "minecraft:water_breathing": {
+    "id": 23,
+    "mojangName": "WATER_BREATHING",
+    "potion_effects": [
+      {
+        "id": "minecraft:water_breathing",
+        "duration": 3600,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  },
+  "minecraft:weakness": {
+    "id": 38,
+    "mojangName": "WEAKNESS",
+    "potion_effects": [
+      {
+        "id": "minecraft:weakness",
+        "duration": 1800,
+        "amplifier": 0,
+        "visible": true,
+        "ambient": false,
+        "showIcon": true
+      }
+    ]
+  }
+}

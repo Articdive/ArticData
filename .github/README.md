@@ -57,7 +57,7 @@ Adding to a Maven Project:
     <dependency>
         <groupId>de.articdive</groupId>
         <artifactId>articdata</artifactId>
-        <version>1.20.1-77b86bc4</version>
+        <version>1.20.4-cb27856f</version>
     </dependency>
 </dependencies>
 ```
@@ -69,7 +69,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("de.articdive:articdata:1.20.1-77b86bc4")
+    implementation("de.articdive:articdata:1.20.4-cb27856f")
 }
 ```
 
@@ -112,50 +112,50 @@ WARNING: There is no guarantee that the format of the data will stay the same.
 
 ### Blocks
 
-|          Data Type           |     Supported?      |           Description           |
-|:----------------------------:|:-------------------:|:-------------------------------:|
-|         Protocol ID          | :heavy_check_mark:  |                                 |
-|         Namespace ID         | :heavy_check_mark:  |                                 |
-|         Mojang Name          | :heavy_check_mark:  |                                 |
-|       Translation Key        | :heavy_check_mark:  |                                 |
-|        Loot Table Key        | :heavy_check_mark:  |                                 |
-|         Block States         | :heavy_check_mark:  |                                 |
-|    BlockState Properties     | :heavy_check_mark:  |                                 |
-|        Block Entities        | :heavy_check_mark:  |                                 |
-|           Hardness           | :heavy_check_mark:  |                                 |
-|     Explosion Resistance     | :heavy_check_mark:  |                                 |
-|           Friction           | :heavy_check_mark:  |                                 |
-|     Speed & Jump Factor      | :heavy_check_mark:  |                                 |
-|     Default Block State      | :heavy_check_mark:  |                                 |
-|      Corresponding Item      | :heavy_check_mark:  |                                 |
-|   Corresponding Map Color    | :heavy_check_mark:  |                                 |
-| Solid, Liquid, Blocking etc. | :heavy_check_mark:  |                                 |
-|     Piston Push Reaction     | :heavy_check_mark:  |                                 |
-|           Gravity            | :heavy_check_mark:  |                                 |
-|      Respawn Eligiblity      | :heavy_check_mark:  |   Moved to BlockState in 1.20   |
-|    Tool Require For Drops    | :heavy_check_mark:  |                                 |
-|    Large Collision Shape     | :heavy_check_mark:  |                                 |
-|  Collision Shape Full Block  | :heavy_check_mark:  |                                 |
-|          Occlusion           | :heavy_check_mark:  |                                 |
-|            Hitbox            | :heavy_check_mark:  |                                 |
-|       Collision Hitbox       | :heavy_check_mark:  |                                 |
-|      Interaction Hitbox      | :heavy_check_mark:  |                                 |
-|       Occlusion Hitbox       | :heavy_check_mark:  |                                 |
-|        Visual Hitbox         | :heavy_check_mark:  |                                 |
-|        Dynamic Shape         | :heavy_check_mark:  |                                 |
-|         Solid Render         | :heavy_check_mark:  |                                 |
-|        Light Emission        | :heavy_check_mark:  |                                 |
-|         Light Block          | :heavy_check_mark:  |                                 |
-|   Propagates Skylight Down   | :heavy_check_mark:  |                                 |
-|  Shape for Light Occlusion   | :heavy_check_mark:  |                                 |
-|           Opacity            | :heavy_check_mark:  |                                 |
-|     Conditional Opacity      | :heavy_check_mark:  |                                 |
-|         Render Shape         | :heavy_check_mark:  |                                 |
-|            Offset            |         :x:         | Now BlockState-specific (1.19). |
-|       Vertical Offset        | :heavy_check_mark:  |                                 |
-|      Horizontal Offset       | :heavy_check_mark:  |                                 |
-|      Sound Information       | :heavy_check_mark:  |                                 |
-|    Pick Block Information    | :heavy_check_mark:  |                                 |
+|          Data Type           |     Supported?      |         Description          |
+|:----------------------------:|:-------------------:|:----------------------------:|
+|         Protocol ID          | :heavy_check_mark:  |                              |
+|         Namespace ID         | :heavy_check_mark:  |                              |
+|         Mojang Name          | :heavy_check_mark:  |                              |
+|       Translation Key        | :heavy_check_mark:  |                              |
+|        Loot Table Key        | :heavy_check_mark:  |                              |
+|         Block States         | :heavy_check_mark:  |                              |
+|    BlockState Properties     | :heavy_check_mark:  |                              |
+|        Block Entities        | :heavy_check_mark:  |                              |
+|           Hardness           | :heavy_check_mark:  |                              |
+|     Explosion Resistance     | :heavy_check_mark:  |                              |
+|           Friction           | :heavy_check_mark:  |                              |
+|     Speed & Jump Factor      | :heavy_check_mark:  |                              |
+|     Default Block State      | :heavy_check_mark:  |                              |
+|      Corresponding Item      | :heavy_check_mark:  |                              |
+|   Corresponding Map Color    | :heavy_check_mark:  |                              |
+| Solid, Liquid, Blocking etc. | :heavy_check_mark:  |                              |
+|     Piston Push Reaction     | :heavy_check_mark:  |                              |
+|           Gravity            | :heavy_check_mark:  |                              |
+|      Respawn Eligiblity      | :heavy_check_mark:  | Moved to BlockState in 1.20. |
+|    Tool Require For Drops    | :heavy_check_mark:  |                              |
+|    Large Collision Shape     | :heavy_check_mark:  |                              |
+|  Collision Shape Full Block  | :heavy_check_mark:  |                              |
+|          Occlusion           | :heavy_check_mark:  |                              |
+|            Hitbox            | :heavy_check_mark:  |                              |
+|       Collision Hitbox       | :heavy_check_mark:  |                              |
+|      Interaction Hitbox      | :heavy_check_mark:  |                              |
+|       Occlusion Hitbox       | :heavy_check_mark:  |                              |
+|        Visual Hitbox         | :heavy_check_mark:  |                              |
+|        Dynamic Shape         | :heavy_check_mark:  |                              |
+|         Solid Render         | :heavy_check_mark:  |                              |
+|        Light Emission        | :heavy_check_mark:  |                              |
+|         Light Block          | :heavy_check_mark:  |                              |
+|   Propagates Skylight Down   | :heavy_check_mark:  |                              |
+|  Shape for Light Occlusion   | :heavy_check_mark:  |                              |
+|           Opacity            | :heavy_check_mark:  |                              |
+|     Conditional Opacity      | :heavy_check_mark:  |                              |
+|         Render Shape         | :heavy_check_mark:  |                              |
+|            Offset            |         :x:         | Moved to BlockState in 1.19. |
+|       Vertical Offset        | :heavy_check_mark:  |                              |
+|      Horizontal Offset       | :heavy_check_mark:  |                              |
+|      Sound Information       | :heavy_check_mark:  |                              |
+|    Pick Block Information    |         :x:         |  Not possible since 1.20.3.  |
 
 ### Block Entities
 
